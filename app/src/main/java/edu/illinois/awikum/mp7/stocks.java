@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -32,15 +33,24 @@ public class stocks extends Fragment{
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.stocks, container, false);
 
-        String COUNTRIES[]={"INDIA","ITALY","JAPAN","USA","ICELAND","INDONESIA","UK","IRAN","IRAQ"};
+        String COUNTRIES[]={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)","ALTABA INC (AABA)","AAC HOLDINGS INC (AAC)"
+                ,"ADVISORSHARES DORSEY WRIGHT (AADR)","AMERICAN AIRLINES GROUP INC (AAL)","ALTISOURCE ASSET MANAGEMENT (AAMC)"
+                ,"IRAN","IRAQ"};
         final AutoCompleteTextView autoCompleteTextViewCountry = (AutoCompleteTextView)rootView.findViewById(R.id.countries_list);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_dropdown_item_1line, COUNTRIES);
 
         autoCompleteTextViewCountry.setAdapter(adapter);
-        autoCompleteTextViewCountry.setThreshold(1);
-        //textView tv = (textView)findViewbyid(R.id.)
+        autoCompleteTextViewCountry.setThreshold(2);
+
+
+        autoCompleteTextViewCountry.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                autoCompleteTextViewCountry.showDropDown();
+            }
+        });
 /*
         btnSelectedCountry.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {

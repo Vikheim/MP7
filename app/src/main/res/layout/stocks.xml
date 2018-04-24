@@ -23,16 +23,14 @@
 
         <AutoCompleteTextView
             android:id="@+id/countries_list"
-            android:layout_width="100dp"
+            android:layout_width="325dp"
             android:layout_height="match_parent"
-            android:visibility="visible"
-            android:hint="Search..."/>
-
-        <ImageView
-            android:id="@id/image"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@mipmap/ic_arrow_drop_down_black_24dp" />
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/ic_arrow_drop_down_black_24dp"
+            android:dropDownHeight="250dp"
+            android:hint="Search..."
+            android:singleLine="true"
+            android:visibility="visible" />
 
         <ScrollView
             android:id="@+id/scrollView2"
