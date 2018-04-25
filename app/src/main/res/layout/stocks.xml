@@ -8,6 +8,62 @@
     tools:context=".MainActivity$PlaceholderFragment">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="76dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:text="Ticker" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="Price" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="40dp"
+                android:text="Change" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="95dp"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,15 +85,486 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="bottom"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/diaSym"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:text="DIA"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="40sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/diaComp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:text="Dow Jones Industrial Average"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/diaPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:text="240.09"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/diaTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:text="3:38 PM"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/diaChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="40dp"
+                            android:text="-3.55"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/diaChangeP"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:text="(-1.32%)"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ivvSym"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:text="IVV"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="40sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ivvComp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:text="iShares Core S&amp;P 500"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ivvPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:text="264.89"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ivvTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:text="Market is closed. Close as of April 24, 2018."
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ivvChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="40dp"
+                            android:text="-3.55"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ivvChangeP"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:text="(-1.32%)"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/googSym"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:text="GOOG"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="40sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/googComp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:text="Alphabet Inc."
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/googPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:text="1,019.98"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/googTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:text="After hours. Close as of April 24, 2018."
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/googChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="40dp"
+                            android:text="-47.47"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/googChangeP"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:text="(-4.45%)"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/applSym"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/applComp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/applPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/applTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/applChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="TextView" />
+
+                        <TextView
+                            android:id="@+id/applChangeP"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="TextView" />
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
@@ -57,10 +584,11 @@
         app:layout_constraintVertical_bias="0.0">
 
         <AutoCompleteTextView
-            android:id="@+id/countries_list"
+            android:id="@+id/companies_list"
             android:layout_width="325dp"
             android:layout_height="match_parent"
             android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/ic_arrow_drop_down_black_24dp"
             android:dropDownHeight="250dp"
             android:hint="Search..."
             android:singleLine="true"
