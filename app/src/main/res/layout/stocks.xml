@@ -61,7 +61,6 @@
             android:layout_width="325dp"
             android:layout_height="match_parent"
             android:drawablePadding="5dp"
-            android:drawableRight="@mipmap/ic_arrow_drop_down_black_24dp"
             android:dropDownHeight="250dp"
             android:hint="Search..."
             android:singleLine="true"
