@@ -35,7 +35,7 @@ public class stocks extends Fragment{
 
         String COUNTRIES[]={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)","ALTABA INC (AABA)","AAC HOLDINGS INC (AAC)"
                 ,"ADVISORSHARES DORSEY WRIGHT (AADR)","AMERICAN AIRLINES GROUP INC (AAL)","ALTISOURCE ASSET MANAGEMENT (AAMC)"
-                ,"IRAN","IRAQ"};
+                };
         final AutoCompleteTextView autoCompleteTextViewCountry = (AutoCompleteTextView)rootView.findViewById(R.id.countries_list);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
