@@ -8,6 +8,62 @@
     tools:context=".MainActivity$PlaceholderFragment">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="76dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:text="Ticker" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text="Price" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="40dp"
+                android:text="Change" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="95dp"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -111,7 +167,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
+                            android:paddingRight="40dp"
                             android:text="-3.55"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
@@ -125,7 +181,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="20dp"
+                            android:paddingRight="40dp"
                             android:text="(-1.32%)"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
@@ -163,8 +219,8 @@
                             android:gravity="top"
                             android:maxLines="1"
                             android:paddingLeft="20dp"
-                            android:textSize="12sp"
-                            android:text="iShares Core S&amp;P 500"/>
+                            android:text="iShares Core S&amp;P 500"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -180,10 +236,10 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="20dp"
+                            android:text="264.89"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="25sp"
-                            android:textStyle="bold"
-                            android:text="264.89"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ivvTime"
@@ -194,8 +250,8 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="20dp"
-                            android:textSize="12sp"
-                            android:text="Market is closed. Close as of April 24, 2018."/>
+                            android:text="Market is closed. Close as of April 24, 2018."
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -210,11 +266,11 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
+                            android:paddingRight="40dp"
+                            android:text="-3.55"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
-                            android:textStyle="bold"
-                            android:text="-3.55"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/ivvChangeP"
@@ -224,10 +280,10 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="20dp"
+                            android:paddingRight="40dp"
+                            android:text="(-1.32%)"
                             android:textColor="@color/colorAccent"
-                            android:textSize="12sp"
-                            android:text="(-1.32%)"/>
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -248,10 +304,10 @@
                             android:fontFamily="sans-serif"
                             android:gravity="center_vertical|bottom"
                             android:paddingLeft="20dp"
+                            android:text="GOOG"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="40sp"
-                            android:textStyle="bold"
-                            android:text="GOOG" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/googComp"
@@ -262,12 +318,12 @@
                             android:gravity="top"
                             android:maxLines="1"
                             android:paddingLeft="20dp"
-                            android:textSize="12sp"
-                            android:text="Alphabet Inc." />
+                            android:text="Alphabet Inc."
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="125dp"
+                        android:layout_width="120dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -279,10 +335,10 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="20dp"
+                            android:text="1,019.98"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="25sp"
-                            android:textStyle="bold"
-                            android:text="1,019.98" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/googTime"
@@ -293,12 +349,12 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="20dp"
-                            android:textSize="12sp"
-                            android:text="After hours. Close as of April 24, 2018." />
+                            android:text="After hours. Close as of April 24, 2018."
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="110dp"
+                        android:layout_width="115dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -309,11 +365,11 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
+                            android:paddingRight="40dp"
+                            android:text="-47.47"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
-                            android:textStyle="bold"
-                            android:text="-47.47" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/googChangeP"
@@ -323,10 +379,10 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="20dp"
+                            android:paddingRight="40dp"
+                            android:text="(-4.45%)"
                             android:textColor="@color/colorAccent"
-                            android:textSize="12sp"
-                            android:text="(-4.45%)" />
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -528,7 +584,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <AutoCompleteTextView
-            android:id="@+id/countries_list"
+            android:id="@+id/companies_list"
             android:layout_width="325dp"
             android:layout_height="match_parent"
             android:drawablePadding="5dp"

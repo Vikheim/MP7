@@ -33,22 +33,22 @@ public class stocks extends Fragment{
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.stocks, container, false);
 
-        String COUNTRIES[]={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)","ALTABA INC (AABA)","AAC HOLDINGS INC (AAC)"
+        String COMPANIES[]={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)","ALTABA INC (AABA)","AAC HOLDINGS INC (AAC)"
                 ,"ADVISORSHARES DORSEY WRIGHT (AADR)","AMERICAN AIRLINES GROUP INC (AAL)","ALTISOURCE ASSET MANAGEMENT (AAMC)"
                 };
-        final AutoCompleteTextView autoCompleteTextViewCountry = (AutoCompleteTextView)rootView.findViewById(R.id.countries_list);
+        final AutoCompleteTextView autoCompleteTextViewCompany = (AutoCompleteTextView)rootView.findViewById(R.id.companies_list);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_dropdown_item_1line, COUNTRIES);
+                android.R.layout.simple_dropdown_item_1line, COMPANIES);
 
-        autoCompleteTextViewCountry.setAdapter(adapter);
-        autoCompleteTextViewCountry.setThreshold(1);
+        autoCompleteTextViewCompany.setAdapter(adapter);
+        autoCompleteTextViewCompany.setThreshold(1);
 
 
-        autoCompleteTextViewCountry.setOnClickListener(new View.OnClickListener() {
+        autoCompleteTextViewCompany.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                autoCompleteTextViewCountry.showDropDown();
+                autoCompleteTextViewCompany.showDropDown();
             }
         });
 /*
