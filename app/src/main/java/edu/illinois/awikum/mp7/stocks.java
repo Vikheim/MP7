@@ -42,7 +42,7 @@ public class stocks extends Fragment{
                 android.R.layout.simple_dropdown_item_1line, COUNTRIES);
 
         autoCompleteTextViewCountry.setAdapter(adapter);
-        autoCompleteTextViewCountry.setThreshold(2);
+        autoCompleteTextViewCountry.setThreshold(1);
 
 
         autoCompleteTextViewCountry.setOnClickListener(new View.OnClickListener() {
