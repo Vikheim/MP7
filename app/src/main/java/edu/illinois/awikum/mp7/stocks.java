@@ -1,5 +1,6 @@
 package edu.illinois.awikum.mp7;
 
+import android.graphics.Color;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
@@ -585,7 +586,13 @@ public class stocks extends Fragment{
                                 TextView diaTime = (TextView) getView().findViewById(R.id.diaTime);
                                 diaTime.setText(MyClass.getLatestTime(dia));
                                 TextView diaChange = (TextView) getView().findViewById(R.id.diaChange);
-                                diaChange.setText(MyClass.getChange(dia));
+                                String change = MyClass.getChange(dia);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    diaChange.setTextColor(Color.GREEN);
+                                }
+                                diaChange.setText(change);
+
                                 TextView diaChangeP = (TextView) getView().findViewById(R.id.diaChangeP);
                                 diaChangeP.setText(MyClass.getChangePercent(dia));
 
@@ -599,7 +606,13 @@ public class stocks extends Fragment{
                                 TextView ivvTime = (TextView) getView().findViewById(R.id.ivvTime);
                                 ivvTime.setText(MyClass.getLatestTime(ivv));
                                 TextView ivvChange = (TextView) getView().findViewById(R.id.ivvChange);
-                                ivvChange.setText(MyClass.getChange(ivv));
+                                change = MyClass.getChange(ivv);
+                                if (isGain(change)) {
+                                    change =  "+" + change;
+                                    ivvChange.setTextColor(Color.GREEN);
+                                }
+                                ivvChange.setText(change);
+
                                 TextView ivvChangeP = (TextView) getView().findViewById(R.id.ivvChangeP);
                                 ivvChangeP.setText(MyClass.getChangePercent(ivv));
 
@@ -613,7 +626,13 @@ public class stocks extends Fragment{
                                 TextView googTime = (TextView) getView().findViewById(R.id.googTime);
                                 googTime.setText(MyClass.getLatestTime(goog));
                                 TextView googChange = (TextView) getView().findViewById(R.id.googChange);
-                                googChange.setText(MyClass.getChange(goog));
+                                change = MyClass.getChange(goog);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    googChange.setTextColor(Color.GREEN);
+                                }
+                                googChange.setText(change);
+
                                 TextView googChangeP = (TextView) getView().findViewById(R.id.googChangeP);
                                 googChangeP.setText(MyClass.getChangePercent(goog));
 
@@ -627,9 +646,114 @@ public class stocks extends Fragment{
                                 TextView oneqTime = (TextView) getView().findViewById(R.id.oneqTime);
                                 oneqTime.setText(MyClass.getLatestTime(oneq));
                                 TextView oneqChange = (TextView) getView().findViewById(R.id.oneqChange);
-                                oneqChange.setText(MyClass.getChange(oneq));
+                                change = MyClass.getChange(oneq);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    oneqChange.setTextColor(Color.GREEN);
+                                }
+                                oneqChange.setText(change);
+
                                 TextView oneqChangeP = (TextView) getView().findViewById(R.id.oneqChangeP);
                                 oneqChangeP.setText(MyClass.getChangePercent(oneq));
+
+                                //Apple Inc.
+                                TextView aaplSym = (TextView) getView().findViewById(R.id.aaplSym);
+                                aaplSym.setText(MyClass.getSymbol(aapl));
+                                TextView aaplComp = (TextView) getView().findViewById(R.id.aaplComp);
+                                aaplComp.setText(MyClass.getCompanyName(aapl));
+                                TextView aaplPrice = (TextView) getView().findViewById(R.id.aaplPrice);
+                                aaplPrice.setText(MyClass.getLatestPrice(aapl));
+                                TextView aaplTime = (TextView) getView().findViewById(R.id.aaplTime);
+                                aaplTime.setText(MyClass.getLatestTime(aapl));
+                                TextView aaplChange = (TextView) getView().findViewById(R.id.aaplChange);
+                                change = MyClass.getChange(aapl);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    aaplChange.setTextColor(Color.GREEN);
+                                }
+                                aaplChange.setText(change);
+
+                                TextView aaplChangeP = (TextView) getView().findViewById(R.id.aaplChangeP);
+                                aaplChangeP.setText(MyClass.getChangePercent(aapl));
+
+                                //Microsoft
+                                TextView msftSym = (TextView) getView().findViewById(R.id.msftSym);
+                                msftSym.setText(MyClass.getSymbol(msft));
+                                TextView msftComp = (TextView) getView().findViewById(R.id.msftComp);
+                                msftComp.setText(MyClass.getCompanyName(msft));
+                                TextView msftPrice = (TextView) getView().findViewById(R.id.msftPrice);
+                                msftPrice.setText(MyClass.getLatestPrice(msft));
+                                TextView msftTime = (TextView) getView().findViewById(R.id.msftTime);
+                                msftTime.setText(MyClass.getLatestTime(msft));
+                                TextView msftChange = (TextView) getView().findViewById(R.id.msftChange);
+                                change = MyClass.getChange(msft);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    msftChange.setTextColor(Color.GREEN);
+                                }
+                                msftChange.setText(change);
+
+                                TextView msftChangeP = (TextView) getView().findViewById(R.id.msftChangeP);
+                                msftChangeP.setText(MyClass.getChangePercent(msft));
+
+
+                                //Emerging Markets
+                                TextView eemSym = (TextView) getView().findViewById(R.id.eemSym);
+                                eemSym.setText(MyClass.getSymbol(eem));
+                                TextView eemComp = (TextView) getView().findViewById(R.id.eemComp);
+                                eemComp.setText(MyClass.getCompanyName(eem));
+                                TextView eemPrice = (TextView) getView().findViewById(R.id.eemPrice);
+                                eemPrice.setText(MyClass.getLatestPrice(eem));
+                                TextView eemTime = (TextView) getView().findViewById(R.id.eemTime);
+                                eemTime.setText(MyClass.getLatestTime(eem));
+                                TextView eemChange = (TextView) getView().findViewById(R.id.eemChange);
+                                change = MyClass.getChange(eem);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    eemChange.setTextColor(Color.GREEN);
+                                }
+                                eemChange.setText(change);
+
+                                TextView eemChangeP = (TextView) getView().findViewById(R.id.eemChangeP);
+                                eemChangeP.setText(MyClass.getChangePercent(eem));
+
+                                //
+                                TextView efaSym = (TextView) getView().findViewById(R.id.efaSym);
+                                efaSym.setText(MyClass.getSymbol(efa));
+                                TextView efaComp = (TextView) getView().findViewById(R.id.efaComp);
+                                efaComp.setText(MyClass.getCompanyName(efa));
+                                TextView efaPrice = (TextView) getView().findViewById(R.id.efaPrice);
+                                efaPrice.setText(MyClass.getLatestPrice(efa));
+                                TextView efaTime = (TextView) getView().findViewById(R.id.efaTime);
+                                efaTime.setText(MyClass.getLatestTime(efa));
+                                TextView efaChange = (TextView) getView().findViewById(R.id.efaChange);
+                                change = MyClass.getChange(efa);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    efaChange.setTextColor(Color.GREEN);
+                                }
+                                efaChange.setText(change);
+                                TextView efaChangeP = (TextView) getView().findViewById(R.id.efaChangeP);
+                                efaChangeP.setText(MyClass.getChangePercent(efa));
+
+                                //
+                                TextView spySym = (TextView) getView().findViewById(R.id.spySym);
+                                spySym.setText(MyClass.getSymbol(spy));
+                                TextView spyComp = (TextView) getView().findViewById(R.id.spyComp);
+                                spyComp.setText(MyClass.getCompanyName(spy));
+                                TextView spyPrice = (TextView) getView().findViewById(R.id.spyPrice);
+                                spyPrice.setText(MyClass.getLatestPrice(spy));
+                                TextView spyTime = (TextView) getView().findViewById(R.id.spyTime);
+                                spyTime.setText(MyClass.getLatestTime(spy));
+                                TextView spyChange = (TextView) getView().findViewById(R.id.spyChange);
+                                change = MyClass.getChange(spy);
+                                if (isGain(change)) {
+                                    change = "+" + change;
+                                    spyChange.setTextColor(Color.GREEN);
+                                }
+                                spyChange.setText(change);
+                                TextView spyChangeP = (TextView) getView().findViewById(R.id.spyChangeP);
+                                spyChangeP.setText(MyClass.getChangePercent(spy));
 
 
 
@@ -664,5 +788,9 @@ public class stocks extends Fragment{
         eem = response.get("EEM").getAsJsonObject();
         efa = response.get("EFA").getAsJsonObject();
         spy = response.get("SPY").getAsJsonObject();
+    }
+
+    public boolean isGain(final String change) {
+        return !(change.charAt(0) == '-');
     }
 }

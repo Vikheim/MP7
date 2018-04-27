@@ -426,12 +426,25 @@
                         <TextView
                             android:id="@+id/oneqPrice"
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" />
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
 
                         <TextView
                             android:id="@+id/oneqTime"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp" />
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:textSize="12sp"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -442,36 +455,89 @@
                         <TextView
                             android:id="@+id/oneqChange"
                             android:layout_width="match_parent"
-                            android:layout_height="60dp" />
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="30dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
 
                         <TextView
                             android:id="@+id/oneqChangeP"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp" />
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp"/>
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="75dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="150dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView28"
+                            android:id="@+id/aaplSym"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:text="TextView" />
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="35sp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView27"
+                            android:id="@+id/aaplComp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="TextView" />
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/aaplPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/aaplTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -480,58 +546,91 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView30"
+                            android:id="@+id/aaplChange"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:text="TextView" />
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="30dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView29"
+                            android:id="@+id/aaplChangeP"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="TextView" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="110dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView31"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:text="TextView" />
-
-                        <TextView
-                            android:id="@+id/textView32"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:text="TextView" />
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="75dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="150dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/applSym"
+                            android:id="@+id/msftSym"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:text="TextView" />
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="35sp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/applComp"
+                            android:id="@+id/msftComp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="TextView" />
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/msftPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/msftTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -540,34 +639,307 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/applPrice"
+                            android:id="@+id/msftChange"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:text="TextView" />
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="30dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/applTime"
+                            android:id="@+id/msftChangeP"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="TextView" />
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
                     </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="110dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/applChange"
+                            android:id="@+id/eemSym"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:text="TextView" />
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="35sp"
+                            android:textStyle="bold"/>
 
                         <TextView
-                            android:id="@+id/applChangeP"
+                            android:id="@+id/eemComp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="TextView" />
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/eemPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/eemTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/eemChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="30dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/eemChangeP"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/efaSym"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="35sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/efaComp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/efaPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/efaTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/efaChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="30dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/efaChangeP"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/spySym"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="35sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/spyComp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/spyPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/spyTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="20dp"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/spyChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="bottom|right"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="30dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/spyChangeP"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top|right"
+                            android:maxLines="1"
+                            android:paddingRight="40dp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
