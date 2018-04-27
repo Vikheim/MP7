@@ -552,6 +552,16 @@ public class stocks extends Fragment{
                 autoCompleteTextViewCompany.showDropDown();
             }
         });
+
+        final TextView ticker = rootView.findViewById(R.id.textView40);
+        ticker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startCreateStockAPICall();
+            }
+        });
+
 /*
         btnSelectedCountry.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
