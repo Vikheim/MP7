@@ -2,6 +2,7 @@ package edu.illinois.awikum.mp7;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,13 +28,38 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+
+import edu.illinois.awikum.library.MyClass;
+
 public class stocks extends Fragment{
+    /** Default logging tag for messages from the main activity. */
+    private static final String TAG = "MP7:Main";
+    /** Request queue for our API requests. */
+    private static RequestQueue requestQueue;
+
+    //dia,ivv,oneq,goog,aapl,msft,eem,efa,spy
+    private JsonObject dia = new JsonObject();
+    private JsonObject ivv = new JsonObject();
+    private JsonObject oneq = new JsonObject();
+    private JsonObject goog = new JsonObject();
+    private JsonObject aapl = new JsonObject();
+    private JsonObject msft = new JsonObject();
+    private JsonObject eem = new JsonObject();
+    private JsonObject efa = new JsonObject();
+    private JsonObject spy = new JsonObject();
+
+    JsonObject[] createCompanies = {dia, ivv, oneq, goog, aapl, msft, eem, efa, spy};
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.stocks, container, false);
 
-        String COUNTRIES[]={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)",
+        requestQueue = Volley.newRequestQueue(getActivity());
+        startCreateStockAPICall();
+
+        String[] company_list={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)",
                 "ALTABA INC (AABA)",
                 "AAC HOLDINGS INC (AAC)",
                 "ADVISORSHARES DORSEY WRIGHT (AADR)",
@@ -509,542 +535,20 @@ public class stocks extends Fragment{
                 "BARCLAYS ETN+ SELECT MLP ETN (ATMP)",
                 "ATN INTERNATIONAL INC (ATNI)",
                 "ACTINIUM PHARMACEUTICALS INC (ATNM)",
-                "ATHENEX INC (ATNX)",
-                "ATMOS ENERGY CORP (ATO)",
-                "ATOMERA INC (ATOM)",
-                "ATOSSA GENETICS INC (ATOS)",
-                "APTARGROUP INC (ATR)",
-                "ATARA BIOTHERAPEUTICS INC (ATRA)",
-                "ATRICURE INC (ATRC)",
-                "ATRION CORPORATION (ATRI)",
-                "ASTRONICS CORP (ATRO)",
-                "ANTARES PHARMA INC (ATRS)",
-                "AIR TRANSPORT SERVICES GROUP (ATSG)",
-                "ATENTO SA (ATTO)",
-                "ATTUNITY LTD (ATTU)",
-                "ACTUANT CORP-A (ATU)",
-                "ALTICE USA INC- A (ATUS)",
-                "ACORN INTERNATIONAL INC-ADR (ATV)",
-                "ACTIVISION BLIZZARD INC (ATVI)",
-                "AVENUE THERAPEUTICS INC (ATXI)",
-                "ANGLOGOLD ASHANTI-SPON ADR (AU)",
-                "AUBURN NATL BANCORPORATION (AUBN)",
-                "AUDIOCODES LTD (AUDC)",
-                "AURYN RESOURCES INC (AUG)",
-                "GOLDEN MINERALS CO (AUMN)",
-                "AU OPTRONICS CORP-SPON ADR (AUO)",
-                "AURINIA PHARMACEUTICALS INC (AUPH)",
-                "WISDOMTREE AUSTRALIA DIVIDEN (AUSE)",
-                "AUTOWEB INC (AUTO)",
-                "YAMANA GOLD INC (AUY)",
-                "AVISTA CORP (AVA)",
-                "GRUPO AVAL ACCIONES Y VALORE (AVAL)",
-                "AEROVIRONMENT INC (AVAV)",
-                "AVALONBAY COMMUNITIES INC (AVB)",
-                "AMERICAN VANGUARD CORP (AVD)",
-                "AVADEL PHARMACEUTICALS PLC (AVDL)",
-                "AVEO PHARMACEUTICALS INC (AVEO)",
-                "BROADCOM INC (AVGO)",
-                "AVINGER INC (AVGR)",
-                "AVIANCA HOLDINGS SA-SPON ADR (AVH)",
-                "AV HOMES INC (AVHI)",
-                "AVID TECHNOLOGY INC (AVID)",
-                "ADVENT CLAYMORE CVT SEC& INC (AVK)",
-                "AVIAT NETWORKS INC (AVNW)",
-                "AVON PRODUCTS INC (AVP)",
-                "AVNET INC (AVT)",
-                "AVX CORP (AVX)",
-                "ANAVEX LIFE SCIENCES CORP (AVXL)",
-                "AVEXIS INC (AVXS)",
-                "AVERY DENNISON CORP (AVY)",
-                "AVAYA HOLDINGS CORP (AVYA)",
-                "ALLIANCEBERNSTEIN GL HI INC (AWF)",
-                "ARMSTRONG WORLD INDUSTRIES (AWI)",
-                "AMERICAN WATER WORKS CO INC (AWK)",
-                "ALPINE GLOBAL PREMIER PROPER (AWP)",
-                "AMERICAN STATES WATER CO (AWR)",
-                "AWARE INC/MASS (AWRE)",
-                "AVALON HOLDINGS CORP-A (AWX)",
-                "ABRAXAS PETROLEUM CORP (AXAS)",
-                "ACCELERATE DIAGNOSTICS INC (AXDX)",
-                "ANIXTER INTERNATIONAL INC (AXE)",
-                "AXOGEN INC (AXGN)",
-                "WISDOMTREE ASIA-PACIFIC EX-J (AXJL)",
-                "ISHARES EDGE MSCI MIN VOL AS (AXJV)",
-                "AMERICAN AXLE & MFG HOLDINGS (AXL)",
-                "AXOVANT SCIENCES LTD (AXON)",
-                "AMERICAN EXPRESS CO (AXP)",
-                "AMREP CORP (AXR)",
-                "AXIS CAPITAL HOLDINGS LTD (AXS)",
-                "AXSOME THERAPEUTICS INC (AXSM)",
-                "AXALTA COATING SYSTEMS LTD (AXTA)",
-                "AXT INC (AXTI)",
-                "ALEXCO RESOURCE CORP (AXU)",
-                "ATLANTICA YIELD PLC (AY)",
-                "ACUITY BRANDS INC (AYI)",
-                "AIRCASTLE LTD (AYR)",
-                "AYTU BIOSCIENCE INC (AYTU)",
-                "ALTERYX INC - CLASS A (AYX)",
-                "ASTRAZENECA PLC-SPONS ADR (AZN)",
-                "AUTOZONE INC (AZO)",
-                "ASPEN TECHNOLOGY INC (AZPN)",
-                "AZURE POWER GLOBAL LTD (AZRE)",
-                "AZURRX BIOPHARMA INC (AZRX)",
-                "AZUL SA-ADR (AZUL)",
-                "AZZ INC (AZZ)",
-                "BARNES GROUP INC (B)",
-                "BOEING CO/THE (BA)",
-                "POWERSHARES TAXABLE MUNICIPA (BAB)",
-                "ALIBABA GROUP HOLDING-SP ADR (BABA)",
-                "NATUS MEDICAL INC (BABY)",
-                "BANK OF AMERICA CORP (BAC)",
-                "BLACKROCK MUNICIPAL INCOME I (BAF)",
-                "BOOZ ALLEN HAMILTON HOLDINGS (BAH)",
-                "BRASKEM SA-SPON ADR (BAK)",
-                "IPATHR SERIES B BLOOMBERG CO (BALB)",
-                "BROOKFIELD ASSET MANAGE-CL A (BAM)",
-                "BANC OF CALIFORNIA INC (BANC)",
-                "BANDWIDTH INC-CLASS A (BAND)",
-                "BANCFIRST CORP (BANF)",
-                "BANNER CORPORATION (BANR)",
-                "STONECASTLE FINANCIAL CORP (BANX)",
-                "CREDICORP LTD (BAP)",
-                "GRANITESHARES GOLD TRUST (BAR)",
-                "BASIC ENERGY SERVICES INC (BAS)",
-                "BIOANALYTICAL SYSTEMS INC (BASI)",
-                "LIBERTY MEDIA CORP-BRAVES A (BATRA)",
-                "LIBERTY MEDIA CORP-BRAVES C (BATRK)",
-                "BAXTER INTERNATIONAL INC (BAX)",
-                "BLACKBERRY LTD (BB)",
-                "BED BATH & BEYOND INC (BBBY)",
-                "VIRTUS LIFESCI BIOTECH CLINI (BBC)",
-                "BANCO BRADESCO-ADR (BBD)",
-                "BANCO BRADESCO-ADR (BBDO)",
-                "BLACKROCK MUNICIPAL INCOME (BBF)",
-                "BEASLEY BROADCAST GRP INC -A (BBGI)",
-                "VANECK VECTORS BIOTECH ETF (BBH)",
-                "BLACKROCK MUNI BOND TRUST (BBK)",
-                "BHP BILLITON PLC-ADR (BBL)",
-                "BLACKROCK TAXABLE MUNICIPAL (BBN)",
-                "BLACK BOX CORP (BBOX)",
-                "VIRTUS LIFESCI BIOTECH PRODU (BBP)",
-                "COLUMBIA BEYOND BRICS ETF (BBRC)",
-                "BRAVO BRIO RESTAURANT GROUP (BBRG)",
-                "BARRETT BUSINESS SVCS INC (BBSI)",
-                "BB&T CORP (BBT)",
-                "BROOKFIELD BUSINESS PT-UNIT (BBU)",
-                "BANCO BILBAO VIZCAYA-SP ADR (BBVA)",
-                "BUILD-A-BEAR WORKSHOP INC (BBW)",
-                "BBX CAPITAL CORP (BBX)",
-                "BEST BUY CO INC (BBY)",
-                "BRUNSWICK CORP (BC)",
-                "BISON CAPITAL ACQUISITION CO (BCAC)",
-                "BISON CAPITAL ACQUISITION-RT (BCACR)",
-                "BISON CAPITAL ACQUISITION CO (BCACU)",
-                "BCB BANCORP INC (BCBP)",
-                "BOISE CASCADE CO (BCC)",
-                "ETFS BBG CMDTY LG DT K-1 FRE (BCD)",
-                "BCE INC (BCE)",
-                "BONANZA CREEK ENERGY INC (BCEI)",
-                "BANCO DE CHILE-ADR (BCH)",
-                "ETFS BBG ALL CMDTY K-1 FREE (BCI)",
-                "BRAINSTORM CELL THERAPEUTICS (BCLI)",
-                "IPATH PURE BETA BROAD CMDTY (BCM)",
-                "BRINK'S CO/THE (BCO)",
-                "B COMMUNICATIONS LTD (BCOM)",
-                "BLUCORA INC (BCOR)",
-                "BRIGHTCOVE (BCOV)",
-                "BALCHEM CORP (BCPC)",
-                "BLUE CAPITAL REINSURANCE HOL (BCRH)",
-                "BIOCRYST PHARMACEUTICALS INC (BCRX)",
-                "BARCLAYS PLC-SPONS ADR (BCS)",
-                "BANCORP 34 INC (BCTF)",
-                "BANCROFT FUND LTD (BCV)",
-                "BLACKROCK RESOURCES & COMMOD (BCX)",
-                "BELDEN INC (BDC)",
-                "ETRACS 2X WELLS FARGO BDCI (BDCL)",
-                "ETRACS WELLS FARGO BDCI ETN (BDCS)",
-                "ETRACS WELL FARGO BDC SER B (BDCZ)",
-                "DB BASE METALS DOUBLE LONG (BDD)",
-                "BRIDGE BANCORP INC (BDGE)",
-                "BLACKROCK ENHANCED EQUITY DI (BDJ)",
-                "FLANIGAN'S ENTERPRISES INC (BDL)",
-                "BRANDYWINE REALTY TRUST (BDN)",
-                "BLONDER TONGUE LABORATORIES (BDR)",
-                "BREAKWAVE DRY BULK SHIPPING (BDRY)",
-                "BIODELIVERY SCIENCES INTL (BDSI)",
-                "BECTON DICKINSON AND CO (BDX)",
-                "BIOTELEMETRY INC (BEAT)",
-                "BEACON ROOFING SUPPLY INC (BECN)",
-                "BRIGHT SCHOLAR EDUCATION-ADR (BEDU)",
-                "ETFS BBG ENG CMD LG DT K1 FR (BEF)",
-                "BELMOND LTD-CLASS A (BEL)",
-                "BEL FUSE INC-CL A (BELFA)",
-                "BEL FUSE INC-CL B (BELFB)",
-                "APTUS BEHAVIORAL MOMENTUM ET (BEMO)",
-                "FRANKLIN RESOURCES INC (BEN)",
-                "BROOKFIELD RENEWABLE PARTNER (BEP)",
-                "BERNSTEIN US RESEARCH FUND (BERN)",
-                "BERRY GLOBAL GROUP INC (BERY)",
-                "BROWN-FORMAN CORP-CLASS A (BF.A)",
-                "BROWN-FORMAN CORP-CLASS B (BF.B)",
-                "BRIGHT HORIZONS FAMILY SOLUT (BFAM)",
-                "BANKFINANCIAL CORP (BFIN)",
-                "GLOBAL X HEALTH & WELLNESS (BFIT)",
-                "BLACKROCK MUNICIPAL INC TRST (BFK)",
-                "BLACKROCK FL MUNI 2020 TERM (BFO)",
-                "BARRON'S 400 ETF (BFOR)",
-                "BBVA BANCO FRANCES SA-ADR (BFR)",
-                "BIOFRONTERA AG (BFRA)",
-                "SAUL CENTERS INC (BFS)",
-                "BUSINESS FIRST BANCSHARES (BFST)",
-                "BLACKROCK NEW YORK MUN II (BFY)",
-                "BLACKROCK CALIFOR MUNI IN TR (BFZ)",
-                "BUNGE LTD (BG)",
-                "BLACKSTONE/GSO STRATEGIC C (BGB)",
-                "GENERAL CABLE CORP (BGC)",
-                "BGC PARTNERS INC-CL A (BGCP)",
-                "BIG 5 SPORTING GOODS CORP (BGFV)",
-                "BRIGGS & STRATTON (BGG)",
-                "BARINGS GL SH DUR HI YLD (BGH)",
-                "BIRKS GROUP INC (BGI)",
-                "BLACKROCK 2022 GLOBAL INCOME (BGIO)",
-                "BEIGENE LTD-ADR (BGNE)",
-                "BLACKROCK ENRGY & RES (BGR)",
-                "B&G FOODS INC (BGS)",
-                "BG STAFFING INC (BGSF)",
-                "BLACKROCK FLT RT INC (BGT)",
-                "BLACKSTONE/GSO LONG-SHORT CR (BGX)",
-                "BLACKROCK ENHANCED INTERNATI (BGY)",
-                "BIGLARI HOLDINGS INC (BH)",
-                "BARINGTON/HILCO ACQUISITION (BHAC)",
-                "BARINGTON/HILCO ACQUIS-RIGHT (BHACR)",
-                "BARINGTON/HILCO ACQUISITION (BHACU)",
-                "BAR HARBOR BANKSHARES (BHB)",
-                "BLUE HILLS BANCORP INC (BHBK)",
-                "BENCHMARK ELECTRONICS INC (BHE)",
-                "BRIGHTHOUSE FINANCIAL INC (BHF)",
-                "BAKER HUGHES A GE CO (BHGE)",
-                "BLACKROCK CORE BOND TRUST (BHK)",
-                "BERKSHIRE HILLS BANCORP INC (BHLB)",
-                "BHP BILLITON LTD-SPON ADR (BHP)",
-                "BIOHITECH GLOBAL INC (BHTG)",
-                "BLACKROCK VIRGINIA MUNI BOND (BHV)",
-                "BIOHAVEN PHARMACEUTICAL HOLD (BHVN)",
-                "PROSHARES ULTRA NASD BIOTECH (BIB)",
-                "INSPIRE 100 ETF (BIBL)",
-                "FIRST TRUST BICK INDEX FUND (BICK)",
-                "SOTHEBY'S (BID)",
-                "BAIDU INC - SPON ADR (BIDU)",
-                "BOULDER GROWTH & INCOME FUND (BIF)",
-                "BIG LOTS INC (BIG)",
-                "BIOGEN INC (BIIB)",
-                "SPDR BBG BARC 1-3 MONTH TBIL (BIL)",
-                "BILIBILI INC-SPONSORED ADR (BILI)",
-                "BIO-RAD LABORATORIES-A (BIO)",
-                "BIO-RAD LABORATORIES -CL B (BIO.B)",
-                "BIOCEPT INC (BIOC)",
-                "BIOLASE INC (BIOL)",
-                "BIOSCRIP INC (BIOS)",
-                "BROOKFIELD INFRASTRUCTURE PA (BIP)",
-                "PROSHARES ULTRASHORT NAS BIO (BIS)",
-                "BLACKROCK MULTI-SECTOR INCOM (BIT)",
-                "BITAUTO HOLDINGS LTD-ADR (BITA)",
-                "VANGUARD INTERMEDIATE-TERM B (BIV)",
-                "VANECK VECTORS BDC INCOME ET (BIZD)",
-                "IPATH SERIES B BLOOMBERG NIC (BJJN)",
-                "VANECK VECTORS GAMING ETF (BJK)",
-                "IPATH SERIES B BLOOMBERG COF (BJO)",
-                "BJ'S RESTAURANTS INC (BJRI)",
-                "BLACKROCK CALI MUNI 2018 TRM (BJZ)",
-                "BANK OF NEW YORK MELLON CORP (BK)",
-                "BLACKROCK CAPITAL INVESTMENT (BKCC)",
-                "BROOKDALE SENIOR LIVING INC (BKD)",
-                "BUCKLE INC/THE (BKE)",
-                "BLUEKNIGHT ENERGY PARTNERS L (BKEP)",
-                "ISHARES MSCI BRIC ETF (BKF)",
-                "BLACK HILLS CORP (BKH)",
-                "BLACK KNIGHT INC (BKI)",
-                "BANCORP OF NEW JERSEY INC (BKJ)",
-                "BLACKROCK MUNI 2020 TERM TRS (BKK)",
-                "POWERSHARES SENIOR LOAN (BKLN)",
-                "BLACKROCK INVT QUALITY MUNI (BKN)",
-                "BOOKING HOLDINGS INC (BKNG)",
-                "BARNES & NOBLE INC (BKS)",
-                "BANK OF SOUTH CAROLINA CORP (BKSC)",
-                "BLACKROCK INCOME TRUST (BKT)",
-                "BANKUNITED INC (BKU)",
-                "BIO-KEY INTERNATIONAL INC (BKYI)",
-                "BLACKLINE INC (BL)",
-                "BLUE BIRD CORP (BLBD)",
-                "BELLICUM PHARMACEUTICALS INC (BLCM)",
-                "REALITY SHRS NASDAQ NEXGEN (BLCN)",
-                "TOPBUILD CORP (BLD)",
-                "BALLARD POWER SYSTEMS INC (BLDP)",
-                "BUILDERS FIRSTSOURCE INC (BLDR)",
-                "BLACKROCK MUN INC TRUST II (BLE)",
-                "INSPIRE GLOBAL HOPE ETF (BLES)",
-                "BIOLIFE SOLUTIONS INC (BLFS)",
-                "BLACKROCK NEW YORK MUNI 2018 (BLH)",
-                "VIRTUS NEWFLEET DYNAMIC CRED (BLHY)",
-                "BRIDGELINE DIGITAL INC (BLIN)",
-                "BLACKROCK NEW JERSEY MUNI BD (BLJ)",
-                "BLACKROCK INC (BLK)",
-                "BLACKBAUD INC (BLKB)",
-                "BALL CORP (BLL)",
-                "BLOOMIN' BRANDS INC (BLMN)",
-                "BSB BANCORP INC/MA (BLMT)",
-                "BLINK CHARGING CO (BLNK)",
-                "AMPLIFY TRANSFOR DATA SHARIN (BLOK)",
-                "BELLEROPHON THERAPEUTICS INC (BLPH)",
-                "BIOLINERX LTD-SPONS ADR (BLRX)",
-                "BLUEBIRD BIO INC (BLUE)",
-                "VANGUARD LONG-TERM BOND ETF (BLV)",
-                "BLACKROCK LTD DURATION INC (BLW)",
-                "BANCO LATINOAMERICANO COME-E (BLX)",
-                "BANCO MACRO SA-ADR (BMA)",
-                "BMC STOCK HOLDINGS INC (BMCH)",
-                "BLACKROCK HEALTH SCIENCES TR (BME)",
-                "BADGER METER INC (BMI)",
-                "BMO ELKHORN DWA MLP SI ETN (BMLP)",
-                "BANK OF MONTREAL (BMO)",
-                "BIOMERICA INC (BMRA)",
-                "BANK OF MARIN BANCORP/CA (BMRC)",
-                "BIOMARIN PHARMACEUTICAL INC (BMRN)",
-                "BEMIS COMPANY (BMS)",
-                "BRYN MAWR BANK CORP (BMTC)",
-                "BRISTOL-MYERS SQUIBB CO (BMY)",
-                "BENEFICIAL BANCORP INC (BNCL)",
-                "VANGUARD TOTAL BOND MARKET (BND)",
-                "FLEXSHARES CORE SELECT BOND (BNDC)",
-                "VANGUARD TOTAL INTL BOND ETF (BNDX)",
-                "BARNES & NOBLE EDUCATION INC (BNED)",
-                "BENEFITFOCUS INC (BNFT)",
-                "BLACKROCK NJ MUNI INCOME TRS (BNJ)",
-                "UNITED STATES BRENT OIL FUND (BNO)",
-                "BANK OF NOVA SCOTIA (BNS)",
-                "BONSO ELECTRONICS INTL INC (BNSO)",
-                "BENITEC BIOPHARMA-SP ADR (BNTC)",
-                "BLACKROCK NEW YORK MUNI INC (BNY)",
-                "BANK OF COMMERCE HOLDINGS (BOCH)",
-                "BLACKROCK ENHANCED GLOBAL DI (BOE)",
-                "BOFI HOLDING INC (BOFI)",
-                "BANK OF HAWAII CORP (BOH)",
-                "PROSHARES ULTRA BLOOMBERG NA (BOIL)",
-                "BOJANGLES' INC (BOJA)",
-                "BOK FINANCIAL CORPORATION (BOKF)",
-                "AUDENTES THERAPEUTICS INC (BOLD)",
-                "DB BASE METALS DOUBLE SHORT (BOM)",
-                "BOSTON OMAHA CORP-CL A (BOMN)",
-                "PIMCO ACTIVE BOND EXCHANGE-T (BOND)",
-                "DMC GLOBAL INC (BOOM)",
-                "NYSE PICKENS OIL RESPONSE ET (BOON)",
-                "BOOT BARN HOLDINGS INC (BOOT)",
-                "CHINA NEW BORUN CORP-ADR (BORN)",
-                "DB BASE METALS SHORT ETN (BOS)",
-                "BOS BETTER ON-LINE SOLUTIONS (BOSC)",
-                "GLOBAL X FOUNDER-RUN COMPANI (BOSS)",
-                "BANK OF THE JAMES FINANCIAL (BOTJ)",
-                "GLOBAL X ROBOTICS & ARTIFICI (BOTZ)",
-                "BOX INC - CLASS A (BOX)",
-                "BOXLIGHT CORP - CLASS A (BOXL)",
-                "BP PLC-SPONS ADR (BP)",
-                "BOSTON PRIVATE FINL HOLDING (BPFH)",
-                "BRIDGEPOINT EDUCATION INC (BPI)",
-                "BLACKROCK MUNICIPAL 2018 TRM (BPK)",
-                "BUCKEYE PARTNERS LP (BPL)",
-                "BLUEPRINT MEDICINES CORP (BPMC)",
-                "BP MIDSTREAM PARTNERS LP (BPMP)",
-                "BIOPHARMX CORP (BPMX)",
-                "POPULAR INC (BPOP)",
-                "THE BANK OF PRINCETON (BPRN)",
-                "BP PRUDHOE BAY ROYALTY TRUST (BPT)",
-                "BIO-PATH HOLDINGS INC (BPTH)",
-                "BROOKFIELD PROPERTY PARTNERS (BPY)",
-                "BLACKROCK NEW YORK MUNI BOND (BQH)",
-                "BROADRIDGE FINANCIAL SOLUTIO (BR)",
-                "BLACK RIDGE ACQUISITION CORP (BRAC)",
-                "BLACK RIDGE ACQU CORP-RTS (BRACR)",
-                "BLACK RIDGE ACQUISITION CORP (BRACU)",
-                "BRADY CORPORATION - CL A (BRC)",
-                "CRAFT BREW ALLIANCE INC (BREW)",
-                "VANECK VECTORS BRAZIL SMALL- (BRF)",
-                "BRF SA-ADR (BRFS)",
-                "BLUEROCK RESIDENTIAL GROWTH (BRG)",
-                "BERNSTEIN GLOBAL RESEARCH FU (BRGL)",
-                "BRIDGFORD FOODS CORP (BRID)",
-                "BERKSHIRE HATHAWAY INC-CL A (BRK.A)",
-                "BERKSHIRE HATHAWAY INC-CL B (BRK.B)",
-                "BROOKLINE BANCORP INC (BRKL)",
-                "BRUKER CORP (BRKR)",
-                "BROOKS AUTOMATION INC (BRKS)",
-                "BARNWELL INDUSTRIES INC (BRN)",
-                "BROWN & BROWN INC (BRO)",
-                "BIG ROCK PARTNERS ACQUISITIO (BRPA)",
-                "BIG ROCK PARTNERS ACQUIS-RTS (BRPAR)",
-                "BIG ROCK PARTNERS ACQUISITIO (BRPAU)",
-                "BORQS TECHNOLOGIES INC (BRQS)",
-                "BRISTOW GROUP INC (BRS)",
-                "GLOBAL BRASS & COPPER HOLDIN (BRSS)",
-                "BRT APARTMENTS CORP (BRT)",
-                "BRIXMOR PROPERTY GROUP INC (BRX)",
-                "DIREXION DAILY BRAZIL BULL 3 (BRZU)",
-                "BANCO SANTANDER-CHILE-ADR (BSAC)",
-                "BANCO SANTANDER BRASIL-ADS (BSBR)",
-                "PWR BSHR 2018 CP BD (BSCI)",
-                "PWR BSHR 2019 CP BD (BSCJ)",
-                "PWR BSHR 2020 CP BD (BSCK)",
-                "PWR BSHR 2021 CP BD (BSCL)",
-                "PWR BSHR 2022 CP BD (BSCM)",
-                "PWR BSHR 2023 CP BD (BSCN)",
-                "PWR BSHR 2024 CP BD (BSCO)",
-                "PWR BSHR 2025 CP BD (BSCP)",
-                "PWR BSHR 2026 CP BD (BSCQ)",
-                "PWR BSHR 2027 CP BD (BSCR)",
-                "BLACKROCK STRATEGIC MUNICIPL (BSD)",
-                "BLACKROCK NEW YORK MUNICIPAL (BSE)",
-                "BASSETT FURNITURE INDS (BSET)",
-                "BRIGHTSPHERE INVESTMENT GROU (BSIG)",
-                "PWR BSHR 2018 HI YLD CP BD (BSJI)",
-                "PWR BSHR 2019 HI YLD CP BD (BSJJ)",
-                "PWR BSHR 2020 HI YLD CP BD (BSJK)",
-                "PWR BSHR 2021 HI YLD CP BD (BSJL)",
-                "PWR BSHR 2022 HI YLD CP BD (BSJM)",
-                "PWR BSHR 2023 HI YLD CP BD (BSJN)",
-                "PWR BSHR 2024 HI YLD CP BD (BSJO)",
-                "GUGGHM BLTSHR HY CORP 2025 (BSJP)",
-                "BLACKSTONE/GSO SENIOR FLOAT (BSL)",
-                "BLACK STONE MINERALS LP (BSM)",
-                "BANCO SANTANDER MEXICO -ADR (BSMX)",
-                "BIOSTAR PHARMACEUTICALS INC (BSPM)",
-                "BSQUARE CORP (BSQR)",
-                "SIERRA BANCORP (BSRR)",
-                "BLACKROCK SCIENCE & TECH TR (BST)",
-                "BIOSPECIFICS TECHNOLOGIES (BSTC)",
-                "BEST INC - ADR (BSTI)",
-                "VANGUARD SHORT-TERM BOND ETF (BSV)",
-                "VELOCITY SHARES VIX TAIL RSK (BSWN)",
-                "BOSTON SCIENTIFIC CORP (BSX)",
-                "BT GROUP PLC-SPON ADR (BT)",
-                "BLACKROCK LNG-TM MUN ADV TST (BTA)",
-                "BIOXCEL THERAPEUTICS INC (BTAI)",
-                "AGFIQ US MARKET NEUTRAL ANTI (BTAL)",
-                "BAYTEX ENERGY CORP (BTE)",
-                "PRINCIPAL HEALTHCARE INNOV (BTEC)",
-                "B2GOLD CORP (BTG)",
-                "BRITISH AMERICAN TOB-SP ADR (BTI)",
-                "BALLANTYNE STRONG INC (BTN)",
-                "JOHN HANCOCK FINANCIAL OPPOR (BTO)",
-                "BLACKROCK MUNICIPAL 2030 TAR (BTT)",
-                "PEABODY ENERGY CORP (BTU)",
-                "BIOTIME INC (BTX)",
-                "BLACKROCK CREDIT ALLOCATION (BTZ)",
-                "ANHEUSER-BUSCH INBEV-SPN ADR (BUD)",
-                "BLUE BUFFALO PET PRODUCTS IN (BUFF)",
-                "BLCKRCK UTIL INFRA & PWR OPP (BUI)",
-                "BURCON NUTRASCIENCE CORP (BUR)",
-                "CHANTICLEER HOLDINGS INC (BURG)",
-                "BURLINGTON STORES INC (BURL)",
-                "FIRST BUSEY CORP (BUSE)",
-                "USCF SUMMERHAVEN SHPEI IN FD (BUY)",
-                "USCF SUMMERHAVEN SHPEN INDEX (BUYN)",
-                "BUZZ US SENTIMENT LEADERS ET (BUZ)",
-                "BRAND VALUE ETF (BVAL)",
-                "CIA DE MINAS BUENAVENTUR-ADR (BVN)",
-                "BRANDES VALUE NEXTSHARES (BVNSC)",
-                "BROADVISION INC (BVSN)",
-                "BOVIE MEDICAL CORP (BVX)",
-                "BIONDVAX PHARMACEUTICALS-ADR (BVXV)",
-                "BABCOCK & WILCOX ENTERPR (BW)",
-                "BORGWARNER INC (BWA)",
-                "BRIDGEWATER BANCSHARES INC (BWB)",
-                "BROADWIND ENERGY INC (BWEN)",
-                "BANKWELL FINANCIAL GROUP INC (BWFG)",
-                "BRANDYWINEGLOBAL GLOBAL INCO (BWG)",
-                "BALDWIN & LYONS INC -CL A (BWINA)",
-                "BALDWIN & LYONS INC -CL B (BWINB)",
-                "BOWL AMERICA INC-CLASS A (BWL.A)",
-                "BOARDWALK PIPELINE PARTNERS (BWP)",
-                "SPDR BBG BARC INTL TREASURY (BWX)",
-                "BWX TECHNOLOGIES INC (BWXT)",
-                "SPDR BBG BARC ST INTL TREAS (BWZ)",
-                "BLACKSTONE GROUP LP/THE (BX)",
-                "BLUELINX HOLDINGS INC (BXC)",
-                "BELLATRIX EXPLORATION LTD (BXE)",
-                "BLUEGREEN VACATIONS CORP (BXG)",
-                "BLACKSTONE MORTGAGE TRU-CL A (BXMT)",
-                "NUVEEN S&P500 BUY-WRT INC FD (BXMX)",
-                "BOSTON PROPERTIES INC (BXP)",
-                "BANCORPSOUTH BANK (BXS)",
-                "BYLINE BANCORP INC (BY)",
-                "BOYD GAMING CORP (BYD)",
-                "BROADWAY FINANCIAL CORP/DE (BYFC)",
-                "ISHARES YIELD OPTIMIZED BOND (BYLD)",
-                "BLACKROCK MUNICIPAL INCOME Q (BYM)",
-                "BEYONDSPRING INC (BYSI)",
-                "WISDOMTREE BRAZILIAN REAL ST (BZF)",
-                "BEAZER HOMES USA INC (BZH)",
-                "BLACKROCK MARYLAND MUNI BOND (BZM)",
-                "PROSHARES ULTRASHORT MSCI BR (BZQ)",
-                "BAOZUN INC-SPN ADR (BZUN)",
-                "CITIGROUP INC (C)",
-                "CA INC (CA)",
-                "CORP AMERICA AIRPORTS SA (CAAP)",
-                "CHINA AUTOMOTIVE SYSTEMS INC (CAAS)",
-                "CABLE ONE INC (CABO)",
-                "CAMDEN NATIONAL CORP (CAC)",
-                "CREDIT ACCEPTANCE CORP (CACC)",
-                "CLEARBRIDGE ALLCAP GRWTH ETF (CACG)",
-                "CACI INTERNATIONAL INC -CL A (CACI)",
-                "CHINA ADVANCED CONSTRUCTION (CADC)",
-                "CADENCE BANCORP (CADE)",
-                "CAE INC (CAE)",
-                "MORGAN STANLEY CHINA A SHARE (CAF)",
-                "8POINT3 ENERGY PARTNERS LP (CAFD)",
-                "CONAGRA BRANDS INC (CAG)",
-                "CARDINAL HEALTH INC (CAH)",
-                "CAI INTERNATIONAL INC (CAI)",
-                "CANON INC-SPONS ADR (CAJ)",
-                "CHEESECAKE FACTORY INC/THE (CAKE)",
-                "CALERES INC (CAL)",
-                "CALITHERA BIOSCIENCES INC (CALA)",
-                "PACER US SMALL CAP CASH COWS (CALF)",
-                "CHINA AUTO LOGISTICS INC (CALI)",
-                "MAGICJACK VOCALTEC LTD (CALL)",
-                "CAL-MAINE FOODS INC (CALM)",
-                "CALIX INC (CALX)",
-                "CALAMP CORP (CAMP)",
-                "CAMTEK LTD (CAMT)",
-                "TEUCRIUM SUGAR FUND (CANE)",
-                "CAN FITE BIOPHARMA LTD-ADR (CANF)",
-                "BARCLAYS ETN+ SHILLER CAPE (CAPE)",
-                "CROSSAMERICA PARTNERS LP (CAPL)",
-                "CAPRICOR THERAPEUTICS INC (CAPR)",
-                "AVIS BUDGET GROUP INC (CAR)",
-                "CARA THERAPEUTICS INC (CARA)",
-                "CARBONITE INC (CARB)",
-                "CARGURUS INC (CARG)",
-                "CAROLINA FINANCIAL CORP (CARO)",
-                "CARS.COM INC (CARS)",
-                "CAROLINA TRUST BANCSHARES IN (CART)",
-                "CARVER BANCORP INC (CARV)",
-                "FIRST TRUST NASDAQ GLOBAL AU (CARZ)",
-                "CASA SYSTEMS INC (CASA)",
-                "META FINANCIAL GROUP INC (CASH)",
-                "CASI PHARMACEUTICALS INC (CASI)"};
-        final AutoCompleteTextView autoCompleteTextViewCountry = (AutoCompleteTextView)rootView.findViewById(R.id.countries_list);
+                "ATHENEX INC (ATNX)",};
+        final AutoCompleteTextView autoCompleteTextViewCompany = (AutoCompleteTextView)rootView.findViewById(R.id.companies_list);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_dropdown_item_1line, COUNTRIES);
+                android.R.layout.simple_dropdown_item_1line, company_list );
 
-        autoCompleteTextViewCountry.setAdapter(adapter);
-        autoCompleteTextViewCountry.setThreshold(2);
+        autoCompleteTextViewCompany.setAdapter(adapter);
+        autoCompleteTextViewCompany.setThreshold(1);
 
 
-        autoCompleteTextViewCountry.setOnClickListener(new View.OnClickListener() {
+        autoCompleteTextViewCompany.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                autoCompleteTextViewCountry.showDropDown();
+                autoCompleteTextViewCompany.showDropDown();
             }
         });
 /*
@@ -1057,5 +561,108 @@ public class stocks extends Fragment{
         });
         */
         return rootView;
+    }
+    void startCreateStockAPICall() {
+        try {
+            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+                    Request.Method.GET,
+                    "https://api.iextrading.com/1.0/stock/market/batch?symbols=dia,ivv,oneq,goog,aapl,msft,eem,efa,spy&types=quote",
+
+                    null,
+                    new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(final JSONObject response) {
+                            try {
+                                initialProcessing(response.toString());
+
+                                //Dow Jones Industrial Average
+                                TextView diaSym = (TextView) getView().findViewById(R.id.diaSym);
+                                diaSym.setText(MyClass.getSymbol(dia));
+                                TextView diaComp = (TextView) getView().findViewById(R.id.diaComp);
+                                diaComp.setText(MyClass.getCompanyName(dia));
+                                TextView diaPrice = (TextView) getView().findViewById(R.id.diaPrice);
+                                diaPrice.setText(MyClass.getLatestPrice(dia));
+                                TextView diaTime = (TextView) getView().findViewById(R.id.diaTime);
+                                diaTime.setText(MyClass.getLatestTime(dia));
+                                TextView diaChange = (TextView) getView().findViewById(R.id.diaChange);
+                                diaChange.setText(MyClass.getChange(dia));
+                                TextView diaChangeP = (TextView) getView().findViewById(R.id.diaChangeP);
+                                diaChangeP.setText(MyClass.getChangePercent(dia));
+
+                                //S&P 500
+                                TextView ivvSym = (TextView) getView().findViewById(R.id.ivvSym);
+                                ivvSym.setText(MyClass.getSymbol(ivv));
+                                TextView ivvComp = (TextView) getView().findViewById(R.id.ivvComp);
+                                ivvComp.setText(MyClass.getCompanyName(ivv));
+                                TextView ivvPrice = (TextView) getView().findViewById(R.id.ivvPrice);
+                                ivvPrice.setText(MyClass.getLatestPrice(ivv));
+                                TextView ivvTime = (TextView) getView().findViewById(R.id.ivvTime);
+                                ivvTime.setText(MyClass.getLatestTime(ivv));
+                                TextView ivvChange = (TextView) getView().findViewById(R.id.ivvChange);
+                                ivvChange.setText(MyClass.getChange(ivv));
+                                TextView ivvChangeP = (TextView) getView().findViewById(R.id.ivvChangeP);
+                                ivvChangeP.setText(MyClass.getChangePercent(ivv));
+
+                                //Alphabet Inc.
+                                TextView googSym = (TextView) getView().findViewById(R.id.googSym);
+                                googSym.setText(MyClass.getSymbol(goog));
+                                TextView googComp = (TextView) getView().findViewById(R.id.googComp);
+                                googComp.setText(MyClass.getCompanyName(goog));
+                                TextView googPrice = (TextView) getView().findViewById(R.id.googPrice);
+                                googPrice.setText(MyClass.getLatestPrice(goog));
+                                TextView googTime = (TextView) getView().findViewById(R.id.googTime);
+                                googTime.setText(MyClass.getLatestTime(goog));
+                                TextView googChange = (TextView) getView().findViewById(R.id.googChange);
+                                googChange.setText(MyClass.getChange(goog));
+                                TextView googChangeP = (TextView) getView().findViewById(R.id.googChangeP);
+                                googChangeP.setText(MyClass.getChangePercent(goog));
+
+                                //NASDAQ
+                                TextView oneqSym = (TextView) getView().findViewById(R.id.oneqSym);
+                                oneqSym.setText(MyClass.getSymbol(oneq));
+                                TextView oneqComp = (TextView) getView().findViewById(R.id.oneqComp);
+                                oneqComp.setText(MyClass.getCompanyName(oneq));
+                                TextView oneqPrice = (TextView) getView().findViewById(R.id.oneqPrice);
+                                oneqPrice.setText(MyClass.getLatestPrice(oneq));
+                                TextView oneqTime = (TextView) getView().findViewById(R.id.oneqTime);
+                                oneqTime.setText(MyClass.getLatestTime(oneq));
+                                TextView oneqChange = (TextView) getView().findViewById(R.id.oneqChange);
+                                oneqChange.setText(MyClass.getChange(oneq));
+                                TextView oneqChangeP = (TextView) getView().findViewById(R.id.oneqChangeP);
+                                oneqChangeP.setText(MyClass.getChangePercent(oneq));
+
+
+
+                                Log.d(TAG, response.toString(2));
+
+
+
+
+                            } catch (JSONException ignored) { }
+                        }
+                    }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(final VolleyError error) {
+                    Log.e(TAG, error.toString());
+                }
+            });
+            requestQueue.add(jsonObjectRequest);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void initialProcessing(final String json) {
+        JsonParser parser = new JsonParser();
+        JsonObject response = parser.parse(json).getAsJsonObject();
+        dia = response.get("DIA").getAsJsonObject();
+        ivv = response.get("IVV").getAsJsonObject();
+        oneq = response.get("ONEQ").getAsJsonObject();
+        goog = response.get("GOOG").getAsJsonObject();
+        aapl = response.get("AAPL").getAsJsonObject();
+        msft = response.get("MSFT").getAsJsonObject();
+        eem = response.get("EEM").getAsJsonObject();
+        efa = response.get("EFA").getAsJsonObject();
+        spy = response.get("SPY").getAsJsonObject();
     }
 }

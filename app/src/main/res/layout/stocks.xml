@@ -91,30 +91,29 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="75dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="150dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/diaSym"
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
+                            android:layout_height="55dp"
                             android:fontFamily="sans-serif"
                             android:gravity="center_vertical|bottom"
                             android:paddingLeft="20dp"
-                            android:text="DIA"
                             android:textColor="@color/colorPrimaryDark"
-                            android:textSize="40sp"
+                            android:textSize="35sp"
                             android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/diaComp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="20dp"
                             android:ellipsize="end"
                             android:fontFamily="sans-serif"
                             android:gravity="top"
@@ -125,18 +124,18 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="125dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/diaPrice"
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
+                            android:layout_height="55dp"
                             android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
+                            android:gravity="bottom|center_horizontal"
                             android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
+
                             android:text="240.09"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="25sp"
@@ -145,7 +144,7 @@
                         <TextView
                             android:id="@+id/diaTime"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="20dp"
                             android:ellipsize="end"
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
@@ -156,18 +155,18 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="110dp"
+                        android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/diaChange"
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
+                            android:layout_height="55dp"
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="-3.55"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
@@ -176,7 +175,7 @@
                         <TextView
                             android:id="@+id/diaChangeP"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="20dp"
                             android:ellipsize="end"
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
@@ -190,11 +189,11 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="75dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="150dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -207,7 +206,7 @@
                             android:paddingLeft="20dp"
                             android:text="IVV"
                             android:textColor="@color/colorPrimaryDark"
-                            android:textSize="40sp"
+                            android:textSize="35sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -224,7 +223,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="125dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -255,7 +254,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="110dp"
+                        android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -266,7 +265,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="-3.55"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
@@ -289,11 +288,11 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="75dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="150dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -304,10 +303,10 @@
                             android:fontFamily="sans-serif"
                             android:gravity="center_vertical|bottom"
                             android:paddingLeft="20dp"
-                            android:text="GOOG"
                             android:textColor="@color/colorPrimaryDark"
-                            android:textSize="40sp"
-                            android:textStyle="bold" />
+                            android:textSize="35sp"
+                            android:textStyle="bold"
+                            android:text="GOOG"/>
 
                         <TextView
                             android:id="@+id/googComp"
@@ -318,12 +317,12 @@
                             android:gravity="top"
                             android:maxLines="1"
                             android:paddingLeft="20dp"
-                            android:text="Alphabet Inc."
-                            android:textSize="12sp" />
+                            android:textSize="12sp"
+                            android:text="Alphabet Inc."/>
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="120dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -354,7 +353,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="115dp"
+                        android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
@@ -365,7 +364,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="-47.47"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
@@ -388,25 +387,51 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="75dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_width="150dp"
+                        android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView34"
+                            android:id="@+id/oneqSym"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:text="TextView" />
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical|bottom"
+                            android:paddingLeft="20dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="35sp"
+                            android:textStyle="bold"/>
 
                         <TextView
-                            android:id="@+id/textView33"
+                            android:id="@+id/oneqComp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="TextView" />
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/oneqPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp" />
+
+                        <TextView
+                            android:id="@+id/oneqTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -415,34 +440,14 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView36"
+                            android:id="@+id/oneqChange"
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:text="TextView" />
+                            android:layout_height="60dp" />
 
                         <TextView
-                            android:id="@+id/textView35"
+                            android:id="@+id/oneqChangeP"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:text="TextView" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="110dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView38"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:text="TextView" />
-
-                        <TextView
-                            android:id="@+id/textView37"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:text="TextView" />
+                            android:layout_height="40dp" />
                     </LinearLayout>
                 </LinearLayout>
 

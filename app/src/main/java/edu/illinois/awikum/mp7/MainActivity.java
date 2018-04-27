@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         requestQueue = Volley.newRequestQueue(this);
-        startCreateStockAPICall();
         /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -138,11 +137,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    void startCreateStockAPICall() {
+
+    void startCreateNewsAPICall() {
         try {
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.GET,
-                    "https://api.iextrading.com/1.0/stock/market/batch?symbols=dia,ivv,oneq,goog,aapl,msft,eem,efa,spy&types=quote",
+                    "https://api.iextrading.com/1.0/stock/market/batch?types=news",
 
                     null,
                     new Response.Listener<JSONObject>() {

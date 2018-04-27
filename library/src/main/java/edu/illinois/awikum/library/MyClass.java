@@ -1,7 +1,10 @@
 package edu.illinois.awikum.library;
 
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
 public class MyClass {
-    /*
+
     private static JsonObject parse(final String json) {
         JsonParser parser = new JsonParser();
         return parser.parse(json).getAsJsonObject();
@@ -38,5 +41,4 @@ public class MyClass {
         return quote.get("changePercent").getAsString();
     }
 
-*/
 }
