@@ -1,5 +1,6 @@
 package edu.illinois.awikum.mp7;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -60,7 +62,7 @@ public class stocks extends Fragment{
         requestQueue = Volley.newRequestQueue(getActivity());
         startCreateStockAPICall();
 
-        String[] company_list={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)",
+        final String[] company_list={"AGILENT TECHNOLOGIES INC (A) ","ALCOA CORP (AA)",
                 "ALTABA INC (AABA)",
                 "AAC HOLDINGS INC (AAC)",
                 "ADVISORSHARES DORSEY WRIGHT (AADR)",
@@ -559,6 +561,18 @@ public class stocks extends Fragment{
             public void onClick(View view) {
 
                 startCreateStockAPICall();
+            }
+        });
+
+        autoCompleteTextViewCompany.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            @Override
+            public void onItemClick(AdapterView av, View view,
+                                       int index, long id)
+            {
+                Intent i = new Intent(getActivity(),StockActivity.class);
+                i.putExtra("item",company_list[index]);
+                startActivity(i);
             }
         });
 
