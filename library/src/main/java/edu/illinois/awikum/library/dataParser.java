@@ -3,7 +3,7 @@ package edu.illinois.awikum.library;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-public class MyClass {
+public class dataParser {
 
     private static JsonObject parse(final String json) {
         JsonParser parser = new JsonParser();

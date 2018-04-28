@@ -22,7 +22,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import edu.illinois.awikum.library.MyClass;
+import edu.illinois.awikum.library.dataParser;
+import edu.illinois.awikum.library.priceFormatter;
 
 public class StockActivity extends AppCompatActivity {
     /** Default logging tag for messages from the main activity. */
@@ -64,16 +65,18 @@ public class StockActivity extends AppCompatActivity {
                             try {
                                 initialProcessing(response.toString(), company);
                                 TextView stockComp = findViewById(R.id.stockComp);
-                                stockComp.setText(MyClass.getCompanyName(companyData));
+                                stockComp.setText(dataParser.getCompanyName(companyData));
 
                                 TextView stockSym = findViewById(R.id.stockSym);
-                                stockSym.setText(MyClass.getSymbol(companyData));
+                                stockSym.setText(dataParser.getSymbol(companyData));
 
                                 TextView stockPrice = findViewById(R.id.stockPrice);
-                                stockPrice.setText(MyClass.getLatestPrice(companyData));
+                                stockPrice.setText(dataParser.getLatestPrice(companyData));
 
                                 TextView stockChange = findViewById(R.id.stockChange);
-                                stockChange.setText(MyClass.getChange(companyData) + " (" + MyClass.getChangePercent(companyData) + "%)");
+                                String change = dataParser.getChange(companyData);
+                                String changeP = dataParser.getChangePercent(companyData);
+                                stockChange.setText(priceFormatter.addOrRemoveZeros(change) + " (" + priceFormatter.addOrRemoveZeros(changeP) + "%)");
 
 
                                 Log.d(TAG, response.toString(2));
