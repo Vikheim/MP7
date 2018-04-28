@@ -794,7 +794,8 @@ public class stocks extends Fragment{
                     Log.e(TAG, error.toString());
                 }
             });
-            requestQueue.add(jsonObjectRequest);
+            Log.d(TAG, jsonObjectRequest.toString());
+            Singleton.getInstance(getActivity()).addToRequestQueue(jsonObjectRequest);
         } catch (Exception e) {
             e.printStackTrace();
         }

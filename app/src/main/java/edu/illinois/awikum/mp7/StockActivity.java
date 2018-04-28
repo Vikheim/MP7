@@ -37,9 +37,10 @@ public class StockActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stock);
+
         String selectedCompany = getIntent().getStringExtra("item");
         Log.d(TAG, "." + apiTrimmer(selectedCompany) + ".");
-        startSingleStockAPICall(apiTrimmer(selectedCompany));
+        startSingleStockAPICall();
 
     }
     private String apiTrimmer(final String company) {
@@ -50,7 +51,7 @@ public class StockActivity extends AppCompatActivity {
 
 
 
-    void startSingleStockAPICall(final String companySymbol) {
+    void startSingleStockAPICall() {
         try {
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.GET,
@@ -62,6 +63,7 @@ public class StockActivity extends AppCompatActivity {
                         public void onResponse(final JSONObject response) {
                             try {
                                 Log.d(TAG, response.toString(2));
+
                             } catch (JSONException ignored) { }
                         }
                     }, new Response.ErrorListener() {
@@ -70,7 +72,8 @@ public class StockActivity extends AppCompatActivity {
                     Log.e(TAG, error.toString());
                 }
             });
-            requestQueue.add(jsonObjectRequest);
+            Log.d(TAG, jsonObjectRequest.toString());
+            Singleton.getInstance(this).addToRequestQueue(jsonObjectRequest);
         } catch (Exception e) {
             e.printStackTrace();
         }
