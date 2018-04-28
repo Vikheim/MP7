@@ -13,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -578,6 +579,91 @@ public class stocks extends Fragment{
             }
         });
 
+        LinearLayout diaLay = (LinearLayout)rootView.findViewById(R.id.diaLay);
+        diaLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent diaIn = new Intent(getActivity(),StockActivity.class);
+                diaIn.putExtra("item","dia");
+                startActivity(diaIn);
+            }
+        });
+
+        LinearLayout ivvLay = (LinearLayout)rootView.findViewById(R.id.ivvLay);
+        ivvLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ivvIn = new Intent(getActivity(),StockActivity.class);
+                ivvIn.putExtra("item","ivv");
+                startActivity(ivvIn);
+            }
+        });
+        LinearLayout googLay = (LinearLayout)rootView.findViewById(R.id.googLay);
+        googLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent googIn = new Intent(getActivity(),StockActivity.class);
+                googIn.putExtra("item","goog");
+                startActivity(googIn);
+            }
+        });
+        LinearLayout oneqLay = (LinearLayout)rootView.findViewById(R.id.oneqLay);
+        oneqLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent oneqIn = new Intent(getActivity(),StockActivity.class);
+                oneqIn.putExtra("item","oneq");
+                startActivity(oneqIn);
+            }
+        });
+        LinearLayout aaplLay = (LinearLayout)rootView.findViewById(R.id.aaplLay);
+        aaplLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent aaplIn = new Intent(getActivity(),StockActivity.class);
+                aaplIn.putExtra("item","aapl");
+                startActivity(aaplIn);
+            }
+        });
+        LinearLayout msftLay = (LinearLayout)rootView.findViewById(R.id.msftLay);
+        msftLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent msftIn = new Intent(getActivity(),StockActivity.class);
+                msftIn.putExtra("item","msft");
+                startActivity(msftIn);
+            }
+        });
+        LinearLayout eemLay = (LinearLayout)rootView.findViewById(R.id.eemLay);
+        eemLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent eemIn = new Intent(getActivity(),StockActivity.class);
+                eemIn.putExtra("item","eem");
+                startActivity(eemIn);
+            }
+        });
+        LinearLayout efaLay = (LinearLayout)rootView.findViewById(R.id.efaLay);
+        efaLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent efaIn = new Intent(getActivity(),StockActivity.class);
+                efaIn.putExtra("item","efa");
+                startActivity(efaIn);
+            }
+        });
+        LinearLayout spyLay = (LinearLayout)rootView.findViewById(R.id.spyLay);
+        spyLay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent spyIn = new Intent(getActivity(),StockActivity.class);
+                spyIn.putExtra("item","spy");
+                startActivity(spyIn);
+            }
+        });
+
+
+
 
         return rootView;
     }
@@ -874,7 +960,9 @@ public class stocks extends Fragment{
         spy = response.get("SPY").getAsJsonObject();
     }
 
-    
+
+
+
     //Color formatting methods
     public boolean isGain(final String change) {
         return !(change.charAt(0) == '-');

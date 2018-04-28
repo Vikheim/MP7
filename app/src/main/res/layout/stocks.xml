@@ -92,6 +92,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/diaLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -190,6 +191,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/ivvLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -289,6 +291,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/googLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -305,10 +308,10 @@
                             android:fontFamily="sans-serif"
                             android:gravity="center_vertical|bottom"
                             android:paddingLeft="20dp"
+                            android:text="GOOG"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="35sp"
-                            android:textStyle="bold"
-                            android:text="GOOG"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/googComp"
@@ -319,8 +322,8 @@
                             android:gravity="top"
                             android:maxLines="1"
                             android:paddingLeft="20dp"
-                            android:textSize="12sp"
-                            android:text="Alphabet Inc."/>
+                            android:text="Alphabet Inc."
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -388,6 +391,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/oneqLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -406,7 +410,7 @@
                             android:paddingLeft="20dp"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="35sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/oneqComp"
@@ -417,7 +421,7 @@
                             android:gravity="top"
                             android:maxLines="1"
                             android:paddingLeft="20dp"
-                            android:textSize="12sp"/>
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -435,7 +439,7 @@
                             android:paddingRight="20dp"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="25sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/oneqTime"
@@ -446,7 +450,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="20dp"
-                            android:textSize="12sp"/>
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -464,7 +468,7 @@
                             android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/oneqChangeP"
@@ -476,11 +480,12 @@
                             android:maxLines="1"
                             android:paddingRight="40dp"
                             android:textColor="@color/colorAccent"
-                            android:textSize="12sp"/>
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/aaplLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -574,6 +579,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/msftLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -667,6 +673,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/eemLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -685,7 +692,7 @@
                             android:paddingLeft="20dp"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="35sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/eemComp"
@@ -714,7 +721,7 @@
                             android:paddingRight="20dp"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="25sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/eemTime"
@@ -725,7 +732,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="20dp"
-                            android:textSize="12sp"/>
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -743,7 +750,7 @@
                             android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/eemChangeP"
@@ -755,11 +762,12 @@
                             android:maxLines="1"
                             android:paddingRight="40dp"
                             android:textColor="@color/colorAccent"
-                            android:textSize="12sp"/>
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/efaLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">
@@ -807,7 +815,7 @@
                             android:paddingRight="20dp"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="25sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/efaTime"
@@ -853,6 +861,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/spyLay"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:orientation="horizontal">

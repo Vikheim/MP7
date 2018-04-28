@@ -47,7 +47,11 @@ public class StockActivity extends AppCompatActivity {
     private String apiTrimmer(final String company) {
         int low = company.indexOf('(');
         int high = company.indexOf(')');
-        return company.substring(low + 1, high).toLowerCase();
+        if (company.contains("(")) {
+            return company.substring(low + 1, high).toLowerCase();
+        } else {
+            return company;
+        }
     }
 
 
