@@ -7,6 +7,83 @@
     tools:context=".StockActivity"
     tools:layout_editor_absoluteY="25dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/stockComp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="COMPANY_NAME"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/stockSym"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:text="COMPANY_SYM"
+
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="139dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/stockPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="bottom|right"
+                    android:paddingRight="5dp"
+                    android:text="162.94"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="60dp"
+                    tools:layout_editor_absoluteY="66dp" />
+
+                <TextView
+                    android:id="@+id/stockChange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="bottom|left"
+                    android:paddingLeft="5dp"
+                    android:text="-2.30 (-1.39%)"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="200dp"
+                    tools:layout_editor_absoluteY="86dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout4"
         android:layout_width="0dp"
@@ -14,7 +91,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -22,34 +99,15 @@
         tools:showIn="@layout/activity_stock">
 
         <android.support.constraint.ConstraintLayout
-            android:id="@+id/constraintLayout3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="193dp"
-                android:layout_height="28dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginStart="24dp"
-                android:text="Industry competitor data"
-                app:layout_constraintStart_toStartOf="parent" />
-
-        </android.support.constraint.ConstraintLayout>
-
-        <android.support.constraint.ConstraintLayout
             android:id="@+id/constraintLayout"
             android:layout_width="0dp"
             android:layout_height="339dp"
-            android:layout_marginBottom="1dp"
-            app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
+            android:layout_marginTop="192dp"
+            android:gravity="bottom"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+            app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
                 android:id="@+id/linearLayout7"
@@ -118,102 +176,5 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <android.support.constraint.ConstraintLayout
-            android:id="@+id/constraintLayout2"
-            android:layout_width="0dp"
-            android:layout_height="156dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <LinearLayout
-                android:id="@+id/linearLayout6"
-                android:layout_width="275dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:orientation="horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
-
-                <TextView
-                    android:id="@+id/stockPrice"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="162.94"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="40sp"
-                    android:textStyle="bold"
-                    tools:layout_editor_absoluteX="60dp"
-                    tools:layout_editor_absoluteY="66dp" />
-
-                <TextView
-                    android:id="@+id/stockChange"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="-2.30 (-1.39%)"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp"
-                    tools:layout_editor_absoluteX="200dp"
-                    tools:layout_editor_absoluteY="86dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout5"
-                android:layout_width="165dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:orientation="horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <TextView
-                    android:id="@+id/stockComp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal|top"
-                    android:text="Apple Inc."
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:layout_editor_absoluteX="79dp"
-                    tools:layout_editor_absoluteY="25dp" />
-
-                <TextView
-                    android:id="@+id/stockSym"
-                    android:layout_width="wrap_content"
-                    android:layout_height="26dp"
-                    android:layout_weight="1"
-                    android:gravity="bottom|center_horizontal"
-                    android:text="(AAPL)"
-
-                    android:textSize="20sp"
-                    tools:layout_editor_absoluteX="146dp"
-                    tools:layout_editor_absoluteY="0dp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/editText2"
-                android:layout_width="150dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="8dp"
-                android:ems="10"
-                android:inputType="date"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
-
-        </android.support.constraint.ConstraintLayout>
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>

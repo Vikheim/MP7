@@ -567,24 +567,17 @@ public class stocks extends Fragment{
         autoCompleteTextViewCompany.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
             @Override
-            public void onItemClick(AdapterView av, View view,
+            public void onItemClick(AdapterView parent, View view,
                                        int index, long id)
             {
+                String selection = (String)parent.getItemAtPosition(index);
                 Intent i = new Intent(getActivity(),StockActivity.class);
-                i.putExtra("item",company_list[index]);
+                i.putExtra("item",selection);
                 startActivity(i);
             }
         });
 
-/*
-        btnSelectedCountry.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View arg0) {
-                // TODO Auto-generated method stub
-                String country=autoCompleteTextViewCountry.getText().toString();
-                textViewSelectedCountry.setText("Selected Country: "+country);
-            }
-        });
-        */
+
         return rootView;
     }
     void startCreateStockAPICall() {
@@ -817,5 +810,20 @@ public class stocks extends Fragment{
 
     public boolean isGain(final String change) {
         return !(change.charAt(0) == '-');
+    }
+
+    private void netGain() {
+        int gainCount = 0;
+        int lossCount = 0;
+        for (JsonObject i: createCompanies) {
+            if (isGain(MyClass.getChange(i))) {
+                gainCount++;
+            } else {
+                lossCount++;
+            }
+        }
+        if (gainCount > lossCount) {
+
+        }
     }
 }

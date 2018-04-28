@@ -39,7 +39,7 @@ public class StockActivity extends AppCompatActivity {
         setContentView(R.layout.activity_stock);
 
         String selectedCompany = getIntent().getStringExtra("item");
-        Log.d(TAG, "." + apiTrimmer(selectedCompany) + ".");
+        Log.d(TAG, selectedCompany);
         startSingleStockAPICall(apiTrimmer(selectedCompany));
 
     }
@@ -70,7 +70,10 @@ public class StockActivity extends AppCompatActivity {
                                 stockSym.setText(MyClass.getSymbol(companyData));
 
                                 TextView stockPrice = findViewById(R.id.stockPrice);
-                                stockPrice.setText(MyClass.getChange(companyData));
+                                stockPrice.setText(MyClass.getLatestPrice(companyData));
+
+                                TextView stockChange = findViewById(R.id.stockChange);
+                                stockChange.setText(MyClass.getChange(companyData) + " (" + MyClass.getChangePercent(companyData) + "%)");
 
 
                                 Log.d(TAG, response.toString(2));
