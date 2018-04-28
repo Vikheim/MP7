@@ -142,7 +142,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/stockPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -154,7 +154,7 @@
                     tools:layout_editor_absoluteY="66dp" />
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/stockChange"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -177,7 +177,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/stockComp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -190,7 +190,7 @@
                     tools:layout_editor_absoluteY="25dp" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/stockSym"
                     android:layout_width="wrap_content"
                     android:layout_height="26dp"
                     android:layout_weight="1"

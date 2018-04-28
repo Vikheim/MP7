@@ -40,7 +40,7 @@ public class StockActivity extends AppCompatActivity {
 
         String selectedCompany = getIntent().getStringExtra("item");
         Log.d(TAG, "." + apiTrimmer(selectedCompany) + ".");
-        startSingleStockAPICall();
+        startSingleStockAPICall(apiTrimmer(selectedCompany));
 
     }
     private String apiTrimmer(final String company) {
@@ -51,17 +51,28 @@ public class StockActivity extends AppCompatActivity {
 
 
 
-    void startSingleStockAPICall() {
+    void startSingleStockAPICall(final String company) {
         try {
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.GET,
-                    "https://api.iextrading.com/1.0/stock/market/batch?symbols=aaba&types=quote",
+                    "https://api.iextrading.com/1.0/stock/market/batch?symbols=" + company + "&types=quote",
 
                     null,
                     new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(final JSONObject response) {
                             try {
+                                initialProcessing(response.toString(), company);
+                                TextView stockComp = findViewById(R.id.stockComp);
+                                stockComp.setText(MyClass.getCompanyName(companyData));
+
+                                TextView stockSym = findViewById(R.id.stockSym);
+                                stockSym.setText(MyClass.getSymbol(companyData));
+
+                                TextView stockPrice = findViewById(R.id.stockPrice);
+                                stockPrice.setText(MyClass.getChange(companyData));
+
+
                                 Log.d(TAG, response.toString(2));
 
                             } catch (JSONException ignored) { }
@@ -77,5 +88,11 @@ public class StockActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private void initialProcessing(final String response, final String company) {
+        JsonParser parser = new JsonParser();
+        JsonObject result = parser.parse(response).getAsJsonObject();
+        companyData = result.get(company.toUpperCase()).getAsJsonObject();
     }
 }
