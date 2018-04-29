@@ -47,7 +47,7 @@ public class StockActivity extends AppCompatActivity {
     /** Request queue for our API requests. */
     private static RequestQueue requestQueue;
 
-    private String defaultChart = "1m";
+    private String defaultChart = "1d&chartInterval=2";
 
 
     private JsonObject companyData = new JsonObject();
@@ -61,6 +61,14 @@ public class StockActivity extends AppCompatActivity {
         final String selectedCompany = getIntent().getStringExtra("item");
         Log.d(TAG, selectedCompany);
         startSingleStockAPICall(apiTrimmer(selectedCompany), defaultChart);
+
+        TextView todayView = findViewById(R.id.todayView);
+        todayView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startSingleStockAPICall(apiTrimmer(selectedCompany), "1d&chartInterval=2");
+            }
+        });
 
         TextView oneMonthView = findViewById(R.id.oneMonthView);
         oneMonthView.setOnClickListener(new View.OnClickListener() {
@@ -87,7 +95,7 @@ public class StockActivity extends AppCompatActivity {
         fiveYearView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startSingleStockAPICall(apiTrimmer(selectedCompany), "1d&chartInterval=5");
+                startSingleStockAPICall(apiTrimmer(selectedCompany), "5y");
             }
         });
 

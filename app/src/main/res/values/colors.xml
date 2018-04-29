@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#d41010</color>
     <color name="colorGain">#1be02b</color>
+    <color name="gunMetalGray">#4a3e3e</color>
+    <color name="chartAccent">#aefffc</color>
 </resources>

@@ -44,32 +44,55 @@
                 app:layout_constraintVertical_bias="0.781">
 
                 <TextView
+                    android:id="@+id/todayView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Today"
+                    android:background="@drawable/border_style"
+                    android:textColor="@color/chartAccent"/>
+
+                <TextView
                     android:id="@+id/oneMonthView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1 Month" />
+                    android:gravity="center"
+                    android:text="1 Month"
+                    android:background="@drawable/border_style"
+                    android:textColor="@color/chartAccent"
+                    />
 
                 <TextView
                     android:id="@+id/sixMonthView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="6 Month" />
+                    android:gravity="center"
+                    android:text="6 Month"
+                    android:background="@drawable/border_style"
+                    android:textColor="@color/chartAccent"/>
 
                 <TextView
                     android:id="@+id/oneYearView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1 Year" />
+                    android:gravity="center"
+                    android:text="1 Year"
+                    android:background="@drawable/border_style"
+                    android:textColor="@color/chartAccent"/>
 
                 <TextView
                     android:id="@+id/fiveYearView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="5 Year" />
+                    android:gravity="center"
+                    android:text="5 Year"
+                    android:background="@drawable/border_style"
+                    android:textColor="@color/chartAccent"/>
             </LinearLayout>
 
             <LinearLayout
