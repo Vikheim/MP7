@@ -66,28 +66,28 @@ public class StockActivity extends AppCompatActivity {
         oneMonthView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startSingleStockAPICall(selectedCompany, "1m");
+                startSingleStockAPICall(apiTrimmer(selectedCompany), "1m");
             }
         });
         TextView sixMonthView = findViewById(R.id.sixMonthView);
         sixMonthView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startSingleStockAPICall(selectedCompany, "6m");
+                startSingleStockAPICall(apiTrimmer(selectedCompany), "6m");
             }
         });
         TextView oneYearView = findViewById(R.id.oneYearView);
         oneYearView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startSingleStockAPICall(selectedCompany, "1y");
+                startSingleStockAPICall(apiTrimmer(selectedCompany), "1y");
             }
         });
         TextView fiveYearView = findViewById(R.id.fiveYearView);
         fiveYearView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startSingleStockAPICall(selectedCompany, "5y");
+                startSingleStockAPICall(apiTrimmer(selectedCompany), "1d&chartInterval=5");
             }
         });
 
@@ -137,16 +137,29 @@ public class StockActivity extends AppCompatActivity {
                                 List<Entry> entries = new ArrayList<Entry>();
                                 ArrayList<String> labels = new ArrayList<String>();
                                 int xValue = 1;
+                                float yValue = 0;
                                 for (JsonElement i : chartData) {
-                                    float yValue = Float.parseFloat(i.getAsJsonObject().get("close").getAsString());
-                                    labels.add(i.getAsJsonObject().get("label").getAsString());
-                                    entries.add(new Entry(xValue, yValue));
-                                    xValue++;
+                                    boolean skip = false;
+                                    try {
+                                        yValue = Float.parseFloat(i.getAsJsonObject().get("close").getAsString());
+                                    } catch (NullPointerException e) {
+                                        try {
+                                            yValue = Float.parseFloat(i.getAsJsonObject().get("marketClose").getAsString());
+                                        } catch (NullPointerException f) {
+                                            skip = true;
+                                        }
+                                    }
+                                    if (!skip) {
+                                        labels.add(i.getAsJsonObject().get("label").getAsString());
+                                        entries.add(new Entry(xValue, yValue));
+                                        xValue++;
+                                    }
                                 }
                                 LineDataSet dataSet = new LineDataSet(entries, "Stock");
                                 LineData lineData = new LineData(dataSet);
                                 dataSet.setFillColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 85));
                                 dataSet.setDrawFilled(true);
+                                dataSet.setDrawValues(false);
                                 dataSet.setDrawCircles(false);
                                 chart.setData(lineData);
                                 // the labels that should be drawn on the XAxis
