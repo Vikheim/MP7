@@ -11,8 +11,8 @@
     <style name="AppTheme.">
         <item name="windowActionBar">true</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:textColorHint">@color/chartAccent</item>
     </style>
-
 
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />

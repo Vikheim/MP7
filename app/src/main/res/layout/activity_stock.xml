@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StockActivity"
+    android:background="@color/gunMetalGray"
     tools:layout_editor_absoluteY="25dp">
+
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -124,7 +126,7 @@
                             android:layout_weight="1"
                             android:gravity="center_horizontal|top"
                             android:text="COMPANY_NAME"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="20sp"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -139,7 +141,7 @@
                             android:layout_weight="1"
                             android:gravity="bottom|center_horizontal"
                             android:text="COMPANY_SYM"
-
+                            android:textColor="@color/lightGray"
                             android:textSize="20sp"
                             tools:layout_editor_absoluteX="139dp"
                             tools:layout_editor_absoluteY="65dp" />
@@ -158,7 +160,7 @@
                                 android:gravity="bottom|right"
                                 android:paddingRight="5dp"
                                 android:text="162.94"
-                                android:textColor="@color/colorPrimaryDark"
+                                android:textColor="@color/colorPrimary"
                                 android:textSize="40sp"
                                 android:textStyle="bold"
                                 tools:layout_editor_absoluteX="60dp"

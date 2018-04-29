@@ -692,8 +692,10 @@ public class stocks extends Fragment{
                                 TextView diaChange = (TextView) getView().findViewById(R.id.diaChange);
                                 String change = dataParser.getChange(dia);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     diaChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 diaChange.setText(change);
@@ -702,8 +704,10 @@ public class stocks extends Fragment{
                                 String changeP = dataParser.getChangePercent(dia);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     diaChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
                                 diaChangeP.setText("(" + changeP + ")");
 
@@ -719,8 +723,10 @@ public class stocks extends Fragment{
                                 TextView ivvChange = (TextView) getView().findViewById(R.id.ivvChange);
                                 change = dataParser.getChange(ivv);
                                 if (isGain(change)) {
-                                    change =  "+" + change;
+                                    change =  "+ " + change;
                                     ivvChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 ivvChange.setText(change);
@@ -729,8 +735,10 @@ public class stocks extends Fragment{
                                 changeP = dataParser.getChangePercent(ivv);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     ivvChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
                                 ivvChangeP.setText("(" + changeP + ")");
 
@@ -746,8 +754,10 @@ public class stocks extends Fragment{
                                 TextView googChange = (TextView) getView().findViewById(R.id.googChange);
                                 change = dataParser.getChange(goog);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     googChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 googChange.setText(change);
@@ -756,8 +766,10 @@ public class stocks extends Fragment{
                                 changeP = dataParser.getChangePercent(goog);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     googChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
                                 googChangeP.setText("(" + changeP + ")");
 
@@ -773,8 +785,10 @@ public class stocks extends Fragment{
                                 TextView oneqChange = (TextView) getView().findViewById(R.id.oneqChange);
                                 change = dataParser.getChange(oneq);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     oneqChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 oneqChange.setText(change);
@@ -783,8 +797,10 @@ public class stocks extends Fragment{
                                 changeP = dataParser.getChangePercent(oneq);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     oneqChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
                                 oneqChangeP.setText("(" + changeP + ")");
 
@@ -800,8 +816,10 @@ public class stocks extends Fragment{
                                 TextView aaplChange = (TextView) getView().findViewById(R.id.aaplChange);
                                 change = dataParser.getChange(aapl);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     aaplChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 aaplChange.setText(change);
@@ -810,8 +828,10 @@ public class stocks extends Fragment{
                                 changeP = dataParser.getChangePercent(aapl);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     aaplChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
                                 aaplChangeP.setText("(" + changeP + ")");
 
@@ -827,8 +847,10 @@ public class stocks extends Fragment{
                                 TextView msftChange = (TextView) getView().findViewById(R.id.msftChange);
                                 change = dataParser.getChange(msft);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     msftChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 msftChange.setText(change);
@@ -837,8 +859,10 @@ public class stocks extends Fragment{
                                 changeP = dataParser.getChangePercent(msft);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     msftChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
                                 msftChangeP.setText("(" + changeP + ")");
 
@@ -855,8 +879,10 @@ public class stocks extends Fragment{
                                 TextView eemChange = (TextView) getView().findViewById(R.id.eemChange);
                                 change = dataParser.getChange(eem);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     eemChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 eemChange.setText(change);
@@ -865,8 +891,10 @@ public class stocks extends Fragment{
                                 changeP = dataParser.getChangePercent(eem);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     eemChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
 
                                 eemChangeP.setText("(" + changeP + ")");
@@ -883,8 +911,10 @@ public class stocks extends Fragment{
                                 TextView efaChange = (TextView) getView().findViewById(R.id.efaChange);
                                 change = dataParser.getChange(efa);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     efaChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 efaChange.setText(change);
@@ -892,8 +922,10 @@ public class stocks extends Fragment{
                                 changeP = dataParser.getChangePercent(efa);
                                 changeP = priceFormatter.addOrRemoveZeros(changeP);
                                 if (isGain(changeP)) {
-                                    changeP = "+" + changeP;
+                                    changeP = "+ " + changeP;
                                     efaChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
 
                                 efaChangeP.setText("(" + changeP + ")");
@@ -910,8 +942,10 @@ public class stocks extends Fragment{
                                 TextView spyChange = (TextView) getView().findViewById(R.id.spyChange);
                                 change = dataParser.getChange(spy);
                                 if (isGain(change)) {
-                                    change = "+" + change;
+                                    change = "+ " + change;
                                     spyChange.setTextColor(Color.GREEN);
+                                } else {
+                                    change = change.substring(0,1) + " " + change.substring(1);
                                 }
                                 change = priceFormatter.addOrRemoveZeros(change);
                                 spyChange.setText(change);
@@ -921,6 +955,8 @@ public class stocks extends Fragment{
                                 if (isGain(changeP)) {
                                     changeP = "+" + changeP;
                                     spyChangeP.setTextColor(Color.GREEN);
+                                } else {
+                                    changeP = changeP.substring(0,1) + " " + changeP.substring(1);
                                 }
                                 spyChangeP.setText("(" + changeP + ")");
 
