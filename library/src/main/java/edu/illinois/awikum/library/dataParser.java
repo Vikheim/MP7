@@ -1,13 +1,14 @@
 package edu.illinois.awikum.library;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 public class dataParser {
 
-    private static JsonObject parse(final String json) {
+    private static JsonArray parseToJsonArray(final String json) {
         JsonParser parser = new JsonParser();
-        return parser.parse(json).getAsJsonObject();
+        return parser.parse(json).getAsJsonArray();
     }
 
 
