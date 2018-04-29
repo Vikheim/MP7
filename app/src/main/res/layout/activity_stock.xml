@@ -24,11 +24,40 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/underliner"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/chartAccent"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
             <com.github.mikephil.charting.charts.LineChart
                 android:id="@+id/chart"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
-                android:layout_marginTop="156dp"
+                android:layout_marginTop="168dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -43,61 +72,61 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/chart"
-                app:layout_constraintVertical_bias="0.781">
+                app:layout_constraintVertical_bias="1.0">
 
                 <TextView
                     android:id="@+id/todayView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@drawable/border_style"
                     android:gravity="center"
                     android:text="Today"
-                    android:background="@drawable/border_style"
-                    android:textColor="@color/chartAccent"/>
+                    android:textColor="@color/chartAccent" />
 
                 <TextView
                     android:id="@+id/oneMonthView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@drawable/border_style"
                     android:gravity="center"
                     android:text="1 Month"
-                    android:background="@drawable/border_style"
-                    android:textColor="@color/chartAccent"
-                    />
+                    android:textColor="@color/chartAccent" />
 
                 <TextView
                     android:id="@+id/sixMonthView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@drawable/border_style"
                     android:gravity="center"
                     android:text="6 Month"
-                    android:background="@drawable/border_style"
-                    android:textColor="@color/chartAccent"/>
+                    android:textColor="@color/chartAccent" />
 
                 <TextView
                     android:id="@+id/oneYearView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@drawable/border_style"
                     android:gravity="center"
                     android:text="1 Year"
-                    android:background="@drawable/border_style"
-                    android:textColor="@color/chartAccent"/>
+                    android:textColor="@color/chartAccent" />
 
                 <TextView
                     android:id="@+id/fiveYearView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@drawable/border_style"
                     android:gravity="center"
                     android:text="5 Year"
-                    android:background="@drawable/border_style"
-                    android:textColor="@color/chartAccent"/>
+                    android:textColor="@color/chartAccent" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -129,6 +158,8 @@
                             android:textColor="@color/colorPrimary"
                             android:textSize="20sp"
                             android:textStyle="bold"
+                            android:ellipsize="end"
+                            android:maxLines="1"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.5"
                             app:layout_constraintStart_toStartOf="parent"

@@ -174,7 +174,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="-3.55"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
@@ -187,7 +187,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="(-1.32%)"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
@@ -294,7 +294,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="-3.55"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
@@ -307,7 +307,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="(-1.32%)"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
@@ -413,7 +413,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="-47.47"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
@@ -426,7 +426,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:text="(-4.45%)"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
@@ -527,7 +527,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
 
@@ -539,7 +539,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -640,7 +640,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
 
@@ -652,7 +652,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -752,7 +752,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
 
@@ -764,7 +764,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -864,7 +864,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
 
@@ -876,7 +876,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -976,7 +976,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
 
@@ -988,7 +988,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -1068,9 +1068,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:ellipsize="end"
+                            android:maxLines="1"
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
-                            android:maxLines="1"
                             android:paddingRight="20dp"
                             android:textColor="@color/lightGray"
                             android:textSize="12sp" />
@@ -1088,7 +1088,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="25sp" />
 
@@ -1100,7 +1100,7 @@
                             android:fontFamily="sans-serif"
                             android:gravity="top|right"
                             android:maxLines="1"
-                            android:paddingRight="40dp"
+                            android:paddingRight="30dp"
                             android:textColor="@color/colorAccent"
                             android:textSize="12sp" />
                     </LinearLayout>

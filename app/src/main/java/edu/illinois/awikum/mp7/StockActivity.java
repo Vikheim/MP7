@@ -130,10 +130,10 @@ public class StockActivity extends AppCompatActivity {
                                 stockComp.setText(dataParser.getCompanyName(companyData));
 
                                 TextView stockSym = findViewById(R.id.stockSym);
-                                stockSym.setText(dataParser.getSymbol(companyData));
+                                stockSym.setText("(" + dataParser.getSymbol(companyData) + ")");
 
                                 TextView stockPrice = findViewById(R.id.stockPrice);
-                                stockPrice.setText(dataParser.getLatestPrice(companyData));
+                                stockPrice.setText(priceFormatter.addOrRemoveZeros(dataParser.getLatestPrice(companyData)));
 
                                 TextView stockChange = findViewById(R.id.stockChange);
                                 String change = dataParser.getChange(companyData);
