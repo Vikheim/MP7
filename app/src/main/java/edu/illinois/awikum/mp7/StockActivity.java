@@ -6,6 +6,7 @@ import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -21,6 +22,7 @@ import org.json.JSONObject;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -47,6 +49,7 @@ public class StockActivity extends AppCompatActivity {
 
     private String defaultChart = "1m";
 
+
     private JsonObject companyData = new JsonObject();
     private JsonArray chartData = new JsonArray();
 
@@ -55,11 +58,38 @@ public class StockActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stock);
 
-        String selectedCompany = getIntent().getStringExtra("item");
+        final String selectedCompany = getIntent().getStringExtra("item");
         Log.d(TAG, selectedCompany);
         startSingleStockAPICall(apiTrimmer(selectedCompany), defaultChart);
 
-
+        TextView oneMonthView = findViewById(R.id.oneMonthView);
+        oneMonthView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startSingleStockAPICall(selectedCompany, "1m");
+            }
+        });
+        TextView sixMonthView = findViewById(R.id.sixMonthView);
+        sixMonthView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startSingleStockAPICall(selectedCompany, "6m");
+            }
+        });
+        TextView oneYearView = findViewById(R.id.oneYearView);
+        oneYearView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startSingleStockAPICall(selectedCompany, "1y");
+            }
+        });
+        TextView fiveYearView = findViewById(R.id.fiveYearView);
+        fiveYearView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startSingleStockAPICall(selectedCompany, "5y");
+            }
+        });
 
 
     }
@@ -126,11 +156,13 @@ public class StockActivity extends AppCompatActivity {
 
                                     @Override
                                     public String getFormattedValue(float value, AxisBase axis) {
-                                        return axisLabels[(int) value - 1];
+                                        if (value < axisLabels.length) {
+                                            return axisLabels[(int) value - 1];
+                                        } else {
+                                            return "";
+                                        }
                                     }
 
-                                    // we don't draw numbers, so no decimal digits needed
-                                    public int getDecimalDigits() {  return 0; }
                                 };
 
                                 XAxis xAxis = chart.getXAxis();

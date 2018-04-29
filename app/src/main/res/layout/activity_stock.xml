@@ -8,118 +8,158 @@
     tools:layout_editor_absoluteY="25dp">
 
     <ScrollView
+        android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:gravity="bottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="156dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chart"
+                app:layout_constraintVertical_bias="0.781">
+
+                <TextView
+                    android:id="@+id/oneMonthView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1 Month" />
+
+                <TextView
+                    android:id="@+id/sixMonthView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6 Month" />
+
+                <TextView
+                    android:id="@+id/oneYearView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1 Year" />
+
+                <TextView
+                    android:id="@+id/fiveYearView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5 Year" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:layout_editor_absoluteX="16dp">
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/stockComp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal|top"
-                        android:text="COMPANY_NAME"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
-                        app:layout_constraintStart_toStartOf="parent"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <TextView
-                        android:id="@+id/stockSym"
-                        android:layout_width="match_parent"
-                        android:layout_height="26dp"
-                        android:layout_weight="1"
-                        android:gravity="bottom|center_horizontal"
-                        android:text="COMPANY_SYM"
-
-                        android:textSize="20sp"
-                        tools:layout_editor_absoluteX="139dp"
-                        tools:layout_editor_absoluteY="65dp" />
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/stockPrice"
+                            android:id="@+id/stockComp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:gravity="bottom|right"
-                            android:paddingRight="5dp"
-                            android:text="162.94"
+                            android:gravity="center_horizontal|top"
+                            android:text="COMPANY_NAME"
                             android:textColor="@color/colorPrimaryDark"
-                            android:textSize="40sp"
+                            android:textSize="20sp"
                             android:textStyle="bold"
-                            tools:layout_editor_absoluteX="60dp"
-                            tools:layout_editor_absoluteY="66dp" />
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            tools:layout_editor_absoluteY="16dp" />
 
                         <TextView
-                            android:id="@+id/stockChange"
+                            android:id="@+id/stockSym"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="26dp"
                             android:layout_weight="1"
-                            android:gravity="bottom|left"
-                            android:paddingLeft="5dp"
-                            android:text="-2.30 (-1.39%)"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="20sp"
-                            tools:layout_editor_absoluteX="200dp"
-                            tools:layout_editor_absoluteY="86dp" />
-                    </LinearLayout>
+                            android:gravity="bottom|center_horizontal"
+                            android:text="COMPANY_SYM"
 
+                            android:textSize="20sp"
+                            tools:layout_editor_absoluteX="139dp"
+                            tools:layout_editor_absoluteY="65dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/stockPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="bottom|right"
+                                android:paddingRight="5dp"
+                                android:text="162.94"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                tools:layout_editor_absoluteX="60dp"
+                                tools:layout_editor_absoluteY="66dp" />
+
+                            <TextView
+                                android:id="@+id/stockChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="bottom|left"
+                                android:paddingLeft="5dp"
+                                android:text="-2.30 (-1.39%)"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="20sp"
+                                tools:layout_editor_absoluteX="200dp"
+                                tools:layout_editor_absoluteY="86dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
     </ScrollView>
-
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="0dp"
-        android:layout_height="350dp"
-        android:layout_marginTop="184dp"
-        android:gravity="bottom"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="384dp"></LinearLayout>
-
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="144dp" />
-
-    </android.support.constraint.ConstraintLayout>
 
 </android.support.constraint.ConstraintLayout>
