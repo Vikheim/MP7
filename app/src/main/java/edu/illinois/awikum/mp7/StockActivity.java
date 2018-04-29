@@ -19,9 +19,13 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.AxisBase;
+import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
+import com.github.mikephil.charting.formatter.IAxisValueFormatter;
+import com.github.mikephil.charting.utils.ColorTemplate;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
@@ -41,6 +45,8 @@ public class StockActivity extends AppCompatActivity {
     /** Request queue for our API requests. */
     private static RequestQueue requestQueue;
 
+    private String defaultChart = "1m";
+
     private JsonObject companyData = new JsonObject();
     private JsonArray chartData = new JsonArray();
 
@@ -51,7 +57,7 @@ public class StockActivity extends AppCompatActivity {
 
         String selectedCompany = getIntent().getStringExtra("item");
         Log.d(TAG, selectedCompany);
-        startSingleStockAPICall(apiTrimmer(selectedCompany));
+        startSingleStockAPICall(apiTrimmer(selectedCompany), defaultChart);
 
 
 
@@ -69,11 +75,11 @@ public class StockActivity extends AppCompatActivity {
 
 
 
-    void startSingleStockAPICall(final String company) {
+    void startSingleStockAPICall(final String company, final String chartInterval) {
         try {
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.GET,
-                    "https://api.iextrading.com/1.0/stock/market/batch?symbols=" + company + "&types=quote,chart",
+                    "https://api.iextrading.com/1.0/stock/market/batch?symbols=" + company + "&types=quote,chart&range=" + chartInterval,
 
                     null,
                     new Response.Listener<JSONObject>() {
@@ -99,17 +105,43 @@ public class StockActivity extends AppCompatActivity {
 
                                 LineChart chart = (LineChart) findViewById(R.id.chart);
                                 List<Entry> entries = new ArrayList<Entry>();
+                                ArrayList<String> labels = new ArrayList<String>();
                                 int xValue = 1;
                                 for (JsonElement i : chartData) {
                                     float yValue = Float.parseFloat(i.getAsJsonObject().get("close").getAsString());
-
+                                    labels.add(i.getAsJsonObject().get("label").getAsString());
                                     entries.add(new Entry(xValue, yValue));
                                     xValue++;
                                 }
-                                LineDataSet dataSet = new LineDataSet(entries, "Label");
+                                LineDataSet dataSet = new LineDataSet(entries, "Stock");
                                 LineData lineData = new LineData(dataSet);
+                                dataSet.setFillColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 85));
+                                dataSet.setDrawFilled(true);
+                                dataSet.setDrawCircles(false);
                                 chart.setData(lineData);
-                                chart.invalidate(); // refresh
+                                // the labels that should be drawn on the XAxis
+                                final String[] axisLabels = labels.toArray(new String[0]);
+
+                                IAxisValueFormatter formatter = new IAxisValueFormatter() {
+
+                                    @Override
+                                    public String getFormattedValue(float value, AxisBase axis) {
+                                        return axisLabels[(int) value - 1];
+                                    }
+
+                                    // we don't draw numbers, so no decimal digits needed
+                                    public int getDecimalDigits() {  return 0; }
+                                };
+
+                                XAxis xAxis = chart.getXAxis();
+                                chart.setPinchZoom(true);
+                                xAxis.setTextSize(10f);
+                                xAxis.setTextColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 125));
+                                xAxis.setGranularity(1f); // minimum axis-step (interval) is 1
+                                xAxis.setValueFormatter(formatter);
+                                chart.setBackgroundColor(Color.DKGRAY);
+                                chart.setGridBackgroundColor(Color.WHITE);
+                                chart.animateX(500);
 
 
 

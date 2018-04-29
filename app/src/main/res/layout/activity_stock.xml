@@ -7,163 +7,119 @@
     tools:context=".StockActivity"
     tools:layout_editor_absoluteY="25dp">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/stockComp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_horizontal|top"
-                android:text="COMPANY_NAME"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="16dp" />
-
-            <TextView
-                android:id="@+id/stockSym"
-                android:layout_width="match_parent"
-                android:layout_height="26dp"
-                android:layout_weight="1"
-                android:gravity="bottom|center_horizontal"
-                android:text="COMPANY_SYM"
-
-                android:textSize="20sp"
-                tools:layout_editor_absoluteX="139dp"
-                tools:layout_editor_absoluteY="65dp" />
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal">
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="16dp">
 
-                <TextView
-                    android:id="@+id/stockPrice"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="bottom|right"
-                    android:paddingRight="5dp"
-                    android:text="162.94"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="40sp"
-                    android:textStyle="bold"
-                    tools:layout_editor_absoluteX="60dp"
-                    tools:layout_editor_absoluteY="66dp" />
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/stockChange"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="bottom|left"
-                    android:paddingLeft="5dp"
-                    android:text="-2.30 (-1.39%)"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp"
-                    tools:layout_editor_absoluteX="200dp"
-                    tools:layout_editor_absoluteY="86dp" />
+                    <TextView
+                        android:id="@+id/stockComp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="COMPANY_NAME"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:layout_editor_absoluteY="16dp" />
+
+                    <TextView
+                        android:id="@+id/stockSym"
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="COMPANY_SYM"
+
+                        android:textSize="20sp"
+                        tools:layout_editor_absoluteX="139dp"
+                        tools:layout_editor_absoluteY="65dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/stockPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="bottom|right"
+                            android:paddingRight="5dp"
+                            android:text="162.94"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="40sp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="60dp"
+                            tools:layout_editor_absoluteY="66dp" />
+
+                        <TextView
+                            android:id="@+id/stockChange"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="bottom|left"
+                            android:paddingLeft="5dp"
+                            android:text="-2.30 (-1.39%)"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            tools:layout_editor_absoluteX="200dp"
+                            tools:layout_editor_absoluteY="86dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
             </LinearLayout>
-
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/constraintLayout4"
+        android:id="@+id/constraintLayout"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="184dp"
+        android:gravity="bottom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:context=".StockActivity"
-        tools:showIn="@layout/activity_stock">
+        app:layout_constraintTop_toTopOf="parent">
 
-        <android.support.constraint.ConstraintLayout
-            android:id="@+id/constraintLayout"
-            android:layout_width="0dp"
-            android:layout_height="339dp"
-            android:layout_marginTop="192dp"
-            android:gravity="bottom"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="384dp"></LinearLayout>
 
-            <com.github.mikephil.charting.charts.LineChart
-                android:id="@+id/chart"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="144dp" />
-
-            <LinearLayout
-                android:id="@+id/linearLayout7"
-                android:layout_width="225dp"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="0dp">
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Summary"
-                    android:textAppearance="@android:style/TextAppearance"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    app:fontFamily="sans-serif"
-                    tools:layout_editor_absoluteX="63dp"
-                    tools:layout_editor_absoluteY="32dp" />
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_weight="1"
-                    android:text="Chart"
-                    android:textAppearance="@android:style/TextAppearance"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    app:fontFamily="sans-serif"
-                    app:layout_constraintStart_toEndOf="@+id/textView6"
-                    tools:layout_editor_absoluteY="32dp" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="125dp"
-                android:layout_height="200dp"
-                android:layout_marginLeft="384dp"
-                android:layout_marginStart="384dp"
-                android:text="[Table of trading data]"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
-
-        </android.support.constraint.ConstraintLayout>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="144dp" />
 
     </android.support.constraint.ConstraintLayout>
+
 </android.support.constraint.ConstraintLayout>
