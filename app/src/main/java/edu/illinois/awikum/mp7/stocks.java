@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -14,6 +16,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -578,6 +581,17 @@ public class stocks extends Fragment{
                 startActivity(i);
             }
         });
+
+         final SwipeRefreshLayout swipeContainer = (SwipeRefreshLayout) rootView.findViewById(R.id.swipeContainer);
+        // Setup refresh listener which triggers new data loading
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                startCreateStockAPICall();
+                swipeContainer.setRefreshing(false);
+            }
+        });
+
 
         LinearLayout diaLay = (LinearLayout)rootView.findViewById(R.id.diaLay);
         diaLay.setOnClickListener(new View.OnClickListener() {
