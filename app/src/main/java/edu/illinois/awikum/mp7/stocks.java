@@ -705,13 +705,13 @@ public class stocks extends Fragment{
                                 diaTime.setText(dataParser.getLatestTime(dia));
                                 TextView diaChange = (TextView) getView().findViewById(R.id.diaChange);
                                 String change = dataParser.getChange(dia);
+                                change = priceFormatter.addOrRemoveZeros(change);
                                 if (isGain(change)) {
                                     change = "+ " + change;
                                     diaChange.setTextColor(Color.GREEN);
                                 } else {
                                     change = change.substring(0,1) + " " + change.substring(1);
                                 }
-                                change = priceFormatter.addOrRemoveZeros(change);
                                 diaChange.setText(change);
 
                                 TextView diaChangeP = (TextView) getView().findViewById(R.id.diaChangeP);
@@ -736,13 +736,14 @@ public class stocks extends Fragment{
                                 ivvTime.setText(dataParser.getLatestTime(ivv));
                                 TextView ivvChange = (TextView) getView().findViewById(R.id.ivvChange);
                                 change = dataParser.getChange(ivv);
+                                change = priceFormatter.addOrRemoveZeros(change);
                                 if (isGain(change)) {
                                     change =  "+ " + change;
                                     ivvChange.setTextColor(Color.GREEN);
                                 } else {
                                     change = change.substring(0,1) + " " + change.substring(1);
                                 }
-                                change = priceFormatter.addOrRemoveZeros(change);
+
                                 ivvChange.setText(change);
 
                                 TextView ivvChangeP = (TextView) getView().findViewById(R.id.ivvChangeP);
@@ -798,13 +799,13 @@ public class stocks extends Fragment{
                                 oneqTime.setText(dataParser.getLatestTime(oneq));
                                 TextView oneqChange = (TextView) getView().findViewById(R.id.oneqChange);
                                 change = dataParser.getChange(oneq);
+                                change = priceFormatter.addOrRemoveZeros(change);
                                 if (isGain(change)) {
                                     change = "+ " + change;
                                     oneqChange.setTextColor(Color.GREEN);
                                 } else {
                                     change = change.substring(0,1) + " " + change.substring(1);
                                 }
-                                change = priceFormatter.addOrRemoveZeros(change);
                                 oneqChange.setText(change);
 
                                 TextView oneqChangeP = (TextView) getView().findViewById(R.id.oneqChangeP);
@@ -892,13 +893,13 @@ public class stocks extends Fragment{
                                 eemTime.setText(dataParser.getLatestTime(eem));
                                 TextView eemChange = (TextView) getView().findViewById(R.id.eemChange);
                                 change = dataParser.getChange(eem);
+                                change = priceFormatter.addOrRemoveZeros(change);
                                 if (isGain(change)) {
                                     change = "+ " + change;
                                     eemChange.setTextColor(Color.GREEN);
                                 } else {
                                     change = change.substring(0,1) + " " + change.substring(1);
                                 }
-                                change = priceFormatter.addOrRemoveZeros(change);
                                 eemChange.setText(change);
 
                                 TextView eemChangeP = (TextView) getView().findViewById(R.id.eemChangeP);
@@ -924,13 +925,13 @@ public class stocks extends Fragment{
                                 efaTime.setText(dataParser.getLatestTime(efa));
                                 TextView efaChange = (TextView) getView().findViewById(R.id.efaChange);
                                 change = dataParser.getChange(efa);
+                                change = priceFormatter.addOrRemoveZeros(change);
                                 if (isGain(change)) {
                                     change = "+ " + change;
                                     efaChange.setTextColor(Color.GREEN);
                                 } else {
                                     change = change.substring(0,1) + " " + change.substring(1);
                                 }
-                                change = priceFormatter.addOrRemoveZeros(change);
                                 efaChange.setText(change);
                                 TextView efaChangeP = (TextView) getView().findViewById(R.id.efaChangeP);
                                 changeP = dataParser.getChangePercent(efa);

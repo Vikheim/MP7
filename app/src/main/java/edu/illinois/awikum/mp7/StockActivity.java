@@ -176,57 +176,59 @@ public class StockActivity extends AppCompatActivity {
                                 LineChart chart = (LineChart) findViewById(R.id.chart);
                                 List<Entry> entries = new ArrayList<Entry>();
                                 ArrayList<String> labels = new ArrayList<String>();
-                                int xValue = 1;
-                                float yValue = 0;
-                                for (JsonElement i : chartData) {
-                                    boolean skip = false;
-                                    try {
-                                        yValue = Float.parseFloat(i.getAsJsonObject().get("close").getAsString());
-                                    } catch (NullPointerException e) {
+                                if (!chartData.isJsonNull()) {
+                                    int xValue = 1;
+                                    float yValue = 0;
+                                    for (JsonElement i : chartData) {
+                                        boolean skip = false;
                                         try {
-                                            yValue = Float.parseFloat(i.getAsJsonObject().get("marketClose").getAsString());
-                                        } catch (NullPointerException f) {
-                                            skip = true;
+                                            yValue = Float.parseFloat(i.getAsJsonObject().get("close").getAsString());
+                                        } catch (NullPointerException e) {
+                                            try {
+                                                yValue = Float.parseFloat(i.getAsJsonObject().get("marketClose").getAsString());
+                                            } catch (NullPointerException f) {
+                                                skip = true;
+                                            }
+                                        }
+                                        if (!skip) {
+                                            labels.add(i.getAsJsonObject().get("label").getAsString());
+                                            entries.add(new Entry(xValue, yValue));
+                                            xValue++;
                                         }
                                     }
-                                    if (!skip) {
-                                        labels.add(i.getAsJsonObject().get("label").getAsString());
-                                        entries.add(new Entry(xValue, yValue));
-                                        xValue++;
-                                    }
+                                    LineDataSet dataSet = new LineDataSet(entries, "Stock");
+                                    LineData lineData = new LineData(dataSet);
+                                    dataSet.setFillColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 85));
+                                    dataSet.setDrawFilled(true);
+                                    dataSet.setDrawValues(false);
+                                    dataSet.setDrawCircles(false);
+                                    chart.setData(lineData);
+                                    // the labels that should be drawn on the XAxis
+                                    final String[] axisLabels = labels.toArray(new String[0]);
+
+                                    IAxisValueFormatter formatter = new IAxisValueFormatter() {
+
+                                        @Override
+                                        public String getFormattedValue(float value, AxisBase axis) {
+                                            if (value < axisLabels.length) {
+                                                return axisLabels[(int) value - 1];
+                                            } else {
+                                                return "";
+                                            }
+                                        }
+
+                                    };
+
+                                    XAxis xAxis = chart.getXAxis();
+                                    chart.setPinchZoom(true);
+                                    xAxis.setTextSize(10f);
+                                    xAxis.setTextColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 125));
+                                    xAxis.setGranularity(1f); // minimum axis-step (interval) is 1
+                                    xAxis.setValueFormatter(formatter);
+                                    chart.setBackgroundColor(Color.DKGRAY);
+                                    chart.setGridBackgroundColor(Color.WHITE);
+                                    chart.animateX(500);
                                 }
-                                LineDataSet dataSet = new LineDataSet(entries, "Stock");
-                                LineData lineData = new LineData(dataSet);
-                                dataSet.setFillColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 85));
-                                dataSet.setDrawFilled(true);
-                                dataSet.setDrawValues(false);
-                                dataSet.setDrawCircles(false);
-                                chart.setData(lineData);
-                                // the labels that should be drawn on the XAxis
-                                final String[] axisLabels = labels.toArray(new String[0]);
-
-                                IAxisValueFormatter formatter = new IAxisValueFormatter() {
-
-                                    @Override
-                                    public String getFormattedValue(float value, AxisBase axis) {
-                                        if (value < axisLabels.length) {
-                                            return axisLabels[(int) value - 1];
-                                        } else {
-                                            return "";
-                                        }
-                                    }
-
-                                };
-
-                                XAxis xAxis = chart.getXAxis();
-                                chart.setPinchZoom(true);
-                                xAxis.setTextSize(10f);
-                                xAxis.setTextColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 125));
-                                xAxis.setGranularity(1f); // minimum axis-step (interval) is 1
-                                xAxis.setValueFormatter(formatter);
-                                chart.setBackgroundColor(Color.DKGRAY);
-                                chart.setGridBackgroundColor(Color.WHITE);
-                                chart.animateX(500);
 
 
 

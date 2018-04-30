@@ -7,6 +7,10 @@ public class priceFormatter {
             return "-0.00";
         } else if (price.indexOf('E') > 0) {
             return "0.00";
+        } else if (price.equals("0")) {
+            return "0.00";
+        } else if (decimalPos == -1) {
+            return price;
         } else if (price.length() > decimalPos + 3) {
             return price.substring(0, decimalPos + 3);
         } else if (price.length() == decimalPos + 2) {

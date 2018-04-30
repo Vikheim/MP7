@@ -54,12 +54,20 @@ public class dataParser {
 
     public static String getHigh(final JsonObject companyData) {
         JsonObject quote = companyData.get("quote").getAsJsonObject();
-        return quote.get("high").getAsString();
+        if (quote.get("high").isJsonNull()) {
+            return " --";
+        } else {
+            return quote.get("high").getAsString();
+        }
     }
 
     public static String getLow(final JsonObject companyData) {
         JsonObject quote = companyData.get("quote").getAsJsonObject();
-        return quote.get("low").getAsString();
+        if (quote.get("low").isJsonNull()) {
+            return " --";
+        } else {
+            return quote.get("low").getAsString();
+        }
     }
 
     public static String getPreviousClose(final JsonObject companyData) {

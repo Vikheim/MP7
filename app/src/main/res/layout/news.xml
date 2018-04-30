@@ -45,7 +45,10 @@
                     android:id="@+id/headOne"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/sourceOne"
@@ -69,7 +72,10 @@
                     android:id="@+id/headTwo"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/sourceTwo"
@@ -94,7 +100,10 @@
                     android:id="@+id/headThree"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/sourceThree"
@@ -118,7 +127,10 @@
                     android:id="@+id/headFour"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/sourceFour"
@@ -142,7 +154,10 @@
                     android:id="@+id/headFive"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/sourceFive"
