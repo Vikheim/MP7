@@ -140,7 +140,12 @@ public class StockActivity extends AppCompatActivity {
                                 TextView stockChange = findViewById(R.id.stockChange);
                                 String change = dataParser.getChange(companyData);
                                 String changeP = dataParser.getChangePercent(companyData);
+                                if (stocks.isGain(changeP)) {
+                                    change = "+" + change;
+                                    stockChange.setTextColor(Color.GREEN);
+                                }
                                 stockChange.setText(priceFormatter.addOrRemoveZeros(change) + " (" + priceFormatter.addOrRemoveZeros(changeP) + "%)");
+
 
                                 TextView latestPrice = findViewById(R.id.latestData);
                                 latestPrice.setText(priceFormatter.addOrRemoveZeros(dataParser.getLatestPrice(companyData)));

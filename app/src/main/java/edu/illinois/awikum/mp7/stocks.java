@@ -1000,22 +1000,8 @@ public class stocks extends Fragment{
 
 
     //Color formatting methods
-    public boolean isGain(final String change) {
+    public static boolean isGain(final String change) {
         return !(change.charAt(0) == '-');
     }
 
-    private void netGain() {
-        int gainCount = 0;
-        int lossCount = 0;
-        for (JsonObject i: createCompanies) {
-            if (isGain(dataParser.getChange(i))) {
-                gainCount++;
-            } else {
-                lossCount++;
-            }
-        }
-        if (gainCount > lossCount) {
-
-        }
-    }
 }

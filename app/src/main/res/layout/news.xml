@@ -7,26 +7,157 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity$PlaceholderFragment">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/section_label"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:fontFamily="sans-serif"
-            android:text="Financial News"
-            android:textColor="#000000"
-            android:textSize="35dp"
-            android:textStyle="bold"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/constraintLayout"
-            tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1" />
-    </LinearLayout>
+            android:background="@color/gunMetalGray"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="373dp">
+
+            <TextView
+                android:id="@+id/section_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif"
+                android:text="Financial News"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteY="73dp">
+
+                <TextView
+                    android:id="@+id/headOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sourceOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sumOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/headTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sourceTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sumTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteY="163dp">
+
+                <TextView
+                    android:id="@+id/headThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sourceThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sumThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/headFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sourceFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sumFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/headFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sourceFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/sumFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

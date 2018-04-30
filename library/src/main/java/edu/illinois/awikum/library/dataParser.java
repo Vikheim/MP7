@@ -82,9 +82,8 @@ public class dataParser {
         return quote.get("week52Low").getAsString();
     }
 
-    public static String getRelated(final JsonObject companyData) {
-        JsonObject quote = companyData.get("quote").getAsJsonObject();
-        return quote.get("week52Low").getAsString();
+    public static JsonArray getNewsArray(final JsonObject newsData) {
+        return newsData.get("news").getAsJsonArray();
     }
 
 
