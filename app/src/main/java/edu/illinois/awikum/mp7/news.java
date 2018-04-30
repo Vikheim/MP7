@@ -1,12 +1,16 @@
 package edu.illinois.awikum.mp7;
 
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -37,6 +41,15 @@ public class news extends Fragment{
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.news, container, false);
 
+        final SwipeRefreshLayout swipeContainer = (SwipeRefreshLayout) rootView.findViewById(R.id.swipeContainerThree);
+        // Setup refresh listener which triggers new data loading
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                startNewsAPICall();
+                swipeContainer.setRefreshing(false);
+            }
+        });
         startNewsAPICall();
         return rootView;
     }
@@ -57,37 +70,99 @@ public class news extends Fragment{
                                 TextView headlineOne = getView().findViewById(R.id.headOne);
                                 headlineOne.setText(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("headline").getAsString());
                                 TextView sourceOne = getView().findViewById(R.id.sourceOne);
-                                sourceOne.setText(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("source").getAsString());
+                                sourceOne.setText(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("source").getAsString()+
+                                        " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("datetime").getAsString()));
                                 TextView summaryOne = getView().findViewById(R.id.sumOne);
-                                summaryOne.setText(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("summary").getAsString());
+                                summaryOne.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineTwo = getView().findViewById(R.id.headTwo);
                                 headlineTwo.setText(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("headline").getAsString());
                                 TextView sourceTwo = getView().findViewById(R.id.sourceTwo);
-                                sourceTwo.setText(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("source").getAsString());
+                                sourceTwo.setText(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("source").getAsString()+
+                                        " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("datetime").getAsString()));
                                 TextView summaryTwo = getView().findViewById(R.id.sumTwo);
-                                summaryTwo.setText(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("summary").getAsString());
+                                summaryTwo.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineThree = getView().findViewById(R.id.headThree);
                                 headlineThree.setText(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("headline").getAsString());
                                 TextView sourceThree = getView().findViewById(R.id.sourceThree);
-                                sourceThree.setText(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("source").getAsString());
+                                sourceThree.setText(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("source").getAsString()+
+                                        " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("datetime").getAsString()));
                                 TextView summaryThree = getView().findViewById(R.id.sumThree);
-                                summaryThree.setText(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("summary").getAsString());
+                                summaryThree.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineFour = getView().findViewById(R.id.headFour);
                                 headlineFour.setText(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("headline").getAsString());
                                 TextView sourceFour = getView().findViewById(R.id.sourceFour);
-                                sourceFour.setText(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("source").getAsString());
+                                sourceFour.setText(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("source").getAsString()+
+                                        " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("datetime").getAsString()));
                                 TextView summaryFour = getView().findViewById(R.id.sumFour);
-                                summaryFour.setText(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("summary").getAsString());
+                                summaryFour.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineFive = getView().findViewById(R.id.headFive);
                                 headlineFive.setText(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("headline").getAsString());
                                 TextView sourceFive = getView().findViewById(R.id.sourceFive);
-                                sourceFive.setText(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("source").getAsString());
+                                sourceFive.setText(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("source").getAsString() +
+                                " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("datetime").getAsString()));
                                 TextView summaryFive = getView().findViewById(R.id.sumFive);
-                                summaryFive.setText(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("summary").getAsString());
+                                summaryFive.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("summary").getAsString()));
+
+                                LinearLayout newsOne = getView().findViewById(R.id.newsOne);
+                                newsOne.setOnClickListener(new View.OnClickListener() {
+                                    public void onClick(View v) {
+                                        Intent intent = new Intent();
+                                        intent.setAction(Intent.ACTION_VIEW);
+                                        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                                        intent.setData(Uri.parse(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("url").getAsString()));
+                                        startActivity(intent);
+                                    }
+                                });
+
+                                LinearLayout newsTwo = getView().findViewById(R.id.newsTwo);
+                                newsTwo.setOnClickListener(new View.OnClickListener() {
+                                    public void onClick(View v) {
+                                        Intent intent = new Intent();
+                                        intent.setAction(Intent.ACTION_VIEW);
+                                        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                                        intent.setData(Uri.parse(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("url").getAsString()));
+                                        startActivity(intent);
+                                    }
+                                });
+
+                                LinearLayout newsThree = getView().findViewById(R.id.newsThree);
+                                newsThree.setOnClickListener(new View.OnClickListener() {
+                                    public void onClick(View v) {
+                                        Intent intent = new Intent();
+                                        intent.setAction(Intent.ACTION_VIEW);
+                                        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                                        intent.setData(Uri.parse(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("url").getAsString()));
+                                        startActivity(intent);
+                                    }
+                                });
+
+                                LinearLayout newsFour = getView().findViewById(R.id.newsFour);
+                                newsFour.setOnClickListener(new View.OnClickListener() {
+                                    public void onClick(View v) {
+                                        Intent intent = new Intent();
+                                        intent.setAction(Intent.ACTION_VIEW);
+                                        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                                        intent.setData(Uri.parse(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("url").getAsString()));
+                                        startActivity(intent);
+                                    }
+                                });
+
+                                LinearLayout newsFive = getView().findViewById(R.id.newsFive);
+                                newsFive.setOnClickListener(new View.OnClickListener() {
+                                    public void onClick(View v) {
+                                        Intent intent = new Intent();
+                                        intent.setAction(Intent.ACTION_VIEW);
+                                        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                                        intent.setData(Uri.parse(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("url").getAsString()));
+                                        startActivity(intent);
+                                    }
+                                });
+
+
 
 
 

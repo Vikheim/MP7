@@ -181,7 +181,7 @@
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
                             android:text="-3.55"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -194,7 +194,7 @@
                             android:maxLines="1"
                             android:paddingRight="30dp"
                             android:text="(-1.32%)"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -301,7 +301,7 @@
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
                             android:text="-3.55"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -314,7 +314,7 @@
                             android:maxLines="1"
                             android:paddingRight="30dp"
                             android:text="(-1.32%)"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -420,7 +420,7 @@
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
                             android:text="-47.47"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -433,7 +433,7 @@
                             android:maxLines="1"
                             android:paddingRight="30dp"
                             android:text="(-4.45%)"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -533,7 +533,7 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -545,7 +545,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -646,7 +646,7 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -658,7 +658,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -758,7 +758,7 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -770,7 +770,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -870,7 +870,7 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -882,7 +882,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -982,7 +982,7 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -994,7 +994,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -1094,7 +1094,7 @@
                             android:gravity="bottom|right"
                             android:paddingBottom="5dp"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="25sp" />
 
                         <TextView
@@ -1106,7 +1106,7 @@
                             android:gravity="top|right"
                             android:maxLines="1"
                             android:paddingRight="30dp"
-                            android:textColor="@color/colorAccent"
+                            android:textColor="@color/colorLoss"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>

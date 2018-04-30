@@ -94,5 +94,20 @@ public class dataParser {
         return newsData.get("news").getAsJsonArray();
     }
 
+    public static String newsFormatter(final String news) {
+        int hyphenIndex = news.indexOf("--");
+        if (hyphenIndex > 0) {
+            return newsFormatter(news.substring(hyphenIndex + 2));
+        } else if (news.charAt(0) == ' ') {
+            return newsFormatter(news.substring(1));
+        }
+        return news;
+    }
+
+    public static String newsDateFormatter(final String news) {
+        int colonIndex = news.indexOf(":");
+        return news.substring(0,colonIndex - 3);
+    }
+
 
 }

@@ -6,7 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity$PlaceholderFragment">
-
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainerThree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -37,142 +41,311 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/underlineThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/chartAccent"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/newsOne"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
                 android:orientation="vertical"
                 tools:layout_editor_absoluteY="73dp">
 
                 <TextView
                     android:id="@+id/headOne"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="15dp"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/sourceOne"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/lightGray" />
 
                 <TextView
                     android:id="@+id/sumOne"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:text="TextView" />
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/underlineThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/chartAccent"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/newsTwo"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="175dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/headTwo"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="15dp"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/sourceTwo"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/lightGray" />
 
                 <TextView
                     android:id="@+id/sumTwo"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:text="TextView" />
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/underlineThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/chartAccent"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/newsThree"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="175dp"
                 android:orientation="vertical"
                 tools:layout_editor_absoluteY="163dp">
 
                 <TextView
                     android:id="@+id/headThree"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="15dp"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/sourceThree"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/lightGray" />
 
                 <TextView
                     android:id="@+id/sumThree"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:text="TextView" />
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/underlineThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/chartAccent"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/newsFour"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="175dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/headFour"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="15dp"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/sourceFour"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/lightGray" />
 
                 <TextView
                     android:id="@+id/sumFour"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:text="TextView" />
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/underlineThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/chartAccent"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/newsFive"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="175dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/headFive"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="15dp"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/sourceFive"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:text="TextView" />
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/lightGray" />
 
                 <TextView
                     android:id="@+id/sumFive"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:text="TextView" />
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/underlineThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/chartAccent"
+                        android:orientation="vertical"></LinearLayout>
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
 
 </android.support.constraint.ConstraintLayout>
