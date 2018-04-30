@@ -47,10 +47,12 @@ public class StockActivity extends AppCompatActivity {
     /** Request queue for our API requests. */
     private static RequestQueue requestQueue;
 
+    private JsonObject companyData = new JsonObject();
+
     private String defaultChart = "1d&chartInterval=2";
 
 
-    private JsonObject companyData = new JsonObject();
+
     private JsonArray chartData = new JsonArray();
 
     @Override
@@ -140,6 +142,31 @@ public class StockActivity extends AppCompatActivity {
                                 String changeP = dataParser.getChangePercent(companyData);
                                 stockChange.setText(priceFormatter.addOrRemoveZeros(change) + " (" + priceFormatter.addOrRemoveZeros(changeP) + "%)");
 
+                                TextView latestPrice = findViewById(R.id.latestData);
+                                latestPrice.setText(priceFormatter.addOrRemoveZeros(dataParser.getLatestPrice(companyData)));
+                                TextView latestTime = findViewById(R.id.latestTData);
+                                latestTime.setText(dataParser.getLatestTime(companyData));
+                                TextView open = findViewById(R.id.openData);
+                                open.setText(priceFormatter.addOrRemoveZeros(dataParser.getOpen(companyData)));
+                                TextView close = findViewById(R.id.closeData);
+                                close.setText(priceFormatter.addOrRemoveZeros(dataParser.getClose(companyData)));
+                                TextView high = findViewById(R.id.highData);
+                                high.setText(priceFormatter.addOrRemoveZeros(dataParser.getHigh(companyData)));
+                                TextView low = findViewById(R.id.lowData);
+                                low.setText(priceFormatter.addOrRemoveZeros(dataParser.getLow(companyData)));
+
+                                TextView previous = findViewById(R.id.previousData);
+                                previous.setText(priceFormatter.addOrRemoveZeros(dataParser.getPreviousClose(companyData)));
+                                TextView changePrime = findViewById(R.id.changeData);
+                                changePrime.setText(priceFormatter.addOrRemoveZeros(dataParser.getChange(companyData)));
+                                TextView changePPrime = findViewById(R.id.changePData);
+                                changePPrime.setText(priceFormatter.addOrRemoveZeros(dataParser.getChangePercent(companyData)));
+                                TextView volume = findViewById(R.id.volumeData);
+                                volume.setText(dataParser.getAverageVolume(companyData));
+                                TextView weekHigh = findViewById(R.id.weekHighData);
+                                weekHigh.setText(priceFormatter.addOrRemoveZeros(dataParser.get52weekHigh(companyData)));
+                                TextView weekLow = findViewById(R.id.weekLowData);
+                                weekLow.setText(priceFormatter.addOrRemoveZeros(dataParser.get52weekLow(companyData)));
 
                                 LineChart chart = (LineChart) findViewById(R.id.chart);
                                 List<Entry> entries = new ArrayList<Entry>();
@@ -219,5 +246,6 @@ public class StockActivity extends AppCompatActivity {
         Log.d(TAG, result.toString());
         chartData = result.get(company.toUpperCase()).getAsJsonObject().get("chart").getAsJsonArray();
         companyData = result.get(company.toUpperCase()).getAsJsonObject();
+
     }
 }
