@@ -3,4 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
+    <string-array name="companies_array">
+        <item>AGILENT TECHNOLOGIES INC (A)</item>
+        // insert the rest of the companies with the same format here
+    </string-array>
 </resources>
