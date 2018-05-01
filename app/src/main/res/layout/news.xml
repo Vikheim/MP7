@@ -30,7 +30,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="sans-serif"
-                android:text="Financial News"
+                android:paddingLeft="5dp"
+                android:text="News"
                 android:textColor="@color/colorPrimary"
                 android:textSize="35dp"
                 android:textStyle="bold"
@@ -65,7 +66,7 @@
             <LinearLayout
                 android:id="@+id/newsOne"
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
                 tools:layout_editor_absoluteY="73dp">
 
@@ -74,12 +75,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
+                    android:gravity="center_horizontal"
                     android:maxLines="1"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -95,6 +97,8 @@
                     android:id="@+id/sumOne"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
@@ -106,23 +110,24 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
                         android:id="@+id/underlineThree"
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/chartAccent"
                         android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/newsTwo"
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <TextView
@@ -130,12 +135,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
+                    android:gravity="center_horizontal"
                     android:maxLines="1"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -151,6 +157,8 @@
                     android:id="@+id/sumTwo"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
@@ -162,23 +170,24 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
                         android:id="@+id/underlineThree"
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/chartAccent"
                         android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/newsThree"
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
                 tools:layout_editor_absoluteY="163dp">
 
@@ -192,7 +201,7 @@
                     android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -208,6 +217,8 @@
                     android:id="@+id/sumThree"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
@@ -219,23 +230,24 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
                         android:id="@+id/underlineThree"
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/chartAccent"
                         android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/newsFour"
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <TextView
@@ -243,12 +255,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
+                    android:gravity="center_horizontal"
                     android:maxLines="1"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -264,6 +277,8 @@
                     android:id="@+id/sumFour"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
@@ -275,23 +290,24 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
                         android:id="@+id/underlineThree"
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/chartAccent"
                         android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/newsFive"
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <TextView
@@ -299,12 +315,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
+                    android:gravity="center_horizontal"
                     android:maxLines="1"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20dp"                  android:gravity="center_horizontal"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -320,6 +337,8 @@
                     android:id="@+id/sumFive"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="TextView"
@@ -331,16 +350,17 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
                         android:id="@+id/underlineThree"
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/chartAccent"
                         android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
                 </LinearLayout>
             </LinearLayout>
 

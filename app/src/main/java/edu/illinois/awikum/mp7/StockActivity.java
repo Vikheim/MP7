@@ -22,6 +22,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.AxisBase;
+import com.github.mikephil.charting.components.Description;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
@@ -207,7 +208,7 @@ public class StockActivity extends AppCompatActivity {
                                             xValue++;
                                         }
                                     }
-                                    LineDataSet dataSet = new LineDataSet(entries, "Stock");
+                                    LineDataSet dataSet = new LineDataSet(entries, "https://iextrading.com/");
                                     LineData lineData = new LineData(dataSet);
                                     dataSet.setFillColor(ColorTemplate.colorWithAlpha(ColorTemplate.getHoloBlue(), 85));
                                     dataSet.setDrawFilled(true);
@@ -238,6 +239,9 @@ public class StockActivity extends AppCompatActivity {
                                     xAxis.setValueFormatter(formatter);
                                     chart.setBackgroundColor(Color.DKGRAY);
                                     chart.setGridBackgroundColor(Color.WHITE);
+                                    Description link = new Description();
+                                    link.setText("");
+                                    chart.setDescription(link);
                                     chart.animateX(500);
                                 }
 

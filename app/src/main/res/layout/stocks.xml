@@ -72,1064 +72,1064 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="136dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <android.support.v4.widget.SwipeRefreshLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
+
+        <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/swipeContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <ScrollView
-            android:id="@+id/scrollView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent">
-
-            <LinearLayout
+            <ScrollView
+                android:id="@+id/scrollView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="bottom"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:id="@+id/diaLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/diaSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="55dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/diaComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="20dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:text="Dow Jones Industrial Average"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/diaPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="55dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:text="240.09"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/diaTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="20dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:text="3:38 PM"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/diaChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="55dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:text="-3.55"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/diaChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="20dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:text="(-1.32%)"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
                     android:orientation="vertical">
 
                     <LinearLayout
+                        android:id="@+id/diaLay"
                         android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
+                        android:layout_height="75dp"
+
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/diaSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/diaComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:text="Dow Jones Industrial Average"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/diaPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:text="240.09"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/diaTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:text="3:38 PM"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/diaChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:text="-3.55"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/diaChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:text="(-1.32%)"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/underlineOne"
                         android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:gravity="bottom|center_horizontal"
-                        android:orientation="vertical"></LinearLayout>
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineOne"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:gravity="bottom|center_horizontal"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ivvLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/ivvSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:text="IVV"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/ivvComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:text="iShares Core S&amp;P 500"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/ivvPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:text="264.89"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/ivvTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:text="Market is closed. Close as of April 24, 2018."
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/ivvChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:text="-3.55"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/ivvChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:text="(-1.32%)"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineTwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/googLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/googSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:text="GOOG"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/googComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:text="Alphabet Inc."
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/googPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:text="1,019.98"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/googTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:text="After hours. Close as of April 24, 2018."
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/googChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:text="-47.47"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/googChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:text="(-4.45%)"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineThree"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oneqLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/oneqSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/oneqComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/oneqPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/oneqTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/oneqChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/oneqChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineFour"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/aaplLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/aaplSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/aaplComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/aaplPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/aaplTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/aaplChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/aaplChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineFive"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/msftLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/msftSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/msftComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/msftPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/msftTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/msftChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/msftChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineSix"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/eemLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/eemSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/eemComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/eemPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/eemTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/eemChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/eemChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineSeven"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/efaLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/efaSym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/efaComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/efaPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/efaTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/efaChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/efaChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineEight"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/spyLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/spySym"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical|bottom"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="35sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/spyComp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top"
+                                android:maxLines="1"
+                                android:paddingLeft="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/spyPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/spyTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="20dp"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/spyChange"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="bottom|right"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/spyChangeP"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:fontFamily="sans-serif"
+                                android:gravity="top|right"
+                                android:maxLines="1"
+                                android:paddingRight="30dp"
+                                android:textColor="@color/colorLoss"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/underlineNine"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/chartAccent"
+                            android:orientation="vertical"></LinearLayout>
+                    </LinearLayout>
                 </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/ivvLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/ivvSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:text="IVV"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/ivvComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:text="iShares Core S&amp;P 500"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/ivvPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:text="264.89"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/ivvTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:text="Market is closed. Close as of April 24, 2018."
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/ivvChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:text="-3.55"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/ivvChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:text="(-1.32%)"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="15dp"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineTwo"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/googLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/googSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:text="GOOG"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/googComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:text="Alphabet Inc."
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/googPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:text="1,019.98"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/googTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:text="After hours. Close as of April 24, 2018."
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/googChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:text="-47.47"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/googChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:text="(-4.45%)"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="15dp"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineThree"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/oneqLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/oneqSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/oneqComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/oneqPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/oneqTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/oneqChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/oneqChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="15dp"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineFour"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/aaplLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/aaplSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/aaplComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/aaplPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/aaplTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/aaplChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/aaplChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="15dp"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineFive"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/msftLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/msftSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/msftComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/msftPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/msftTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/msftChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/msftChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineSix"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/eemLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/eemSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/eemComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/eemPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/eemTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/eemChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/eemChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineSeven"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/efaLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/efaSym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/efaComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/efaPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/efaTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/efaChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/efaChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineEight"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/spyLay"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/spySym"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="center_vertical|bottom"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/spyComp"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top"
-                            android:maxLines="1"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/spyPrice"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/spyTime"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:ellipsize="end"
-                            android:maxLines="1"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:paddingRight="20dp"
-                            android:textColor="@color/lightGray"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="125dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/spyChange"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:fontFamily="sans-serif"
-                            android:gravity="bottom|right"
-                            android:paddingBottom="5dp"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:id="@+id/spyChangeP"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ellipsize="end"
-                            android:fontFamily="sans-serif"
-                            android:gravity="top|right"
-                            android:maxLines="1"
-                            android:paddingRight="30dp"
-                            android:textColor="@color/colorLoss"
-                            android:textSize="12sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="14dp"
-                        android:orientation="vertical"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/underlineNine"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/chartAccent"
-                        android:orientation="vertical"></LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
+            </ScrollView>
         </android.support.v4.widget.SwipeRefreshLayout>
 
 

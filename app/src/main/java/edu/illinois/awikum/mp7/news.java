@@ -68,7 +68,7 @@ public class news extends Fragment{
                                 initialProcessing(response.toString());
 
                                 TextView headlineOne = getView().findViewById(R.id.headOne);
-                                headlineOne.setText(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("headline").getAsString());
+                                headlineOne.setText(dataParser.headlineFormatter(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("headline").getAsString()));
                                 TextView sourceOne = getView().findViewById(R.id.sourceOne);
                                 sourceOne.setText(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("source").getAsString()+
                                         " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("datetime").getAsString()));
@@ -76,7 +76,7 @@ public class news extends Fragment{
                                 summaryOne.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(0).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineTwo = getView().findViewById(R.id.headTwo);
-                                headlineTwo.setText(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("headline").getAsString());
+                                headlineTwo.setText(dataParser.headlineFormatter(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("headline").getAsString()));
                                 TextView sourceTwo = getView().findViewById(R.id.sourceTwo);
                                 sourceTwo.setText(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("source").getAsString()+
                                         " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("datetime").getAsString()));
@@ -84,7 +84,7 @@ public class news extends Fragment{
                                 summaryTwo.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(1).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineThree = getView().findViewById(R.id.headThree);
-                                headlineThree.setText(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("headline").getAsString());
+                                headlineThree.setText(dataParser.headlineFormatter(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("headline").getAsString()));
                                 TextView sourceThree = getView().findViewById(R.id.sourceThree);
                                 sourceThree.setText(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("source").getAsString()+
                                         " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("datetime").getAsString()));
@@ -92,7 +92,7 @@ public class news extends Fragment{
                                 summaryThree.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(2).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineFour = getView().findViewById(R.id.headFour);
-                                headlineFour.setText(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("headline").getAsString());
+                                headlineFour.setText(dataParser.headlineFormatter(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("headline").getAsString()));
                                 TextView sourceFour = getView().findViewById(R.id.sourceFour);
                                 sourceFour.setText(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("source").getAsString()+
                                         " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("datetime").getAsString()));
@@ -100,7 +100,7 @@ public class news extends Fragment{
                                 summaryFour.setText(dataParser.newsFormatter(dataParser.getNewsArray(newsData).get(3).getAsJsonObject().get("summary").getAsString()));
 
                                 TextView headlineFive = getView().findViewById(R.id.headFive);
-                                headlineFive.setText(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("headline").getAsString());
+                                headlineFive.setText(dataParser.headlineFormatter(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("headline").getAsString()));
                                 TextView sourceFive = getView().findViewById(R.id.sourceFive);
                                 sourceFive.setText(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("source").getAsString() +
                                 " | " + dataParser.newsDateFormatter(dataParser.getNewsArray(newsData).get(4).getAsJsonObject().get("datetime").getAsString()));

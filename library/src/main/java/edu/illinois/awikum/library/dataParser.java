@@ -109,5 +109,14 @@ public class dataParser {
         return news.substring(0,colonIndex - 3);
     }
 
+    public static String headlineFormatter(final String news) {
+        int andIndex = news.indexOf("&#");
+        if (andIndex > 0) {
+            return news.substring(0, andIndex) + " " + news.substring(andIndex + 6);
+        } else {
+            return news;
+        }
+    }
+
 
 }
