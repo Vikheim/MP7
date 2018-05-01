@@ -5,6 +5,3505 @@
 
     <string-array name="companies_array">
         <item>AGILENT TECHNOLOGIES INC (A)</item>
+        <item>ALCOA CORP (AA)</item>
+        <item>ALTABA INC (AABA)</item>
+        <item>AAC HOLDINGS INC (AAC)</item>
+        <item>ADVISORSHARES DORSEY WRIGHT (AADR)</item>
+        <item>AMERICAN AIRLINES GROUP INC (AAL)</item>
+        <item>ALTISOURCE ASSET MANAGEMENT (AAMC)</item>
+        <item>ATLANTIC AMERICAN CORP (AAME)</item>
+        <item>AARON'S INC (AAN)</item>
+        <item>APPLIED OPTOELECTRONICS INC (AAOI)</item>
+        <item>AAON INC (AAON)</item>
+        <item>ADVANCE AUTO PARTS INC (AAP)</item>
+        <item>APPLE INC (AAPL)</item>
+        <item>AMERICAN ASSETS TRUST INC (AAT)</item>
+        <item>ALMADEN MINERALS LTD - B (AAU)</item>
+        <item>ADVANTAGE OIL &amp; GAS LTD (AAV)</item>
+        <item>ATLAS AIR WORLDWIDE HOLDINGS (AAWW)</item>
+        <item>ISHARES MSCI ALL COUNTRY ASI (AAXJ)</item>
+        <item>AXON ENTERPRISE INC (AAXN)</item>
+        <item>ALLIANCEBERNSTEIN HOLDING LP (AB)</item>
+        <item>RENMIN TIANLI GROUP INC (ABAC)</item>
+        <item>ABAXIS INC (ABAX)</item>
+        <item>ABB LTD-SPON ADR (ABB)</item>
+        <item>ABBVIE INC (ABBV)</item>
+        <item>AMERISOURCEBERGEN CORP (ABC)</item>
+        <item>AMERIS BANCORP (ABCB)</item>
+        <item>CAMBIUM LEARNING GROUP INC (ABCD)</item>
+        <item>ALCENTRA CAPITAL CORP (ABDC)</item>
+        <item>ABERDEEN EMERGING MARKETS SM (ABE)</item>
+        <item>ABEONA THERAPEUTICS INC (ABEO)</item>
+        <item>AMBEV SA-ADR (ABEV)</item>
+        <item>ASBURY AUTOMOTIVE GROUP (ABG)</item>
+        <item>ABILITY INC (ABIL)</item>
+        <item>ARCA BIOPHARMA INC (ABIO)</item>
+        <item>ABLYNX NV - SPONSORED ADR (ABLX)</item>
+        <item>ABM INDUSTRIES INC (ABM)</item>
+        <item>ABIOMED INC (ABMD)</item>
+        <item>ARBOR REALTY TRUST INC (ABR)</item>
+        <item>ABBOTT LABORATORIES (ABT)</item>
+        <item>ALLEGIANCE BANCSHARES INC (ABTX)</item>
+        <item>ARBUTUS BIOPHARMA CORP (ABUS)</item>
+        <item>BARRICK GOLD CORP (ABX)</item>
+        <item>ASSOCIATED CAPITAL GROUP - A (AC)</item>
+        <item>ACADIA PHARMACEUTICALS INC (ACAD)</item>
+        <item>ATLANTIC CAPITAL BANCSHARES (ACBI)</item>
+        <item>AMERICAN CAMPUS COMMUNITIES (ACC)</item>
+        <item>ACCO BRANDS CORP (ACCO)</item>
+        <item>ACER THERAPEUTICS INC (ACER)</item>
+        <item>ACETO CORP (ACET)</item>
+        <item>ATLANTIC COAST FINANCIAL COR (ACFC)</item>
+        <item>ARCH CAPITAL GROUP LTD (ACGL)</item>
+        <item>ALUMINUM CORP OF CHINA-ADR (ACH)</item>
+        <item>ACADIA HEALTHCARE CO INC (ACHC)</item>
+        <item>ACHILLION PHARMACEUTICALS (ACHN)</item>
+        <item>ACHIEVE LIFE SCIENCES INC (ACHV)</item>
+        <item>ACACIA COMMUNICATIONS INC (ACIA)</item>
+        <item>SPDR MSCI ACWI IMI ETF (ACIM)</item>
+        <item>AC IMMUNE SA (ACIU)</item>
+        <item>ACI WORLDWIDE INC (ACIW)</item>
+        <item>AXCELIS TECHNOLOGIES INC (ACLS)</item>
+        <item>AECOM (ACM)</item>
+        <item>ACM RESEARCH INC-CLASS A (ACMR)</item>
+        <item>ACCENTURE PLC-CL A (ACN)</item>
+        <item>ACNB CORP (ACNB)</item>
+        <item>ACORDA THERAPEUTICS INC (ACOR)</item>
+        <item>ABERDEEN INCOME CREDIT STRAT (ACP)</item>
+        <item>ARES COMMERCIAL REAL ESTATE (ACRE)</item>
+        <item>ACLARIS THERAPEUTICS INC (ACRS)</item>
+        <item>ACELRX PHARMACEUTICALS INC (ACRX)</item>
+        <item>AMERICAN CAPITAL SENIOR FLOA (ACSF)</item>
+        <item>AMERICAN CUST SAT CORE ALPHA (ACSI)</item>
+        <item>ACASTI PHARMA INC (ACST)</item>
+        <item>ADVISORSHARES VICE ETF (ACT)</item>
+        <item>ACACIA RESEARCH CORP (ACTG)</item>
+        <item>ACME UNITED CORP (ACU)</item>
+        <item>ALLIANZGI DIVERSIFIED INCOME (ACV)</item>
+        <item>ISHARES EDGE MSCI MULTIFACTO (ACWF)</item>
+        <item>ISHARES MSCI ACWI ETF (ACWI)</item>
+        <item>ISHARES EDGE MSCI MIN VOL GL (ACWV)</item>
+        <item>ISHARES MSCI ACWI EX US ETF (ACWX)</item>
+        <item>ACXIOM CORP (ACXM)</item>
+        <item>AEROCENTURY CORP (ACY)</item>
+        <item>ADAPTIMMUNE THERAPEUTICS-ADR (ADAP)</item>
+        <item>ADOBE SYSTEMS INC (ADBE)</item>
+        <item>AGREE REALTY CORP (ADC)</item>
+        <item>ADVANCED EMISSIONS SOLUTIONS (ADES)</item>
+        <item>ANALOG DEVICES INC (ADI)</item>
+        <item>ARCHER-DANIELS-MIDLAND CO (ADM)</item>
+        <item>ADMA BIOLOGICS INC (ADMA)</item>
+        <item>ADAMIS PHARMACEUTICALS CORP (ADMP)</item>
+        <item>ADAMAS PHARMACEUTICALS INC (ADMS)</item>
+        <item>ADIENT PLC (ADNT)</item>
+        <item>ADOMANI INC (ADOM)</item>
+        <item>AUTOMATIC DATA PROCESSING (ADP)</item>
+        <item>BLDRS ASIA 50 ADR INDEX FUND (ADRA)</item>
+        <item>BLDRS DEV MKTS 100 ADR INDEX (ADRD)</item>
+        <item>BLDRS EMER MKTS 50 ADR INDEX (ADRE)</item>
+        <item>ADURO BIOTECH INC (ADRO)</item>
+        <item>BLDRS EUROPE 100 ADR INDEX (ADRU)</item>
+        <item>ALLIANCE DATA SYSTEMS CORP (ADS)</item>
+        <item>AUTODESK INC (ADSK)</item>
+        <item>ADVANCED DISPOSAL SERVICES I (ADSW)</item>
+        <item>ADT INC (ADT)</item>
+        <item>ADTRAN INC (ADTN)</item>
+        <item>ADDUS HOMECARE CORP (ADUS)</item>
+        <item>ADVERUM BIOTECHNOLOGIES INC (ADVM)</item>
+        <item>ADAMS DIVERSIFIED EQUITY (ADX)</item>
+        <item>ADVAXIS INC (ADXS)</item>
+        <item>DB AGRICULTURE SHORT ETN (ADZ)</item>
+        <!--<item>ADAMS RESOURCES &amp; ENERGY INC (AE)</item>-->
+        <item>AMEREN CORPORATION (AEE)</item>
+        <item>AEGON N.V.-NY REG SHR (AEG)</item>
+        <item>AEGION CORP (AEGN)</item>
+        <item>AEHR TEST SYSTEMS (AEHR)</item>
+        <item>ADVANCED ENERGY INDUSTRIES (AEIS)</item>
+        <item>AMERICAN EQUITY INVT LIFE HL (AEL)</item>
+        <item>AGNICO EAGLE MINES LTD (AEM)</item>
+        <item>AETHLON MEDICAL INC (AEMD)</item>
+        <item>AMERICAN EAGLE OUTFITTERS (AEO)</item>
+        <item>AMERICAN ELECTRIC POWER (AEP)</item>
+        <item>AERCAP HOLDINGS NV (AER)</item>
+        <item>AERIE PHARMACEUTICALS INC (AERI)</item>
+        <item>AES CORP (AES)</item>
+        <item>AETNA INC (AET)</item>
+        <item>AMERICAN ELECTRIC TECHNOLOGI (AETI)</item>
+        <item>ADDVANTAGE TECHNOLOGIES GRP (AEY)</item>
+        <item>AETERNA ZENTARIS INC (AEZS)</item>
+        <item>ALLIANCE NATIONAL MUNI INC (AFB)</item>
+        <item>AMERICAN FINANCIAL GROUP INC (AFG)</item>
+        <item>ATLAS FINANCIAL HOLDINGS INC (AFH)</item>
+        <item>ARMSTRONG FLOORING INC (AFI)</item>
+        <item>VANECK VECTORS AFRICA INDEX (AFK)</item>
+        <item>AFLAC INC (AFL)</item>
+        <item>AFFIMED NV (AFMD)</item>
+        <item>AMTRUST FINANCIAL SERVICES (AFSI)</item>
+        <item>APOLLO SENIOR FLOATING RATE (AFT)</item>
+        <item>CSOP FTSE CHINA A50 ETF (AFTY)</item>
+        <item>FIRST MAJESTIC SILVER CORP (AG)</item>
+        <item>ADVENT CLAYMORE CONVERTIBLE (AGC)</item>
+        <item>AGCO CORP (AGCO)</item>
+        <item>ALPINE GLOBAL DYNAMIC DIVIDE (AGD)</item>
+        <item>AGENUS INC (AGEN)</item>
+        <item>DB AGRICULTURE LONG ETN (AGF)</item>
+        <item>AGROFRESH SOLUTIONS INC (AGFS)</item>
+        <item>ISHARES CORE U.S. AGGREGATE (AGG)</item>
+        <item>IQ ENHANCED CORE BOND US ETF (AGGE)</item>
+        <item>IQ ENHANCED CORE PLUS BOND U (AGGP)</item>
+        <item>WISDOMTREE BARCLAYS YIELD EN (AGGY)</item>
+        <item>ALAMOS GOLD INC-CLASS A (AGI)</item>
+        <item>ARGO GROUP INTERNATIONAL (AGII)</item>
+        <item>AGIOS PHARMACEUTICALS INC (AGIO)</item>
+        <item>AEGLEA BIOTHERAPEUTICS INC (AGLE)</item>
+        <item>FEDERAL AGRIC MTG CORP-CL C (AGM)</item>
+        <item>FEDERAL AGRIC MTG CORP-CL A (AGM.A)</item>
+        <item>AGM GROUP HOLDINGS INC (AGMH)</item>
+        <item>ALLERGAN PLC (AGN)</item>
+        <item>AGNC INVESTMENT CORP (AGNC)</item>
+        <item>WISDOMTREE BARCLAYS NEGATIVE (AGND)</item>
+        <item>ASSURED GUARANTY LTD (AGO)</item>
+        <item>PROSHARES ULTRA SILVER (AGQ)</item>
+        <item>AVANGRID INC (AGR)</item>
+        <item>ADECOAGRO SA (AGRO)</item>
+        <item>AGILE THERAPEUTICS INC (AGRX)</item>
+        <item>PLAYAGS INC (AGS)</item>
+        <item>ISHARES ARGENTINA (AGT)</item>
+        <item>APPLIED GENETIC TECHNOLOGIES (AGTC)</item>
+        <item>ARGAN INC (AGX)</item>
+        <item>AGILYSYS INC (AGYS)</item>
+        <item>ISHARES AGENCY BOND ETF (AGZ)</item>
+        <item>WISDOMTREE BARCLAYS INTEREST (AGZD)</item>
+        <item>A H BELO CORP-A (AHC)</item>
+        <item>ALLIANCE HOLDINGS GP LP (AHGP)</item>
+        <item>ARMADA HOFFLER PROPERTIES IN (AHH)</item>
+        <item>ASPEN INSURANCE HOLDINGS LTD (AHL)</item>
+        <item>AVISTA HEALTHCARE PUBLIC-A (AHPA)</item>
+        <item>AVISTA HEALTHCARE PUBLIC ACQ (AHPAU)</item>
+        <item>ALLIED HEALTHCARE PRODUCTS (AHPI)</item>
+        <item>ASHFORD HOSPITALITY TRUST (AHT)</item>
+        <item>ARLINGTON ASSET INVESTMENT-A (AI)</item>
+        <item>ISHARES ASIA 50 ETF (AIA)</item>
+        <item>AI POWERED EQUITY ETF (AIEQ)</item>
+        <item>APOLLO TACTICAL INCOME FUND (AIF)</item>
+        <item>AMERICAN INTERNATIONAL GROUP (AIG)</item>
+        <item>SENMIAO TECHNOLOGY LTD (AIHS)</item>
+        <item>ALTRA INDUSTRIAL MOTION CORP (AIMC)</item>
+        <item>AIMMUNE THERAPEUTICS INC (AIMT)</item>
+        <item>ALBANY INTL CORP-CL A (AIN)</item>
+        <item>ASHFORD INC (AINC)</item>
+        <item>APOLLO INVESTMENT CORP (AINV)</item>
+        <item>PRECISION THERAPEUTICS INC (AIPT)</item>
+        <item>AAR CORP (AIR)</item>
+        <item>AIRGAIN INC (AIRG)</item>
+        <item>AIR INDUSTRIES GROUP (AIRI)</item>
+        <item>FIRST TRUST RBA AMERICAN IND (AIRR)</item>
+        <item>AIR T INC (AIRT)</item>
+        <item>APPLIED INDUSTRIAL TECH INC (AIT)</item>
+        <item>APARTMENT INVT &amp; MGMT CO -A (AIV)</item>
+        <item>ASSURANT INC (AIZ)</item>
+        <item>ARTHUR J GALLAGHER &amp; CO (AJG)</item>
+        <item>AEROJET ROCKETDYNE HOLDINGS (AJRD)</item>
+        <item>GREAT AJAX CORP (AJX)</item>
+        <item>AKAMAI TECHNOLOGIES INC (AKAM)</item>
+        <item>ACHAOGEN INC (AKAO)</item>
+        <item>AKEBIA THERAPEUTICS INC (AKBA)</item>
+        <item>AKCEA THERAPEUTICS INC (AKCA)</item>
+        <item>AKERS BIOSCIENCES INC (AKER)</item>
+        <item>ASANKO GOLD INC (AKG)</item>
+        <item>EMBOTELLADORA ANDINA-ADR A (AKO.A)</item>
+        <item>EMBOTELLADORA ANDINA-ADR B (AKO.B)</item>
+        <item>ALLIANCE CALIF MUNI INCOME (AKP)</item>
+        <item>ACADIA REALTY TRUST (AKR)</item>
+        <item>AKORN INC (AKRX)</item>
+        <item>AK STEEL HOLDING CORP (AKS)</item>
+        <item>AKOUSTIS TECHNOLOGIES INC (AKTS)</item>
+        <item>AKARI THERAPEUTICS PLC-ADR (AKTX)</item>
+        <item>AIR LEASE CORP (AL)</item>
+        <item>ALBEMARLE CORP (ALB)</item>
+        <item>ALBIREO PHARMA INC (ALBO)</item>
+        <item>ALICO INC (ALCO)</item>
+        <item>WISDOMTREE ASIA LOCAL DEBT (ALD)</item>
+        <item>ALDER BIOPHARMACEUTICALS INC (ALDR)</item>
+        <item>ALDEYRA THERAPEUTICS INC (ALDX)</item>
+        <item>ALLETE INC (ALE)</item>
+        <item>ALEXANDER &amp; BALDWIN INC (ALEX)</item>
+        <item>ALPHACLONE ALTERNATIVE ALPHA (ALFA)</item>
+        <item>ALPHACLONE INTERNATIONAL ETF (ALFI)</item>
+        <item>ALAMO GROUP INC (ALG)</item>
+        <item>ALIGN TECHNOLOGY INC (ALGN)</item>
+        <item>ALLEGIANT TRAVEL CO (ALGT)</item>
+        <item>ALIMERA SCIENCES INC (ALIM)</item>
+        <item>ALJ REGIONAL HOLDINGS INC (ALJJ)</item>
+        <item>ALASKA AIR GROUP INC (ALK)</item>
+        <item>ALKERMES PLC (ALKS)</item>
+        <item>ALLSTATE CORP (ALL)</item>
+        <item>ALLEGION PLC (ALLE)</item>
+        <item>ALLOT COMMUNICATIONS LTD (ALLT)</item>
+        <item>ALLY FINANCIAL INC (ALLY)</item>
+        <item>AMERICAN LORAIN CORP (ALN)</item>
+        <item>ALLENA PHARMACEUTICALS INC (ALNA)</item>
+        <item>ALNYLAM PHARMACEUTICALS INC (ALNY)</item>
+        <item>ALIO GOLD INC (ALO)</item>
+        <item>ANALOGIC CORP (ALOG)</item>
+        <item>ASTRONOVA INC (ALOT)</item>
+        <item>ALPINE IMMUNE SCIENCES INC (ALPN)</item>
+        <item>ALLIQUA BIOMEDICAL INC (ALQA)</item>
+        <item>ALARM.COM HOLDINGS INC (ALRM)</item>
+        <item>AILERON THERAPEUTICS INC (ALRN)</item>
+        <item>ALASKA COMM SYSTEMS GROUP (ALSK)</item>
+        <item>ALLISON TRANSMISSION HOLDING (ALSN)</item>
+        <item>ALTIMMUNE INC (ALT)</item>
+        <item>ALTAIR ENGINEERING INC - A (ALTR)</item>
+        <item>PRSHR MRNGSTR ALT SOL ETF (ALTS)</item>
+        <item>GLOBAL X SUPERDIVIDEND ALTER (ALTY)</item>
+        <item>AUTOLIV INC (ALV)</item>
+        <item>ALEXANDER'S INC (ALX)</item>
+        <item>ALEXION PHARMACEUTICALS INC (ALXN)</item>
+        <item>ALZHEON INC (ALZH)</item>
+        <item>ANTERO MIDSTREAM PARTNERS LP (AM)</item>
+        <item>AMAG PHARMACEUTICALS INC (AMAG)</item>
+        <item>APPLIED MATERIALS INC (AMAT)</item>
+        <item>AMBARELLA INC (AMBA)</item>
+        <item>AMBAC FINANCIAL GROUP INC (AMBC)</item>
+        <item>AMBER ROAD INC (AMBR)</item>
+        <item>AMC ENTERTAINMENT HLDS-CL A (AMC)</item>
+        <item>ISHARES RUSSELL 1000 US REV (AMCA)</item>
+        <item>AIRMEDIA GROUP INC-ADR (AMCN)</item>
+        <item>AMC NETWORKS INC-A (AMCX)</item>
+        <item>ADVANCED MICRO DEVICES (AMD)</item>
+        <item>AMEDICA CORP (AMDA)</item>
+        <item>AMETEK INC (AME)</item>
+        <item>AMEDISYS INC (AMED)</item>
+        <item>APOLLO MEDICAL HOLDINGS INC (AMEH)</item>
+        <item>AFFILIATED MANAGERS GROUP (AMG)</item>
+        <item>AMGEN INC (AMGN)</item>
+        <item>ANTERO MIDSTREAM GP LP (AMGP)</item>
+        <item>AMERICAN HOMES 4 RENT- A (AMH)</item>
+        <item>AMERICAN MIDSTREAM PARTNERS (AMID)</item>
+        <item>JPMORGAN ALERIAN MLP INDEX (AMJ)</item>
+        <item>X-LINKS 2XLEVRG ALERIAN MLP (AMJL)</item>
+        <item>AMKOR TECHNOLOGY INC (AMKR)</item>
+        <item>ALERIAN MLP ETF (AMLP)</item>
+        <item>ALLIANCE MMA INC (AMMA)</item>
+        <item>AMN HEALTHCARE SERVICES INC (AMN)</item>
+        <item>AMER NATL BNKSHS/DANVILLE VA (AMNB)</item>
+        <item>ALLIED MOTION TECHNOLOGIES (AMOT)</item>
+        <item>AMERICA MOVIL-ADR SERIES A (AMOV)</item>
+        <item>AMERIPRISE FINANCIAL INC (AMP)</item>
+        <item>AMPIO PHARMACEUTICALS INC (AMPE)</item>
+        <item>AMPHASTAR PHARMACEUTICALS IN (AMPH)</item>
+        <item>ALTA MESA RESOURCES INC (AMR)</item>
+        <item>AMERICAN RIVER BANKSHRS (CA) (AMRB)</item>
+        <item>AMERESCO INC-CL A (AMRC)</item>
+        <item>AMERI HOLDINGS INC (AMRH)</item>
+        <item>A-MARK PRECIOUS METALS INC (AMRK)</item>
+        <item>AMARIN CORP PLC -ADR (AMRN)</item>
+        <item>AMYRIS INC (AMRS)</item>
+        <item>AMERICAN SHARED HOSPITAL SER (AMS)</item>
+        <item>AMERICAN SUPERCONDUCTOR CORP (AMSC)</item>
+        <item>AMERISAFE INC (AMSF)</item>
+        <item>AMERICAN SOFTWARE INC-CL A (AMSWA)</item>
+        <item>AMERICAN TOWER CORP (AMT)</item>
+        <item>TD AMERITRADE HOLDING CORP (AMTD)</item>
+        <item>AEMETIS INC (AMTX)</item>
+        <item>ETRACS ALERIAN MLP ETN (AMU)</item>
+        <item>ETRACS ALERIAN MLP IND SER B (AMUB)</item>
+        <item>AMERICAN WOODMARK CORP (AMWD)</item>
+        <item>AMERICA MOVIL-SPN ADR CL L (AMX)</item>
+        <item>INFRACAP MLP ETF (AMZA)</item>
+        <item>AMAZON.COM INC (AMZN)</item>
+        <item>AUTONATION INC (AN)</item>
+        <item>ANAPTYSBIO INC (ANAB)</item>
+        <item>AMERICAN NATIONAL INSURANCE (ANAT)</item>
+        <item>ANCHOR BANCORP (ANCB)</item>
+        <item>ACCESS NATIONAL CORP (ANCX)</item>
+        <item>ANDERSONS INC/THE (ANDE)</item>
+        <item>ANDEAVOR (ANDV)</item>
+        <item>ANDEAVOR LOGISTICS LP (ANDX)</item>
+        <item>ARISTA NETWORKS INC (ANET)</item>
+        <item>ABERCROMBIE &amp; FITCH CO-CL A (ANF)</item>
+        <item>AMIRA NATURE FOODS LTD (ANFI)</item>
+        <item>ANGI HOMESERVICES INC- A (ANGI)</item>
+        <item>VANECK VECTORS FALLEN ANGEL (ANGL)</item>
+        <item>ANGIODYNAMICS INC (ANGO)</item>
+        <item>ANWORTH MORTGAGE ASSET CORP (ANH)</item>
+        <item>ANIKA THERAPEUTICS INC (ANIK)</item>
+        <item>ANI PHARMACEUTICALS INC (ANIP)</item>
+        <item>ANSYS INC (ANSS)</item>
+        <item>ANTHERA PHARMACEUTICALS INC (ANTH)</item>
+        <item>ANTHEM INC (ANTM)</item>
+        <item>AEGEAN MARINE PETROLEUM NETW (ANW)</item>
+        <item>SPHERE 3D CORP (ANY)</item>
+        <item>ISHARES CORE AGGRESSIVE ALLO (AOA)</item>
+        <item>AMERICAN OUTDOOR BRANDS CORP (AOBC)</item>
+        <item>ALPINE TOTAL DYNAMIC DIVIDEN (AOD)</item>
+        <item>ALLIANCE ONE INTERNATIONAL (AOI)</item>
+        <item>ISHARES CORE CONSERVATIVE AL (AOK)</item>
+        <item>ISHARES CORE MODERATE ALLOCA (AOM)</item>
+        <item>AON PLC (AON)</item>
+        <item>ISHARES CORE GROWTH ALLOCATI (AOR)</item>
+        <item>SMITH (A.O.) CORP (AOS)</item>
+        <item>ALPHA &amp; OMEGA SEMICONDUCTOR (AOSL)</item>
+        <item>AMPCO-PITTSBURGH CORP (AP)</item>
+        <item>APACHE CORP (APA)</item>
+        <item>ARTISAN PARTNERS ASSET MA -A (APAM)</item>
+        <item>ASIA PACIFIC FUND INC (APB)</item>
+        <item>ANADARKO PETROLEUM CORP (APC)</item>
+        <item>AIR PRODUCTS &amp; CHEMICALS INC (APD)</item>
+        <item>APPLIED DNA SCIENCES INC (APDN)</item>
+        <item>AMERICAN PUBLIC EDUCATION (APEI)</item>
+        <item>APOLLO ENDOSURGERY INC (APEN)</item>
+        <item>MORGAN STANLEY ASIA PACIFIC (APF)</item>
+        <item>AMPHENOL CORP-CL A (APH)</item>
+        <item>AMPLIPHI BIOSCIENCES CORP (APHB)</item>
+        <item>APPLE HOSPITALITY REIT INC (APLE)</item>
+        <item>ARCHROCK PARTNERS LP (APLP)</item>
+        <item>APELLIS PHARMACEUTICALS INC (APLS)</item>
+        <item>APOLLO GLOBAL MANAGEMENT - A (APO)</item>
+        <item>APOGEE ENTERPRISES INC (APOG)</item>
+        <item>CELLECT BIOTECHNOLOGY LT-ADR (APOP)</item>
+        <item>APPFOLIO INC - A (APPF)</item>
+        <item>APPIAN CORP (APPN)</item>
+        <item>DIGITAL TURBINE INC (APPS)</item>
+        <item>APRICUS BIOSCIENCES INC (APRI)</item>
+        <item>BLUE APRON HOLDINGS INC-A (APRN)</item>
+        <item>ALPHA PRO TECH LTD (APT)</item>
+        <item>APPTIO INC - CLASS A (APTI)</item>
+        <item>APTOSE BIOSCIENCES INC (APTO)</item>
+        <item>PREFERRED APARTMENT COMMUN-A (APTS)</item>
+        <item>APTIV PLC (APTV)</item>
+        <item>AMERIGAS PARTNERS-LP (APU)</item>
+        <item>APTEVO THERAPEUTICS INC (APVO)</item>
+        <item>ASIA PACIFIC WIRE &amp; CABLE (APWC)</item>
+        <item>AQUANTIA CORP (AQ)</item>
+        <item>AQUABOUNTY TECHNOLOGIES (AQB)</item>
+        <item>AQUA METALS INC (AQMS)</item>
+        <item>ALGONQUIN POWER &amp; UTILITIES (AQN)</item>
+        <item>EVOQUA WATER TECHNOLOGIES CO (AQUA)</item>
+        <item>AQUINOX PHARMACEUTICALS INC (AQXP)</item>
+        <item>ANTERO RESOURCES CORP (AR)</item>
+        <item>AMERICAN RENAL ASSOCIATES HO (ARA)</item>
+        <item>ACCURAY INC (ARAY)</item>
+        <item>ARC DOCUMENT SOLUTIONS INC (ARC)</item>
+        <item>ARCBEST CORP (ARCB)</item>
+        <item>ARES CAPITAL CORP (ARCC)</item>
+        <item>ARCH COAL INC - A (ARCH)</item>
+        <item>APPLIANCE RECYCLING CTRS AMR (ARCI)</item>
+        <item>ARROW RESERVE CAP MANAG ETF (ARCM)</item>
+        <item>ARCOS DORADOS HOLDINGS INC-A (ARCO)</item>
+        <item>ARCTURUS THERAPEUTICS LTD (ARCT)</item>
+        <item>ARC GROUP WORLDWIDE INC (ARCW)</item>
+        <item>ARDAGH GROUP SA (ARD)</item>
+        <item>ARES DYNAMIC CREDIT ALLOCATI (ARDC)</item>
+        <item>ARADIGM CORP (ARDM)</item>
+        <item>ARDELYX INC (ARDX)</item>
+        <item>ALEXANDRIA REAL ESTATE EQUIT (ARE)</item>
+        <item>ARES MANAGEMENT LP (ARES)</item>
+        <item>APPROACH RESOURCES INC (AREX)</item>
+        <item>ARGOS THERAPEUTICS INC (ARGS)</item>
+        <item>GLOBAL X MSCI ARGENTINA ETF (ARGT)</item>
+        <item>ARGENX SE - ADR (ARGX)</item>
+        <item>APOLLO COMMERCIAL REAL ESTAT (ARI)</item>
+        <item>AMERICAN RAILCAR INDUSTRIES (ARII)</item>
+        <item>ARK GENOMIC REVL MULT-SECTOR (ARKG)</item>
+        <item>ARK INNOVATION ETF (ARKK)</item>
+        <item>ARK INDUSTRIAL INNOVATION (ARKQ)</item>
+        <item>ARK RESTAURANTS CORP (ARKR)</item>
+        <item>ARK WEB X.O ETF (ARKW)</item>
+        <item>AMERICAN REALTY INVESTORS IN (ARL)</item>
+        <item>ALLIANCE RESOURCE PARTNERS (ARLP)</item>
+        <item>ARALEZ PHARMACEUTICALS INC (ARLZ)</item>
+        <item>ARAMARK (ARMK)</item>
+        <item>ARMO BIOSCIENCES INC (ARMO)</item>
+        <item>ARENA PHARMACEUTICALS INC (ARNA)</item>
+        <item>ARCONIC INC (ARNC)</item>
+        <item>ARCHROCK INC (AROC)</item>
+        <item>ARROW FINANCIAL CORP (AROW)</item>
+        <item>ARQULE INC (ARQL)</item>
+        <item>ARMOUR RESIDENTIAL REIT INC (ARR)</item>
+        <item>ARRIS INTERNATIONAL PLC (ARRS)</item>
+        <item>ARRAY BIOPHARMA INC (ARRY)</item>
+        <item>ARTESIAN RESOURCES CORP-CL A (ARTNA)</item>
+        <item>ART'S-WAY MANUFACTURING CO (ARTW)</item>
+        <item>AROTECH CORP (ARTX)</item>
+        <item>ARROW ELECTRONICS INC (ARW)</item>
+        <item>ARROWHEAD PHARMACEUTICALS IN (ARWR)</item>
+        <item>ASA GOLD AND PRECIOUS METALS (ASA)</item>
+        <item>ASSOCIATED BANC-CORP (ASB)</item>
+        <item>ARDMORE SHIPPING CORP (ASC)</item>
+        <item>ASCENT CAPITAL GROUP INC-A (ASCMA)</item>
+        <item>GLOBAL X FTSE SOUTHEAST ASIA (ASEA)</item>
+        <item>FLEXSHARES REAL ASSETS FUND (ASET)</item>
+        <item>ASTA FUNDING INC (ASFI)</item>
+        <item>LIBERTY ALL-STAR GROWTH FD (ASG)</item>
+        <item>ASGN INC (ASGN)</item>
+        <item>ASHLAND GLOBAL HOLDINGS INC (ASH)</item>
+        <item>XTRACKERS HARVEST CSI 300 CH (ASHR)</item>
+        <item>XTRACKERS HARVEST CSI 500 CH (ASHS)</item>
+        <item>XTRACKERS CSI 300 CHINA A-SH (ASHX)</item>
+        <item>ADVANSIX INC (ASIX)</item>
+        <item>AVINO SILVER &amp; GOLD MINES (ASM)</item>
+        <item>ASSEMBLY BIOSCIENCES INC (ASMB)</item>
+        <item>ASML HOLDING NV-NY REG SHS (ASML)</item>
+        <item>ASCENA RETAIL GROUP INC (ASNA)</item>
+        <item>ASCENDIS PHARMA A/S - ADR (ASND)</item>
+        <item>ARSANIS INC (ASNS)</item>
+        <item>ASPEN AEROGELS INC (ASPN)</item>
+        <item>ALTISOURCE PORTFOLIO SOL (ASPS)</item>
+        <item>ASPEN GROUP INC (ASPU)</item>
+        <item>GRUPO AEROPORTUARIO SUR-ADR (ASR)</item>
+        <item>AMERISERV FINANCIAL INC (ASRV)</item>
+        <item>ASTERIAS BIOTHERAPEUTICS (AST)</item>
+        <item>ASTROTECH CORP (ASTC)</item>
+        <item>ASTEC INDUSTRIES INC (ASTE)</item>
+        <item>ASURE SOFTWARE INC (ASUR)</item>
+        <item>ASV HOLDINGS INC (ASV)</item>
+        <item>ASE INDUSTRIAL HLDG-ADR-W/I (ASX#)</item>
+        <item>AMTECH SYSTEMS INC (ASYS)</item>
+        <item>ATLANTIC POWER CORP (AT)</item>
+        <item>ATLANTIC ACQUISITION CORP (ATAC)</item>
+        <item>ATLANTIC ACQUISITION COR-RTS (ATACR)</item>
+        <item>ATLANTIC ACQUISITION COR - U (ATACU)</item>
+        <item>ATA INC-ADR (ATAI)</item>
+        <item>AMERICA FIRST MULTIFAMILY IN (ATAX)</item>
+        <item>ALPHATEC HOLDINGS INC (ATEC)</item>
+        <item>A10 NETWORKS INC (ATEN)</item>
+        <item>ADTALEM GLOBAL EDUCATION INC (ATGE)</item>
+        <item>ATHENE HOLDING LTD-CLASS A (ATH)</item>
+        <item>AUTOHOME INC-ADR (ATHM)</item>
+        <item>ATHENAHEALTH INC (ATHN)</item>
+        <item>ATHERSYS INC (ATHX)</item>
+        <item>ALLEGHENY TECHNOLOGIES INC (ATI)</item>
+        <item>ATKORE INTERNATIONAL GROUP I (ATKR)</item>
+        <item>ATLANTICUS HOLDINGS CORP (ATLC)</item>
+        <item>AMES NATIONAL CORP (ATLO)</item>
+        <item>BARCLAYS ETN SELECT MLP ETN (ATMP)</item>
+        <item>ATN INTERNATIONAL INC (ATNI)</item>
+        <item>ACTINIUM PHARMACEUTICALS INC (ATNM)</item>
+        <item>ATHENEX INC (ATNX)</item>
+        <item>ATMOS ENERGY CORP (ATO)</item>
+        <item>ATOMERA INC (ATOM)</item>
+        <item>ATOSSA GENETICS INC (ATOS)</item>
+        <item>APTARGROUP INC (ATR)</item>
+        <item>ATARA BIOTHERAPEUTICS INC (ATRA)</item>
+        <item>ATRICURE INC (ATRC)</item>
+        <item>ATRION CORPORATION (ATRI)</item>
+        <item>ASTRONICS CORP (ATRO)</item>
+        <item>ANTARES PHARMA INC (ATRS)</item>
+        <item>AIR TRANSPORT SERVICES GROUP (ATSG)</item>
+        <item>ATENTO SA (ATTO)</item>
+        <item>ATTUNITY LTD (ATTU)</item>
+        <item>ACTUANT CORP-A (ATU)</item>
+        <item>ALTICE USA INC- A (ATUS)</item>
+        <item>ACORN INTERNATIONAL INC-ADR (ATV)</item>
+        <item>ACTIVISION BLIZZARD INC (ATVI)</item>
+        <item>AVENUE THERAPEUTICS INC (ATXI)</item>
+        <item>ANGLOGOLD ASHANTI-SPON ADR (AU)</item>
+        <item>AUBURN NATL BANCORPORATION (AUBN)</item>
+        <item>AUDIOCODES LTD (AUDC)</item>
+        <item>AURYN RESOURCES INC (AUG)</item>
+        <item>GOLDEN MINERALS CO (AUMN)</item>
+        <item>AU OPTRONICS CORP-SPON ADR (AUO)</item>
+        <item>AURINIA PHARMACEUTICALS INC (AUPH)</item>
+        <item>WISDOMTREE AUSTRALIA DIVIDEN (AUSE)</item>
+        <item>AUTOWEB INC (AUTO)</item>
+        <item>YAMANA GOLD INC (AUY)</item>
+        <item>AVISTA CORP (AVA)</item>
+        <item>GRUPO AVAL ACCIONES Y VALORE (AVAL)</item>
+        <item>AEROVIRONMENT INC (AVAV)</item>
+        <item>AVALONBAY COMMUNITIES INC (AVB)</item>
+        <item>AMERICAN VANGUARD CORP (AVD)</item>
+        <item>AVADEL PHARMACEUTICALS PLC (AVDL)</item>
+        <item>AVEO PHARMACEUTICALS INC (AVEO)</item>
+        <item>BROADCOM INC (AVGO)</item>
+        <item>AVINGER INC (AVGR)</item>
+        <item>AVIANCA HOLDINGS SA-SPON ADR (AVH)</item>
+        <item>AV HOMES INC (AVHI)</item>
+        <item>AVID TECHNOLOGY INC (AVID)</item>
+        <item>ADVENT CLAYMORE CVT SEC&amp; INC (AVK)</item>
+        <item>AVIAT NETWORKS INC (AVNW)</item>
+        <item>AVON PRODUCTS INC (AVP)</item>
+        <item>AVNET INC (AVT)</item>
+        <item>AVX CORP (AVX)</item>
+        <item>ANAVEX LIFE SCIENCES CORP (AVXL)</item>
+        <item>AVEXIS INC (AVXS)</item>
+        <item>AVERY DENNISON CORP (AVY)</item>
+        <item>AVAYA HOLDINGS CORP (AVYA)</item>
+        <item>ALLIANCEBERNSTEIN GL HI INC (AWF)</item>
+        <item>ARMSTRONG WORLD INDUSTRIES (AWI)</item>
+        <item>AMERICAN WATER WORKS CO INC (AWK)</item>
+        <item>ALPINE GLOBAL PREMIER PROPER (AWP)</item>
+        <item>AMERICAN STATES WATER CO (AWR)</item>
+        <item>AWARE INC/MASS (AWRE)</item>
+        <item>AVALON HOLDINGS CORP-A (AWX)</item>
+        <item>ABRAXAS PETROLEUM CORP (AXAS)</item>
+        <item>ACCELERATE DIAGNOSTICS INC (AXDX)</item>
+        <item>ANIXTER INTERNATIONAL INC (AXE)</item>
+        <item>AXOGEN INC (AXGN)</item>
+        <item>WISDOMTREE ASIA-PACIFIC EX-J (AXJL)</item>
+        <item>ISHARES EDGE MSCI MIN VOL AS (AXJV)</item>
+        <item>AMERICAN AXLE &amp; MFG HOLDINGS (AXL)</item>
+        <item>AXOVANT SCIENCES LTD (AXON)</item>
+        <item>AMERICAN EXPRESS CO (AXP)</item>
+        <item>AMREP CORP (AXR)</item>
+        <item>AXIS CAPITAL HOLDINGS LTD (AXS)</item>
+        <item>AXSOME THERAPEUTICS INC (AXSM)</item>
+        <item>AXALTA COATING SYSTEMS LTD (AXTA)</item>
+        <item>AXT INC (AXTI)</item>
+        <item>ALEXCO RESOURCE CORP (AXU)</item>
+        <item>ATLANTICA YIELD PLC (AY)</item>
+        <item>ACUITY BRANDS INC (AYI)</item>
+        <item>AIRCASTLE LTD (AYR)</item>
+        <item>AYTU BIOSCIENCE INC (AYTU)</item>
+        <item>ALTERYX INC - CLASS A (AYX)</item>
+        <item>ASTRAZENECA PLC-SPONS ADR (AZN)</item>
+        <item>AUTOZONE INC (AZO)</item>
+        <item>ASPEN TECHNOLOGY INC (AZPN)</item>
+        <item>AZURE POWER GLOBAL LTD (AZRE)</item>
+        <item>AZURRX BIOPHARMA INC (AZRX)</item>
+        <item>AZUL SA-ADR (AZUL)</item>
+        <item>AZZ INC (AZZ)</item>
+        <item>BARNES GROUP INC (B)</item>
+        <item>BOEING CO/THE (BA)</item>
+        <item>POWERSHARES TAXABLE MUNICIPA (BAB)</item>
+        <item>ALIBABA GROUP HOLDING-SP ADR (BABA)</item>
+        <item>NATUS MEDICAL INC (BABY)</item>
+        <item>BANK OF AMERICA CORP (BAC)</item>
+        <item>BLACKROCK MUNICIPAL INCOME I (BAF)</item>
+        <item>BOOZ ALLEN HAMILTON HOLDINGS (BAH)</item>
+        <item>BRASKEM SA-SPON ADR (BAK)</item>
+        <item>IPATHR SERIES B BLOOMBERG CO (BALB)</item>
+        <item>BROOKFIELD ASSET MANAGE-CL A (BAM)</item>
+        <item>BANC OF CALIFORNIA INC (BANC)</item>
+        <item>BANDWIDTH INC-CLASS A (BAND)</item>
+        <item>BANCFIRST CORP (BANF)</item>
+        <item>BANNER CORPORATION (BANR)</item>
+        <item>STONECASTLE FINANCIAL CORP (BANX)</item>
+        <item>CREDICORP LTD (BAP)</item>
+        <item>GRANITESHARES GOLD TRUST (BAR)</item>
+        <item>BASIC ENERGY SERVICES INC (BAS)</item>
+        <item>BIOANALYTICAL SYSTEMS INC (BASI)</item>
+        <item>LIBERTY MEDIA CORP-BRAVES A (BATRA)</item>
+        <item>LIBERTY MEDIA CORP-BRAVES C (BATRK)</item>
+        <item>BAXTER INTERNATIONAL INC (BAX)</item>
+        <item>BLACKBERRY LTD (BB)</item>
+        <item>BED BATH &amp; BEYOND INC (BBBY)</item>
+        <item>VIRTUS LIFESCI BIOTECH CLINI (BBC)</item>
+        <item>BANCO BRADESCO-ADR (BBD)</item>
+        <item>BANCO BRADESCO-ADR (BBDO)</item>
+        <item>BLACKROCK MUNICIPAL INCOME (BBF)</item>
+        <item>BEASLEY BROADCAST GRP INC -A (BBGI)</item>
+        <item>VANECK VECTORS BIOTECH ETF (BBH)</item>
+        <item>BLACKROCK MUNI BOND TRUST (BBK)</item>
+        <item>BHP BILLITON PLC-ADR (BBL)</item>
+        <item>BLACKROCK TAXABLE MUNICIPAL (BBN)</item>
+        <item>BLACK BOX CORP (BBOX)</item>
+        <item>VIRTUS LIFESCI BIOTECH PRODU (BBP)</item>
+        <item>COLUMBIA BEYOND BRICS ETF (BBRC)</item>
+        <item>BRAVO BRIO RESTAURANT GROUP (BBRG)</item>
+        <item>BARRETT BUSINESS SVCS INC (BBSI)</item>
+        <item>BB&amp;T CORP (BBT)</item>
+        <item>BROOKFIELD BUSINESS PT-UNIT (BBU)</item>
+        <item>BANCO BILBAO VIZCAYA-SP ADR (BBVA)</item>
+        <item>BUILD-A-BEAR WORKSHOP INC (BBW)</item>
+        <item>BBX CAPITAL CORP (BBX)</item>
+        <item>BEST BUY CO INC (BBY)</item>
+        <item>BRUNSWICK CORP (BC)</item>
+        <item>BISON CAPITAL ACQUISITION CO (BCAC)</item>
+        <item>BISON CAPITAL ACQUISITION-RT (BCACR)</item>
+        <item>BISON CAPITAL ACQUISITION CO (BCACU)</item>
+        <item>BCB BANCORP INC (BCBP)</item>
+        <item>BOISE CASCADE CO (BCC)</item>
+        <item>ETFS BBG CMDTY LG DT K-1 FRE (BCD)</item>
+        <item>BCE INC (BCE)</item>
+        <item>BONANZA CREEK ENERGY INC (BCEI)</item>
+        <item>BANCO DE CHILE-ADR (BCH)</item>
+        <item>ETFS BBG ALL CMDTY K-1 FREE (BCI)</item>
+        <item>BRAINSTORM CELL THERAPEUTICS (BCLI)</item>
+        <item>IPATH PURE BETA BROAD CMDTY (BCM)</item>
+        <item>BRINK'S CO/THE (BCO)</item>
+        <item>B COMMUNICATIONS LTD (BCOM)</item>
+        <item>BLUCORA INC (BCOR)</item>
+        <item>BRIGHTCOVE (BCOV)</item>
+        <item>BALCHEM CORP (BCPC)</item>
+        <item>BLUE CAPITAL REINSURANCE HOL (BCRH)</item>
+        <item>BIOCRYST PHARMACEUTICALS INC (BCRX)</item>
+        <item>BARCLAYS PLC-SPONS ADR (BCS)</item>
+        <item>BANCORP 34 INC (BCTF)</item>
+        <item>BANCROFT FUND LTD (BCV)</item>
+        <item>BLACKROCK RESOURCES &amp; COMMOD (BCX)</item>
+        <item>BELDEN INC (BDC)</item>
+        <item>ETRACS 2X WELLS FARGO BDCI (BDCL)</item>
+        <item>ETRACS WELLS FARGO BDCI ETN (BDCS)</item>
+        <item>ETRACS WELL FARGO BDC SER B (BDCZ)</item>
+        <item>DB BASE METALS DOUBLE LONG (BDD)</item>
+        <item>BRIDGE BANCORP INC (BDGE)</item>
+        <item>BLACKROCK ENHANCED EQUITY DI (BDJ)</item>
+        <item>FLANIGAN'S ENTERPRISES INC (BDL)</item>
+        <item>BRANDYWINE REALTY TRUST (BDN)</item>
+        <item>BLONDER TONGUE LABORATORIES (BDR)</item>
+        <item>BREAKWAVE DRY BULK SHIPPING (BDRY)</item>
+        <item>BIODELIVERY SCIENCES INTL (BDSI)</item>
+        <item>BECTON DICKINSON AND CO (BDX)</item>
+        <item>BIOTELEMETRY INC (BEAT)</item>
+        <item>BEACON ROOFING SUPPLY INC (BECN)</item>
+        <item>BRIGHT SCHOLAR EDUCATION-ADR (BEDU)</item>
+        <item>ETFS BBG ENG CMD LG DT K1 FR (BEF)</item>
+        <item>BELMOND LTD-CLASS A (BEL)</item>
+        <item>BEL FUSE INC-CL A (BELFA)</item>
+        <item>BEL FUSE INC-CL B (BELFB)</item>
+        <item>APTUS BEHAVIORAL MOMENTUM ET (BEMO)</item>
+        <item>FRANKLIN RESOURCES INC (BEN)</item>
+        <item>BROOKFIELD RENEWABLE PARTNER (BEP)</item>
+        <item>BERNSTEIN US RESEARCH FUND (BERN)</item>
+        <item>BERRY GLOBAL GROUP INC (BERY)</item>
+        <item>BROWN-FORMAN CORP-CLASS A (BF.A)</item>
+        <item>BROWN-FORMAN CORP-CLASS B (BF.B)</item>
+        <item>BRIGHT HORIZONS FAMILY SOLUT (BFAM)</item>
+        <item>BANKFINANCIAL CORP (BFIN)</item>
+        <item>GLOBAL X HEALTH &amp; WELLNESS (BFIT)</item>
+        <item>BLACKROCK MUNICIPAL INC TRST (BFK)</item>
+        <item>BLACKROCK FL MUNI 2020 TERM (BFO)</item>
+        <item>BARRON'S 400 ETF (BFOR)</item>
+        <item>BBVA BANCO FRANCES SA-ADR (BFR)</item>
+        <item>BIOFRONTERA AG (BFRA)</item>
+        <item>SAUL CENTERS INC (BFS)</item>
+        <item>BUSINESS FIRST BANCSHARES (BFST)</item>
+        <item>BLACKROCK NEW YORK MUN II (BFY)</item>
+        <item>BLACKROCK CALIFOR MUNI IN TR (BFZ)</item>
+        <item>BUNGE LTD (BG)</item>
+        <item>BLACKSTONE/GSO STRATEGIC C (BGB)</item>
+        <item>GENERAL CABLE CORP (BGC)</item>
+        <item>BGC PARTNERS INC-CL A (BGCP)</item>
+        <item>BIG 5 SPORTING GOODS CORP (BGFV)</item>
+        <item>BRIGGS &amp; STRATTON (BGG)</item>
+        <item>BARINGS GL SH DUR HI YLD (BGH)</item>
+        <item>BIRKS GROUP INC (BGI)</item>
+        <item>BLACKROCK 2022 GLOBAL INCOME (BGIO)</item>
+        <item>BEIGENE LTD-ADR (BGNE)</item>
+        <item>BLACKROCK ENRGY &amp; RES (BGR)</item>
+        <item>B&amp;G FOODS INC (BGS)</item>
+        <item>BG STAFFING INC (BGSF)</item>
+        <item>BLACKROCK FLT RT INC (BGT)</item>
+        <item>BLACKSTONE/GSO LONG-SHORT CR (BGX)</item>
+        <item>BLACKROCK ENHANCED INTERNATI (BGY)</item>
+        <item>BIGLARI HOLDINGS INC (BH)</item>
+        <item>BARINGTON/HILCO ACQUISITION (BHAC)</item>
+        <item>BARINGTON/HILCO ACQUIS-RIGHT (BHACR)</item>
+        <item>BARINGTON/HILCO ACQUISITION (BHACU)</item>
+        <item>BAR HARBOR BANKSHARES (BHB)</item>
+        <item>BLUE HILLS BANCORP INC (BHBK)</item>
+        <item>BENCHMARK ELECTRONICS INC (BHE)</item>
+        <item>BRIGHTHOUSE FINANCIAL INC (BHF)</item>
+        <item>BAKER HUGHES A GE CO (BHGE)</item>
+        <item>BLACKROCK CORE BOND TRUST (BHK)</item>
+        <item>BERKSHIRE HILLS BANCORP INC (BHLB)</item>
+        <item>BHP BILLITON LTD-SPON ADR (BHP)</item>
+        <item>BIOHITECH GLOBAL INC (BHTG)</item>
+        <item>BLACKROCK VIRGINIA MUNI BOND (BHV)</item>
+        <item>BIOHAVEN PHARMACEUTICAL HOLD (BHVN)</item>
+        <item>PROSHARES ULTRA NASD BIOTECH (BIB)</item>
+        <item>INSPIRE 100 ETF (BIBL)</item>
+        <item>FIRST TRUST BICK INDEX FUND (BICK)</item>
+        <item>SOTHEBY'S (BID)</item>
+        <item>BAIDU INC - SPON ADR (BIDU)</item>
+        <item>BOULDER GROWTH &amp; INCOME FUND (BIF)</item>
+        <item>BIG LOTS INC (BIG)</item>
+        <item>BIOGEN INC (BIIB)</item>
+        <item>SPDR BBG BARC 1-3 MONTH TBIL (BIL)</item>
+        <item>BILIBILI INC-SPONSORED ADR (BILI)</item>
+        <item>BIO-RAD LABORATORIES-A (BIO)</item>
+        <item>BIO-RAD LABORATORIES -CL B (BIO.B)</item>
+        <item>BIOCEPT INC (BIOC)</item>
+        <item>BIOLASE INC (BIOL)</item>
+        <item>BIOSCRIP INC (BIOS)</item>
+        <item>BROOKFIELD INFRASTRUCTURE PA (BIP)</item>
+        <item>PROSHARES ULTRASHORT NAS BIO (BIS)</item>
+        <item>BLACKROCK MULTI-SECTOR INCOM (BIT)</item>
+        <item>BITAUTO HOLDINGS LTD-ADR (BITA)</item>
+        <item>VANGUARD INTERMEDIATE-TERM B (BIV)</item>
+        <item>VANECK VECTORS BDC INCOME ET (BIZD)</item>
+        <item>IPATH SERIES B BLOOMBERG NIC (BJJN)</item>
+        <item>VANECK VECTORS GAMING ETF (BJK)</item>
+        <item>IPATH SERIES B BLOOMBERG COF (BJO)</item>
+        <item>BJ'S RESTAURANTS INC (BJRI)</item>
+        <item>BLACKROCK CALI MUNI 2018 TRM (BJZ)</item>
+        <item>BANK OF NEW YORK MELLON CORP (BK)</item>
+        <item>BLACKROCK CAPITAL INVESTMENT (BKCC)</item>
+        <item>BROOKDALE SENIOR LIVING INC (BKD)</item>
+        <item>BUCKLE INC/THE (BKE)</item>
+        <item>BLUEKNIGHT ENERGY PARTNERS L (BKEP)</item>
+        <item>ISHARES MSCI BRIC ETF (BKF)</item>
+        <item>BLACK HILLS CORP (BKH)</item>
+        <item>BLACK KNIGHT INC (BKI)</item>
+        <item>BANCORP OF NEW JERSEY INC (BKJ)</item>
+        <item>BLACKROCK MUNI 2020 TERM TRS (BKK)</item>
+        <item>POWERSHARES SENIOR LOAN (BKLN)</item>
+        <item>BLACKROCK INVT QUALITY MUNI (BKN)</item>
+        <item>BOOKING HOLDINGS INC (BKNG)</item>
+        <item>BARNES &amp; NOBLE INC (BKS)</item>
+        <item>BANK OF SOUTH CAROLINA CORP (BKSC)</item>
+        <item>BLACKROCK INCOME TRUST (BKT)</item>
+        <item>BANKUNITED INC (BKU)</item>
+        <item>BIO-KEY INTERNATIONAL INC (BKYI)</item>
+        <item>BLACKLINE INC (BL)</item>
+        <item>BLUE BIRD CORP (BLBD)</item>
+        <item>BELLICUM PHARMACEUTICALS INC (BLCM)</item>
+        <item>REALITY SHRS NASDAQ NEXGEN (BLCN)</item>
+        <item>TOPBUILD CORP (BLD)</item>
+        <item>BALLARD POWER SYSTEMS INC (BLDP)</item>
+        <item>BUILDERS FIRSTSOURCE INC (BLDR)</item>
+        <item>BLACKROCK MUN INC TRUST II (BLE)</item>
+        <item>INSPIRE GLOBAL HOPE ETF (BLES)</item>
+        <item>BIOLIFE SOLUTIONS INC (BLFS)</item>
+        <item>BLACKROCK NEW YORK MUNI 2018 (BLH)</item>
+        <item>VIRTUS NEWFLEET DYNAMIC CRED (BLHY)</item>
+        <item>BRIDGELINE DIGITAL INC (BLIN)</item>
+        <item>BLACKROCK NEW JERSEY MUNI BD (BLJ)</item>
+        <item>BLACKROCK INC (BLK)</item>
+        <item>BLACKBAUD INC (BLKB)</item>
+        <item>BALL CORP (BLL)</item>
+        <item>BLOOMIN' BRANDS INC (BLMN)</item>
+        <item>BSB BANCORP INC/MA (BLMT)</item>
+        <item>BLINK CHARGING CO (BLNK)</item>
+        <item>AMPLIFY TRANSFOR DATA SHARIN (BLOK)</item>
+        <item>BELLEROPHON THERAPEUTICS INC (BLPH)</item>
+        <item>BIOLINERX LTD-SPONS ADR (BLRX)</item>
+        <item>BLUEBIRD BIO INC (BLUE)</item>
+        <item>VANGUARD LONG-TERM BOND ETF (BLV)</item>
+        <item>BLACKROCK LTD DURATION INC (BLW)</item>
+        <item>BANCO LATINOAMERICANO COME-E (BLX)</item>
+        <item>BANCO MACRO SA-ADR (BMA)</item>
+        <item>BMC STOCK HOLDINGS INC (BMCH)</item>
+        <item>BLACKROCK HEALTH SCIENCES TR (BME)</item>
+        <item>BADGER METER INC (BMI)</item>
+        <item>BMO ELKHORN DWA MLP SI ETN (BMLP)</item>
+        <item>BANK OF MONTREAL (BMO)</item>
+        <item>BIOMERICA INC (BMRA)</item>
+        <item>BANK OF MARIN BANCORP/CA (BMRC)</item>
+        <item>BIOMARIN PHARMACEUTICAL INC (BMRN)</item>
+        <item>BEMIS COMPANY (BMS)</item>
+        <item>BRYN MAWR BANK CORP (BMTC)</item>
+        <item>BRISTOL-MYERS SQUIBB CO (BMY)</item>
+        <item>BENEFICIAL BANCORP INC (BNCL)</item>
+        <item>VANGUARD TOTAL BOND MARKET (BND)</item>
+        <item>FLEXSHARES CORE SELECT BOND (BNDC)</item>
+        <item>VANGUARD TOTAL INTL BOND ETF (BNDX)</item>
+        <item>BARNES &amp; NOBLE EDUCATION INC (BNED)</item>
+        <item>BENEFITFOCUS INC (BNFT)</item>
+        <item>BLACKROCK NJ MUNI INCOME TRS (BNJ)</item>
+        <item>UNITED STATES BRENT OIL FUND (BNO)</item>
+        <item>BANK OF NOVA SCOTIA (BNS)</item>
+        <item>BONSO ELECTRONICS INTL INC (BNSO)</item>
+        <item>BENITEC BIOPHARMA-SP ADR (BNTC)</item>
+        <item>BLACKROCK NEW YORK MUNI INC (BNY)</item>
+        <item>BANK OF COMMERCE HOLDINGS (BOCH)</item>
+        <item>BLACKROCK ENHANCED GLOBAL DI (BOE)</item>
+        <item>BOFI HOLDING INC (BOFI)</item>
+        <item>BANK OF HAWAII CORP (BOH)</item>
+        <item>PROSHARES ULTRA BLOOMBERG NA (BOIL)</item>
+        <item>BOJANGLES' INC (BOJA)</item>
+        <item>BOK FINANCIAL CORPORATION (BOKF)</item>
+        <item>AUDENTES THERAPEUTICS INC (BOLD)</item>
+        <item>DB BASE METALS DOUBLE SHORT (BOM)</item>
+        <item>BOSTON OMAHA CORP-CL A (BOMN)</item>
+        <item>PIMCO ACTIVE BOND EXCHANGE-T (BOND)</item>
+        <item>DMC GLOBAL INC (BOOM)</item>
+        <item>NYSE PICKENS OIL RESPONSE ET (BOON)</item>
+        <item>BOOT BARN HOLDINGS INC (BOOT)</item>
+        <item>CHINA NEW BORUN CORP-ADR (BORN)</item>
+        <item>DB BASE METALS SHORT ETN (BOS)</item>
+        <item>BOS BETTER ON-LINE SOLUTIONS (BOSC)</item>
+        <item>GLOBAL X FOUNDER-RUN COMPANI (BOSS)</item>
+        <item>BANK OF THE JAMES FINANCIAL (BOTJ)</item>
+        <item>GLOBAL X ROBOTICS &amp; ARTIFICI (BOTZ)</item>
+        <item>BOX INC - CLASS A (BOX)</item>
+        <item>BOXLIGHT CORP - CLASS A (BOXL)</item>
+        <item>BP PLC-SPONS ADR (BP)</item>
+        <item>BOSTON PRIVATE FINL HOLDING (BPFH)</item>
+        <item>BRIDGEPOINT EDUCATION INC (BPI)</item>
+        <item>BLACKROCK MUNICIPAL 2018 TRM (BPK)</item>
+        <item>BUCKEYE PARTNERS LP (BPL)</item>
+        <item>BLUEPRINT MEDICINES CORP (BPMC)</item>
+        <item>BP MIDSTREAM PARTNERS LP (BPMP)</item>
+        <item>BIOPHARMX CORP (BPMX)</item>
+        <item>POPULAR INC (BPOP)</item>
+        <item>THE BANK OF PRINCETON (BPRN)</item>
+        <item>BP PRUDHOE BAY ROYALTY TRUST (BPT)</item>
+        <item>BIO-PATH HOLDINGS INC (BPTH)</item>
+        <item>BROOKFIELD PROPERTY PARTNERS (BPY)</item>
+        <item>BLACKROCK NEW YORK MUNI BOND (BQH)</item>
+        <item>BROADRIDGE FINANCIAL SOLUTIO (BR)</item>
+        <item>BLACK RIDGE ACQUISITION CORP (BRAC)</item>
+        <item>BLACK RIDGE ACQU CORP-RTS (BRACR)</item>
+        <item>BLACK RIDGE ACQUISITION CORP (BRACU)</item>
+        <item>BRADY CORPORATION - CL A (BRC)</item>
+        <item>CRAFT BREW ALLIANCE INC (BREW)</item>
+        <item>VANECK VECTORS BRAZIL SMALL- (BRF)</item>
+        <item>BRF SA-ADR (BRFS)</item>
+        <item>BLUEROCK RESIDENTIAL GROWTH (BRG)</item>
+        <item>BERNSTEIN GLOBAL RESEARCH FU (BRGL)</item>
+        <item>BRIDGFORD FOODS CORP (BRID)</item>
+        <item>BERKSHIRE HATHAWAY INC-CL A (BRK.A)</item>
+        <item>BERKSHIRE HATHAWAY INC-CL B (BRK.B)</item>
+        <item>BROOKLINE BANCORP INC (BRKL)</item>
+        <item>BRUKER CORP (BRKR)</item>
+        <item>BROOKS AUTOMATION INC (BRKS)</item>
+        <item>BARNWELL INDUSTRIES INC (BRN)</item>
+        <item>BROWN &amp; BROWN INC (BRO)</item>
+        <item>BIG ROCK PARTNERS ACQUISITIO (BRPA)</item>
+        <item>BIG ROCK PARTNERS ACQUIS-RTS (BRPAR)</item>
+        <item>BIG ROCK PARTNERS ACQUISITIO (BRPAU)</item>
+        <item>BORQS TECHNOLOGIES INC (BRQS)</item>
+        <item>BRISTOW GROUP INC (BRS)</item>
+        <item>GLOBAL BRASS &amp; COPPER HOLDIN (BRSS)</item>
+        <item>BRT APARTMENTS CORP (BRT)</item>
+        <item>BRIXMOR PROPERTY GROUP INC (BRX)</item>
+        <item>DIREXION DAILY BRAZIL BULL 3 (BRZU)</item>
+        <item>BANCO SANTANDER-CHILE-ADR (BSAC)</item>
+        <item>BANCO SANTANDER BRASIL-ADS (BSBR)</item>
+        <item>PWR BSHR 2018 CP BD (BSCI)</item>
+        <item>PWR BSHR 2019 CP BD (BSCJ)</item>
+        <item>PWR BSHR 2020 CP BD (BSCK)</item>
+        <item>PWR BSHR 2021 CP BD (BSCL)</item>
+        <item>PWR BSHR 2022 CP BD (BSCM)</item>
+        <item>PWR BSHR 2023 CP BD (BSCN)</item>
+        <item>PWR BSHR 2024 CP BD (BSCO)</item>
+        <item>PWR BSHR 2025 CP BD (BSCP)</item>
+        <item>PWR BSHR 2026 CP BD (BSCQ)</item>
+        <item>PWR BSHR 2027 CP BD (BSCR)</item>
+        <item>BLACKROCK STRATEGIC MUNICIPL (BSD)</item>
+        <item>BLACKROCK NEW YORK MUNICIPAL (BSE)</item>
+        <item>BASSETT FURNITURE INDS (BSET)</item>
+        <item>BRIGHTSPHERE INVESTMENT GROU (BSIG)</item>
+        <item>PWR BSHR 2018 HI YLD CP BD (BSJI)</item>
+        <item>PWR BSHR 2019 HI YLD CP BD (BSJJ)</item>
+        <item>PWR BSHR 2020 HI YLD CP BD (BSJK)</item>
+        <item>PWR BSHR 2021 HI YLD CP BD (BSJL)</item>
+        <item>PWR BSHR 2022 HI YLD CP BD (BSJM)</item>
+        <item>PWR BSHR 2023 HI YLD CP BD (BSJN)</item>
+        <item>PWR BSHR 2024 HI YLD CP BD (BSJO)</item>
+        <item>GUGGHM BLTSHR HY CORP 2025 (BSJP)</item>
+        <item>BLACKSTONE/GSO SENIOR FLOAT (BSL)</item>
+        <item>BLACK STONE MINERALS LP (BSM)</item>
+        <item>BANCO SANTANDER MEXICO -ADR (BSMX)</item>
+        <item>BIOSTAR PHARMACEUTICALS INC (BSPM)</item>
+        <item>BSQUARE CORP (BSQR)</item>
+        <item>SIERRA BANCORP (BSRR)</item>
+        <item>BLACKROCK SCIENCE &amp; TECH TR (BST)</item>
+        <item>BIOSPECIFICS TECHNOLOGIES (BSTC)</item>
+        <item>BEST INC - ADR (BSTI)</item>
+        <item>VANGUARD SHORT-TERM BOND ETF (BSV)</item>
+        <item>VELOCITY SHARES VIX TAIL RSK (BSWN)</item>
+        <item>BOSTON SCIENTIFIC CORP (BSX)</item>
+        <item>BT GROUP PLC-SPON ADR (BT)</item>
+        <item>BLACKROCK LNG-TM MUN ADV TST (BTA)</item>
+        <item>BIOXCEL THERAPEUTICS INC (BTAI)</item>
+        <item>AGFIQ US MARKET NEUTRAL ANTI (BTAL)</item>
+        <item>BAYTEX ENERGY CORP (BTE)</item>
+        <item>PRINCIPAL HEALTHCARE INNOV (BTEC)</item>
+        <item>B2GOLD CORP (BTG)</item>
+        <item>BRITISH AMERICAN TOB-SP ADR (BTI)</item>
+        <item>BALLANTYNE STRONG INC (BTN)</item>
+        <item>JOHN HANCOCK FINANCIAL OPPOR (BTO)</item>
+        <item>BLACKROCK MUNICIPAL 2030 TAR (BTT)</item>
+        <item>PEABODY ENERGY CORP (BTU)</item>
+        <item>BIOTIME INC (BTX)</item>
+        <item>BLACKROCK CREDIT ALLOCATION (BTZ)</item>
+        <item>ANHEUSER-BUSCH INBEV-SPN ADR (BUD)</item>
+        <item>BLUE BUFFALO PET PRODUCTS IN (BUFF)</item>
+        <item>BLCKRCK UTIL INFRA &amp; PWR OPP (BUI)</item>
+        <item>BURCON NUTRASCIENCE CORP (BUR)</item>
+        <item>CHANTICLEER HOLDINGS INC (BURG)</item>
+        <item>BURLINGTON STORES INC (BURL)</item>
+        <item>FIRST BUSEY CORP (BUSE)</item>
+        <item>USCF SUMMERHAVEN SHPEI IN FD (BUY)</item>
+        <item>USCF SUMMERHAVEN SHPEN INDEX (BUYN)</item>
+        <item>BUZZ US SENTIMENT LEADERS ET (BUZ)</item>
+        <item>BRAND VALUE ETF (BVAL)</item>
+        <item>CIA DE MINAS BUENAVENTUR-ADR (BVN)</item>
+        <item>BRANDES VALUE NEXTSHARES (BVNSC)</item>
+        <item>BROADVISION INC (BVSN)</item>
+        <item>BOVIE MEDICAL CORP (BVX)</item>
+        <item>BIONDVAX PHARMACEUTICALS-ADR (BVXV)</item>
+        <item>BABCOCK &amp; WILCOX ENTERPR (BW)</item>
+        <item>BORGWARNER INC (BWA)</item>
+        <item>BRIDGEWATER BANCSHARES INC (BWB)</item>
+        <item>BROADWIND ENERGY INC (BWEN)</item>
+        <item>BANKWELL FINANCIAL GROUP INC (BWFG)</item>
+        <item>BRANDYWINEGLOBAL GLOBAL INCO (BWG)</item>
+        <item>BALDWIN &amp; LYONS INC -CL A (BWINA)</item>
+        <item>BALDWIN &amp; LYONS INC -CL B (BWINB)</item>
+        <item>BOWL AMERICA INC-CLASS A (BWL.A)</item>
+        <item>BOARDWALK PIPELINE PARTNERS (BWP)</item>
+        <item>SPDR BBG BARC INTL TREASURY (BWX)</item>
+        <item>BWX TECHNOLOGIES INC (BWXT)</item>
+        <item>SPDR BBG BARC ST INTL TREAS (BWZ)</item>
+        <item>BLACKSTONE GROUP LP/THE (BX)</item>
+        <item>BLUELINX HOLDINGS INC (BXC)</item>
+        <item>BELLATRIX EXPLORATION LTD (BXE)</item>
+        <item>BLUEGREEN VACATIONS CORP (BXG)</item>
+        <item>BLACKSTONE MORTGAGE TRU-CL A (BXMT)</item>
+        <item>NUVEEN S&amp;P500 BUY-WRT INC FD (BXMX)</item>
+        <item>BOSTON PROPERTIES INC (BXP)</item>
+        <item>BANCORPSOUTH BANK (BXS)</item>
+        <item>BYLINE BANCORP INC (BY)</item>
+        <item>BOYD GAMING CORP (BYD)</item>
+        <item>BROADWAY FINANCIAL CORP/DE (BYFC)</item>
+        <item>ISHARES YIELD OPTIMIZED BOND (BYLD)</item>
+        <item>BLACKROCK MUNICIPAL INCOME Q (BYM)</item>
+        <item>BEYONDSPRING INC (BYSI)</item>
+        <item>WISDOMTREE BRAZILIAN REAL ST (BZF)</item>
+        <item>BEAZER HOMES USA INC (BZH)</item>
+        <item>BLACKROCK MARYLAND MUNI BOND (BZM)</item>
+        <item>PROSHARES ULTRASHORT MSCI BR (BZQ)</item>
+        <item>BAOZUN INC-SPN ADR (BZUN)</item>
+        <item>CITIGROUP INC (C)</item>
+        <item>CA INC (CA)</item>
+        <item>CORP AMERICA AIRPORTS SA (CAAP)</item>
+        <item>CHINA AUTOMOTIVE SYSTEMS INC (CAAS)</item>
+        <item>CABLE ONE INC (CABO)</item>
+        <item>CAMDEN NATIONAL CORP (CAC)</item>
+        <item>CREDIT ACCEPTANCE CORP (CACC)</item>
+        <item>CLEARBRIDGE ALLCAP GRWTH ETF (CACG)</item>
+        <item>CACI INTERNATIONAL INC -CL A (CACI)</item>
+        <item>CHINA ADVANCED CONSTRUCTION (CADC)</item>
+        <item>CADENCE BANCORP (CADE)</item>
+        <item>CAE INC (CAE)</item>
+        <item>MORGAN STANLEY CHINA A SHARE (CAF)</item>
+        <item>8POINT3 ENERGY PARTNERS LP (CAFD)</item>
+        <item>CONAGRA BRANDS INC (CAG)</item>
+        <item>CARDINAL HEALTH INC (CAH)</item>
+        <item>CAI INTERNATIONAL INC (CAI)</item>
+        <item>CANON INC-SPONS ADR (CAJ)</item>
+        <item>CHEESECAKE FACTORY INC/THE (CAKE)</item>
+        <item>CALERES INC (CAL)</item>
+        <item>CALITHERA BIOSCIENCES INC (CALA)</item>
+        <item>PACER US SMALL CAP CASH COWS (CALF)</item>
+        <item>CHINA AUTO LOGISTICS INC (CALI)</item>
+        <item>MAGICJACK VOCALTEC LTD (CALL)</item>
+        <item>CAL-MAINE FOODS INC (CALM)</item>
+        <item>CALIX INC (CALX)</item>
+        <item>CALAMP CORP (CAMP)</item>
+        <item>CAMTEK LTD (CAMT)</item>
+        <item>TEUCRIUM SUGAR FUND (CANE)</item>
+        <item>CAN FITE BIOPHARMA LTD-ADR (CANF)</item>
+        <item>BARCLAYS ETN SHILLER CAPE (CAPE)</item>
+        <item>CROSSAMERICA PARTNERS LP (CAPL)</item>
+        <item>CAPRICOR THERAPEUTICS INC (CAPR)</item>
+        <item>AVIS BUDGET GROUP INC (CAR)</item>
+        <item>CARA THERAPEUTICS INC (CARA)</item>
+        <item>CARBONITE INC (CARB)</item>
+        <item>CARGURUS INC (CARG)</item>
+        <item>CAROLINA FINANCIAL CORP (CARO)</item>
+        <item>CARS.COM INC (CARS)</item>
+        <item>CAROLINA TRUST BANCSHARES IN (CART)</item>
+        <item>CARVER BANCORP INC (CARV)</item>
+        <item>FIRST TRUST NASDAQ GLOBAL AU (CARZ)</item>
+        <item>CASA SYSTEMS INC (CASA)</item>
+        <item>META FINANCIAL GROUP INC (CASH)</item>
+        <item>CASI PHARMACEUTICALS INC (CASI)</item>
+        <item>CAS MEDICAL SYSTEMS INC (CASM)</item>
+        <item>CASS INFORMATION SYSTEMS INC (CASS)</item>
+        <item>CASEY'S GENERAL STORES INC (CASY)</item>
+        <item>CATERPILLAR INC (CAT)</item>
+        <item>CATABASIS PHARMACEUTICALS IN (CATB)</item>
+        <item>CAMBRIDGE BANCORP (CATC)</item>
+        <item>GLOBAL X S&amp;P 500 CA VAL ETF (CATH)</item>
+        <item>CARDTRONICS PLC - A (CATM)</item>
+        <item>CATO CORP-CLASS A (CATO)</item>
+        <item>CATASYS INC (CATS)</item>
+        <item>CATHAY GENERAL BANCORP (CATY)</item>
+        <item>CAVIUM INC (CAVM)</item>
+        <item>CCA INDUSTRIES INC (CAW)</item>
+        <item>CHUBB LTD (CB)</item>
+        <item>CLEARBRIDGE AMERICAN ENERGY (CBA)</item>
+        <item>CBAK ENERGY TECHNOLOGY INC (CBAK)</item>
+        <item>COLONY BANKCORP (CBAN)</item>
+        <item>CYMABAY THERAPEUTICS INC (CBAY)</item>
+        <item>CINCINNATI BELL INC (CBB)</item>
+        <item>CIA BRASILEIRA DE DIS-SP PRF (CBD)</item>
+        <item>CB FINANCIAL SERVICES INC (CBFV)</item>
+        <item>ALLIANZGI CONVERTIBLE &amp; INCO (CBH)</item>
+        <item>CHICAGO BRIDGE &amp; IRON CO NV (CBI)</item>
+        <item>CATALYST BIOSCIENCES INC (CBIO)</item>
+        <item>CHRISTOPHER &amp; BANKS CORP (CBK)</item>
+        <item>CBL &amp; ASSOCIATES PROPERTIES (CBL)</item>
+        <item>CLEVELAND BIOLABS INC (CBLI)</item>
+        <item>CAMBREX CORP (CBM)</item>
+        <item>CELLULAR BIOMEDICINE GROUP I (CBMG)</item>
+        <item>SPDR BBG BARC ISS SCORE CORP (CBND)</item>
+        <item>CBOE GLOBAL MARKETS INC (CBOE)</item>
+        <item>VANECK VECTORS CHINAAMC CHIN (CBON)</item>
+        <item>CHINA BIOLOGIC PRODUCTS HOLD (CBPO)</item>
+        <item>CONTINENTAL BUILDING PRODUCT (CBPX)</item>
+        <item>CBRE GROUP INC - A (CBRE)</item>
+        <item>CRACKER BARREL OLD COUNTRY (CBRL)</item>
+        <item>CBS CORP-CLASS B NON VOTING (CBS)</item>
+        <item>CBS CORP-CLASS A VOTING (CBS.A)</item>
+        <item>COMMERCE BANCSHARES INC (CBSH)</item>
+        <item>CABOT CORP (CBT)</item>
+        <item>CBTX INC (CBTX)</item>
+        <item>COMMUNITY BANK SYSTEM INC (CBU)</item>
+        <item>CBIZ INC (CBZ)</item>
+        <item>CHEMOURS CO/THE (CC)</item>
+        <item>MFS CA MUNI FUND (CCA)</item>
+        <item>CAPITAL CITY BANK GROUP INC (CCBG)</item>
+        <item>CHINA CERAMICS CO LTD (CCCL)</item>
+        <item>CHINA COMMERCIAL CREDIT INC (CCCR)</item>
+        <item>CALAMOS DYNAMIC CONVERTIBLE (CCD)</item>
+        <item>COCA-COLA EUROPEAN PARTNERS (CCE)</item>
+        <item>CHASE CORP (CCF)</item>
+        <item>CROWN CASTLE INTL CORP (CCI)</item>
+        <item>CHINACACHE INTERNAT-SPON ADR (CCIH)</item>
+        <item>CAMECO CORP (CCJ)</item>
+        <item>CROWN HOLDINGS INC (CCK)</item>
+        <item>CARNIVAL CORP (CCL)</item>
+        <item>CSI COMPRESSCO LP (CCLP)</item>
+        <item>CONCORD MEDICAL - SPON ADR (CCM)</item>
+        <item>CABOT MICROELECTRONICS CORP (CCMP)</item>
+        <item>CNB FINANCIAL CORP/PA (CCNE)</item>
+        <item>CLEAR CHANNEL OUTDOOR-CL A (CCO)</item>
+        <item>COGENT COMMUNICATIONS HOLDIN (CCOI)</item>
+        <item>CAMBRIA CORE EQUITY ETF (CCOR)</item>
+        <item>CONSOL COAL RESOURCES LP (CCR)</item>
+        <item>CHINA CUSTOMER RELATIONS CEN (CCRC)</item>
+        <item>CROSS COUNTRY HEALTHCARE INC (CCRN)</item>
+        <item>CENTURY COMMUNITIES INC (CCS)</item>
+        <item>CORPORATE CAPITAL TRUST INC (CCT)</item>
+        <item>CIA CERVECERIAS UNI-SPON ADR (CCU)</item>
+        <item>CHEMOCENTRYX INC (CCXI)</item>
+        <item>VICTORYSHARES US EQ INCOME E (CDC)</item>
+        <item>COEUR MINING INC (CDE)</item>
+        <item>CENTENNIAL RESOURCE DEVELO-A (CDEV)</item>
+        <item>CDK GLOBAL INC (CDK)</item>
+        <item>VICTORYSHARES US LARGE CAP H (CDL)</item>
+        <item>CARDLYTICS INC (CDLX)</item>
+        <item>AVID BIOSERVICES INC (CDMO)</item>
+        <item>CAREDX INC (CDNA)</item>
+        <item>CADENCE DESIGN SYS INC (CDNS)</item>
+        <item>CONDOR HOSPITALITY TRUST INC (CDOR)</item>
+        <item>CEDAR REALTY TRUST INC (CDR)</item>
+        <item>CDTI ADVANCED MATERIALS INC (CDTI)</item>
+        <item>CIDARA THERAPEUTICS INC (CDTX)</item>
+        <item>CDW CORP/DE (CDW)</item>
+        <item>CHROMADEX CORP (CDXC)</item>
+        <item>CODEXIS INC (CDXS)</item>
+        <item>CADIZ INC (CDZI)</item>
+        <item>CELANESE CORP-SERIES A (CE)</item>
+        <item>CHINA EASTERN AIRLINES-ADS (CEA)</item>
+        <item>CECO ENVIRONMENTAL CORP (CECE)</item>
+        <item>CAREER EDUCATION CORP (CECO)</item>
+        <item>CENTRAL AND EASTERN EUROPE F (CEE)</item>
+        <item>SPROTT PHYSICAL GOLD AND SIL (CEF)</item>
+        <item>ETRACS MONTH PAY 2X LEV C/E (CEFL)</item>
+        <item>SABA CLOSED END FUNDS ETF (CEFS)</item>
+        <item>CAMBER ENERGY INC (CEI)</item>
+        <item>CONSOL ENERGY INC (CEIX)</item>
+        <item>CELLCOM ISRAEL LTD (CEL)</item>
+        <item>CELCUITY INC (CELC)</item>
+        <item>CELGENE CORP (CELG)</item>
+        <item>CELGENE CORP-CVR (CELGZ)</item>
+        <item>CELSIUS HOLDINGS INC (CELH)</item>
+        <item>CYPRESS ENERGY PARTNERS LP (CELP)</item>
+        <item>CLEARBRIDGE ENERGY MLP FUND (CEM)</item>
+        <item>ISHARES JP MORGAN EM CORPORA (CEMB)</item>
+        <item>CHEMBIO DIAGNOSTICS INC (CEMI)</item>
+        <item>CENTER COAST BROOKFIELD MLP (CEN)</item>
+        <item>CENTRAL GARDEN &amp; PET CO (CENT)</item>
+        <item>CENTRAL GARDEN AND PET CO-A (CENTA)</item>
+        <item>CENTURY ALUMINUM COMPANY (CENX)</item>
+        <item>CNOOC LTD-SPON ADR (CEO)</item>
+        <item>CENTRAL PUERTO-SPONSORED ADR (CEPU)</item>
+        <item>CRESTWOOD EQUITY PARTNERS LP (CEQP)</item>
+        <item>CERECOR INC (CERC)</item>
+        <item>CERNER CORP (CERN)</item>
+        <item>CERUS CORP (CERS)</item>
+        <item>CENTRAL SECURITIES CORP (CET)</item>
+        <item>CENTRAL EUROPEAN MEDIA ENT-A (CETV)</item>
+        <item>CEMTREX INC (CETX)</item>
+        <item>EATON VANCE CA MUNI INC TRST (CEV)</item>
+        <item>CEVA INC (CEVA)</item>
+        <item>WISDOMTREE EMERGING CURRENCY (CEW)</item>
+        <item>VICTORYSHARES EMERGING MARKE (CEY)</item>
+        <item>VICTORYSHARES EMERGING MARKE (CEZ)</item>
+        <item>CF INDUSTRIES HOLDINGS INC (CF)</item>
+        <item>VICTORYSHARES US 500 VOLATIL (CFA)</item>
+        <item>COMMUNITY FIRST BANCSHARES I (CFBI)</item>
+        <item>CENTRAL FEDERAL CORP (CFBK)</item>
+        <item>C &amp; F FINANCIAL CORP (CFFI)</item>
+        <item>CAPITOL FEDERAL FINANCIAL IN (CFFN)</item>
+        <item>CITIZENS FINANCIAL GROUP (CFG)</item>
+        <item>CONFORMIS INC (CFMS)</item>
+        <item>VICTORYSHARES US 500 ENHANCE (CFO)</item>
+        <item>CULLEN/FROST BANKERS INC (CFR)</item>
+        <item>CONTRAFECT CORP (CFRX)</item>
+        <item>COLFAX CORP (CFX)</item>
+        <item>CARLYLE GROUP/THE (CG)</item>
+        <item>CHINA GREEN AGRICULTURE INC (CGA)</item>
+        <item>TCG BDC INC (CGBD)</item>
+        <item>COMPUGEN LTD (CGEN)</item>
+        <item>CGG - SPON ADR (CGG)</item>
+        <item>CANCER GENETICS INC (CGIX)</item>
+        <item>COGNEX CORP (CGNX)</item>
+        <item>CALAMOS GLOBAL TOTAL RETURN (CGO)</item>
+        <item>PWR S&amp;P GLOBAL WATER INDEX (CGW)</item>
+        <item>ABERDEEN CHILE FUND INC (CH)</item>
+        <item>CHINA TELECOM CORP LTD-ADR (CHA)</item>
+        <item>DRXN D CSI CH A-SHR BEAR 1X (CHAD)</item>
+        <item>DIREXION DAILY CSI 300 CHINA (CHAU)</item>
+        <item>COMSTOCK HOLDING COMPANIES (CHCI)</item>
+        <item>CITY HOLDING CO (CHCO)</item>
+        <item>COMMUNITY HEALTHCARE TRUST I (CHCT)</item>
+        <item>CHURCH &amp; DWIGHT CO INC (CHD)</item>
+        <item>CHURCHILL DOWNS INC (CHDN)</item>
+        <item>CHEMED CORP (CHE)</item>
+        <item>CHEFS' WAREHOUSE INC/THE (CHEF)</item>
+        <item>CHECK CAP LTD (CHEK)</item>
+        <item>AGFIQ US MARKET NEUTRAL VALU (CHEP)</item>
+        <item>CHEMICAL FINANCIAL CORP (CHFC)</item>
+        <item>CHARTER FINANCIAL CORP (CHFN)</item>
+        <item>CHF SOLUTIONS INC (CHFS)</item>
+        <item>CHEGG INC (CHGG)</item>
+        <item>CHANGE FINANCE US LARGE CAP (CHGX)</item>
+        <item>CHOICE HOTELS INTL INC (CHH)</item>
+        <item>CALAMOS CONVERTIBLE OPP&amp;INC (CHI)</item>
+        <item>GLOBAL X CHINA ENERGY ETF (CHIE)</item>
+        <item>GLOBAL X CHINA INDUSTRIALS (CHII)</item>
+        <item>GLOBAL X CHINA MATERIALS ETF (CHIM)</item>
+        <item>GLOBAL X CHINA CONSUMER ETF (CHIQ)</item>
+        <item>GLOBAL X CHINA FINANCIALS (CHIX)</item>
+        <item>CHESAPEAKE ENERGY CORP (CHK)</item>
+        <item>CHEROKEE INC (CHKE)</item>
+        <item>CHECK POINT SOFTWARE TECH (CHKP)</item>
+        <item>CHESAPEAKE GRANITE WASH TRUS (CHKR)</item>
+        <item>CHINA MOBILE LTD-SPON ADR (CHL)</item>
+        <item>CHIASMA INC (CHMA)</item>
+        <item>CHEMUNG FINANCIAL CORP (CHMG)</item>
+        <item>CHERRY HILL MORTGAGE INVESTM (CHMI)</item>
+        <item>CHINA FUND INC (CHN)</item>
+        <item>CHINA NATURAL RESOURCES INC (CHNR)</item>
+        <item>COHERUS BIOSCIENCES INC (CHRS)</item>
+        <item>C.H. ROBINSON WORLDWIDE INC (CHRW)</item>
+        <item>CHICO'S FAS INC (CHS)</item>
+        <item>CHESAPEAKE LODGING TRUST (CHSP)</item>
+        <item>CHUNGHWA TELECOM LT-SPON ADR (CHT)</item>
+        <item>CHARTER COMMUNICATIONS INC-A (CHTR)</item>
+        <item>CHINA UNICOM HONG KONG-ADR (CHU)</item>
+        <item>COMMERCEHUB INC-SERIES A (CHUBA)</item>
+        <item>COMMERCEHUB INC-SERIES C (CHUBK)</item>
+        <item>CHUY'S HOLDINGS INC (CHUY)</item>
+        <item>CALAMOS GLOBAL DYNAMIC INCOM (CHW)</item>
+        <item>CALAMOS CVT AND HIGH INCOME (CHY)</item>
+        <item>CIGNA CORP (CI)</item>
+        <item>CITIZENS INC (CIA)</item>
+        <item>BANCOLOMBIA S.A.-SPONS ADR (CIB)</item>
+        <item>FIRST TRUST NASDAQ CYBERSECU (CIBR)</item>
+        <item>CAPITOL INVESTMENT CORP IV-A (CIC)</item>
+        <item>CAPITOL INVESTMENT CORP IV (CIC=)</item>
+        <item>VICTORYSHARES INTERNATIONAL (CID)</item>
+        <item>CINEDIGM CORP - A (CIDM)</item>
+        <item>CIENA CORP (CIEN)</item>
+        <item>MFS INTERMEDIATE HIGH INC FN (CIF)</item>
+        <item>CHINA INTERNET NATIONWIDE FI (CIFS)</item>
+        <item>CIA ENERGETICA DE-SPON ADR (CIG)</item>
+        <item>CIA ENERGETICA DE-SPON ADR (CIG.C)</item>
+        <item>COLLIERS INTERNATIONAL GROUP (CIGI)</item>
+        <item>BLACKROCK ENH CAP AND INC (CII)</item>
+        <item>CREDIT SUISSE ASSET MGMT INC (CIK)</item>
+        <item>VICTORYSHARES INTERNATIONAL (CIL)</item>
+        <item>CHIMERA INVESTMENT CORP (CIM)</item>
+        <item>CINCINNATI FINANCIAL CORP (CINF)</item>
+        <item>CINER RESOURCES LP (CINR)</item>
+        <item>CITY OFFICE REIT INC (CIO)</item>
+        <item>CIRCOR INTERNATIONAL INC (CIR)</item>
+        <item>CISION LTD (CISN)</item>
+        <item>CIT GROUP INC (CIT)</item>
+        <item>ISHARES INTERMEDIATE CREDIT (CIU)</item>
+        <item>CIVISTA BANCSHARES INC (CIVB)</item>
+        <item>CIVITAS SOLUTIONS INC (CIVI)</item>
+        <item>COMPX INTERNATIONAL INC (CIX)</item>
+        <item>VICTORYSHARES DEVELOPED ENHA (CIZ)</item>
+        <item>CITIZENS HOLDING COMPANY (CIZN)</item>
+        <item>C&amp;J ENERGY SERVICES INC (CJ)</item>
+        <item>CHINA JO-JO DRUGSTORES INC (CJJD)</item>
+        <item>SPDR ICE BOFAML CROSSOVER CO (CJNK)</item>
+        <item>SEACOR HOLDINGS INC (CKH)</item>
+        <item>CHECKPOINT THERAPEUTICS INC (CKPT)</item>
+        <item>CKX LANDS INC (CKX)</item>
+        <item>COLGATE-PALMOLIVE CO (CL)</item>
+        <item>CLARUS CORP (CLAR)</item>
+        <item>CORE LABORATORIES N.V. (CLB)</item>
+        <item>COLUMBIA FINANCIAL INC (CLBK)</item>
+        <item>CALADRIUS BIOSCIENCES INC (CLBS)</item>
+        <item>COLLECTORS UNIVERSE (CLCT)</item>
+        <item>CLOUD PEAK ENERGY INC (CLD)</item>
+        <item>CHINA LENDING CORP (CLDC)</item>
+        <item>CLOUDERA INC (CLDR)</item>
+        <item>CHATHAM LODGING TRUST (CLDT)</item>
+        <item>CELLDEX THERAPEUTICS INC (CLDX)</item>
+        <item>CLEVELAND-CLIFFS INC (CLF)</item>
+        <item>CLEARFIELD INC (CLFD)</item>
+        <item>COLLPLANT HOLDINGS-SPON ADR (CLGN)</item>
+        <item>CORELOGIC INC (CLGX)</item>
+        <item>CLEAN HARBORS INC (CLH)</item>
+        <item>MACK-CALI REALTY CORP (CLI)</item>
+        <item>CLEARSIGN COMBUSTION CORP (CLIR)</item>
+        <item>PROSHARES LONG ONLINE/SHORT (CLIX)</item>
+        <item>CELLECTIS - ADR (CLLS)</item>
+        <item>CORNERSTONE STRATEGIC VALUE (CLM)</item>
+        <item>CALUMET SPECIALTY PRODUCTS (CLMT)</item>
+        <item>COLONY NORTHSTAR CREDIT RE-A (CLNC)</item>
+        <item>CLEAN ENERGY FUELS CORP (CLNE)</item>
+        <item>COLONY NORTHSTAR INC-CLASS A (CLNS)</item>
+        <item>CLIPPER REALTY INC (CLPR)</item>
+        <item>CONTINENTAL RESOURCES INC/OK (CLR)</item>
+        <item>CELLECTAR BIOSCIENCES INC (CLRB)</item>
+        <item>IQ CHAIKIN US LARGE CAP ETF (CLRG)</item>
+        <item>CLEARONE INC (CLRO)</item>
+        <item>CELESTICA INC (CLS)</item>
+        <item>CLEARSIDE BIOMEDICAL INC (CLSD)</item>
+        <item>CELSION CORP (CLSN)</item>
+        <item>POWERSHARES TREASURY COLL PT (CLTL)</item>
+        <item>TOWN SPORTS INTERNATIONAL (CLUB)</item>
+        <item>CLOVIS ONCOLOGY INC (CLVS)</item>
+        <item>CLEARWATER PAPER CORP (CLW)</item>
+        <item>EURO TECH HOLDINGS CO LTD (CLWT)</item>
+        <item>CLOROX COMPANY (CLX)</item>
+        <item>CALYXT INC (CLXT)</item>
+        <item>ISHARES 10 YEAR CREDIT BOND (CLY)</item>
+        <item>ISHARES INT RATE HDG 10 YR (CLYH)</item>
+        <item>CAN IMPERIAL BK OF COMMERCE (CM)</item>
+        <item>COMERICA INC (CMA)</item>
+        <item>ISHARES CMBS ETF (CMBS)</item>
+        <item>COMMERCIAL METALS CO (CMC)</item>
+        <item>CALEDONIA MINING CORP PLC (CMCL)</item>
+        <item>CHEETAH MOBILE INC - ADR (CMCM)</item>
+        <item>COLUMBUS MCKINNON CORP/NY (CMCO)</item>
+        <item>COMCAST CORP-CLASS A (CMCSA)</item>
+        <item>CIM COMMERCIAL TRUST CORP (CMCT)</item>
+        <item>CANTEL MEDICAL CORP (CMD)</item>
+        <item>ISHARES COMMODITY OPTIMIZED (CMDT)</item>
+        <item>CME GROUP INC (CME)</item>
+        <item>ISHARES CALIFORNIA MUNI BOND (CMF)</item>
+        <item>CM FINANCE INC (CMFN)</item>
+        <item>CHIPOTLE MEXICAN GRILL INC (CMG)</item>
+        <item>CUMMINS INC (CMI)</item>
+        <item>CAPSTEAD MORTGAGE CORP (CMO)</item>
+        <item>COMPASS MINERALS INTERNATION (CMP)</item>
+        <item>CIMPRESS NV (CMPR)</item>
+        <item>COSTAMARE INC (CMRE)</item>
+        <item>CHIMERIX INC (CMRX)</item>
+        <item>CMS ENERGY CORP (CMS)</item>
+        <item>CM SEVEN STAR ACQUISITION CO (CMSS)</item>
+        <item>CM SEVEN STAR ACQUISITION CO (CMSSR)</item>
+        <item>CM SEVEN STAR ACQUISITION CO (CMSSU)</item>
+        <item>CORE MOLDING TECHNOLOGIES IN (CMT)</item>
+        <item>CLEMENTIA PHARMACEUTICALS IN (CMTA)</item>
+        <item>COMTECH TELECOMMUNICATIONS (CMTL)</item>
+        <item>MFS HIGH YIELD MUNICIPAL TRU (CMU)</item>
+        <item>XTRACKERS MSCI ALL CHINA EQU (CN)</item>
+        <item>CNA FINANCIAL CORP (CNA)</item>
+        <item>CONSTELLATION ALPHA CAPITAL (CNAC)</item>
+        <item>CONSTELLATION ALP CAPIT - R (CNACR)</item>
+        <item>CONSTELLATION ALPHA CAPITAL (CNACU)</item>
+        <item>CONATUS PHARMACEUTICALS INC (CNAT)</item>
+        <item>CENTURY BANCORP INC -CL A (CNBKA)</item>
+        <item>CENTENE CORP (CNC)</item>
+        <item>CONCERT PHARMACEUTICALS INC (CNCE)</item>
+        <item>LONCAR CANCER IMMUNOTHERAPY (CNCR)</item>
+        <item>ISHARES EDGE MSCI MF CON DIS (CNDF)</item>
+        <item>CONDUENT INC (CNDT)</item>
+        <item>CHINANET ONLINE HOLDINGS INC (CNET)</item>
+        <item>CONIFER HOLDINGS INC (CNFR)</item>
+        <item>CNH INDUSTRIAL NV (CNHI)</item>
+        <item>CSOP MSCI CHINA A INTL HEDG (CNHX)</item>
+        <item>CANADIAN NATL RAILWAY CO (CNI)</item>
+        <item>CHINA INFORMATION TECHNOLOGY (CNIT)</item>
+        <item>CINEMARK HOLDINGS INC (CNK)</item>
+        <item>CONMED CORP (CNMD)</item>
+        <item>CANNAE HOLDINGS INC (CNNE)</item>
+        <item>CNO FINANCIAL GROUP INC (CNO)</item>
+        <item>CONNECTONE BANCORP INC (CNOB)</item>
+        <item>CENTERPOINT ENERGY INC (CNP)</item>
+        <item>CANADIAN NATURAL RESOURCES (CNQ)</item>
+        <item>COHEN &amp; STEERS INC (CNS)</item>
+        <item>ISHARES EDGE MSCI MF CON STA (CNSF)</item>
+        <item>CONSOLIDATED COMMUNICATIONS (CNSL)</item>
+        <item>CHINA TECHFAITH WIRELESS-ADR (CNTF)</item>
+        <item>CENTURY CASINOS INC (CNTY)</item>
+        <item>CNX RESOURCES CORP (CNX)</item>
+        <item>CNX MIDSTREAM PARTNERS LP (CNXM)</item>
+        <item>PC CONNECTION INC (CNXN)</item>
+        <item>VANECK VECTORS CHINAAMC SME- (CNXT)</item>
+        <item>MARKET VECTORS-RENMINBI/USD (CNY)</item>
+        <item>ISHARES MSCI CHINA A ETF (CNYA)</item>
+        <item>GLOBAL CORD BLOOD CORP (CO)</item>
+        <item>COBIZ FINANCIAL INC (COBZ)</item>
+        <item>COCRYSTAL PHARMA INC (COCP)</item>
+        <item>CODA OCTOPUS GROUP INC (CODA)</item>
+        <item>COMPASS DIVERSIFIED HOLDINGS (CODI)</item>
+        <item>CO-DIAGNOSTICS INC (CODX)</item>
+        <item>CHINA ONLINE EDUCATION-ADR (COE)</item>
+        <item>CAPITAL ONE FINANCIAL CORP (COF)</item>
+        <item>CABOT OIL &amp; GAS CORP (COG)</item>
+        <item>COHEN &amp; CO INC (COHN)</item>
+        <item>COHERENT INC (COHR)</item>
+        <item>COHU INC (COHU)</item>
+        <item>COCA-COLA BOTTLING CO CONSOL (COKE)</item>
+        <item>ROCKWELL COLLINS INC (COL)</item>
+        <item>COLUMBIA BANKING SYSTEM INC (COLB)</item>
+        <item>AMERICOLD REALTY TRUST (COLD)</item>
+        <item>COLLEGIUM PHARMACEUTICAL INC (COLL)</item>
+        <item>COLUMBIA SPORTSWEAR CO (COLM)</item>
+        <item>DIREXION AUSPICE BRD CMDTY (COM)</item>
+        <item>GRANITESHARES BCOM BROAD STR (COMB)</item>
+        <item>GRANITESHARES S&amp;P GSCI CMDTY (COMG)</item>
+        <item>COMMSCOPE HOLDING CO INC (COMM)</item>
+        <item>ISHARES COMMOD SELECT STRAT (COMT)</item>
+        <item>CYRUSONE INC (CONE)</item>
+        <item>CONN'S INC (CONN)</item>
+        <item>COOPER COS INC/THE (COO)</item>
+        <item>POLARITYTE INC (COOL)</item>
+        <item>CONOCOPHILLIPS (COP)</item>
+        <item>GLOBAL X COPPER MINERS ETF (COPX)</item>
+        <item>CORESITE REALTY CORP (COR)</item>
+        <item>CORE-MARK HOLDING CO INC (CORE)</item>
+        <item>CORIUM INTERNATIONAL INC (CORI)</item>
+        <item>TEUCRIUM CORN FUND (CORN)</item>
+        <item>PIMCO INV GRADE CORP BD ETF (CORP)</item>
+        <item>CORENERGY INFRASTRUCTURE TRU (CORR)</item>
+        <item>CORCEPT THERAPEUTICS INC (CORT)</item>
+        <item>COSTCO WHOLESALE CORP (COST)</item>
+        <item>COTT CORPORATION (COT)</item>
+        <item>COTIVITI HOLDINGS INC (COTV)</item>
+        <item>COTY INC-CL A (COTY)</item>
+        <item>COUPA SOFTWARE INC (COUP)</item>
+        <item>IPATH SERIES B BLOOMBERG LIV (COWB)</item>
+        <item>COWEN INC (COWN)</item>
+        <item>PACER US CASH COWS 100 ETF (COWZ)</item>
+        <item>CANADIAN PACIFIC RAILWAY LTD (CP)</item>
+        <item>COPA HOLDINGS SA-CLASS A (CPA)</item>
+        <item>CEMENTOS PACASMAYO SAA - ADR (CPAC)</item>
+        <item>COUNTERPATH CORP (CPAH)</item>
+        <item>CAMPBELL SOUP CO (CPB)</item>
+        <item>CALLON PETROLEUM CO (CPE)</item>
+        <item>UNITED STATES COPPER INDEX (CPER)</item>
+        <item>CENTRAL PACIFIC FINANCIAL CO (CPF)</item>
+        <item>CRESCENT POINT ENERGY CORP (CPG)</item>
+        <item>CANTERBURY PARK HOLDING CORP (CPHC)</item>
+        <item>CHINA PHARMA HOLDINGS INC (CPHI)</item>
+        <item>IQ REAL RETURN ETF (CPI)</item>
+        <item>CUMBERLAND PHARMACEUTICALS (CPIX)</item>
+        <item>CHESAPEAKE UTILITIES CORP (CPK)</item>
+        <item>CPFL ENERGIA SA-ADR (CPL)</item>
+        <item>CAPELLA EDUCATION CO (CPLA)</item>
+        <item>CAPITAL PRODUCT PARTNERS LP (CPLP)</item>
+        <item>COPART INC (CPRT)</item>
+        <item>CATALYST PHARMACEUTICALS INC (CPRX)</item>
+        <item>COOPER-STANDARD HOLDING (CPS)</item>
+        <item>CPS TECHNOLOGIES CORP (CPSH)</item>
+        <item>COMPUTER PROGRAMS &amp; SYSTEMS (CPSI)</item>
+        <item>CONSUMER PORTFOLIO SERVICES (CPSS)</item>
+        <item>CAPSTONE TURBINE CORP (CPST)</item>
+        <item>CAMDEN PROPERTY TRUST (CPT)</item>
+        <item>CAPITALA FINANCE CORP (CPTA)</item>
+        <item>CHENIERE ENERGY PART LP HOLD (CQH)</item>
+        <item>CHENIERE ENERGY PARTNERS LP (CQP)</item>
+        <item>GUGGENHEIM CHINA TECHNOLOGY (CQQQ)</item>
+        <item>CRANE CO (CR)</item>
+        <item>CRA INTERNATIONAL INC (CRAI)</item>
+        <item>VANECK VECTORS OIL REFINERS (CRAK)</item>
+        <item>CRAY INC (CRAY)</item>
+        <item>ISHARES MSCI ACWI LOW CARBON (CRBN)</item>
+        <item>CORBUS PHARMACEUTICALS HOLDI (CRBP)</item>
+        <item>CALIFORNIA RESOURCES CORP (CRC)</item>
+        <item>CARE.COM INC (CRCM)</item>
+        <item>CRAWFORD &amp; COMPANY -CL A (CRD.A)</item>
+        <item>CRAWFORD &amp; CO -CL B (CRD.B)</item>
+        <item>ISHARES US CREDIT BOND ETF (CRED)</item>
+        <item>CREE INC (CREE)</item>
+        <item>CHINA RECYCLING ENERGY CORP (CREG)</item>
+        <item>CRESUD S.A.-SPONS ADR (CRESY)</item>
+        <item>CORNERSTONE TOTAL RETURN FND (CRF)</item>
+        <item>CRH PLC-SPONSORED ADR (CRH)</item>
+        <item>CRH MEDICAL CORP (CRHM)</item>
+        <item>CARTER'S INC (CRI)</item>
+        <item>CURIS INC (CRIS)</item>
+        <item>COMSTOCK RESOURCES INC (CRK)</item>
+        <item>CHARLES RIVER LABORATORIES (CRL)</item>
+        <item>SALESFORCE.COM INC (CRM)</item>
+        <item>CORMEDIX INC (CRMD)</item>
+        <item>CARDIOME PHARMA CORP (CRME)</item>
+        <item>AMERICA'S CAR-MART INC (CRMT)</item>
+        <item>CERAGON NETWORKS LTD (CRNT)</item>
+        <item>PROSHARES ULTRASHORT AUD (CROC)</item>
+        <item>CRONOS GROUP INC (CRON)</item>
+        <item>IQ GLOBAL AGRIBUSINESS SMALL (CROP)</item>
+        <item>CROCS INC (CROX)</item>
+        <item>CARBO CERAMICS INC (CRR)</item>
+        <item>CARPENTER TECHNOLOGY (CRS)</item>
+        <item>CRISPR THERAPEUTICS AG (CRSP)</item>
+        <item>CROSS TIMBERS ROYALTY TRUST (CRT)</item>
+        <item>CRITEO SA-SPON ADR (CRTO)</item>
+        <item>CIRRUS LOGIC INC (CRUS)</item>
+        <item>CORVEL CORP (CRVL)</item>
+        <item>CORVUS PHARMACEUTICALS INC (CRVS)</item>
+        <item>CROWN CRAFTS INC (CRWS)</item>
+        <item>CRYOLIFE INC (CRY)</item>
+        <item>CARRIZO OIL &amp; GAS INC (CRZO)</item>
+        <item>CREDIT SUISSE GROUP-SPON ADR (CS)</item>
+        <item>VICTORYSHARES US SMALL CAP V (CSA)</item>
+        <item>VICTORYSHARES US SMALL CAP H (CSB)</item>
+        <item>CHAMPIONS ONCOLOGY INC (CSBR)</item>
+        <item>CISCO SYSTEMS INC (CSCO)</item>
+        <item>PWR S&amp;P SPIN-OFF (CSD)</item>
+        <item>VICTORYSHARES US DISCOVERY E (CSF)</item>
+        <item>CENTERSTATE BANK CORP (CSFL)</item>
+        <item>COSTAR GROUP INC (CSGP)</item>
+        <item>CSG SYSTEMS INTL INC (CSGS)</item>
+        <item>CARDIOVASCULAR SYSTEMS INC (CSII)</item>
+        <item>CANADIAN SOLAR INC (CSIQ)</item>
+        <item>ISHARES 1-3 YEAR CREDIT BOND (CSJ)</item>
+        <item>CARLISLE COS INC (CSL)</item>
+        <item>CASTLIGHT HEALTH INC-B (CSLT)</item>
+        <item>PROSHARES LARGE CAP CORE PLU (CSM)</item>
+        <item>IQ CHAIKIN SMALL CAP ETF (CSML)</item>
+        <item>CORNERSTONE ONDEMAND INC (CSOD)</item>
+        <item>CSP INC (CSPI)</item>
+        <item>CALAMOS STRAT TOT RETURN FD (CSQ)</item>
+        <item>CSS INDUSTRIES INC (CSS)</item>
+        <item>CHICKEN SOUP FOR THE SOUL EN (CSSE)</item>
+        <item>CAESARSTONE LTD (CSTE)</item>
+        <item>CONSTELLIUM NV- CLASS A (CSTM)</item>
+        <item>CAPSTAR FINANCIAL HOLDINGS I (CSTR)</item>
+        <item>CAPITAL SENIOR LIVING CORP (CSU)</item>
+        <item>CARRIAGE SERVICES INC (CSV)</item>
+        <item>CAPITAL SOUTHWEST CORP (CSWC)</item>
+        <item>CSW INDUSTRIALS INC (CSWI)</item>
+        <item>CSX CORP (CSX)</item>
+        <item>CINTAS CORP (CTAS)</item>
+        <item>COOPER TIRE &amp; RUBBER (CTB)</item>
+        <item>COMMUNITY TRUST BANCORP INC (CTBI)</item>
+        <item>CYNERGISTEK INC/DE (CTEK)</item>
+        <item>COMPUTER TASK GROUP INC (CTG)</item>
+        <item>CHARLES &amp; COLVARD LTD (CTHR)</item>
+        <item>CTI INDUSTRIES CORP (CTIB)</item>
+        <item>CTI BIOPHARMA CORP (CTIC)</item>
+        <item>CENTURYLINK INC (CTL)</item>
+        <item>CATALENT INC (CTLT)</item>
+        <item>CYTOMX THERAPEUTICS INC (CTMX)</item>
+        <item>CONS TOMOKA LAND CO-FLORIDA (CTO)</item>
+        <item>CLEARBRIDGE ENERGY MLP TOTAL (CTR)</item>
+        <item>CARETRUST REIT INC (CTRE)</item>
+        <item>CONTROL4 CORP (CTRL)</item>
+        <item>CITI TRENDS INC (CTRN)</item>
+        <item>CTRIP.COM INTERNATIONAL-ADR (CTRP)</item>
+        <item>CONTRAVIR PHARMACEUTICALS IN (CTRV)</item>
+        <item>CTS CORP (CTS)</item>
+        <item>COGNIZANT TECH SOLUTIONS-A (CTSH)</item>
+        <item>CYTOSORBENTS CORP (CTSO)</item>
+        <item>CATCHMARK TIMBER TRUST INC-A (CTT)</item>
+        <item>CONNECTICUT WATER SVC INC (CTWS)</item>
+        <item>CITIUS PHARMACEUTICALS INC (CTXR)</item>
+        <item>CITRIX SYSTEMS INC (CTXS)</item>
+        <item>CUBIC CORP (CUB)</item>
+        <item>HERZFELD CARIBBEAN BASIN FD (CUBA)</item>
+        <item>CUBESMART (CUBE)</item>
+        <item>CUSTOMERS BANCORP INC (CUBI)</item>
+        <item>CUE BIOPHARMA INC (CUE)</item>
+        <item>CUI GLOBAL INC (CUI)</item>
+        <item>CARNIVAL PLC-ADR (CUK)</item>
+        <item>CULP INC (CULP)</item>
+        <item>VIRTUS CUMBERLAND MUNICIPAL (CUMB)</item>
+        <item>CONTINENTAL MATERIALS CORP (CUO)</item>
+        <item>NEURALSTEM INC (CUR)</item>
+        <item>DIREXION HEALTHCARE BULL 3X (CURE)</item>
+        <item>CURO GROUP HOLDINGS CORP (CURO)</item>
+        <item>PWR MSCI GLOBAL TIMBER (CUT)</item>
+        <item>CUTERA INC (CUTR)</item>
+        <item>COUSINS PROPERTIES INC (CUZ)</item>
+        <item>COVANTA HOLDING CORP (CVA)</item>
+        <item>CVB FINANCIAL CORP (CVBF)</item>
+        <item>CAVCO INDUSTRIES INC (CVCO)</item>
+        <item>CENTRAL VALLEY COMM BANCORP (CVCY)</item>
+        <item>CENOVUS ENERGY INC (CVE)</item>
+        <item>CIVEO CORP (CVEO)</item>
+        <item>CONVERGYS CORP (CVG)</item>
+        <item>COMMERCIAL VEHICLE GROUP INC (CVGI)</item>
+        <item>CALAVO GROWERS INC (CVGW)</item>
+        <item>CVR ENERGY INC (CVI)</item>
+        <item>COMMVAULT SYSTEMS INC (CVLT)</item>
+        <item>CODORUS VALLEY BANCORP INC (CVLY)</item>
+        <item>CEL-SCI CORP (CVM)</item>
+        <item>CARVANA CO (CVNA)</item>
+        <item>CONVERGEONE HOLDINGS INC (CVON)</item>
+        <item>CHICAGO RIVET &amp; MACHINE CO (CVR)</item>
+        <item>CVR REFINING LP (CVRR)</item>
+        <item>CORINDUS VASCULAR ROBOTICS I (CVRS)</item>
+        <item>CVS HEALTH CORP (CVS)</item>
+        <item>COVENANT TRANSPORT GRP-CL A (CVTI)</item>
+        <item>CPI AEROSTRUCTURES INC (CVU)</item>
+        <item>CVD EQUIPMENT CORP (CVV)</item>
+        <item>CHEVRON CORP (CVX)</item>
+        <item>PWR ZACKS MULTI-ASSET INC (CVY)</item>
+        <item>CURTISS-WRIGHT CORP (CW)</item>
+        <item>CWA INCOME ETF (CWAI)</item>
+        <item>COASTWAY BANCORP INC (CWAY)</item>
+        <item>SPDR BBG BARC CONVERTIBLE (CWB)</item>
+        <item>COMMUNITY WEST BANCSHARES (CWBC)</item>
+        <item>COHBAR INC (CWBR)</item>
+        <item>CONSOLIDATED WATER CO-ORD SH (CWCO)</item>
+        <item>DIREXION DAILY CSI CHINA INT (CWEB)</item>
+        <item>CAMPING WORLD HOLDINGS INC-A (CWH)</item>
+        <item>SPDR MSCI ACWI EX-US (CWI)</item>
+        <item>ADVISORSHARES EQUITY FOCUSED (CWS)</item>
+        <item>CASELLA WASTE SYSTEMS INC-A (CWST)</item>
+        <item>CALIFORNIA WATER SERVICE GRP (CWT)</item>
+        <item>CEMEX SAB-SPONS ADR PART CER (CX)</item>
+        <item>CHINA XD PLASTICS CO LTD (CXDC)</item>
+        <item>MFS HIGH INCOME MUNICIPAL TR (CXE)</item>
+        <item>MFS INVESTMENT GRADE MUNICIP (CXH)</item>
+        <item>CONCHO RESOURCES INC (CXO)</item>
+        <item>COLUMBIA PROPERTY TRUST INC (CXP)</item>
+        <item>CONCORDIA INTERNATIONAL CORP (CXRX)</item>
+        <item>WISDOMTREE CHINA EX-ST OW (CXSE)</item>
+        <item>CORECIVIC INC (CXW)</item>
+        <item>CYPRESS SEMICONDUCTOR CORP (CY)</item>
+        <item>CELYAD -SPON ADR (CYAD)</item>
+        <item>CYANOTECH CORP (CYAN)</item>
+        <item>WISDOMTREE CHINESE YUAN STRA (CYB)</item>
+        <item>CYBEROPTICS CORP (CYBE)</item>
+        <item>CYBERARK SOFTWARE LTD/ISRAEL (CYBR)</item>
+        <item>CYCLACEL PHARMACEUTICALS INC (CYCC)</item>
+        <item>CHINA YUCHAI INTL LTD (CYD)</item>
+        <item>COMMUNITY HEALTH SYSTEMS INC (CYH)</item>
+        <item>COMMUNITY HEALTH SYSTEMS-CVR (CYHHZ)</item>
+        <item>CHANGYOU.COM LTD-ADR (CYOU)</item>
+        <item>CYREN LTD (CYRN)</item>
+        <item>CRYOPORT INC (CYRX)</item>
+        <item>CYS INVESTMENTS INC (CYS)</item>
+        <item>CYTOKINETICS INC (CYTK)</item>
+        <item>CYTRX CORP (CYTR)</item>
+        <item>CYTORI THERAPEUTICS INC (CYTX)</item>
+        <item>PWR ZACKS MD-CP (CZA)</item>
+        <item>CITIZENS FIRST CORP (CZFC)</item>
+        <item>CITIZENS &amp; NORTHERN CORP (CZNC)</item>
+        <item>CAESARS ENTERTAINMENT CORP (CZR)</item>
+        <item>CITIZENS COMMUNITY BANCORP I (CZWI)</item>
+        <item>COSAN LTD-CLASS A SHARES (CZZ)</item>
+        <item>DOMINION ENERGY INC (D)</item>
+        <item>DANAOS CORP (DAC)</item>
+        <item>DB AGRICULTURE DOUBLE LONG (DAG)</item>
+        <item>DATA I/O CORP (DAIO)</item>
+        <item>DAKTRONICS INC (DAKT)</item>
+        <item>DELTA AIR LINES INC (DAL)</item>
+        <item>ANFIELD CAPITAL DIVERSIFIED (DALT)</item>
+        <item>DANA INC (DAN)</item>
+        <item>DARLING INGREDIENTS INC (DAR)</item>
+        <item>DARE BIOSCIENCE INC (DARE)</item>
+        <item>TABLEAU SOFTWARE INC-CL A (DATA)</item>
+        <item>VELOCITYSHARES DAILY 4X LONG (DAUD)</item>
+        <item>FAMOUS DAVE'S OF AMERICA (DAVE)</item>
+        <item>HORIZONS DAX GERMANY ETF (DAX)</item>
+        <item>DEUTSCHE BANK AG-REGISTERED (DB)</item>
+        <item>POWERSHARES DB AGRICULTURE F (DBA)</item>
+        <item>XTRACKERS MSCI ASIA PACIFIC (DBAP)</item>
+        <item>XTRACKERS MSCI ALL WORLD EX (DBAW)</item>
+        <item>POWERSHARES DB BASE METALS F (DBB)</item>
+        <item>XTRACKERS MSCI BRAZIL HEDGED (DBBR)</item>
+        <item>POWERSHARES DB COMMODITY IND (DBC)</item>
+        <item>DIEBOLD NIXDORF INC (DBD)</item>
+        <item>POWERSHARES DB ENERGY FUND (DBE)</item>
+        <item>XTRACKERS MSCI EAFE HEDGED E (DBEF)</item>
+        <item>XTRACKERS MSCI EMERGING MARK (DBEM)</item>
+        <item>X-TRACKERS MSCI EAFE SMALL C (DBES)</item>
+        <item>XTRACKERS MSCI EUROPE HEDGED (DBEU)</item>
+        <item>XTRACKERS MSCI EUROZONE HEDG (DBEZ)</item>
+        <item>XTRACKERS MSCI GERMANY HEDGE (DBGR)</item>
+        <item>XTRACKERS MSCI JAPAN HEDGED (DBJP)</item>
+        <item>XTRACKERS MSCI SOUTH KOREA H (DBKO)</item>
+        <item>DOUBLELINE OPPORTUNISTIC CRE (DBL)</item>
+        <item>XTRACKERS MSCI MEXICO HEDGED (DBMX)</item>
+        <item>POWERSHARES DB OIL FUND (DBO)</item>
+        <item>POWERSHARES DB PREC METALS F (DBP)</item>
+        <item>AXELATRADER 3X INV BRNT ETN (DBRT)</item>
+        <item>POWERSHARES DB SILVER FUND (DBS)</item>
+        <item>XTRACKERS MSCI UNITED KINGDO (DBUK)</item>
+        <item>POWERSHARES DB G10 CURR HARV (DBV)</item>
+        <item>DBV TECHNOLOGIES SA-SPON ADR (DBVT)</item>
+        <item>DROPBOX INC-CLASS A (DBX)</item>
+        <item>DROPCAR INC (DCAR)</item>
+        <item>DREYFUS ALCENTRA GLBL CRDT (DCF)</item>
+        <item>VELOCITYSHARES DAILY 4X LONG (DCHF)</item>
+        <item>DONALDSON CO INC (DCI)</item>
+        <item>DIANA CONTAINERSHIPS INC (DCIX)</item>
+        <item>DUCOMMUN INC (DCO)</item>
+        <item>DIME COMMUNITY BANCSHARES (DCOM)</item>
+        <item>DCP MIDSTREAM LP (DCP)</item>
+        <item>DECIPHERA PHARMACEUTICALS IN (DCPH)</item>
+        <item>DCT INDUSTRIAL TRUST INC (DCT)</item>
+        <item>LEGG MASON DEV EX-US DIV ETF (DDBI)</item>
+        <item>3D SYSTEMS CORP (DDD)</item>
+        <item>DOVER DOWNS GAMING &amp; ENTERTA (DDE)</item>
+        <item>WISDOMTREE DY CUR HDG EUR EQ (DDEZ)</item>
+        <item>DELAWARE INV DIVIDEND &amp; INC (DDF)</item>
+        <item>PROSHARES SHORT OIL &amp; GAS (DDG)</item>
+        <item>WISDOMTREE DY CUR HDG JPN EQ (DDJP)</item>
+        <item>WISDOMTREE DY CUR HDG SCP EQ (DDLS)</item>
+        <item>PROSHARES ULTRA DOW30 (DDM)</item>
+        <item>DB COMMODITY SHORT ETN (DDP)</item>
+        <item>DDR CORP (DDR)</item>
+        <item>DILLARDS INC-CL A (DDS)</item>
+        <item>WISDOMTREE DY CUR HDG INTL (DDWM)</item>
+        <item>DEERE &amp; CO (DE)</item>
+        <item>EASTERLY GOVERNMENT PROPERTI (DEA)</item>
+        <item>DECKERS OUTDOOR CORP (DECK)</item>
+        <item>DB COMMODITY DOUBLE SHORT (DEE)</item>
+        <item>XTRACKERS FTSE DEVELOPED EX (DEEF)</item>
+        <item>PWR DEFENSIVE EQUITY (DEF)</item>
+        <item>ISHARES ADPT CUR HDG EAFE ET (DEFA)</item>
+        <item>DOUGLAS EMMETT INC (DEI)</item>
+        <item>DELTA TECHNOLOGY HOLDINGS LT (DELT)</item>
+        <item>WISDOMTREE EMERGING MARKETS (DEM)</item>
+        <item>XTRACKERS FTSE EMERGING COMP (DEMG)</item>
+        <item>DEMOCRATIC POLICIES FUND (DEMS)</item>
+        <item>DENNY'S CORP (DENN)</item>
+        <item>DIAGEO PLC-SPONSORED ADR (DEO)</item>
+        <item>DEPOMED INC (DEPO)</item>
+        <item>DERMIRA INC (DERM)</item>
+        <item>WISDOMTREE US SMALLCAP DIVID (DES)</item>
+        <item>XTRACKERS RUSSELL 2000 COMPR (DESC)</item>
+        <item>DESPEGAR.COM CORP (DESP)</item>
+        <item>DESTINATION MATERNITY CORP (DEST)</item>
+        <item>VELOCITYSHARES DAILY 4X LONG (DEUR)</item>
+        <item>XTRACKERS RUSSELL 1000 COMPR (DEUS)</item>
+        <item>WISDOMTREE GLOBAL HIGH DIVID (DEW)</item>
+        <item>ISHARES ADPT CUR HDG JPN ETF (DEWJ)</item>
+        <item>DELAWARE ENHANCED GLOBAL DIV (DEX)</item>
+        <item>ISHARES ADPT CUR HDG EUROZON (DEZU)</item>
+        <item>DEAN FOODS CO (DF)</item>
+        <item>DIFFERENTIAL BRANDS GROUP IN (DFBG)</item>
+        <item>DFB HEALTHCARE ACQUISITIONS (DFBH)</item>
+        <item>DFB HEALTHCARE ACQUISITIONS (DFBHU)</item>
+        <item>WISDOMTREE EUR S/C DIVIDEND (DFE)</item>
+        <item>DIREXION DAILY AEROSPACE &amp; D (DFEN)</item>
+        <item>DIFFUSION PHARMACEUTICALS IN (DFFN)</item>
+        <item>DONNELLEY FINANCIAL SOLUTION (DFIN)</item>
+        <item>WISDOMTREE JPN S/C DVD FUND (DFJ)</item>
+        <item>REALITY SHRS DIVCON DEF ETF (DFND)</item>
+        <item>DAVIS SELECT FINANCIAL ETF (DFNL)</item>
+        <item>FLAHERTY &amp; CRUMRINE DYNAMIC (DFP)</item>
+        <item>DEL FRISCO'S RESTAURANT GROU (DFRG)</item>
+        <item>DISCOVER FINANCIAL SERVICES (DFS)</item>
+        <item>IPATH US TREASURY 5-YR BULL (DFVL)</item>
+        <item>IPATH US TREASURY 5 YR BEAR (DFVS)</item>
+        <item>DOLLAR GENERAL CORP (DG)</item>
+        <item>VELOCITYSHARES 3X INVERSE NA (DGAZ)</item>
+        <item>VELOCITYSHARES DAILY 4X LONG (DGBP)</item>
+        <item>DONEGAL GROUP INC-CL A (DGICA)</item>
+        <item>DONEGAL GROUP INC-B (DGICB)</item>
+        <item>DIGI INTERNATIONAL INC (DGII)</item>
+        <item>POWERSHARES DB GOLD FUND (DGL)</item>
+        <item>VELOCITYSHARES 3X INVERSE GO (DGLD)</item>
+        <item>DIGITAL ALLY INC (DGLY)</item>
+        <item>DB GOLD DOUBLE LONG ETN (DGP)</item>
+        <item>WISDOMTREE EMERGING MARKETS (DGRE)</item>
+        <item>ISHARES CORE DIVIDEND GROWTH (DGRO)</item>
+        <item>WISDOMTREE U.S. SMALLCAP QUA (DGRS)</item>
+        <item>WISDOMTREE U.S. QUALITY DIVI (DGRW)</item>
+        <item>WISDOMTREE EM SMALL CAP (DGS)</item>
+        <item>DGSE COMPANIES INC (DGSE)</item>
+        <item>SPDR GLOBAL DOW ETF (DGT)</item>
+        <item>QUEST DIAGNOSTICS INC (DGX)</item>
+        <item>DB GOLD SHORT ETN (DGZ)</item>
+        <item>DITECH HOLDING CORP (DHCP)</item>
+        <item>WISDOMTREE DYN CURR HDG QDIV (DHDG)</item>
+        <item>DREYFUS HIGH YIELD STRAT FD (DHF)</item>
+        <item>DR HORTON INC (DHI)</item>
+        <item>DIAMOND HILL INVESTMENT GRP (DHIL)</item>
+        <item>DANAHER CORP (DHR)</item>
+        <item>WISDOMTREE US HIGH DIVIDEND (DHS)</item>
+        <item>DHT HOLDINGS INC (DHT)</item>
+        <item>DIAMOND HILL VALUATION-WEIGH (DHVW)</item>
+        <item>DHI GROUP INC (DHX)</item>
+        <item>DHX MEDIA LTD-VAR VOTING SHR (DHXM)</item>
+        <item>CREDIT SUISSE HIGH YIELD BD (DHY)</item>
+        <item>SPDR DJIA TRUST (DIA)</item>
+        <item>COLUMBIA DIVERSIFIED ETF (DIAL)</item>
+        <item>NUVEEN DOW30 DYN OVERWRT FD (DIAX)</item>
+        <item>PROSHARES ULTRA OIL &amp; GAS (DIG)</item>
+        <item>WISDOMTREE INTL M/C DVD FUND (DIM)</item>
+        <item>DINE BRANDS GLOBAL INC (DIN)</item>
+        <item>DAVIS SELECT INTERNATIONAL (DINT)</item>
+        <item>DIODES INC (DIOD)</item>
+        <item>WALT DISNEY CO/THE (DIS)</item>
+        <item>DISCOVERY INC - A (DISCA)</item>
+        <item>DISCOVERY INC-B (DISCB)</item>
+        <item>DISCOVERY INC-C (DISCK)</item>
+        <item>DISH NETWORK CORP-A (DISH)</item>
+        <item>AMCON DISTRIBUTING CO (DIT)</item>
+        <item>GLOBAL X SUPERDIVIDEND USE (DIV)</item>
+        <item>AGFIQ HEDGED DIVIDEND INCOME (DIVA)</item>
+        <item>ISHARES US DVD AND BUYBACK (DIVB)</item>
+        <item>C-TRACKS ETN MILLER/HOWARD (DIVC)</item>
+        <item>AMPLIFY YIELD SHARES CWP DIV (DIVO)</item>
+        <item>REALITY SHARES DIVS ETF (DIVY)</item>
+        <item>E-TRACS BLOOMBERG COMMODITY (DJCI)</item>
+        <item>DAILY JOURNAL CORP (DJCO)</item>
+        <item>PWR DJIA DIV (DJD)</item>
+        <item>IPATH BLOOMBERG COMMODITY IN (DJP)</item>
+        <item>VELOCITYSHARES DAILY 4X LONG (DJPY)</item>
+        <item>DELEK US HOLDINGS INC (DK)</item>
+        <item>DELEK LOGISTICS PARTNERS LP (DKL)</item>
+        <item>DICK'S SPORTING GOODS INC (DKS)</item>
+        <item>CHINA DISTANCE EDUCATION-ADR (DL)</item>
+        <item>DELTA APPAREL INC (DLA)</item>
+        <item>DOLBY LABORATORIES INC-CL A (DLB)</item>
+        <item>IPATH US TSY LONG BOND BULL (DLBL)</item>
+        <item>VELOCITYSHARES SHRT LBR ETN (DLBR)</item>
+        <item>IPATH US TSY LONG BOND BEAR (DLBS)</item>
+        <item>DLH HOLDINGS CORP (DLHC)</item>
+        <item>WISDOMTREE US LARGECAP DIVID (DLN)</item>
+        <item>DYNAGAS LNG PARTNERS LP (DLNG)</item>
+        <item>DELPHI TECHNOLOGIES PLC (DLPH)</item>
+        <item>DOLPHIN ENTERTAINMENT INC (DLPN)</item>
+        <item>DIGITAL REALTY TRUST INC (DLR)</item>
+        <item>WISDOMTREE INTL S/C DVD FUND (DLS)</item>
+        <item>DULUTH HOLDINGS INC - CL B (DLTH)</item>
+        <item>DOLLAR TREE INC (DLTR)</item>
+        <item>DELUXE CORP (DLX)</item>
+        <item>DOMINION ENERGY MIDSTREAM PA (DM)</item>
+        <item>DREYFUS MUNICIPAL BOND INFRA (DMB)</item>
+        <item>DREYFUS MUNICIPAL INCOME INC (DMF)</item>
+        <item>DORCHESTER MINERALS LP (DMLP)</item>
+        <item>WESTERN ASSET MORTGAGE DEFIN (DMO)</item>
+        <item>DELMAR PHARMACEUTICALS INC (DMPI)</item>
+        <item>DIGIMARC CORP (DMRC)</item>
+        <item>DELTASHARES S&amp;P INT MGD RISK (DMRI)</item>
+        <item>DELTASHARES S&amp;P 500 MGD RISK (DMRL)</item>
+        <item>DELTASHARES S&amp;P 400 MGD RISK (DMRM)</item>
+        <item>DELTASHARES S&amp;P 600 MGD RISK (DMRS)</item>
+        <item>DUN &amp; BRADSTREET CORP (DNB)</item>
+        <item>DNB FINANCIAL CORP (DNBF)</item>
+        <item>DIVIDEND AND INCOME FUND (DNI)</item>
+        <item>GOLDEN BULL LTD (DNJR)</item>
+        <item>DUNKIN' BRANDS GROUP INC (DNKN)</item>
+        <item>WISDOMTREE GLOBAL EX-US QUAL (DNL)</item>
+        <item>DENALI THERAPEUTICS INC (DNLI)</item>
+        <item>DENISON MINES CORP (DNN)</item>
+        <item>UNITED STATES SHORT OIL FUND (DNO)</item>
+        <item>NOW INC (DNOW)</item>
+        <item>DNP SELECT INCOME FUND INC (DNP)</item>
+        <item>DENBURY RESOURCES INC (DNR)</item>
+        <item>DIAMOND OFFSHORE DRILLING (DO)</item>
+        <item>PHYSICIANS REALTY TRUST (DOC)</item>
+        <item>ELEMENTS-DOGS OF DOW (DOD)</item>
+        <item>PROSHARES SHORT DOW30 (DOG)</item>
+        <item>ARROW DOGS OF THE WORLD ETF (DOGS)</item>
+        <item>DOGNESS INTERNATIONAL CORP-A (DOGZ)</item>
+        <item>WISDOMTREE INTL L/C DVD FUND (DOL)</item>
+        <item>WISDOMTREE US MIDCAP DIVIDEN (DON)</item>
+        <item>WISDOMTREE INTL DVD EX-FIN (DOO)</item>
+        <item>MASONITE INTERNATIONAL CORP (DOOR)</item>
+        <item>DORMAN PRODUCTS INC (DORM)</item>
+        <item>DRAPER OAKWOOD TECHNOLOGY-A (DOTA)</item>
+        <item>DRAPER OAKWOOD TECH-RTS (DOTAR)</item>
+        <item>DRAPER OAKWOOD TECHNOLOGY AC (DOTAU)</item>
+        <item>DOVER CORP (DOV)</item>
+        <item>DOVA PHARMACEUTICALS INC (DOVA)</item>
+        <item>AMDOCS LTD (DOX)</item>
+        <item>DUFF &amp; PHELPS GLOBAL UTILITY (DPG)</item>
+        <item>DIREXION DAILY DEV M BEAR 3X (DPK)</item>
+        <item>DIPLOMAT PHARMACY INC (DPLO)</item>
+        <item>DR PEPPER SNAPPLE GROUP INC (DPS)</item>
+        <item>DIREXION DAILY REGIONAL BANK (DPST)</item>
+        <item>DPW HOLDINGS INC (DPW)</item>
+        <item>DOMINO'S PIZZA INC (DPZ)</item>
+        <item>DAQO NEW ENERGY CORP-ADR (DQ)</item>
+        <item>DIGIRAD CORP (DRAD)</item>
+        <item>DRDGOLD LTD-SPONSORED ADR (DRD)</item>
+        <item>DUKE REALTY CORP (DRE)</item>
+        <item>DIAMONDROCK HOSPITALITY CO (DRH)</item>
+        <item>DARDEN RESTAURANTS INC (DRI)</item>
+        <item>DARIOHEALTH CORP (DRIO)</item>
+        <item>DRXN DAILY S&amp;P OIL&amp;GAS BEAR (DRIP)</item>
+        <item>DIREXION DLY REAL EST BULL3X (DRN)</item>
+        <item>DICERNA PHARMACEUTICALS INC (DRNA)</item>
+        <item>DRIL-QUIP INC (DRQ)</item>
+        <item>MARKET VECTORS DBL SHORT EUR (DRR)</item>
+        <item>DURECT CORPORATION (DRRX)</item>
+        <item>DIREXION DLY REAL EST BEAR3X (DRV)</item>
+        <item>WISDOMTREE GLOBAL EX-US REAL (DRW)</item>
+        <item>DRYSHIPS INC (DRYS)</item>
+        <item>DRIVE SHACK INC (DS)</item>
+        <item>DUFF &amp; PHELPS SELECT ENERGY (DSE)</item>
+        <item>DESCARTES SYSTEMS GRP/THE (DSGX)</item>
+        <item>ISHARES MSCI KLD 400 SOCIAL (DSI)</item>
+        <item>DASEKE INC (DSKE)</item>
+        <item>DOUBLELINE INCOME SOLUTIONS (DSL)</item>
+        <item>VELOCITYSHARES 3X INVERSE SI (DSLV)</item>
+        <item>DREYFUS STRATEGIC MUNI BD FD (DSM)</item>
+        <item>DSP GROUP INC (DSPG)</item>
+        <item>DOCUMENT SECURITY SYSTEMS (DSS)</item>
+        <item>BLACKROCK DEBT STRATEGIES FD (DSU)</item>
+        <item>POWERSHARES CHINESE YUAN DIM (DSUM)</item>
+        <item>DSW INC-CLASS A (DSW)</item>
+        <item>DESWELL INDUSTRIES INC (DSWL)</item>
+        <item>DIANA SHIPPING INC (DSX)</item>
+        <item>WISDOMTREE US TOTAL DIVIDEND (DTD)</item>
+        <item>DTE ENERGY COMPANY (DTE)</item>
+        <item>DAVIDSTEA INC (DTEA)</item>
+        <item>ALPS DISRUPTIVE TECHNOLOGIES (DTEC)</item>
+        <item>DTF TAX-FREE INCOME INC (DTF)</item>
+        <item>WISDOMTREE INTERNATIONAL HIG (DTH)</item>
+        <item>WISDOMTREE US DIVIDEND EX-FI (DTN)</item>
+        <item>DB CRUDE OIL DOUBLE SHORT (DTO)</item>
+        <item>DETERMINE INC (DTRM)</item>
+        <item>IPATH US TSY 2Y BULL (DTUL)</item>
+        <item>IPATH US TSY 2Y BEAR (DTUS)</item>
+        <item>IPATH US TSY 10Y BULL (DTYL)</item>
+        <item>IPATH US TSY 10Y BEAR (DTYS)</item>
+        <item>DUFF &amp; PHELPS UTIL &amp; CORP BD (DUC)</item>
+        <item>PROSHARES ULTRASHORT OIL&amp;GAS (DUG)</item>
+        <item>DUKE ENERGY CORP (DUK)</item>
+        <item>DAVIS SELECT US EQUITY ETF (DUSA)</item>
+        <item>DIREXION DAILY INDUSTRIALS B (DUSL)</item>
+        <item>DIREXION DAILY GOLD MINERS I (DUST)</item>
+        <item>DAVITA INC (DVA)</item>
+        <item>DYNAVAX TECHNOLOGIES CORP (DVAX)</item>
+        <item>DIVERSICARE HEALTHCARE SERVI (DVCR)</item>
+        <item>DOVER MOTORSPORTS INC (DVD)</item>
+        <item>WISDOMTREE EM MKT DVD ETF (DVEM)</item>
+        <item>ETRACS MON PAY 2XLEV HI INC (DVHL)</item>
+        <item>DELL TECHNOLOGIES INC-CL V (DVMT)</item>
+        <item>DEVON ENERGY CORP (DVN)</item>
+        <item>DEEP VALUE ETF (DVP)</item>
+        <item>ISHARES SELECT DIVIDEND ETF (DVY)</item>
+        <item>ISHARES ASIA/PACIFIC DIVIDEN (DVYA)</item>
+        <item>ISHARES EMERGING MARKETS DIV (DVYE)</item>
+        <item>ETRACS 2X DJ SEL DVD ETN (DVYL)</item>
+        <item>POWERSHARES DWA NASDAQ MOMEN (DWAQ)</item>
+        <item>POWERSHARES DWA SMALLCAP MOM (DWAS)</item>
+        <item>ARROW DWA TACTICAL ETF (DWAT)</item>
+        <item>DATAWATCH CORP (DWCH)</item>
+        <item>ARROW DWA COUNTRY ROTATION E (DWCR)</item>
+        <item>DOWDUPONT INC (DWDP)</item>
+        <item>SPDR DORSEY WRIGHT FI ALLOC (DWFI)</item>
+        <item>POWERSHARES DWA TACTICAL MUL (DWIN)</item>
+        <item>DAVIS SELECT WORLDWIDE ETF (DWLD)</item>
+        <item>POWERSHARES DWA MOMENTUM &amp; L (DWLV)</item>
+        <item>WISDOMTREE INTERNATIONAL EQU (DWM)</item>
+        <item>FIRST TRUST DORSEY WRIGHT PE (DWPP)</item>
+        <item>DAWSON GEOPHYSICAL CO (DWSN)</item>
+        <item>VELOCITYSHARES 3X INV CRUDE (DWT)</item>
+        <item>POWERSHARES DWA TACT SEC ROT (DWTR)</item>
+        <item>SPDR S&amp;P INTER DVD ETF (DWX)</item>
+        <item>DYNEX CAPITAL INC (DX)</item>
+        <item>DXC TECHNOLOGY CO (DXC)</item>
+        <item>DEXCOM INC (DXCM)</item>
+        <item>PROSHARES ULTRASHORT DOW30 (DXD)</item>
+        <item>DUNXIN FINANCIAL HOLDING-ADR (DXF)</item>
+        <item>WISDOMTREE GERMANY HEDGED EQ (DXGE)</item>
+        <item>WISDOMTREE JAPAN HEDGED EQ (DXJ)</item>
+        <item>WISDOMTREE JPN HDG FINANCIAL (DXJF)</item>
+        <item>WISDOMTREE JAPAN HEDGED SMAL (DXJS)</item>
+        <item>DESTINATION XL GROUP INC (DXLG)</item>
+        <item>DXP ENTERPRISES INC (DXPE)</item>
+        <item>DAXOR CORP (DXR)</item>
+        <item>DIXIE GROUP INC (DXYN)</item>
+        <item>DYCOM INDUSTRIES INC (DY)</item>
+        <item>WISDOMTREE DYN BEAR US ETF (DYB)</item>
+        <item>WISDOMTREE DYN L/S US EQ ETF (DYLS)</item>
+        <item>DYNATRONICS CORP (DYNT)</item>
+        <item>DYNASIL CORP OF AMERICA (DYSL)</item>
+        <item>DB COMMODITY DOUBLE LONG (DYY)</item>
+        <item>DIREXION DLY DEV MKT BULL 3X (DZK)</item>
+        <item>DASAN ZHONE SOLUTIONS INC (DZSI)</item>
+        <item>DB GOLD DOUBLE SHORT ETN (DZZ)</item>
+        <item>ENI SPA-SPONSORED ADR (E)</item>
+        <item>ELECTRONIC ARTS INC (EA)</item>
+        <item>EASTERLY ACQUISITION CORP (EACQ)</item>
+        <item>EASTERLY ACQUISITION CORP (EACQU)</item>
+        <item>WELLS FARGO INCOME OPPORTUNI (EAD)</item>
+        <item>GRAFTECH INTERNATIONAL LTD (EAF)</item>
+        <item>PLATINUM EAGLE ACQUISITION C (EAGL)</item>
+        <item>PLATINUM EAGLE ACQUISITION C (EAGLU)</item>
+        <item>ELLINGTON RESIDENTIAL MORTGA (EARN)</item>
+        <item>AURIS MEDICAL HOLDING AG (EARS)</item>
+        <item>EASTSIDE DISTILLING INC (EAST)</item>
+        <item>BRINKER INTERNATIONAL INC (EAT)</item>
+        <item>EBAY INC (EBAY)</item>
+        <item>ENNIS INC (EBF)</item>
+        <item>ELEVEN BIOTHERAPEUTICS INC (EBIO)</item>
+        <item>EBIX INC (EBIX)</item>
+        <item>EAGLE BANCORP MONTANA INC (EBMT)</item>
+        <item>SPDR BBG BARC EM LOCAL BOND (EBND)</item>
+        <item>CENTRAIS ELETRICAS BR-SP ADR (EBR)</item>
+        <item>CENTRAIS ELEC BRAS-ADR PREF (EBR.B)</item>
+        <item>EMERGENT BIOSOLUTIONS INC (EBS)</item>
+        <item>MERIDIAN BANCORP INC (EBSB)</item>
+        <item>ENTERPRISE BANCORP INC (EBTC)</item>
+        <item>ECOPETROL SA-SPONSORED ADR (EC)</item>
+        <item>ENCANA CORP (ECA)</item>
+        <item>EAGLE POINT CREDIT CO INC (ECC)</item>
+        <item>ELLSWORTH GROWTH AND INCOME (ECF)</item>
+        <item>ISHARES MSCI CHILE ETF (ECH)</item>
+        <item>ECHO GLOBAL LOGISTICS INC (ECHO)</item>
+        <item>ECOLAB INC (ECL)</item>
+        <item>ISHARES MSCI CHINA SMALL-CAP (ECNS)</item>
+        <item>US ECOLOGY INC (ECOL)</item>
+        <item>CHANNELADVISOR CORP (ECOM)</item>
+        <item>COLUMBIA EMERGING MARKETS CO (ECON)</item>
+        <item>ENCORE CAPITAL GROUP INC (ECPG)</item>
+        <item>ECLIPSE RESOURCES CORP (ECR)</item>
+        <item>ECA MARCELLUS TRUST I (ECT)</item>
+        <item>ENDOCYTE INC (ECYT)</item>
+        <item>CONSOLIDATED EDISON INC (ED)</item>
+        <item>EDAP TMS SA -ADR (EDAP)</item>
+        <item>LEGG MASON E.M. DIV CORE ETF (EDBI)</item>
+        <item>DIREXION DLY EMG MKT BULL 3X (EDC)</item>
+        <item>MORGAN STANLEY EMERGING MARK (EDD)</item>
+        <item>ISHARES MSCI DENMARK ETF (EDEN)</item>
+        <item>STONE HARBOR EMER MKT INC (EDF)</item>
+        <item>EDGE THERAPEUTICS INC (EDGE)</item>
+        <item>EDGEWATER TECHNOLOGY INC (EDGW)</item>
+        <item>STONE HARBOR EM MKT TOTL INC (EDI)</item>
+        <item>EDITAS MEDICINE INC (EDIT)</item>
+        <item>SPDR S&amp;P EMERGING MARKETS DI (EDIV)</item>
+        <item>EMP DISTRIB Y COMERC NOR-ADR (EDN)</item>
+        <item>ALPS EMERGING SECTOR DIVIDEN (EDOG)</item>
+        <item>WISDOMTREE EUROPE DOMESTIC E (EDOM)</item>
+        <item>FIRST TRUST DOW 30 EQL WGHT (EDOW)</item>
+        <item>EDUCATION REALTY TRUST INC (EDR)</item>
+        <item>NEW ORIENTAL EDUCATIO-SP ADR (EDU)</item>
+        <item>EDUCATIONAL DEVELOPMENT CORP (EDUC)</item>
+        <item>VANGUARD EXTENDED DUR TREAS (EDV)</item>
+        <item>DIREXION DLY EMG MKT BEAR 3X (EDZ)</item>
+        <item>EL PASO ELECTRIC CO (EE)</item>
+        <item>EUROPEAN EQUITY FUND INC/THE (EEA)</item>
+        <item>GUGGENHEIM BRIC ETF (EEB)</item>
+        <item>EURONET WORLDWIDE INC (EEFT)</item>
+        <item>ELEMENTS SPECTRUM ETN (EEH)</item>
+        <item>ECOLOGY AND ENVIRON -CL A (EEI)</item>
+        <item>POWERSHARES S&amp;P EM-MK LOW VO (EELV)</item>
+        <item>ISHARES MSCI EMERGING MARKET (EEM)</item>
+        <item>ISHARES MSCI EMERG MRKT ASIA (EEMA)</item>
+        <item>AAM S&amp;P EM HIGH DIV VAL ETF (EEMD)</item>
+        <item>POWERSHARES S&amp;P EMERGING MAR (EEMO)</item>
+        <item>ISHARES MSCI EMERGING MKT SM (EEMS)</item>
+        <item>ISHARES EDGE MSCI MIN VOL EM (EEMV)</item>
+        <item>SPDR MSCI EM FSL FL RSV FREE (EEMX)</item>
+        <item>ENBRIDGE ENERGY PARTNERS LP (EEP)</item>
+        <item>ENBRIDGE ENERGY MANAGEMENT L (EEQ)</item>
+        <item>WISDOMTREE US SMALLCAP EARNI (EES)</item>
+        <item>PROSHARES ULT MSCI EMER MKTS (EET)</item>
+        <item>PROSHARES ULTSHRT MSCI EM (EEV)</item>
+        <item>EMERALD EXPOSITIONS EVENTS I (EEX)</item>
+        <item>ISHARES MSCI EAFE ETF (EFA)</item>
+        <item>PROSHARES EAFE DVD GROWERS (EFAD)</item>
+        <item>GLOBAL X MSCI SUPERDIVIDEND (EFAS)</item>
+        <item>ISHARES EDGE MSCI MIN VOL EA (EFAV)</item>
+        <item>SPDR MSCI EAFA FOSSIL FUEL (EFAX)</item>
+        <item>EAGLE FINANCIAL BANCORP INC (EFBI)</item>
+        <item>ELLINGTON FINANCIAL LLC (EFC)</item>
+        <item>EATON VANCE FLOATING-RATE IN (EFF)</item>
+        <item>GLOBAL X JPM EFFICIENTE ETF (EFFE)</item>
+        <item>ISHARES MSCI EAFE GROWTH ETF (EFG)</item>
+        <item>ELECTRONICS FOR IMAGING (EFII)</item>
+        <item>EATON VANCE FLOATING-RATE 20 (EFL)</item>
+        <item>ISHARES MSCI FINLAND ETF (EFNL)</item>
+        <item>PROSHARES ULTRA MSCI EAFE (EFO)</item>
+        <item>ENERGY FOCUS INC (EFOI)</item>
+        <item>EATON VANCE SR FLTG RATE TR (EFR)</item>
+        <item>ENTERPRISE FINANCIAL SERVICE (EFSC)</item>
+        <item>EATON VANCE FLOAT RT INC TR (EFT)</item>
+        <item>PROSHARES ULTSHRT MSCI EAFE (EFU)</item>
+        <item>ISHARES MSCI EAFE VALUE ETF (EFV)</item>
+        <item>EQUIFAX INC (EFX)</item>
+        <item>PROSHARES SHORT MSCI EAFE (EFZ)</item>
+        <item>EGAIN CORP (EGAN)</item>
+        <item>EAGLE BANCORP INC (EGBN)</item>
+        <item>ENERGY XXI GULF COAST INC (EGC)</item>
+        <item>BLACKROCK ENHANCED GOVT FUND (EGF)</item>
+        <item>8X8 INC (EGHT)</item>
+        <item>ENTREE RESOURCES LTD (EGI)</item>
+        <item>EAGLE GROWTH &amp; INCOME OPPORT (EGIF)</item>
+        <item>ENGILITY HOLDINGS INC (EGL)</item>
+        <item>EAGLE BULK SHIPPING INC (EGLE)</item>
+        <item>EGALET CORP (EGLT)</item>
+        <item>ENERGEN CORP (EGN)</item>
+        <item>ELDORADO GOLD CORP (EGO)</item>
+        <item>NIC INC (EGOV)</item>
+        <item>EASTGROUP PROPERTIES INC (EGP)</item>
+        <item>VANECK VECTORS EGYPT INDEX E (EGPT)</item>
+        <item>EAGLE PHARMACEUTICALS INC (EGRX)</item>
+        <item>VAALCO ENERGY INC (EGY)</item>
+        <item>ENCOMPASS HEALTH CORP (EHC)</item>
+        <item>WESTERN ASSET GLOBAL HIGH IN (EHI)</item>
+        <item>EHI CAR SERVICES - SPON ADR (EHIC)</item>
+        <item>EATON VANCE HIGH INCOME 2021 (EHT)</item>
+        <item>EHEALTH INC (EHTH)</item>
+        <item>EATON VANCE CALI MUN BOND II (EIA)</item>
+        <item>ISHARES MSCI INDONESIA ETF (EIDO)</item>
+        <item>EMPLOYERS HOLDINGS INC (EIG)</item>
+        <item>ENDURANCE INTERNATIONAL GROU (EIGI)</item>
+        <item>EIGER BIOPHARMACEUTICALS INC (EIGR)</item>
+        <item>EATON VANCE MUNICIPAL BOND F (EIM)</item>
+        <item>EATON VANCE OHIO MUN BD (EIO)</item>
+        <item>EATON VANCE PA MU BD (EIP)</item>
+        <item>ISHARES MSCI IRELAND ETF (EIRL)</item>
+        <item>ISHARES MSCI ISRAEL ETF (EIS)</item>
+        <item>EATON VANCE MUNI II BOND FUN (EIV)</item>
+        <item>EDISON INTERNATIONAL (EIX)</item>
+        <item>INNOVATION SHARES NEXTGEN VE (EKAR)</item>
+        <item>EKSO BIONICS HOLDINGS INC (EKSO)</item>
+        <item>ESTEE LAUDER COMPANIES-CL A (EL)</item>
+        <item>WISDOMTREE EMRG MKTS DEBT (ELD)</item>
+        <item>ELECTRUM SPECIAL ACQUISITION (ELEC)</item>
+        <item>ELECTRUM SPECIAL ACQUISITI-U (ELECU)</item>
+        <item>ELF BEAUTY INC (ELF)</item>
+        <item>ENDOLOGIX INC (ELGX)</item>
+        <item>ELLIE MAE INC (ELLI)</item>
+        <item>ELLOMAY CAPITAL LTD (ELLO)</item>
+        <item>ELECTROMED INC (ELMD)</item>
+        <item>ECHELON CORP (ELON)</item>
+        <item>CIA PARANAENSE ENER-SP ADR P (ELP)</item>
+        <item>EQUITY LIFESTYLE PROPERTIES (ELS)</item>
+        <item>ELECTRO-SENSORS INC (ELSE)</item>
+        <item>ELTEK LTD (ELTK)</item>
+        <item>ELEVATE CREDIT INC (ELVT)</item>
+        <item>CALLAWAY GOLF COMPANY (ELY)</item>
+        <item>VANECK VECTORS EMERGING MARK (EMAG)</item>
+        <item>EMAGIN CORPORATION (EMAN)</item>
+        <item>ISHARES JP MORGAN USD EMERGI (EMB)</item>
+        <item>ISHARES INT RATE HDG EM BOND (EMBH)</item>
+        <item>DIRXN DLY EM BOND 3X BUL ETF (EMBU)</item>
+        <item>WISDOMTREE EM CORP BOND (EMCB)</item>
+        <item>EMCLAIRE FINANCIAL CORP (EMCF)</item>
+        <item>WISDOMTREE EMERGING MARKETS (EMCG)</item>
+        <item>EMC INS GROUP INC (EMCI)</item>
+        <item>WESTERN ASSET EMERGING MARKE (EMD)</item>
+        <item>PROSHARES MSCI EMERGING MARK (EMDV)</item>
+        <item>EMCOR GROUP INC (EME)</item>
+        <item>VIRTUS GLOVISTA EMRG MKT ETF (EMEM)</item>
+        <item>EMERGE ENERGY SERVICES LP (EMES)</item>
+        <item>TEMPLETON EMERGING MKTS FND (EMF)</item>
+        <item>GLOBAL X NEXT EMERGING &amp; FRO (EMFM)</item>
+        <item>ISHARES EDGE MSCI MF EM MKT (EMGF)</item>
+        <item>ISHARES EMERGING MARKETS HIG (EMHY)</item>
+        <item>EATON VANCE MI MUNICIPAL INC (EMI)</item>
+        <item>ISHARES EMERGING MARKETS INF (EMIF)</item>
+        <item>X-TRACKERS EMERGING MARKETS (EMIH)</item>
+        <item>ELBIT IMAGING LTD (EMITF)</item>
+        <item>EATON VANCE NJ MUN BD (EMJ)</item>
+        <item>EMCORE CORP (EMKR)</item>
+        <item>EASTERN CO/THE (EML)</item>
+        <item>VANECK VECTORS J.P. MORGAN E (EMLC)</item>
+        <item>FIRST TRUST NORTH AMERICAN E (EMLP)</item>
+        <item>EMMIS COMMUNICATIONS-CLASS A (EMMS)</item>
+        <item>EASTMAN CHEMICAL CO (EMN)</item>
+        <item>CLEARBRIDGE ENERGY MLP OPPOR (EMO)</item>
+        <item>EMERGING MRKTS INTERNET &amp; EC (EMQQ)</item>
+        <item>EMERSON ELECTRIC CO (EMR)</item>
+        <item>PROSHARES SHORT TERM USD EME (EMSH)</item>
+        <item>SPDR DL EM FX IN ETF (EMTL)</item>
+        <item>PROSHARES DECLINE OF THE RET (EMTY)</item>
+        <item>EMX ROYALTY CORP (EMX)</item>
+        <item>ISHARES MSCI EMR MRK EX CHNA (EMXC)</item>
+        <item>ENBRIDGE INC (ENB)</item>
+        <item>ENABLE MIDSTREAM PARTNERS LP (ENBL)</item>
+        <item>ENDO INTERNATIONAL PLC (ENDP)</item>
+        <item>ENTEGRA FINANCIAL CORP (ENFC)</item>
+        <item>ALERIAN ENERGY INFRASTRUCTUR (ENFR)</item>
+        <item>ENGLOBAL CORP (ENG)</item>
+        <item>ENEL AMERICAS SA-ADR (ENIA)</item>
+        <item>ENEL CHILE SA-ADR (ENIC)</item>
+        <item>ENLINK MIDSTREAM LLC (ENLC)</item>
+        <item>ENLINK MIDSTREAM PARTNERS LP (ENLK)</item>
+        <item>ISHARES MSCI NORWAY ETF (ENOR)</item>
+        <item>ENPHASE ENERGY INC (ENPH)</item>
+        <item>ENERGIZER HOLDINGS INC (ENR)</item>
+        <item>ENERSYS (ENS)</item>
+        <item>ENSIGN GROUP INC/THE (ENSG)</item>
+        <item>ENSERVCO CORP (ENSV)</item>
+        <item>GLOBAL EAGLE ENTERTAINMENT I (ENT)</item>
+        <item>ENANTA PHARMACEUTICALS INC (ENTA)</item>
+        <item>ENTEGRIS INC (ENTG)</item>
+        <item>ERSHARES ENTREPRENEUR 30 ETF (ENTR)</item>
+        <item>ENVESTNET INC (ENV)</item>
+        <item>ENOVA INTERNATIONAL INC (ENVA)</item>
+        <item>EATON VANCE NEW YORK MUNICIP (ENX)</item>
+        <item>GUGGENHEIM CANADIAN ENERGY I (ENY)</item>
+        <item>ENZO BIOCHEM INC (ENZ)</item>
+        <item>ISHARES MSCI NEW ZEALAND ETF (ENZL)</item>
+        <item>ENEL GENERACION CHILE-SA ADR (EOCC)</item>
+        <item>WELLS FARGO GLOBAL DIVIDEND (EOD)</item>
+        <item>EOG RESOURCES INC (EOG)</item>
+        <item>EATON VANCE ENHANCED EQ INCM (EOI)</item>
+        <item>EVOLUS INC (EOLS)</item>
+        <item>EATON VANCE ENH EQT INC II (EOS)</item>
+        <item>EATON VANCE NATIONAL MUNICIP (EOT)</item>
+        <item>EPAM SYSTEMS INC (EPAM)</item>
+        <item>BOTTOMLINE TECHNOLOGIES (DE) (EPAY)</item>
+        <item>EDGEWELL PERSONAL CARE CO (EPC)</item>
+        <item>ENTERPRISE PRODUCTS PARTNERS (EPD)</item>
+        <item>EP ENERGY CORP-CL A (EPE)</item>
+        <item>ISHARES MSCI PHILIPPINES ETF (EPHE)</item>
+        <item>WISDOMTREE INDIA EARNINGS (EPI)</item>
+        <item>ESSA PHARMA INC (EPIX)</item>
+        <item>EVOLUTION PETROLEUM CORP (EPM)</item>
+        <item>ISHARES MSCI POLAND ETF (EPOL)</item>
+        <item>ISHARES MSCI PACIFIC EX JAPA (EPP)</item>
+        <item>EPR PROPERTIES (EPR)</item>
+        <item>ELKHORN S&amp;P HIGH QUALITY PRE (EPRF)</item>
+        <item>WISDOMTREE US EARNINGS 500 F (EPS)</item>
+        <item>ISHARES MSCI PERU ETF (EPU)</item>
+        <item>PROSHARES ULTRASHORT FTSE EU (EPV)</item>
+        <item>EPIZYME INC (EPZM)</item>
+        <item>POWERSHARES RUSSEL 1000 EQUA (EQAL)</item>
+        <item>EQUITY BANCSHARES INC - CL A (EQBK)</item>
+        <item>EQUITY COMMONWEALTH (EQC)</item>
+        <item>EQUITABLE FINANCIAL CORP (EQFN)</item>
+        <item>EQT GP HOLDINGS LP (EQGP)</item>
+        <item>EQUINIX INC (EQIX)</item>
+        <item>ALPS EQUAL SECTOR WEIGHT ETF (EQL)</item>
+        <item>WORKPLACE EQUALITY PORTFOLIO (EQLT)</item>
+        <item>EQT MIDSTREAM PARTNERS LP (EQM)</item>
+        <item>EQUITY RESIDENTIAL (EQR)</item>
+        <item>PROSHRS EQTY RISING RATE ETF (EQRR)</item>
+        <item>EQUUS TOTAL RETURN INC (EQS)</item>
+        <item>EQT CORP (EQT)</item>
+        <item>POWERSHARES RUSSELL TOP 200 (EQWL)</item>
+        <item>POWERSHARES RUSSELL MIDCAP E (EQWM)</item>
+        <item>POWERSHARES RUSSELL 2000 EQU (EQWS)</item>
+        <item>ERA GROUP INC (ERA)</item>
+        <item>WELLS FARGO MULTI-SECTOR INC (ERC)</item>
+        <item>ENERPLUS CORP (ERF)</item>
+        <item>ISHARES EDGE MSCI MF ENERGY (ERGF)</item>
+        <item>WELLS FARGO UTILITIES AND HI (ERH)</item>
+        <item>ELDORADO RESORTS INC (ERI)</item>
+        <item>ERICSSON (LM) TEL-SP ADR (ERIC)</item>
+        <item>ERIE INDEMNITY COMPANY-CL A (ERIE)</item>
+        <item>ENERGY RECOVERY INC (ERII)</item>
+        <item>EMBRAER SA-SPON ADR (ERJ)</item>
+        <item>EQUITYCOMPASS RISK MNGR ETF (ERM)</item>
+        <item>ERIN ENERGY CORP (ERN)</item>
+        <item>EROS INTERNATIONAL PLC (EROS)</item>
+        <item>ISHARES MSCI RUSSIA ETF (ERUS)</item>
+        <item>DIREXION DAILY ENERGY BUL 3X (ERX)</item>
+        <item>DIREXION DLY ENERGY BEAR 3X (ERY)</item>
+        <item>ERYTECH PHARMA - SPON ADR (ERYP)</item>
+        <item>EVERSOURCE ENERGY (ES)</item>
+        <item>EMPIRE STATE REALTY OP LP-ES (ESBA)</item>
+        <item>ELMIRA SAVINGS BANK (ESBK)</item>
+        <item>ESCALADE INC (ESCA)</item>
+        <item>ESCO TECHNOLOGIES INC (ESE)</item>
+        <item>EUROSEAS LTD (ESEA)</item>
+        <item>ECO-STIM ENERGY SOLUTIONS IN (ESES)</item>
+        <item>FLEXSHARES STOXX US IMPACT (ESG)</item>
+        <item>ISHARES TRUST ISHARES MSCI E (ESGD)</item>
+        <item>ISHARES MSCI EM ESG OPTIMIZE (ESGE)</item>
+        <item>OPPENHEIMER GLOBAL ESG REV (ESGF)</item>
+        <item>FLEXSHARES STOXX GBL IMPACT (ESGG)</item>
+        <item>OPPENHEIMER ESG REVENUE ETF (ESGL)</item>
+        <item>COLUMBIA SUSTAIN INTL EQ ETF (ESGN)</item>
+        <item>ENSTAR GROUP LTD (ESGR)</item>
+        <item>COLUMBIA SUSTAIN US EQ I ETF (ESGS)</item>
+        <item>ISHARES MSCI USA ESG OPTIMIZ (ESGU)</item>
+        <item>COLUMBIA SUSTAIN GLOBAL ETF (ESGW)</item>
+        <item>ELECTRO SCIENTIFIC INDS INC (ESIO)</item>
+        <item>ESTERLINE TECHNOLOGIES CORP (ESL)</item>
+        <item>ELBIT SYSTEMS LTD (ESLT)</item>
+        <item>ENSYNC INC (ESNC)</item>
+        <item>ESSENDANT INC (ESND)</item>
+        <item>ESSENT GROUP LTD (ESNT)</item>
+        <item>ESPEY MFG &amp; ELECTRONICS CORP (ESP)</item>
+        <item>ESPERION THERAPEUTICS INC (ESPR)</item>
+        <item>ESQUIRE FINANCIAL HOLDINGS I (ESQ)</item>
+        <item>EMPIRE STATE REALTY TRUST-A (ESRT)</item>
+        <item>EXPRESS SCRIPTS HOLDING CO (ESRX)</item>
+        <item>ESSEX PROPERTY TRUST INC (ESS)</item>
+        <item>ESSA BANCORP INC (ESSA)</item>
+        <item>EARTHSTONE ENERGY INC - A (ESTE)</item>
+        <item>ESTRE AMBIENTAL INC (ESTR)</item>
+        <item>ENSCO PLC-CL A (ESV)</item>
+        <item>COMMUNITY BANKERS TRUST CORP (ESXB)</item>
+        <item>EATON VANCE T/M BUY-WR IN (ETB)</item>
+        <item>ENERGY TRANSFER EQUITY LP (ETE)</item>
+        <item>E*TRADE FINANCIAL CORP (ETFC)</item>
+        <item>EATON VANCE T/A GL DVD INCM (ETG)</item>
+        <item>ETHAN ALLEN INTERIORS INC (ETH)</item>
+        <item>ETHO CLIMATE LEADERSHIP ETF (ETHO)</item>
+        <item>EATON VANCE RISK-MANAGED DIV (ETJ)</item>
+        <item>ENTERCOM COMMUNICATIONS-CL A (ETM)</item>
+        <item>EATON CORP PLC (ETN)</item>
+        <item>EATON VANCE TAX ADV GL DVD O (ETO)</item>
+        <item>ENERGY TRANSFER PARTNERS LP (ETP)</item>
+        <item>ENTERGY CORP (ETR)</item>
+        <item>ETSY INC (ETSY)</item>
+        <item>EATON VANCE T/M BUY-WRITE OP (ETV)</item>
+        <item>EATON VANCE TAX MAN GLBL BR (ETW)</item>
+        <item>EATON VANCE MUNI INC 2028 TM (ETX)</item>
+        <item>EATON VANCE TAX-MANAGED DIVE (ETY)</item>
+        <item>WISDOMTREE EUROPE QUALITY DI (EUDG)</item>
+        <item>PROSHARES MSCI EUROPE DIVIDE (EUDV)</item>
+        <item>DIREXION DAILY EUROPEAN FINA (EUFL)</item>
+        <item>ISHARES MSCI EUROPE FINANCIA (EUFN)</item>
+        <item>PROSHARES SHORT EURO ETF (EUFX)</item>
+        <item>PROSHARES SHORT MSCI EMR MKT (EUM)</item>
+        <item>ISHARES EDGE MSCI MIN VOL EU (EUMV)</item>
+        <item>PROSHARES ULTRASHORT EURO (EUO)</item>
+        <item>DIREXION DAILY FTSE EUROPE B (EURL)</item>
+        <item>EURONAV NV (EURN)</item>
+        <item>XTRACKERS EUROZONE EQUITY ET (EURZ)</item>
+        <item>ISHARES MSCI USA EQUAL WEIGH (EUSA)</item>
+        <item>WISDOMTREE EUROPE HEDG SM EQ (EUSC)</item>
+        <item>DRXN DLY EUR STOXX50 BULL 3X (EUXL)</item>
+        <item>EATON VANCE CORP (EV)</item>
+        <item>ENVIVA PARTNERS LP (EVA)</item>
+        <item>EVERBRIDGE INC (EVBG)</item>
+        <item>EVANS BANCORP INC (EVBN)</item>
+        <item>ENTRAVISION COMMUNICATIONS-A (EVC)</item>
+        <item>EV ENERGY PARTNERS LP (EVEP)</item>
+        <item>EATON VANCE SENIOR INCOME TR (EVF)</item>
+        <item>EVOFEM BIOSCIENCES INC (EVFM)</item>
+        <item>EATON VANCE SHORT DUR DIV IN (EVG)</item>
+        <item>EVOGENE LTD (EVGN)</item>
+        <item>EVOLENT HEALTH INC - A (EVH)</item>
+        <item>ENVISION HEALTHCARE CORP (EVHC)</item>
+        <item>ENVIROSTAR INC (EVI)</item>
+        <item>VELOCITYSHARES 1X LONG VSTOX (EVIX)</item>
+        <item>EATON VANCE NJ MUNICIPAL INC (EVJ)</item>
+        <item>EVER-GLORY INTERNATIONAL GRO (EVK)</item>
+        <item>EVINE LIVE INC (EVLV)</item>
+        <item>EATON VANCE CAL MUNI BOND (EVM)</item>
+        <item>EATON VANCE MUNICIPAL INCOME (EVN)</item>
+        <item>EATON VANCE OH MUNICIPAL INC (EVO)</item>
+        <item>EVOKE PHARMA INC (EVOK)</item>
+        <item>EVOLVING SYSTEMS INC (EVOL)</item>
+        <item>EATON VANCE PA MUNICIPAL INC (EVP)</item>
+        <item>EVERCORE INC - A (EVR)</item>
+        <item>EVERI HOLDINGS INC (EVRI)</item>
+        <item>EATON VANCE TAX-ADV DVD INC (EVT)</item>
+        <item>EVERTEC INC (EVTC)</item>
+        <item>EATON VANCE LTD DURATION FND (EVV)</item>
+        <item>VANECK VECTORS ENVIRONMENTAL (EVX)</item>
+        <item>EATON VANCE NY MUNICIPAL INC (EVY)</item>
+        <item>EDWARDS LIFESCIENCES CORP (EW)</item>
+        <item>ISHARES MSCI AUSTRALIA ETF (EWA)</item>
+        <item>EAST WEST BANCORP INC (EWBC)</item>
+        <item>ISHARES MSCI CANADA ETF (EWC)</item>
+        <item>ISHARES MSCI SWEDEN ETF (EWD)</item>
+        <item>PWR MSCI EM EQ COU WGT (EWEM)</item>
+        <item>ISHARES MSCI GERMANY ETF (EWG)</item>
+        <item>ISHARES MSCI GERMANY SMALL-C (EWGS)</item>
+        <item>ISHARES MSCI HONG KONG ETF (EWH)</item>
+        <item>ISHARES MSCI ITALY ETF (EWI)</item>
+        <item>ISHARES MSCI JAPAN ETF (EWJ)</item>
+        <item>ISHARES MSCI BELGIUM ETF (EWK)</item>
+        <item>ISHARES MSCI SWITZERLAND ETF (EWL)</item>
+        <item>ISHARES MSCI MALAYSIA ETF (EWM)</item>
+        <item>PWR S&amp;P MDCP 400 EQ WGT (EWMC)</item>
+        <item>ISHARES MSCI NETHERLANDS ETF (EWN)</item>
+        <item>ISHARES MSCI AUSTRIA ETF (EWO)</item>
+        <item>ISHARES MSCI SPAIN ETF (EWP)</item>
+        <item>ISHARES MSCI FRANCE ETF (EWQ)</item>
+        <item>PWR S&amp;P 500 EQ WGT RL EST (EWRE)</item>
+        <item>ISHARES MSCI SINGAPORE ETF (EWS)</item>
+        <item>PWR S&amp;P SMCP 600 EQ WGT (EWSC)</item>
+        <item>ISHARES MSCI TAIWAN ETF (EWT)</item>
+        <item>ISHARES MSCI UNITED KINGDOM (EWU)</item>
+        <item>ISHARES MSCI UNITED KINGDOM (EWUS)</item>
+        <item>PROSHARES ULTSHRT MSCI JAPAN (EWV)</item>
+        <item>ISHARES MSCI MEXICO ETF (EWW)</item>
+        <item>SPDR S&amp;P EMERGING MKTS SMALL (EWX)</item>
+        <item>ISHARES MSCI SOUTH KOREA ETF (EWY)</item>
+        <item>ISHARES MSCI BRAZIL ETF (EWZ)</item>
+        <item>ISHARES MSCI BRAZIL SMALL-CA (EWZS)</item>
+        <item>EXACT SCIENCES CORP (EXAS)</item>
+        <item>EXELON CORP (EXC)</item>
+        <item>EATON VANCE TAX-ADVANTAGED B (EXD)</item>
+        <item>EXELIXIS INC (EXEL)</item>
+        <item>EXFO INC (EXFO)</item>
+        <item>EATON VANCE TAX-MANAGED GLOB (EXG)</item>
+        <item>ISHARES GLOBAL INDUSTRIALS E (EXI)</item>
+        <item>VELOCITYSHARES 1X DAILY INVE (EXIV)</item>
+        <item>ENDEAVOUR SILVER CORP (EXK)</item>
+        <item>EXLSERVICE HOLDINGS INC (EXLS)</item>
+        <item>EAGLE MATERIALS INC (EXP)</item>
+        <item>EXPEDITORS INTL WASH INC (EXPD)</item>
+        <item>EXPEDIA GROUP INC (EXPE)</item>
+        <item>EXPONENT INC (EXPO)</item>
+        <item>EXPRESS INC (EXPR)</item>
+        <item>EXTRA SPACE STORAGE INC (EXR)</item>
+        <item>WISDOMTREE US TOTAL EARNINGS (EXT)</item>
+        <item>EXTERRAN CORP (EXTN)</item>
+        <item>EXTREME NETWORKS INC (EXTR)</item>
+        <item>NATIONAL VISION HOLDINGS INC (EYE)</item>
+        <item>EYEGATE PHARMACEUTICALS (EYEG)</item>
+        <item>EYENOVIA INC (EYEN)</item>
+        <item>SECOND SIGHT MEDICAL PRODUCT (EYES)</item>
+        <item>CAMBRIA EMERG SHRHLDR YIELD (EYLD)</item>
+        <item>EYEPOINT PHARMACEUTICALS INC (EYPT)</item>
+        <item>ISHARES MSCI SOUTH AFRICA ET (EZA)</item>
+        <item>PROSHARES ULTRA MSCI JAPAN (EZJ)</item>
+        <item>WISDOMTREE US MIDCAP EARNING (EZM)</item>
+        <item>EZCORP INC-CL A (EZPW)</item>
+        <item>ISHARES MSCI EUROZONE ETF (EZU)</item>
+        <item>FORD MOTOR CO (F)</item>
+        <item>FIRST TRUST ALT ABS RET ETF (FAAR)</item>
+        <item>FIRST TRUST MULTI CAP VALUE (FAB)</item>
+        <item>FIRST TRUST MULTI CAP GROWTH (FAD)</item>
+        <item>FIRST AMERICAN FINANCIAL (FAF)</item>
+        <item>ISHARES FALLEN ANGELS ETF (FALN)</item>
+        <item>FIRST TRUST ABERDEEN GLOBAL (FAM)</item>
+        <item>FARMMI INC (FAMI)</item>
+        <item>FIRST TRUST GLOBAL WIND ENER (FAN)</item>
+        <item>DIAMONDBACK ENERGY INC (FANG)</item>
+        <item>FANHUA INC-SPONSORED ADR (FANH)</item>
+        <item>PROSPORTS SPONSORS ETF (FANZ)</item>
+        <item>FARMER BROS CO (FARM)</item>
+        <item>FARO TECHNOLOGIES INC (FARO)</item>
+        <item>DIREXION DAILY FIN BULL 3X (FAS)</item>
+        <item>FASTENAL CO (FAST)</item>
+        <item>FAT BRANDS INC (FAT)</item>
+        <item>FATE THERAPEUTICS INC (FATE)</item>
+        <item>FIRST TRUST AUSTRALIA (FAUS)</item>
+        <item>ABERDEEN ASIA-PAC INCOME FD (FAX)</item>
+        <item>DIREXION DAILY FINL BEAR 3X (FAZ)</item>
+        <item>FACEBOOK INC-A (FB)</item>
+        <item>FLAGSTAR BANCORP INC (FBC)</item>
+        <item>FI ENHANCED LARGE CAP GROWTH (FBGX)</item>
+        <item>FORTUNE BRANDS HOME &amp; SECURI (FBHS)</item>
+        <item>FORTRESS BIOTECH INC (FBIO)</item>
+        <item>FIRST BUSINESS FINANCIAL SER (FBIZ)</item>
+        <item>FB FINANCIAL CORP (FBK)</item>
+        <item>FOUNDATION BUILDING MATERIAL (FBM)</item>
+        <item>FIRST BANCSHARES INC/MS (FBMS)</item>
+        <item>FIRST BANCORP/NC (FBNC)</item>
+        <item>FIDELITY TOTAL BOND ETF (FBND)</item>
+        <item>FIRST CONNECTICUT BANCORP (FBNK)</item>
+        <item>FIRST BANCORP PUERTO RICO (FBP)</item>
+        <item>FIBRIA CELULOSE SA-SPON ADR (FBR)</item>
+        <item>FAUQUIER BANKSHARES INC (FBSS)</item>
+        <item>FIRST TRUST NYSE ARCA BIOTEC (FBT)</item>
+        <item>FIRST TRUST BRAZIL (FBZ)</item>
+        <item>FRANKLIN COVEY CO (FC)</item>
+        <item>FIRST TRUST CHINA (FCA)</item>
+        <item>FIRST TRUST CALIFORNIA MUNIC (FCAL)</item>
+        <item>FIRST TRUST CANADA (FCAN)</item>
+        <item>FIRST CAPITAL INC (FCAP)</item>
+        <item>FIAT CHRYSLER AUTOMOBILES NV (FCAU)</item>
+        <item>FCB FINANCIAL HOLDINGS-CL A (FCB)</item>
+        <item>FIRST COMMUNITY BANCSHARES (FCBC)</item>
+        <item>FIRST COMMUNITY CORP (FCCO)</item>
+        <item>1ST CONSTITUTION BANCORP (FCCY)</item>
+        <item>FOREST CITY REALTY TRUST- A (FCE.A)</item>
+        <item>FIRST TRUST CEF INCOME OPP (FCEF)</item>
+        <item>FUELCELL ENERGY INC (FCEL)</item>
+        <item>FIRST COMMONWEALTH FINL CORP (FCF)</item>
+        <item>FIRSTCASH INC (FCFS)</item>
+        <item>FIRST TRUST NATURAL GAS ETF (FCG)</item>
+        <item>FTI CONSULTING INC (FCN)</item>
+        <item>FIRST CITIZENS BCSHS -CL A (FCNCA)</item>
+        <item>ABERDEEN GLOBAL INCOME FUND (FCO)</item>
+        <item>FIDELITY TELECOMM ETF (FCOM)</item>
+        <item>FIDELITY CORPORATE BOND ETF (FCOR)</item>
+        <item>FOUR CORNERS PROPERTY TRUST (FCPT)</item>
+        <item>FC GLOBAL REALTY INC (FCRE)</item>
+        <item>FIBROCELL SCIENCE INC (FCSC)</item>
+        <item>FIRST TRUST SENIOR FLOATING (FCT)</item>
+        <item>FIRST TRUST SSI STRATEGI ETF (FCVT)</item>
+        <item>FREEPORT-MCMORAN INC (FCX)</item>
+        <item>FIDELITY D&amp;D BANCORP INC (FDBC)</item>
+        <item>FIRST DATA CORP- CLASS A (FDC)</item>
+        <item>FIRST TRUST STOXX EUROPE (FDD)</item>
+        <item>FIRST DEFIANCE FINL CORP (FDEF)</item>
+        <item>FIRST TR DYN EUR EQTY INC (FDEU)</item>
+        <item>FIDELITY CON DISCRET ETF (FDIS)</item>
+        <item>FIRST TRUST STRATEGIC INCOME (FDIV)</item>
+        <item>FIRST TRUST MORN DVD LEAD IN (FDL)</item>
+        <item>FIDELITY LOW VOLATILITY FACT (FDLO)</item>
+        <item>FIRST TRUST DOW J SELECT MIC (FDM)</item>
+        <item>FIDELITY MOMENTUM FACTOR ETF (FDMO)</item>
+        <item>FIRST TRUST DJ INTERNET IND (FDN)</item>
+        <item>FRESH DEL MONTE PRODUCE INC (FDP)</item>
+        <item>FIDELITY DIV ETF RISE RATES (FDRR)</item>
+        <item>FACTSET RESEARCH SYSTEMS INC (FDS)</item>
+        <item>FIRST TRUST DEVELP MKT EX-US (FDT)</item>
+        <item>FIRST TRUST DEVELOPED MARKET (FDTS)</item>
+        <item>FIDUS INVESTMENT CORP (FDUS)</item>
+        <item>FIDELITY HIGH DIVIDEND ETF (FDVV)</item>
+        <item>FEDEX CORP (FDX)</item>
+        <item>FIRSTENERGY CORP (FE)</item>
+        <item>FOUR SEASONS EDUCATION CAYMA (FEDU)</item>
+        <item>FI ENHANCED EUROPE 50 ETN (FEEU)</item>
+        <item>FIRST TRUST MLP AND ENERGY I (FEI)</item>
+        <item>FREQUENCY ELECTRONICS INC (FEIM)</item>
+        <item>FRANKLIN ELECTRIC CO INC (FELE)</item>
+        <item>FORESIGHT ENERGY LP (FELP)</item>
+        <item>FIRST TRUST EMERGING MARKETS (FEM)</item>
+        <item>FIRST TRUST EMERGING MARKETS (FEMB)</item>
+        <item>FIRST TRUST EMERGING MARKETS (FEMS)</item>
+        <item>FIRST TRUST ENERGY INCOME AN (FEN)</item>
+        <item>FENNEC PHARMACEUTICALS INC (FENC)</item>
+        <item>PHOENIX NEW MEDIA LTD -ADR (FENG)</item>
+        <item>FIDELITY MSCI ENERGY ETF (FENY)</item>
+        <item>FIRST TRUST ABERDEEN EMG OPP (FEO)</item>
+        <item>FIRST TRUST EUROPE (FEP)</item>
+        <item>FORUM ENERGY TECHNOLOGIES IN (FET)</item>
+        <item>SPDR STOXX EUROPE 50 ETF (FEU)</item>
+        <item>FIRST TRUST EUROZONE ALPHADE (FEUZ)</item>
+        <item>FIRST TRUST LARGE CAP CORE A (FEX)</item>
+        <item>FIREEYE INC (FEYE)</item>
+        <item>SPDR EURO STOXX 50 ETF (FEZ)</item>
+        <item>FUTUREFUEL CORP (FF)</item>
+        <item>FIRST TRUST ENH EQUITY INC (FFA)</item>
+        <item>FIRST FINANCIAL BANCORP (FFBC)</item>
+        <item>FFBW INC (FFBW)</item>
+        <item>FLAH &amp; CRUM PFD SEC INCOME (FFC)</item>
+        <item>BARCLAYS ETN FI ENHANCED EU (FFEU)</item>
+        <item>FBL FINANCIAL GROUP INC-CL A (FFG)</item>
+        <item>FORMULA FOLIOS HEDGED GROWTH (FFHG)</item>
+        <item>FUWEI FILMS HOLDINGS CO LTD (FFHL)</item>
+        <item>FLUSHING FINANCIAL CORP (FFIC)</item>
+        <item>FIRST FINL BANKSHARES INC (FFIN)</item>
+        <item>FIELDSTONE/UVA UNCON MEDIUM (FFIU)</item>
+        <item>F5 NETWORKS INC (FFIV)</item>
+        <item>FARMERS CAPITAL BANK CORP (FFKT)</item>
+        <item>FIRST FINANCIAL NORTHWEST (FFNW)</item>
+        <item>FT FTSE EPRA/NAREIT REAL EST (FFR)</item>
+        <item>FORMULAFOLIOS SMART GROWTH (FFSG)</item>
+        <item>FORMULAFOLIOS TACTICAL GROWT (FFTG)</item>
+        <item>FORMULAFOLIOS TACTICAL INCOM (FFTI)</item>
+        <item>INNOVATOR IBD 50 ETF (FFTY)</item>
+        <item>FIRST FOUNDATION INC (FFWM)</item>
+        <item>FGL HOLDINGS (FG)</item>
+        <item>FIRST TRUST SPECIALTY FINANC (FGB)</item>
+        <item>FIRST GUARANTY BANCSHARES IN (FGBI)</item>
+        <item>FIRST TRUST DJ GL SEL DVD (FGD)</item>
+        <item>FIBROGEN INC (FGEN)</item>
+        <item>FIRST TRUST GERMANY (FGM)</item>
+        <item>FERRELLGAS PARTNERS-LP (FGP)</item>
+        <item>FIRST HAWAIIAN INC (FHB)</item>
+        <item>FIRST TRUST HONG KONG (FHK)</item>
+        <item>FIDELITY HEALTH CARE ETF (FHLC)</item>
+        <item>FIRST HORIZON NATIONAL CORP (FHN)</item>
+        <item>FIRST TRUST STRAT HIGH INC 2 (FHY)</item>
+        <item>FRANK'S INTERNATIONAL NV (FI)</item>
+        <item>FIRST INTERSTATE BANCSYS-A (FIBK)</item>
+        <item>ISHRS EDGE US FIXED INC BAL (FIBR)</item>
+        <item>FAIR ISAAC CORP (FICO)</item>
+        <item>FIDELITY INTL HIGH DIV ETF (FIDI)</item>
+        <item>FIDELITY INDUSTRIALS ETF (FIDU)</item>
+        <item>UBS FI ENHANCED EUR 50 ETN (FIEE)</item>
+        <item>FI ENHANCED GLOBAL HI YLD (FIEG)</item>
+        <item>CS FI ENHANCED EUROPE 50 ETN (FIEU)</item>
+        <item>FIRST TRUST ENERGY INFRASTRU (FIF)</item>
+        <item>FI ENHANCED GLOBAL HIGH YLD (FIGY)</item>
+        <item>UBS FI ENH GL HI YLD ETN (FIHD)</item>
+        <item>FEDERATED INVESTORS INC-CL B (FII)</item>
+        <item>ISHARES MSCI GLOBAL ENERGY P (FILL)</item>
+        <item>FINISH LINE/THE - CL A (FINL)</item>
+        <item>PROSHARES ULTRAPRO FINANCIAL (FINU)</item>
+        <item>GLOBAL X FINTECH ETF (FINX)</item>
+        <item>PROSHARES ULTRAPRO SHORT FIN (FINZ)</item>
+        <item>FIDELITY NATIONAL INFO SERV (FIS)</item>
+        <item>FINANCIAL INSTITUTIONS INC (FISI)</item>
+        <item>EMPIRE STATE REALTY OP -S250 (FISK)</item>
+        <item>FISERV INC (FISV)</item>
+        <item>FITBIT INC - A (FIT)</item>
+        <item>FIFTH THIRD BANCORP (FITB)</item>
+        <item>FIRST TRUST SENIOR FLOATING (FIV)</item>
+        <item>FIDELITY INTL VAL FACTOR ETF (FIVA)</item>
+        <item>FIVE BELOW (FIVE)</item>
+        <item>FIVE9 INC (FIVN)</item>
+        <item>FIRST TRUST WATER ETF (FIW)</item>
+        <item>COMFORT SYSTEMS USA INC (FIX)</item>
+        <item>FIRST TRUST TCW OPP FIXED IN (FIXD)</item>
+        <item>HOMOLOGY MEDICINES INC (FIXX)</item>
+        <item>BARCLAYS ETN FI ENHANCED GL (FIYY)</item>
+        <item>NATIONAL BEVERAGE CORP (FIZZ)</item>
+        <item>FIRST TRUST JAPAN (FJP)</item>
+        <item>FIRST TRUST SOUTH KOREA (FKO)</item>
+        <item>FIRST TRUST UNITED KINGDOM (FKU)</item>
+        <item>FOOT LOCKER INC (FL)</item>
+        <item>WEATHERSTORM FORENSIC ACCOUN (FLAG)</item>
+        <item>IPATH US TSY FLATTENER (FLAT)</item>
+        <item>FRANKLIN FTSE AUSTRALIA ETF (FLAU)</item>
+        <item>FRANKLIN FTSE ASIA EX JAPAN (FLAX)</item>
+        <item>FRANKLIN FTSE BRAZIL ETF (FLBR)</item>
+        <item>FLAH &amp; CRUM TOTAL RETURN FD (FLC)</item>
+        <item>FRANKLIN FTSE CANADA ETF (FLCA)</item>
+        <item>FRANKLIN FTSE CHINA ETF (FLCH)</item>
+        <item>FRANKLIN LIBERTY IG CORP ETF (FLCO)</item>
+        <item>FLUIDIGM CORP (FLDM)</item>
+        <item>FRANKLIN FTSE EUROPE ETF (FLEE)</item>
+        <item>FRANKLIN FTSE EUROPE HEDGED (FLEH)</item>
+        <item>FI ENHANCE EUR50 ETN SERIESB (FLEU)</item>
+        <item>FLEX LTD (FLEX)</item>
+        <item>FRANKLIN FTSE FRANCE ETF (FLFR)</item>
+        <item>FRANKLIN FTSE UNITED KINGDOM (FLGB)</item>
+        <item>FI LARGE CAP GROWTH ENHANCED (FLGE)</item>
+        <item>FRANKLIN FTSE GERMANY ETF (FLGR)</item>
+        <item>FULGENT GENETICS INC (FLGT)</item>
+        <item>FRANKLIN FTSE HONG KONG ETF (FLHK)</item>
+        <item>FIRST OF LONG ISLAND CORP (FLIC)</item>
+        <item>FRANKLIN FTSE INDIA ETF (FLIN)</item>
+        <item>FRANKLIN LIB INTL OPPS ETF (FLIO)</item>
+        <item>FLIR SYSTEMS INC (FLIR)</item>
+        <item>FRANKLIN FTSE ITALY ETF (FLIY)</item>
+        <item>FRANKLIN FTSE JPN HEDGED ETF (FLJH)</item>
+        <item>FRANKLIN FTSE JAPAN ETF (FLJP)</item>
+        <item>FRANKLIN FTSE SOUTH KOREA (FLKR)</item>
+        <item>FLEX PHARMA INC (FLKS)</item>
+        <item>FULL HOUSE RESORTS INC (FLL)</item>
+        <item>FRANKLIN LIBERTY US LOW VOL (FLLV)</item>
+        <item>FIRST TRUST GLOBAL ENGINEERI (FLM)</item>
+        <item>FRANKLIN LIBERTY MUNI BD ETF (FLMB)</item>
+        <item>FRANKLIN LIB INTER MUNI OPP (FLMI)</item>
+        <item>FRANKLIN FTSE MEXICO ETF (FLMX)</item>
+        <item>FIRST TRUST LATIN AMERICA (FLN)</item>
+        <item>FLUENT INC (FLNT)</item>
+        <item>FLOWERS FOODS INC (FLO)</item>
+        <item>ISHARES FLOATING RATE BOND E (FLOT)</item>
+        <item>SPX FLOW INC (FLOW)</item>
+        <item>FRANKLIN LIBERTYQ GLOBAL DIV (FLQD)</item>
+        <item>FRANKLIN LIBERTYQ EMERGING (FLQE)</item>
+        <item>FRANKLIN LIBERTYQ GLOBAL EQ (FLQG)</item>
+        <item>FRANKLIN LIBERTYQ INT EQ HED (FLQH)</item>
+        <item>FRANKLIN LIBERTYQ US EQUITY (FLQL)</item>
+        <item>FRANKLIN LIBERTYQ MID CAP EQ (FLQM)</item>
+        <item>FRANKLIN LIBERTYQ SMALL CAP (FLQS)</item>
+        <item>FLUOR CORP (FLR)</item>
+        <item>SPDR BBG BARC IG FLOATING RT (FLRN)</item>
+        <item>PACIFIC ASSET ENHANCED FLOAT (FLRT)</item>
+        <item>FRANKLIN FTSE RUSSIA ETF (FLRU)</item>
+        <item>FLOWSERVE CORP (FLS)</item>
+        <item>FRANKLIN FTSE SWITZERLAND (FLSW)</item>
+        <item>FLEETCOR TECHNOLOGIES INC (FLT)</item>
+        <item>FIDELITY LTD TERM BOND ETF (FLTB)</item>
+        <item>VANECK VECTORS INVESTMENT GR (FLTR)</item>
+        <item>FRANKLIN FTSE TAIWAN ETF (FLTW)</item>
+        <item>1-800-FLOWERS.COM INC-CL A (FLWS)</item>
+        <item>FLEXION THERAPEUTICS INC (FLXN)</item>
+        <item>FLEXSTEEL INDS (FLXS)</item>
+        <item>FLY LEASING LTD-ADR (FLY)</item>
+        <item>ISHARES MSCI FRONTIER 100 (FM)</item>
+        <item>FARMERS &amp; MERCHANTS BANCO/OH (FMAO)</item>
+        <item>FIDELITY MATERIALS ETF (FMAT)</item>
+        <item>FIRST TRUST MANAGED MUNICIPA (FMB)</item>
+        <item>FIRST MID-ILLINOIS BNCSHS (FMBH)</item>
+        <item>FIRST MIDWEST BANCORP INC/IL (FMBI)</item>
+        <item>FMC CORP (FMC)</item>
+        <item>FIELDSTONE MERLIN DYNA G-ETF (FMDG)</item>
+        <item>FIRST TRUST MORNINGSTAR MANA (FMF)</item>
+        <item>FIRST TRUST MUNICIPAL HIGH I (FMHI)</item>
+        <item>FOUNDATION MEDICINE INC (FMI)</item>
+        <item>FT MEGA CAP ALPHADEX FUND (FMK)</item>
+        <item>FEDERATED PREMIER MUNI INC (FMN)</item>
+        <item>FARMERS NATL BANC CORP (FMNB)</item>
+        <item>FIDUCIARY/CLAYMORE MLP OPPOR (FMO)</item>
+        <item>FRESENIUS MEDICAL CARE-ADR (FMS)</item>
+        <item>FAIRMOUNT SANTROL HOLDINGS I (FMSA)</item>
+        <item>FOMENTO ECONOMICO MEX-SP ADR (FMX)</item>
+        <item>FIRST TRUST MORTGAGE INCOME (FMY)</item>
+        <item>FABRINET (FN)</item>
+        <item>FNB CORP (FNB)</item>
+        <item>FNB BANCORP (FNBG)</item>
+        <item>FNCB BANCORP INC (FNCB)</item>
+        <item>ISHARES EDGE MSCI MF FINANCE (FNCF)</item>
+        <item>FIDELITY FINANCIALS ETF (FNCL)</item>
+        <item>FLOOR &amp; DECOR HOLDINGS INC-A (FND)</item>
+        <item>SCHWAB FUNDAMENTAL SMALL CAP (FNDA)</item>
+        <item>SCHWAB FUNDAMENTAL BROAD MKT (FNDB)</item>
+        <item>SCHWAB FUNDAMENTAL INTL S/C (FNDC)</item>
+        <item>SCHWAB FUNDAMENTAL EM L/C (FNDE)</item>
+        <item>SCHWAB FUNDAMENTAL INTL L/C (FNDF)</item>
+        <item>SCHWAB FUNDAMENTAL LARGE CAP (FNDX)</item>
+        <item>FNF GROUP (FNF)</item>
+        <item>ADVSRSHRS NEW TECH AND MEDIA (FNG)</item>
+        <item>BMO REX MICROSECTORS INVERSE (FNGD)</item>
+        <item>FINANCIAL ENGINES INC (FNGN)</item>
+        <item>BMO REX MICROSECTORS FANG IN (FNGU)</item>
+        <item>FEDERATED NATIONAL HOLDING C (FNHC)</item>
+        <item>FIRST TRUST CHINDIA ETF (FNI)</item>
+        <item>FINJAN HOLDINGS INC (FNJN)</item>
+        <item>FIRST TRUST MID CAP VALUE (FNK)</item>
+        <item>FUNKO INC-CLASS A (FNKO)</item>
+        <item>FIRST BANCORP INC/ME (FNLC)</item>
+        <item>FINISAR CORPORATION (FNSR)</item>
+        <item>FINTECH ACQUISITION CORP II (FNTE)</item>
+        <item>FINTECH ACQUISITION CORP II (FNTEU)</item>
+        <item>FRANCO-NEVADA CORP (FNV)</item>
+        <item>FIRST NORTHWEST BANCORP (FNWB)</item>
+        <item>FIRST TRUST MID CAP CORE ALP (FNX)</item>
+        <item>FIRST TRUST MID CAP GROWTH (FNY)</item>
+        <item>FERRO CORP (FOE)</item>
+        <item>COHEN &amp; STEERS CLOSED-END OP (FOF)</item>
+        <item>AMICUS THERAPEUTICS INC (FOLD)</item>
+        <item>FOAMIX PHARMACEUTICALS LTD (FOMX)</item>
+        <item>FIRST TRUST NASDAQ SMARTPHON (FONE)</item>
+        <item>FONAR CORP (FONR)</item>
+        <item>FORESTAR GROUP INC (FOR)</item>
+        <item>FORWARD INDUSTRIES INC (FORD)</item>
+        <item>FULING GLOBAL INC (FORK)</item>
+        <item>FORMFACTOR INC (FORM)</item>
+        <item>FORRESTER RESEARCH INC (FORR)</item>
+        <item>FORMULA SYSTEMS 1985-SP ADR (FORTY)</item>
+        <item>FOSSIL GROUP INC (FOSL)</item>
+        <item>TWENTY-FIRST CENTURY FOX - B (FOX)</item>
+        <item>TWENTY-FIRST CENTURY FOX-A (FOXA)</item>
+        <item>FOX FACTORY HOLDING CORP (FOXF)</item>
+        <item>FIRST TRUST ASIA PAC EX-JAPN (FPA)</item>
+        <item>FLEXSHOPPER INC (FPAY)</item>
+        <item>FT-PREFERRED SECUR &amp; INC ETF (FPE)</item>
+        <item>FIRST TRUST INSTITUTIONAL PR (FPEI)</item>
+        <item>FIRST TRUST INTERMEDIATE DUR (FPF)</item>
+        <item>FIVE POINT HOLDINGS LLC-CL A (FPH)</item>
+        <item>FARMLAND PARTNERS INC (FPI)</item>
+        <item>FIRST TRUST NEW OPPORTUNITIE (FPL)</item>
+        <item>FIVE PRIME THERAPEUTICS INC (FPRX)</item>
+        <item>FIRST TRUST US EQUITY OPPORT (FPX)</item>
+        <item>FIRST TRUST INTL IPO ETF (FPXI)</item>
+        <item>FIDELITY QUALITY FACTOR ETF (FQAL)</item>
+        <item>FIRST INDUSTRIAL REALTY TR (FR)</item>
+        <item>BLACKROCK FLOAT RT INCOME ST (FRA)</item>
+        <item>KEANE GROUP INC (FRAC)</item>
+        <item>VANECK VECTORS UNCONVENTIONA (FRAK)</item>
+        <item>FRANCESCAS HOLDINGS CORP (FRAN)</item>
+        <item>FIRST BANK/HAMILTON NJ (FRBA)</item>
+        <item>REPUBLIC FIRST BANCORP INC (FRBK)</item>
+        <item>FIRST REPUBLIC BANK/CA (FRC)</item>
+        <item>FRIEDMAN INDUSTRIES (FRD)</item>
+        <item>FRED'S INC-CLASS A (FRED)</item>
+        <item>FIDELITY REAL ESTATE ETF (FREL)</item>
+        <item>FIESTA RESTAURANT GROUP (FRGI)</item>
+        <item>FIRST TRUST S&amp;P REIT INDEX F (FRI)</item>
+        <item>FIRST MERCHANTS CORP (FRME)</item>
+        <item>PWR FRONTIER MARKETS (FRN)</item>
+        <item>FRONTLINE LTD (FRO)</item>
+        <item>FRP HOLDINGS INC (FRPH)</item>
+        <item>FRESHPET INC (FRPT)</item>
+        <item>PAPA MURPHY'S HOLDINGS INC (FRSH)</item>
+        <item>FORESIGHT AUTONOMOUS-SP ADR (FRSX)</item>
+        <item>FEDERAL REALTY INVS TRUST (FRT)</item>
+        <item>FORTERRA INC (FRTA)</item>
+        <item>FEDERAL STREET ACQUISIT-CL A (FSAC)</item>
+        <item>FEDERAL STREET ACQUISITION (FSACU)</item>
+        <item>FRANKLIN FINANCIAL NETWORK (FSB)</item>
+        <item>FSB BANCORP INC/NY (FSBC)</item>
+        <item>FS BANCORP INC (FSBW)</item>
+        <item>FORESCOUT TECHNOLOGIES INC (FSCT)</item>
+        <item>FIRST TRUST HIGH INCOME LONG (FSD)</item>
+        <item>FIRST SAVINGS FINANCIAL GRP (FSFG)</item>
+        <item>FLEXIBLE SOLUTIONS INTL INC (FSI)</item>
+        <item>FS INVESTMENT CORP (FSIC)</item>
+        <item>FIRST SOLAR INC (FSLR)</item>
+        <item>FORTUNA SILVER MINES INC (FSM)</item>
+        <item>FUSION TELECOMMUNICATIONS IN (FSNN)</item>
+        <item>FRANKLIN STREET PROPERTIES C (FSP)</item>
+        <item>FEDERAL SIGNAL CORP (FSS)</item>
+        <item>FIDELITY CON STAPLES ETF (FSTA)</item>
+        <item>FOSTER (LB) CO-A (FSTR)</item>
+        <item>FIRSTSERVICE CORP (FSV)</item>
+        <item>FIRST TRUST SWITZERLAND (FSZ)</item>
+        <item>FRANKLIN UNIVERSAL TRUST (FT)</item>
+        <item>FIRST TRUST L C VAL ALP (FTA)</item>
+        <item>FIRST TRUST INDXX GLOBAL AGR (FTAG)</item>
+        <item>FORTRESS TRANSPORTATION &amp; IN (FTAI)</item>
+        <item>FIRST TRUST LARGE CAP GROWTH (FTC)</item>
+        <item>FIRST TRUST CAPITAL STRENGTH (FTCS)</item>
+        <item>FTD COS INC (FTD)</item>
+        <item>FIDELITY INFO TECH ETF (FTEC)</item>
+        <item>FUEL TECH INC (FTEK)</item>
+        <item>FRONTEO INC - SPON ADR (FTEO)</item>
+        <item>FRANKLIN LTD DUR INC TR (FTF)</item>
+        <item>FUTURE FINTECH GROUP INC (FTFT)</item>
+        <item>FIRST TRUST GLOBAL TACTICAL (FTGC)</item>
+        <item>FTHI/FIRST TRUST EXCHANGE-TR (FTHI)</item>
+        <item>TECHNIPFMC PLC (FTI)</item>
+        <item>FLOTEK INDUSTRIES INC (FTK)</item>
+        <item>FIRST TRUST EXCHANGE-TRADED (FTLB)</item>
+        <item>FIRST TRUST LONG/SHORT EQTY (FTLS)</item>
+        <item>FORTINET INC (FTNT)</item>
+        <item>FTE NETWORKS INC (FTNW)</item>
+        <item>FRONTIER COMMUNICATIONS CORP (FTR)</item>
+        <item>FIRST TRUST INDXX GLOBAL NAT (FTRI)</item>
+        <item>FORTIS INC (FTS)</item>
+        <item>FRANKLIN LIBERTY SHORT DURAT (FTSD)</item>
+        <item>FTS INTERNATIONAL INC (FTSI)</item>
+        <item>FIRST TRUST SENIOR LOAN ETF (FTSL)</item>
+        <item>FIRST TRUST ENH SHORT MAT FD (FTSM)</item>
+        <item>FORTIVE CORP (FTV)</item>
+        <item>APTUS FORTIFIED VALUE ETF (FTVA)</item>
+        <item>FIRST TRUST NASDAQ RETAIL ET (FTXD)</item>
+        <item>FIRST TRUST NASDAQ FOOD &amp; BE (FTXG)</item>
+        <item>FIRST TRUST NASDAQ PHARMACEU (FTXH)</item>
+        <item>FIRST TRUST NASDAQ SEMICONDU (FTXL)</item>
+        <item>FIRST TRUST NASDAQ OIL &amp; GAS (FTXN)</item>
+        <item>FIRST TRUST NASDAQ BANK ETF (FTXO)</item>
+        <item>FIRST TRUST NASDAQ TRANSPORT (FTXR)</item>
+        <item>ETRACS CMCI FOOD TR ETN (FUD)</item>
+        <item>ELEMENTS-MLCX BIOFUELS INDX (FUE)</item>
+        <item>H.B. FULLER CO. (FUL)</item>
+        <item>FULTON FINANCIAL CORP (FULT)</item>
+        <item>CEDAR FAIR LP (FUN)</item>
+        <item>FIRST UNITED CORP (FUNC)</item>
+        <item>SPROTT FOCUS TRUST INC (FUND)</item>
+        <item>FIRST US BANCSHARES INC (FUSB)</item>
+        <item>PROSHARES MANAGED FUTURES ST (FUT)</item>
+        <item>FIDELITY UTILITIES ETF (FUTY)</item>
+        <item>ARCIMOTO INC (FUV)</item>
+        <item>FIRST TRUST DW FOCUS 5 FUND (FV)</item>
+        <item>FIDELITY VALUE FACTOR ETF (FVAL)</item>
+        <item>FIRST TRUST DORSEY WRIGHT DY (FVC)</item>
+        <item>FIRST TRUST VALUE LINE DVD (FVD)</item>
+        <item>FIVE STAR SENIOR LIVING INC (FVE)</item>
+        <item>FIRST TRUST VALUE LINE 100 (FVL)</item>
+        <item>MADRONA GLOBAL BOND ETF (FWDB)</item>
+        <item>MADRONA DOMESTIC ETF (FWDD)</item>
+        <item>ADVSHRS MADRONA INT'L (FWDI)</item>
+        <item>LIBERTY MEDIA CORP-LIBERTY-A (FWONA)</item>
+        <item>LIBERTY MEDIA CORP-LIBERTY-C (FWONK)</item>
+        <item>FORWARD PHARMA A/S-ADR (FWP)</item>
+        <item>FORWARD AIR CORP (FWRD)</item>
+        <item>CURRENCYSHARES AUSTRALIAN DO (FXA)</item>
+        <item>CURRENCYSHARES BRITISH POUND (FXB)</item>
+        <item>CURRENCYSHARES CANADIAN DOLL (FXC)</item>
+        <item>CURRENCYSHARES CHINES RENMIN (FXCH)</item>
+        <item>FIRST TRUST CONSUMER DISCRET (FXD)</item>
+        <item>CURRENCYSHARES EURO TRUST (FXE)</item>
+        <item>CURRENCYSHARES SWISS FRANC (FXF)</item>
+        <item>FIRST TRUST CONSUMER STAPLES (FXG)</item>
+        <item>FIRST TRUST HEALTH CARE ALPH (FXH)</item>
+        <item>ISHARES CHINA LARGE-CAP ETF (FXI)</item>
+        <item>FIRST TRUST TECHNOLOGY ALPHA (FXL)</item>
+        <item>FIRST TRUST ENERGY ALPHADEX (FXN)</item>
+        <item>FIRST TRUST FINANCIAL ALPHAD (FXO)</item>
+        <item>PROSHARES ULTRASHORT FTSE CH (FXP)</item>
+        <item>FIRST TRUST INDST/PRODUCERS (FXR)</item>
+        <item>CURRENCYSHARES SWEDISH KRONA (FXS)</item>
+        <item>CURRENCYSHARES SINGAPORE DOL (FXSG)</item>
+        <item>FIRST TRUST UTILITIES ALPHAD (FXU)</item>
+        <item>CURRENCYSHARES JAPANESE YEN (FXY)</item>
+        <item>FIRST TRUST MATERIALS ALPHAD (FXZ)</item>
+        <item>FIRST TRUST SMALL CAP GROWTH (FYC)</item>
+        <item>CAMBRIA FOREIGN SHAREHOLDER (FYLD)</item>
+        <item>FIRST TRUST SMALL CAP VAL (FYT)</item>
+        <item>FIRST TRUST SMALL CAP CORE A (FYX)</item>
+        <item>GENPACT LTD (G)</item>
+        <item>CAMBRIA GLOBAL ASSET ALLOCAT (GAA)</item>
+        <item>GABELLI EQUITY TRUST (GAB)</item>
+        <item>GERMAN AMERICAN BANCORP (GABC)</item>
+        <item>GAIA INC (GAIA)</item>
+        <item>GLADSTONE INVESTMENT CORP (GAIN)</item>
+        <item>SPDR SSGA GLOBAL ALLOCATION (GAL)</item>
+        <item>GALECTIN THERAPEUTICS INC (GALT)</item>
+        <item>GENERAL AMERICAN INVESTORS (GAM)</item>
+        <item>ETFMG VIDEO GAME TECH ETF (GAMR)</item>
+        <item>REALITY SH DIVCON DVD GD ETF (GARD)</item>
+        <item>GARRISON CAPITAL INC (GARS)</item>
+        <item>DIREXION DLY NAT GAS BULL 3X (GASL)</item>
+        <item>STEALTHGAS INC (GASS)</item>
+        <item>DIREXION DLY NAT GAS BEAR 3X (GASX)</item>
+        <item>GATX CORP (GATX)</item>
+        <item>IPATH SER B BBG NAT GAS TR (GAZB)</item>
+        <item>GUGGENHEIM TAXABLE MUNICIPAL (GBAB)</item>
+        <item>GLACIER BANCORP INC (GBCI)</item>
+        <item>GOLUB CAPITAL BDC INC (GBDC)</item>
+        <item>ISHARES GOVERNMENT/CREDIT BO (GBF)</item>
+        <item>GOLDMAN SACHS TREAS ACC ETF (GBIL)</item>
+        <item>GAMCO INVESTORS INC-A (GBL)</item>
+        <item>GLOBAL INDEMNITY LTD (GBLI)</item>
+        <item>GUARANTY BANCORP (GBNK)</item>
+        <item>NEW CONCEPT ENERGY INC (GBR)</item>
+        <item>GLOBAL BLOOD THERAPEUTICS IN (GBT)</item>
+        <item>GREENBRIER COMPANIES INC (GBX)</item>
+        <item>GAIN CAPITAL HOLDINGS INC (GCAP)</item>
+        <item>GREENE COUNTY BANCORP INC (GCBC)</item>
+        <item>WISDOMTREE CONTINUOUS COMMOD (GCC)</item>
+        <item>CLAYMORE CEF GS CONNECT ETN (GCE)</item>
+        <item>ABERDEEN GREATER CHINA FUND (GCH)</item>
+        <item>GANNETT CO INC (GCI)</item>
+        <item>GENESCO INC (GCO)</item>
+        <item>PACER GLOBAL CASH COWS DIVID (GCOW)</item>
+        <item>GCP APPLIED TECHNOLOGIES (GCP)</item>
+        <item>GABELLI CONV AND INCOME SEC (GCV)</item>
+        <item>SANOFI CVR (GCVRZ)</item>
+        <item>GENERAL DYNAMICS CORP (GD)</item>
+        <item>GODADDY INC - CLASS A (GDDY)</item>
+        <item>GOLDEN ENTERTAINMENT INC (GDEN)</item>
+        <item>GARDNER DENVER HOLDINGS INC (GDI)</item>
+        <item>GDL FUND/THE (GDL)</item>
+        <item>WESTERN ASSET GL CORP DEF OP (GDO)</item>
+        <item>GREEN DOT CORP-CLASS A (GDOT)</item>
+        <item>GOODRICH PETROLEUM CORP (GDP)</item>
+        <item>GDS HOLDINGS LTD - ADR (GDS)</item>
+        <item>GABELLI DIVIDEND &amp; INCOME TR (GDV)</item>
+        <item>PRNCPAL ACTV GLBL DV INC ETF (GDVD)</item>
+        <item>VANECK VECTORS GOLD MINERS E (GDX)</item>
+        <item>VANECK VECTORS JUNIOR GOLD M (GDXJ)</item>
+        <item>PROSHARES ULTRASHORT GOLD MI (GDXS)</item>
+        <item>PROSHARES ULTRA GOLD MINERS (GDXX)</item>
+        <item>GENERAL ELECTRIC CO (GE)</item>
+        <item>GREAT ELM CAPITAL GROUP INC (GEC)</item>
+        <item>GREAT ELM CAPITAL CORP (GECC)</item>
+        <item>GREIF INC-CL A (GEF)</item>
+        <item>GREIF INC-CL B (GEF.B)</item>
+        <item>GENESIS ENERGY L.P. (GEL)</item>
+        <item>GOLDMAN SACHS ACTIVEBETA EM (GEM)</item>
+        <item>GEMPHIRE THERAPEUTICS INC (GEMP)</item>
+        <item>GENESIS HEALTHCARE INC (GEN)</item>
+        <item>GENCOR INDUSTRIES INC (GENC)</item>
+        <item>GENETIC TECH LTD-SP ADR (GENE)</item>
+        <item>PRINCIPAL MILLENNIALS ETF (GENY)</item>
+        <item>GEO GROUP INC/THE (GEO)</item>
+        <item>GEOSPACE TECHNOLOGIES CORP (GEOS)</item>
+        <item>GOLDMAN SACHS MLP &amp; ENERGY R (GER)</item>
+        <item>GERON CORP (GERN)</item>
+        <item>GUESS? INC (GES)</item>
+        <item>GEVO INC (GEVO)</item>
+        <item>VANECK VECTORS GLOBAL ALTERN (GEX)</item>
+        <item>NEW GERMANY FUND (GF)</item>
+        <item>GAFISA SA-ADR (GFA)</item>
+        <item>GUARANTY FEDERAL BNCSHS INC (GFED)</item>
+        <item>GRIFFON CORP (GFF)</item>
+        <item>GOLD FIELDS LTD-SPONS ADR (GFI)</item>
+        <item>GENERAL FINANCE CORP (GFN)</item>
+        <item>WESTERN ASSET VARIABLE RATE (GFY)</item>
+        <item>GOLDCORP INC (GG)</item>
+        <item>GRUPO FINANCIERO GALICIA-ADR (GGAL)</item>
+        <item>GERDAU SA -SPON ADR (GGB)</item>
+        <item>GRACO INC (GGG)</item>
+        <item>GUGGENHEIM CREDIT ALLOCATION (GGM)</item>
+        <item>GAMCO GLOBAL GOLD NATURAL RE (GGN)</item>
+        <item>GABELLI GO ANYWHERE TRUST (GGO)</item>
+        <item>GGP INC (GGP)</item>
+        <item>GABELLI MULTIMEDIA TRUST INC (GGT)</item>
+        <item>GABELLI GLOBAL SMALL &amp; M (GGZ)</item>
+        <item>GRAHAM HOLDINGS CO-CLASS B (GHC)</item>
+        <item>GENOMIC HEALTH INC (GHDX)</item>
+        <item>GREENTREE HOSPITALITY GR-ADR (GHG)</item>
+        <item>GUGGENHEIM S&amp;P HIGH INCOME (GHII)</item>
+        <item>GREENHILL &amp; CO INC (GHL)</item>
+        <item>GRAHAM CORP (GHM)</item>
+        <item>REX GOLD HEDGED S&amp;P 500 ETF (GHS)</item>
+        <item>PRUDENTIAL GL SH DUR HI YLD (GHY)</item>
+        <item>GOLDMAN SACHS ACCESS HY CORP (GHYB)</item>
+        <item>ISHARES US&amp;INTL HIGH YIELD C (GHYG)</item>
+        <item>CGI GROUP INC - CLASS A (GIB)</item>
+        <item>GULF ISLAND FABRICATION INC (GIFI)</item>
+        <item>GIGCAPITAL INC (GIG)</item>
+        <item>GIGCAPITAL INC - RTS (GIG^)</item>
+        <item>GIGCAPITAL INC-UNIT (GIG=)</item>
+        <item>GOLDMAN SACHS INV GRD CORP (GIGB)</item>
+        <item>GIGAMEDIA LTD (GIGM)</item>
+        <item>SPDR S&amp;P GLOBAL INFRASTRUCTU (GII)</item>
+        <item>G-III APPAREL GROUP LTD (GIII)</item>
+        <item>GILDAN ACTIVEWEAR INC (GIL)</item>
+        <item>GILEAD SCIENCES INC (GILD)</item>
+        <item>GILAT SATELLITE NETWORKS LTD (GILT)</item>
+        <item>TEMPLETON GLOBAL INCOME FUND (GIM)</item>
+        <item>GENERAL MILLS INC (GIS)</item>
+        <item>GLAUKOS CORP (GKOS)</item>
+        <item>GLADSTONE CAPITAL CORP (GLAD)</item>
+        <item>GLOBUS MARITIME LIMITED (GLBS)</item>
+        <item>GLEN BURNIE BANCORP (GLBZ)</item>
+        <item>SPDR GOLD SHARES (GLD)</item>
+        <item>GREAT LAKES DREDGE &amp; DOCK CO (GLDD)</item>
+        <item>X-LINKS GOLD SHRS COVRD CALL (GLDI)</item>
+        <item>SPDR LONG DOLLAR GOLD TRUST (GLDW)</item>
+        <item>GULFMARK OFFSHORE INC (GLF)</item>
+        <item>GCI LIBERTY INC - CLASS A (GLIBA)</item>
+        <item>PROSHARES ULTRASHORT GOLD (GLL)</item>
+        <item>GALMED PHARMACEUTICALS LTD (GLMD)</item>
+        <item>GOLAR LNG LTD (GLNG)</item>
+        <item>CLOUGH GLBL OPPORTUNITIES FD (GLO)</item>
+        <item>GLOBANT SA (GLOB)</item>
+        <item>GASLOG LTD (GLOG)</item>
+        <item>GASLOG PARTNERS LP (GLOP)</item>
+        <item>GLOWPOINT INC (GLOW)</item>
+        <item>GLOBAL PARTNERS LP (GLP)</item>
+        <item>GALAPAGOS NV-SPON ADR (GLPG)</item>
+        <item>GAMING AND LEISURE PROPERTIE (GLPI)</item>
+        <item>CLOUGH GLOBAL EQUITY FUND (GLQ)</item>
+        <item>GREENLIGHT CAPITAL RE LTD-A (GLRE)</item>
+        <item>GLATFELTER (GLT)</item>
+        <item>ETFS PHYSICAL PRECIOUS METAL (GLTR)</item>
+        <item>GABELLI GLOBAL UTIL &amp; INCOME (GLU)</item>
+        <item>GLU MOBILE INC (GLUU)</item>
+        <item>CLOUGH GLOBAL DIVIDEND AND I (GLV)</item>
+        <item>CORNING INC (GLW)</item>
+        <item>GLYCOMIMETICS INC (GLYC)</item>
+        <item>GENERAL MOTORS CO (GM)</item>
+        <item>GAMESTOP CORP-CLASS A (GME)</item>
+        <item>GLOBUS MEDICAL INC - A (GMED)</item>
+        <item>SPDR S&amp;P EMERGING ASIA PACIF (GMF)</item>
+        <item>PWR MULTI-FACTOR LG CP (GMFL)</item>
+        <item>GOLAR LNG PARTNERS LP (GMLP)</item>
+        <item>GENERAL MOLY INC (GMO)</item>
+        <item>CAMBRIA GLOBAL MOMENTUM ETF (GMOM)</item>
+        <item>GLOBAL MEDICAL REIT INC (GMRE)</item>
+        <item>GMS INC (GMS)</item>
+        <item>GOLDMAN SACHS MLP INCOME OPP (GMZ)</item>
+        <item>GREEN BANCORP INC (GNBC)</item>
+        <item>GNC HOLDINGS INC-CL A (GNC)</item>
+        <item>GENOCEA BIOSCIENCES INC (GNCA)</item>
+        <item>GENIE ENERGY LTD-B (GNE)</item>
+        <item>GENCO SHIPPING &amp; TRADING LTD (GNK)</item>
+        <item>GLOBAL NET LEASE INC (GNL)</item>
+        <item>ISHARES GNMA BOND ETF (GNMA)</item>
+        <item>GENMARK DIAGNOSTICS INC (GNMK)</item>
+        <item>AEVI GENOMIC MEDICINE INC (GNMX)</item>
+        <item>GENPREX INC (GNPX)</item>
+        <item>SPDR S&amp;P GL NAT RESOURCES (GNR)</item>
+        <item>GENERAC HOLDINGS INC (GNRC)</item>
+        <item>GENER8 MARITIME INC (GNRT)</item>
+        <item>VANECK VECTORS GENERIC DRUGS (GNRX)</item>
+        <item>GAMCO NATURAL RESOURCES GOLD (GNT)</item>
+        <item>GENTEX CORP (GNTX)</item>
+        <item>GUARANTY BANCSHARES INC (GNTY)</item>
+        <item>GENIUS BRANDS INTERNATIONAL (GNUS)</item>
+        <item>GENWORTH FINANCIAL INC-CL A (GNW)</item>
+        <item>US GLB GLD &amp; METAL MNRS ETF (GOAU)</item>
+        <item>GLOBAL X GOLD EXPLORERS ETF (GOEX)</item>
+        <item>GUGGENHEIM STRATEGIC OPPORTU (GOF)</item>
+        <item>GOLDEN OCEAN GROUP LTD (GOGL)</item>
+        <item>GOGO INC (GOGO)</item>
+        <item>GOL LINHAS AEREAS INTEL-ADR (GOL)</item>
+        <item>RANDGOLD RESOURCES LTD-ADR (GOLD)</item>
+        <item>ACUSHNET HOLDINGS CORP (GOLF)</item>
+        <item>GLADSTONE COMMERCIAL CORP (GOOD)</item>
+        <item>ALPHABET INC-CL C (GOOG)</item>
+        <item>ALPHABET INC-CL A (GOOGL)</item>
+        <item>CANADA GOOSE HOLDINGS INC (GOOS)</item>
+        <item>REPUBLICAN POLICIES FUND (GOP)</item>
+        <item>GOLD RESOURCE CORP (GORO)</item>
+        <item>GOVERNMENT PROPERTIES INCOME (GOV)</item>
+        <item>ISHARES US TREASURY BOND ETF (GOVT)</item>
+        <item>GORDON POINTE ACQUISITION CO (GPAQ)</item>
+        <item>GORDON POINTE ACQUISITION CO (GPAQU)</item>
+        <item>GENUINE PARTS CO (GPC)</item>
+        <item>GROUP 1 AUTOMOTIVE INC (GPI)</item>
+        <item>GAMING PARTNERS INTERNATIONA (GPIC)</item>
+        <item>GRAPHIC PACKAGING HOLDING CO (GPK)</item>
+        <item>GREAT PANTHER SILVER LTD (GPL)</item>
+        <item>GUGGENHEIM ENHANCED EQUITY I (GPM)</item>
+        <item>GRANITE POINT MORTGAGE TRUST (GPMT)</item>
+        <item>GLOBAL PAYMENTS INC (GPN)</item>
+        <item>GULFPORT ENERGY CORP (GPOR)</item>
+        <item>GREEN PLAINS PARTNERS LP (GPP)</item>
+        <item>GREEN PLAINS INC (GPRE)</item>
+        <item>GEOPARK LTD (GPRK)</item>
+        <item>GOPRO INC-CLASS A (GPRO)</item>
+        <item>GAP INC/THE (GPS)</item>
+        <item>GRAMERCY PROPERTY TRUST (GPT)</item>
+        <item>GP STRATEGIES CORP (GPX)</item>
+        <item>FLEXSHARES GLOBAL QUALITY RE (GQRE)</item>
+        <item>WR GRACE &amp; CO (GRA)</item>
+        <item>GRANA Y MONTERO SA -SPON ADR (GRAM)</item>
+        <item>GREEN BRICK PARTNERS INC (GRBK)</item>
+        <item>GORMAN-RUPP CO (GRC)</item>
+        <item>GLOBAL X MSCI GREECE ETF (GREK)</item>
+        <item>IQ GLOBAL RESOURCES ETF (GRES)</item>
+        <item>EAGLE CAPITAL GROWTH FUND (GRF)</item>
+        <item>GRIFOLS SA-ADR (GRFS)</item>
+        <item>COHEN &amp; STEERS GLOBAL REALTY (GRI)</item>
+        <item>FIRST TRST NASD CL EDG SGIIF (GRID)</item>
+        <item>GRIFFIN INDUSTRIAL REALTY IN (GRIF)</item>
+        <item>GARMIN LTD (GRMN)</item>
+        <item>XTRACKERS GERMANY EQUITY ETF (GRMY)</item>
+        <item>VANECK VECTORS GREEN BOND ET (GRNB)</item>
+        <item>U.S. GLOBAL INVESTORS INC-A (GROW)</item>
+        <item>GRANITE REAL ESTATE INVESTME (GRP=)</item>
+        <item>GROUPON INC (GRPN)</item>
+        <item>ASIA TIGERS FUND INC (GRR)</item>
+        <item>ELEMENTS-MLCX GRAINS INDX TR (GRU)</item>
+        <item>GRUBHUB INC (GRUB)</item>
+        <item>GRAVITY CO LTD-SPONSORED ADR (GRVY)</item>
+        <item>GABELLI HEALTHCARE&amp;WELLNESS (GRX)</item>
+        <item>GOLDMAN SACHS GROUP INC (GS)</item>
+        <item>GLOBALSTAR INC (GSAT)</item>
+        <item>GLOBALSCAPE INC (GSB)</item>
+        <item>GREAT SOUTHERN BANCORP INC (GSBC)</item>
+        <item>GOLDMAN SACHS BDC INC (GSBD)</item>
+        <item>GS CONNECT S&amp;P GSCI ENH COMM (GSC)</item>
+        <item>WISDOMTREE GLOBAL SMCAP DIVI (GSD)</item>
+        <item>GOLDMAN ACTIVEBTA EUR EQ ETF (GSEU)</item>
+        <item>GOLDMAN SACHS EQL WGHT LARGE (GSEW)</item>
+        <item>ISHARES S&amp;P GSCI COMMODITY I (GSG)</item>
+        <item>GUANGSHEN RAILWAY-SPONS ADR (GSH)</item>
+        <item>GORES HOLDINGS II INC - A (GSHT)</item>
+        <item>GORES HOLDINGS II INC (GSHTU)</item>
+        <item>GOLDMAN SACHS ACTIVEBETA INT (GSIE)</item>
+        <item>GSI TECHNOLOGY INC (GSIT)</item>
+        <item>GOLDMAN ACTIVEBETA JP EQ ETF (GSJY)</item>
+        <item>GLAXOSMITHKLINE PLC-SPON ADR (GSK)</item>
+        <item>GLOBAL SHIP LEASE INC-CL A (GSL)</item>
+        <item>GOLDMAN ACTIVEBETA US LC ETF (GSLC)</item>
+        <item>FERROGLOBE PLC (GSM)</item>
+        <item>IPATH GSCI TOTAL RETURN INDX (GSP)</item>
+        <item>GOLDEN STAR RESOURCES LTD (GSS)</item>
+        <item>GOLDMAN SACHS ACTIVEBETA US (GSSC)</item>
+        <item>GASTAR EXPLORATION LTD (GST)</item>
+        <item>GRIDSUM HOLDING INC-ADR (GSUM)</item>
+        <item>GOLD STANDARD VENTURES CORP (GSV)</item>
+        <item>GSV CAPITAL CORP (GSVC)</item>
+        <item>PWR ULTRA SHORT DURATION (GSY)</item>
+        <item>GOODYEAR TIRE &amp; RUBBER CO (GT)</item>
+        <item>GRAN TIERRA ENERGY INC (GTE)</item>
+        <item>GATES INDUSTRIAL CORP PLC (GTES)</item>
+        <item>G1 THERAPEUTICS INC (GTHX)</item>
+        <item>GOOD TIMES RESTAURANTS INC (GTIM)</item>
+        <item>CHART INDUSTRIES INC (GTLS)</item>
+        <item>GRAY TELEVISION INC (GTN)</item>
+        <item>GRAY TELEVISION INC-A (GTN.A)</item>
+        <item>PWR TOTAL RETURN BD (GTO)</item>
+        <item>TRIPLE-S MANAGEMENT CORP-B (GTS)</item>
+        <item>GTT COMMUNICATIONS INC (GTT)</item>
+        <item>GTX INC (GTXI)</item>
+        <item>GETTY REALTY CORP (GTY)</item>
+        <item>GTY TECHNOLOGY HOLDINGS IN-A (GTYH)</item>
+        <item>GTY TECHNOLOGY HOLDINGS INC (GTYHU)</item>
+        <item>SAGE ESG INTERMEDIATE CREDIT (GUDB)</item>
+        <item>WISDOMTREE MIDDLE EAST DVD (GULF)</item>
+        <item>FLEXSHARES GLOBAL UPSTREAM N (GUNR)</item>
+        <item>GULF RESOURCES INC (GURE)</item>
+        <item>GLOBAL X GURU INDEX ETF (GURU)</item>
+        <item>DRXN DAILY S&amp;P OIL&amp;GAS BULL (GUSH)</item>
+        <item>GABELLI UTILITY TRUST (GUT)</item>
+        <item>GABELLI UTILITY TRU-RTS (GUT^)</item>
+        <item>GOLDFIELD CORP (GV)</item>
+        <item>GRANITE CONSTRUCTION INC (GVA)</item>
+        <item>CAMBRIA GLOBAL VALUE ETF (GVAL)</item>
+        <item>ISHARES INTERMEDIATE GOVERNM (GVI)</item>
+        <item>GOLD SACHS HEDGE IND VIP ETF (GVIP)</item>
+        <item>GSE SYSTEMS INC (GVP)</item>
+        <item>GREAT WESTERN BANCORP INC (GWB)</item>
+        <item>GWG HOLDINGS INC (GWGH)</item>
+        <item>GW PHARMACEUTICALS -ADR (GWPH)</item>
+        <item>GENESEE &amp; WYOMING INC-CL A (GWR)</item>
+        <item>GUIDEWIRE SOFTWARE INC (GWRE)</item>
+        <item>GLOBAL WATER RESOURCES INC (GWRS)</item>
+        <item>WW GRAINGER INC (GWW)</item>
+        <item>SPDR S&amp;P INTL SMALL CAP (GWX)</item>
+        <item>SPDR S&amp;P CHINA ETF (GXC)</item>
+        <item>GLOBAL X FTSE NORDIC REGION (GXF)</item>
+        <item>GLOBAL X MSCI COLOMBIA ETF (GXG)</item>
+        <item>GREAT PLAINS ENERGY INC (GXP)</item>
+        <item>ARROW DOW JONES GLOBAL YIELD (GYLD)</item>
+        <item>GYRODYNE LLC (GYRO)</item>
+        <item>GAZIT GLOBE LTD (GZT)</item>
+        <item>HYATT HOTELS CORP - CL A (H)</item>
+        <item>HAWAIIAN HOLDINGS INC (HA)</item>
+        <item>HABIT RESTAURANTS INC/THE-A (HABT)</item>
+        <item>ETFMG PRIME CYBER SECURITY E (HACK)</item>
+        <item>ISHARES EDGE MSCI MIN VOL GL (HACV)</item>
+        <item>ISHARES CUR HEDGED MSCI ACWI (HACW)</item>
+        <item>HAEMONETICS CORP/MASS (HAE)</item>
+        <item>HANMI FINANCIAL CORPORATION (HAFC)</item>
+        <item>CSOP CHINA CSI 300 A-H DYNAM (HAHA)</item>
+        <item>HAIN CELESTIAL GROUP INC (HAIN)</item>
+        <item>RESTORATION ROBOTICS INC (HAIR)</item>
+        <item>HALLIBURTON CO (HAL)</item>
+        <item>HALLMARK FINL SERVICES INC (HALL)</item>
+        <item>HALOZYME THERAPEUTICS INC (HALO)</item>
+        <item>GUGGENHEIM CHINA SMALL CAP E (HAO)</item>
+        <item>VANECK VECTORS NATURAL RESOU (HAP)</item>
+        <item>HASBRO INC (HAS)</item>
+        <item>HANNON ARMSTRONG SUSTAINABLE (HASI)</item>
+        <item>ISHARES CURR HDG MSCI AUSTRA (HAUD)</item>
+        <item>BLACKHAWK NETWORK HOLDINGS I (HAWK)</item>
+        <item>ISHARES CUR HDG MSCI ACWI-X (HAWX)</item>
+        <item>HAYNES INTERNATIONAL INC (HAYN)</item>
+        <item>HUNTINGTON BANCSHARES INC (HBAN)</item>
+        <item>HAMILTON BEACH BRAND-A (HBB)</item>
+        <item>HOME BANCORP INC (HBCP)</item>
+        <item>HANCOCK HOLDING CO (HBHC)</item>
+        <item>HANESBRANDS INC (HBI)</item>
+        <item>HARVARD BIOSCIENCE INC (HBIO)</item>
+        <item>HAMILTON BANCORP INC/MD (HBK)</item>
+        <item>HUDBAY MINERALS INC (HBM)</item>
+        <item>HOWARD BANCORP INC (HBMD)</item>
+        <item>HORIZON BANCORP INDIANA (HBNC)</item>
+        <item>HUTTIG BUILDING PRODUCTS INC (HBP)</item>
+        <item>HCA HEALTHCARE INC (HCA)</item>
+        <item>HENNESSY CAPITAL ACQUISITION (HCAC)</item>
+        <item>HENNESSY CAPITAL ACQUISITION (HCAC=)</item>
+        <item>HARVEST CAPITAL CREDIT CORP (HCAP)</item>
+        <item>WARRIOR MET COAL INC (HCC)</item>
+        <item>HERITAGE-CRYSTAL CLEAN INC (HCCI)</item>
+        <item>HC2 HOLDINGS INC (HCHC)</item>
+        <item>HCI GROUP INC (HCI)</item>
+        <item>HACKETT GROUP INC/THE (HCKT)</item>
+        <item>HI-CRUSH PARTNERS LP (HCLP)</item>
+        <item>HUTCHISON CHINA MEDITECH-ADR (HCM)</item>
+        <item>HAWAIIAN TELCOM HOLDCO INC (HCOM)</item>
+        <item>HARTFORD CORPORATE BOND ETF (HCOR)</item>
+        <item>HCP INC (HCP)</item>
+        <item>ISHARES EDGE MSCI MF HEALTH (HCRF)</item>
+        <item>HEALTHCARE SERVICES GROUP (HCSG)</item>
+        <item>HOME DEPOT INC (HD)</item>
+        <item>XTRACKERS MSCI ALL WORLD EX (HDAW)</item>
+        <item>HDFC BANK LTD-ADR (HDB)</item>
+        <item>XTRACKERS MSCI EAFE HIGH DIV (HDEF)</item>
+        <item>PROSHARES HEDGE REPLICAT ETF (HDG)</item>
+        <item>ADVISORSHARES RANGER EQ BEAR (HDGE)</item>
+        <item>ETRACS 2X HI DIV LOW VOL ETN (HDLV)</item>
+        <item>FT HORIZON MGD VOL D INT ETF (HDMV)</item>
+        <item>HARDINGE INC (HDNG)</item>
+        <item>HORTONWORKS INC (HDP)</item>
+        <item>HD SUPPLY HOLDINGS INC (HDS)</item>
+        <item>HUDSON TECHNOLOGIES INC (HDSN)</item>
+        <item>ISHARES CORE HIGH DIVIDEND E (HDV)</item>
+        <item>HAWAIIAN ELECTRIC INDS (HE)</item>
+        <item>TURTLE BEACH CORP (HEAR)</item>
+        <item>HEMISPHERX BIOPHARMA INC (HEB)</item>
+        <item>HEBRON TECHNOLOGY CO LTD - A (HEBT)</item>
+        <item>ECOLOGICAL STRATEGY ETF (HECO)</item>
+        <item>WISDOMTREE EUROPE HEDGED EQU (HEDJ)</item>
+        <item>ISHARES CRNCY HEDGD MSCI EM (HEEM)</item>
+        <item>H&amp;E EQUIPMENT SERVICES INC (HEES)</item>
+        <item>ISHA CURR HEDGED MSCI EAFE (HEFA)</item>
+        <item>ISHARES EDGE MSCI MIN VOL EA (HEFV)</item>
+        <item>HEICO CORP (HEI)</item>
+        <item>HEICO CORP-CLASS A (HEI.A)</item>
+        <item>HELEN OF TROY LTD (HELE)</item>
+        <item>ISHARES EDGE MSCI MIN VOL EM (HEMV)</item>
+        <item>HOLLY ENERGY PARTNERS LP (HEP)</item>
+        <item>JOHN HANCOCK HEDGED EQUITY &amp; (HEQ)</item>
+        <item>HESS CORP (HES)</item>
+        <item>HESS MIDSTREAM PARTNERS LP (HESM)</item>
+        <item>ISHARES CUR HDG EUR SMAL CAP (HEUS)</item>
+        <item>ISHARES EDGE MSCI MIN VOL EU (HEUV)</item>
+        <item>ISHARES CURR HDG MSCI CANADA (HEWC)</item>
+        <item>ISHA HEDGED MSCI GERMANY (HEWG)</item>
+        <item>ISHARES CURR HEDG MSCI ITALY (HEWI)</item>
+        <item>ISHA CURR HEDGED MSCI JAPAN (HEWJ)</item>
+        <item>ISHARES CURR HEDG MSCI SWITZ (HEWL)</item>
+        <item>ISHARES CURR HEDG MSCI SPAIN (HEWP)</item>
+        <item>ISHARES CURR HEDGED MSCI UK (HEWU)</item>
+        <item>ISHARES CURR HDG MSCI MEXICO (HEWW)</item>
+        <item>ISHARES CUR HDG MSCI S KOREA (HEWY)</item>
+        <item>ISHARES CURRENCY HEDGED MSCI (HEZU)</item>
+        <item>HFF INC-CLASS A (HF)</item>
+        <item>HOPFED BANCORP INC (HFBC)</item>
+        <item>HOME FEDERAL BANCORP INC/LA (HFBL)</item>
+        <item>HOLLYFRONTIER CORP (HFC)</item>
+        <item>HIGHLAND FLTNG RTE OPPORT (HFRO)</item>
+        <item>HERITAGE FINANCIAL CORP (HFWA)</item>
+        <item>IQ 50PCT HEDGED FTSE EUR ETF (HFXE)</item>
+        <item>IQ 50PCT HEDGED FTSE INT ETF (HFXI)</item>
+        <item>IQ 50PCT HEDGED FTSE JPN ETF (HFXJ)</item>
+        <item>PWR ZACKS INTL MLT-ASSET INC (HGI)</item>
+        <item>WISDOMTREE GLB HDG SMLCAP DI (HGSD)</item>
+        <item>CHINA HGS REAL ESTATE INC (HGSH)</item>
+        <item>HUGOTON ROYALTY TRUST (HGT)</item>
+        <item>HILTON GRAND VACATIONS INC (HGV)</item>
+        <item>HOWARD HUGHES CORP/THE (HHC)</item>
+        <item>HARTE-HANKS INC (HHS)</item>
+        <item>ISHARES CURRENCY HEDGED INTE (HHYX)</item>
+        <item>HILLENBRAND INC (HI)</item>
+        <item>HIBBETT SPORTS INC (HIBB)</item>
+        <item>MILLER/HOWARD HIGH INCOME EQ (HIE)</item>
+        <item>INFRAREIT INC (HIFR)</item>
+        <item>HINGHAM INSTITUTION FOR SVGS (HIFS)</item>
+        <item>HARTFORD FINANCIAL SVCS GRP (HIG)</item>
+        <item>HIGHWAY HOLDINGS LTD (HIHO)</item>
+        <item>HUNTINGTON INGALLS INDUSTRIE (HII)</item>
+        <item>HEALTH INSURANCE INNOVATIO-A (HIIQ)</item>
+        <item>HILL INTERNATIONAL INC (HIL)</item>
+        <item>COLUMBIA EM QUALITY DIVIDEND (HILO)</item>
+        <item>HIMAX TECHNOLOGIES INC-ADR (HIMX)</item>
+        <item>WESTERN ASSET HIGH INCOME OP (HIO)</item>
+        <item>GRANITESHARES HIPS US HIGH I (HIPS)</item>
+        <item>AEROHIVE NETWORKS INC (HIVE)</item>
+        <item>HIGHWOODS PROPERTIES INC (HIW)</item>
+        <item>WESTERN ASSET HIGH INC FD II (HIX)</item>
+        <item>ISHARES CUR HEDG JPX-NIK 400 (HJPX)</item>
+        <item>HALCON RESOURCES CORP (HK)</item>
+        <item>HECLA MINING CO (HL)</item>
+        <item>HERBALIFE LTD (HLF)</item>
+        <item>HAILIANG EDUCATION GROUP-ADR (HLG)</item>
+        <item>HOULIHAN LOKEY INC (HLI)</item>
+        <item>HARMONIC INC (HLIT)</item>
+        <item>HAMILTON LANE INC-CLASS A (HLNE)</item>
+        <item>HILTON WORLDWIDE HOLDINGS IN (HLT)</item>
+        <item>NOBILIS HEALTH CORP (HLTH)</item>
+        <item>HELIX ENERGY SOLUTIONS GROUP (HLX)</item>
+        <item>HONDA MOTOR CO LTD-SPONS ADR (HMC)</item>
+        <item>HMG COURTLAND PROPERTIES (HMG)</item>
+        <item>HOUGHTON MIFFLIN HARCOURT CO (HMHC)</item>
+        <item>HUAMI CORP - ADR (HMI)</item>
+        <item>HOEGH LNG PARTNERS LP (HMLP)</item>
+        <item>HORACE MANN EDUCATORS (HMN)</item>
+        <item>HMN FINANCIAL INC (HMNF)</item>
+        <item>HELIOS AND MATHESON ANALYTIC (HMNY)</item>
+        <item>HARTFORD MUNI OPPORTUNITY ET (HMOP)</item>
+        <item>HOMESTREET INC (HMST)</item>
+        <item>HMS HOLDINGS CORP (HMSY)</item>
+        <item>HOMETOWN BANKSHARES CORP (HMTA)</item>
+        <item>HEMISPHERE MEDIA GROUP INC (HMTV)</item>
+        <item>HARMONY GOLD MNG-SPON ADR (HMY)</item>
+        <item>NASDAQ 7 HANDL INDEX ETF (HNDL)</item>
+        <item>HNI CORP (HNI)</item>
+        <item>HENNESSY ADVISORS INC (HNNA)</item>
+        <item>HUANENG POWER INTL-SPONS ADR (HNP)</item>
+        <item>HALLADOR ENERGY CO (HNRG)</item>
+        <item>PIONEER DIVERSIFIED HIGH INC (HNW)</item>
+        <item>HOOKER FURNITURE CORP (HOFT)</item>
+        <item>HARLEY-DAVIDSON INC (HOG)</item>
+        <item>ADVISORSHARES SAGE CORE RESE (HOLD)</item>
+        <item>HOLLYSYS AUTOMATION TECHNOLO (HOLI)</item>
+        <item>HOLOGIC INC (HOLX)</item>
+        <item>HOME BANCSHARES INC (HOMB)</item>
+        <item>AT HOME GROUP INC (HOME)</item>
+        <item>ETRACS MON RST 2XLEV ISE EX (HOML)</item>
+        <item>HONEYWELL INTERNATIONAL INC (HON)</item>
+        <item>HARBORONE BANCORP INC (HONE)</item>
+        <item>INSIGHTSHARES PATRIOTIC EMPL (HONR)</item>
+        <item>HOPE BANCORP INC (HOPE)</item>
+        <item>HORNBECK OFFSHORE SERVICES (HOS)</item>
+        <item>HOVNANIAN ENTERPRISES-A (HOV)</item>
+        <item>HELMERICH &amp; PAYNE (HP)</item>
+        <item>HEWLETT PACKARD ENTERPRISE (HPE)</item>
+        <item>JOHN HANCOCK PFD INCOME II (HPF)</item>
+        <item>JOHN HANCOCK PFD INCOME FD (HPI)</item>
+        <item>HIGHPOWER INTERNATIONAL INC (HPJ)</item>
+        <item>HUDSON PACIFIC PROPERTIES IN (HPP)</item>
+        <item>HP INC (HPQ)</item>
+        <item>HIGHPOINT RESOURCES CORP (HPR)</item>
+        <item>JOHN HANCOCK PFD INCOME III (HPS)</item>
+        <item>HOSPITALITY PROPERTIES TRUST (HPT)</item>
+        <item>HARTFORD QUALITY BOND ETF (HQBD)</item>
+        <item>HANWHA Q CELLS CO LTD - ADR (HQCL)</item>
+        <item>TEKLA HEALTHCARE INVESTORS (HQH)</item>
+        <item>TEKLA LIFE SCIENCES INVESTOR (HQL)</item>
+        <item>HEALTHEQUITY INC (HQY)</item>
+        <item>HEALTHCARE REALTY TRUST INC (HR)</item>
+        <item>H&amp;R BLOCK INC (HRB)</item>
+        <item>HILL-ROM HOLDINGS INC (HRC)</item>
+        <item>HRG GROUP INC (HRG)</item>
+        <item>HERC HOLDINGS INC (HRI)</item>
+        <item>HORMEL FOODS CORP (HRL)</item>
+        <item>HARRIS CORP (HRS)</item>
+        <item>HERITAGE INSURANCE HOLDINGS (HRTG)</item>
+        <item>HERON THERAPEUTICS INC (HRTX)</item>
+        <item>HORIZON TECHNOLOGY FINANCE C (HRZN)</item>
+        <item>HSBC HOLDINGS PLC-SPONS ADR (HSBC)</item>
+        <item>HARSCO CORP (HSC)</item>
+        <item>ISHARES CUR HDG MSCI EAFE SM (HSCZ)</item>
+        <item>HELIUS MEDICAL TECHNOLOGIES (HSDT)</item>
+        <item>HISTOGENICS CORP (HSGX)</item>
+        <item>HENRY SCHEIN INC (HSIC)</item>
+        <item>HEIDRICK &amp; STRUGGLES INTL (HSII)</item>
+        <item>HESKA CORP (HSKA)</item>
+        <item>HUDSON GLOBAL INC (HSON)</item>
+        <item>HORIZONS S&amp;P 500 COVERED CAL (HSPX)</item>
+        <item>HOST HOTELS &amp; RESORTS INC (HST)</item>
+        <item>HEALTHSTREAM INC (HSTM)</item>
+        <item>HERSHEY CO/THE (HSY)</item>
+        <item>HERSHA HOSPITALITY TRUST (HT)</item>
+        <item>HEALTHCARE TRUST OF AME-CL A (HTA)</item>
+        <item>HOMETRUST BANCSHARES INC (HTBI)</item>
+        <item>HERITAGE COMMERCE CORP (HTBK)</item>
+        <item>HEAT BIOLOGICS INC (HTBX)</item>
+        <item>JOHN HANCOCK T/A DVD INCOME (HTD)</item>
+        <item>HERCULES CAPITAL INC (HTGC)</item>
+        <item>HTG MOLECULAR DIAGNOSTICS (HTGM)</item>
+        <item>HILLTOP HOLDINGS INC (HTH)</item>
+        <item>CHINA LODGING GROUP-SPON ADR (HTHT)</item>
+        <item>HEARTLAND EXPRESS INC (HTLD)</item>
+        <item>HEARTLAND FINANCIAL USA INC (HTLF)</item>
+        <item>US GEOTHERMAL INC (HTM)</item>
+        <item>HARTFORD TOTAL RTRN BOND ETF (HTRB)</item>
+        <item>HULL TACTICAL US ETF (HTUS)</item>
+        <item>JOHN HANCOCK TAX-ADVANTAGED (HTY)</item>
+        <item>HERTZ GLOBAL HOLDINGS INC (HTZ)</item>
+        <item>HUBBELL INC (HUBB)</item>
+        <item>HUB GROUP INC-CL A (HUBG)</item>
+        <item>HUBSPOT INC (HUBS)</item>
+        <item>HUDSON LTD-CLASS A (HUD)</item>
+        <item>HUMANA INC (HUM)</item>
+        <item>HUNTSMAN CORP (HUN)</item>
+        <item>HUNTER MARITIME ACQUISITION (HUNT)</item>
+        <item>HUNTER MARITIME ACQUISITION (HUNTU)</item>
+        <item>HURCO COMPANIES INC (HURC)</item>
+        <item>HURON CONSULTING GROUP INC (HURN)</item>
+        <item>HOUSTON AMERICAN ENERGY CORP (HUSA)</item>
+        <item>US MARKET ROTATION STRATEGY (HUSE)</item>
+        <item>FT HORIZON MNGD VOL DOM ETF (HUSV)</item>
+        <item>HV BANCORP INC (HVBC)</item>
+        <item>HAVERTY FURNITURE (HVT)</item>
+        <item>HAVERTY FURNITURE COS-CL A (HVT.A)</item>
+        <item>HAWTHORN BANCSHARES INC (HWBK)</item>
+        <item>HOUSTON WIRE &amp; CABLE CO (HWCC)</item>
+        <item>HAWKINS INC (HWKN)</item>
+        <item>HEXINDAI INC-ADR (HX)</item>
+        <item>HEXCEL CORP (HXL)</item>
+        <item>HYSTER-YALE MATERIALS (HY)</item>
+        <item>HAYMAKER ACQUISITION CO - A (HYAC)</item>
+        <item>HAYMAKER ACQUISITION CORP (HYACU)</item>
+        <item>NEW AMERICA HIGH INCOME FUND (HYB)</item>
+        <item>VANECK VECTORS HIGH-YIELD MU (HYD)</item>
+        <item>ISHARES EDGE HIGH YIELD DEFE (HYDB)</item>
+        <item>DIREXION DAILY HY BEAR 2X (HYDD)</item>
+        <item>XTRS LOW BETA HI YIELD ETF (HYDW)</item>
+        <item>VANECK VECTORS EMERGING MARK (HYEM)</item>
+        <item>ISHARES IBOXX USD HIGH YIELD (HYG)</item>
+        <item>ISHARES INT RATE HEDG HY ETF (HYGH)</item>
+        <item>HYDROGENICS CORP (HYGS)</item>
+        <item>HALYARD HEALTH INC (HYH)</item>
+        <item>PROSHARES HIGH YIELD INTERES (HYHG)</item>
+        <item>WESTERN ASSET HIGH YIELD DEF (HYI)</item>
+        <item>HY CORP BOND INT RATE HD (HYIH)</item>
+        <item>XTRACKERS USD HIGH YIELD COR (HYLB)</item>
+        <item>ADVSHRS PERITUS HIGH YIELD (HYLD)</item>
+        <item>FT TACTICAL HIGH YIELD ETF (HYLS)</item>
+        <item>IQ S&amp;P HY LOW VOL BOND ETF (HYLV)</item>
+        <item>SPDR NUVEEN S&amp;P HIGH YIELD M (HYMB)</item>
+        <item>WISDOMTREE WISDOMTREE NEGATI (HYND)</item>
+        <item>PIMCO 0-5 YEAR H/Y CORP BOND (HYS)</item>
+        <item>BLACKROCK CORPORATE HIGH YIE (HYT)</item>
+        <item>XTRS HI BETA HI YIELD ETF (HYUP)</item>
+        <item>ISHARES IBOXX HY EX-O&amp;G ETF (HYXE)</item>
+        <item>ISHARES INTERNATIONAL HIGH Y (HYXU)</item>
+        <item>WISDOMTREE INTEREST RATE HED (HYZD)</item>
+        <item>HORIZON GLOBAL CORP (HZN)</item>
+        <item>HORIZON PHARMA PLC (HZNP)</item>
+        <item>MARINEMAX INC (HZO)</item>
+        <item>INTELSAT SA (I)</item>
+        <item>IAC/INTERACTIVECORP (IAC)</item>
+        <item>VOYA ASIA PACIFIC HIGH DIVID (IAE)</item>
+        <item>ABERDEEN AUSTRALIA EQUITY FD (IAF)</item>
+        <item>IAMGOLD CORP (IAG)</item>
+        <item>ISHARES INTL AGGREGATE BOND (IAGG)</item>
+        <item>ISHARES U.S. BROKER-DEALERS (IAI)</item>
+        <item>ISHARES U.S. INSURANCE ETF (IAK)</item>
+        <item>I-AM CAPITAL ACQUISITON CORP (IAM)</item>
+        <item>IAM CAPITAL ACQUISITION-RT (IAMXR)</item>
+        <item>INTEGRA LIFESCIENCES HOLDING (IART)</item>
+        <item>ISHARES US REGIONAL BANKS ET (IAT)</item>
+        <item>ISHARES GOLD TRUST (IAU)</item>
+        <item>INDUSTRIAS BACHOCO SAB SP AD (IBA)</item>
+        <item>ISHARES NASDAQ BIOTECHNOLOGY (IBB)</item>
+        <item>ISHARES IBONDS MAR 2020 TERM (IBCD)</item>
+        <item>ISHARES IBONDS MAR 2023 TERM (IBCE)</item>
+        <item>INDEPENDENT BANK CORP - MICH (IBCP)</item>
+        <item>INSPIRE CORPORATE BOND IMPAC (IBD)</item>
+        <item>ISHARES IBONDS MAR 2020 TERM (IBDC)</item>
+        <item>ISHARES IBONDS MAR 2023 TERM (IBDD)</item>
+        <item>ISHARES IBONDS DEC 2018 TERM (IBDH)</item>
+        <item>ISHARES IBONDS DEC 2019 TERM (IBDK)</item>
+        <item>ISHARES IBONDS DEC 2020 TERM (IBDL)</item>
+        <item>ISHARES IBONDS DEC 2021 TERM (IBDM)</item>
+        <item>ISHARES IBONDS DEC 2022 TERM (IBDN)</item>
+        <item>ISHARES IBONDS DEC 2023 TERM (IBDO)</item>
+        <item>ISHARES IBONDS DEC 2024 TERM (IBDP)</item>
+        <item>ISHARES IBONDS DEC 2025 TERM (IBDQ)</item>
+        <item>ISHARES IBONDS DEC 2026 TERM (IBDR)</item>
+        <item>ISHRS IBNDS DEC 27 CORP ETF (IBDS)</item>
+        <item>IBIO INC (IBIO)</item>
+        <item>IBERIABANK CORP (IBKC)</item>
+        <item>INTERACTIVE BROKERS GRO-CL A (IBKR)</item>
+        <item>INTL BUSINESS MACHINES CORP (IBM)</item>
+        <item>ISHARES IBONDS SEP 2018 TERM (IBMG)</item>
+        <item>ISHARES IBONDS SEP 2019 TERM (IBMH)</item>
+        <item>ISHARES IBONDS SEP 2020 TERM (IBMI)</item>
+        <item>ISHARES IBONDS DEC 2021 TERM (IBMJ)</item>
+        <item>ISHARES IBONDS DEC 2022 TERM (IBMK)</item>
+        <item>ISHARES DEC 2023 MUNI BD ETF (IBML)</item>
+        <item>ISHARES IBONDS DEC 2024 TERM (IBMM)</item>
+        <item>ICICI BANK LTD-SPON ADR (IBN)</item>
+        <item>SPDR BBG BARC INTL CORP BOND (IBND)</item>
+        <item>INTERNATIONAL BANCSHARES CRP (IBOC)</item>
+        <item>INSTALLED BUILDING PRODUCTS (IBP)</item>
+        <item>INDEPENDENT BANK GROUP INC (IBTX)</item>
+        <item>AMPLIFY ONLINE RETAIL ETF (IBUY)</item>
+        <item>ICAD INC (ICAD)</item>
+        <item>SERENITYSHARES IMPACT ETF (ICAN)</item>
+        <item>MORGAN STANLEY INCOME SECS (ICB)</item>
+        <item>COUNTY BANCORP INC (ICBK)</item>
+        <item>IMMUCELL CORP (ICCC)</item>
+        <item>ICC HOLDINGS INC (ICCH)</item>
+        <item>INDEPENDENCE CONTRACT DRILLI (ICD)</item>
+        <item>INTERCONTINENTAL EXCHANGE IN (ICE)</item>
+        <item>ISHARES COHEN &amp; STEERS REIT (ICF)</item>
+        <item>ICF INTERNATIONAL INC (ICFI)</item>
+        <item>ICHOR HOLDINGS LTD (ICHR)</item>
+        <item>ISRAEL CHEMICALS LTD (ICL)</item>
+        <item>ICLICK INTERACTIVE ASIA-ADR (ICLK)</item>
+        <item>ISHARES GLOBAL CLEAN ENERGY (ICLN)</item>
+        <item>ICON PLC (ICLR)</item>
+        <item>ISHARES MSCI COLOMBIA ETF (ICOL)</item>
+        <item>ICONIX BRAND GROUP INC (ICON)</item>
+        <item>PACER DEVELOPED MARKETS INTE (ICOW)</item>
+        <item>INTERCEPT PHARMACEUTICALS IN (ICPT)</item>
+        <item>ISHARES ULTRA SHORT-TERM BON (ICSH)</item>
+        <item>ICU MEDICAL INC (ICUI)</item>
+        <item>ISHARES CONVERTIBLE BOND ETF (ICVT)</item>
+        <item>IDACORP INC (IDA)</item>
+        <item>INTERDIGITAL INC (IDCC)</item>
+        <item>VOYA INFRASTRUCTURE INDUSTRI (IDE)</item>
+        <item>ISHARES CORE MSCI DEV MKTS (IDEV)</item>
+        <item>POWERSHARES S&amp;P HIGH DIVIDEN (IDHD)</item>
+        <item>POWERSHARES S&amp;P INTERNATIONA (IDHQ)</item>
+        <item>METAURUS US EQUITY CUMULATIV (IDIV)</item>
+        <item>POWERSHARES FTSE INTL LO BET (IDLB)</item>
+        <item>POWERSHARES S&amp;P INT DEV LOW (IDLV)</item>
+        <item>POWERSHARES S&amp;P INTERNATIONA (IDMO)</item>
+        <item>INTELLICHECK INC (IDN)</item>
+        <item>ALPS INTERNATIONAL SECTOR DI (IDOG)</item>
+        <item>IDERA PHARMACEUTICALS INC (IDRA)</item>
+        <item>INDUSTRIAL SVCS OF AMERICA (IDSA)</item>
+        <item>ID SYSTEMS INC (IDSY)</item>
+        <item>IDT CORP-CLASS B (IDT)</item>
+        <item>INTEGRATED DEVICE TECH INC (IDTI)</item>
+        <item>ISHARES US UTILITIES ETF (IDU)</item>
+        <item>ISHARES INTERNATIONAL SELECT (IDV)</item>
+        <item>VANECK VECTORS INDONESIA IND (IDX)</item>
+        <item>INTERPACE DIAGNOSTICS GROUP (IDXG)</item>
+        <item>IDEXX LABORATORIES INC (IDXX)</item>
+        <item>INFRASTRUCTURE AND ENERGY AL (IEA)</item>
+        <item>IEC ELECTRONICS CORP (IEC)</item>
+        <item>ISHARES EVOLVED US CONSUMER (IECS)</item>
+        <item>ISHARES EVOLVED US DISCRETIO (IEDI)</item>
+        <item>ISHARES 7-10 YEAR TREASURY B (IEF)</item>
+        <item>ISHARES CORE MSCI EAFE ETF (IEFA)</item>
+        <item>ISHARES EVOLVED US FINANCIAL (IEFN)</item>
+        <item>ISHARES EVOLVED US HEALTHCAR (IEHS)</item>
+        <item>ISHARES 3-7 YEAR TREASURY BO (IEI)</item>
+        <item>ISHARES EVOLVED US INNOVATIV (IEIH)</item>
+        <item>ISHARES EVOLVED US MEDIA AND (IEME)</item>
+        <item>ISHARES CORE MSCI EMERGING (IEMG)</item>
+        <item>ISHARES U.S. OIL &amp; GAS EXPLO (IEO)</item>
+        <item>ICAHN ENTERPRISES LP (IEP)</item>
+        <item>IES HOLDINGS INC (IESC)</item>
+        <item>ISHARES EVOLVED US TECHNOLOG (IETC)</item>
+        <item>ISHARES CORE MSCI EUROPE (IEUR)</item>
+        <item>ISHARES MSCI EUROPE SMALL-CA (IEUS)</item>
+        <item>ISHARES EUROPE ETF (IEV)</item>
+        <item>IDEX CORP (IEX)</item>
+        <item>ISHARES U.S. OIL EQUIPMENT &amp; (IEZ)</item>
+        <item>ABERDEEN INDONESIA FUND INC (IF)</item>
+        <item>ISHARES EUROPE DEVELOPED REA (IFEU)</item>
+        <item>INTL FLAVORS &amp; FRAGRANCES (IFF)</item>
+        <item>ISHARES INTERNATIONAL DEVELO (IFGL)</item>
+        <item>X-TRACKERS CORP HEDGED ETF (IFIX)</item>
+        <item>ETFMG DRONE ECONOMY STRATEGY (IFLY)</item>
+        <item>IFRESH INC (IFMK)</item>
+        <item>INDIA FUND INC (IFN)</item>
+        <item>INFOSONICS CORP (IFON)</item>
+        <item>INFLARX NV (IFRX)</item>
+        <item>FIRST TRUST DW FOCUS 5 INTL (IFV)</item>
+        <item>VOYA GLOBAL ADVANTAGE AND PR (IGA)</item>
+        <item>INDIA GLOBALIZATION CAPITAL (IGC)</item>
+        <item>VOYA GLOBAL EQUITY DIVIDEND (IGD)</item>
+        <item>ISHARES NORTH AMERICAN NATUR (IGE)</item>
+        <item>ISHARES EDGE INVESTMENT GRAD (IGEB)</item>
         // insert the rest of the companies with the same format here
     </string-array>
 </resources>
