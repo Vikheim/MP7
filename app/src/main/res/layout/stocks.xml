@@ -131,7 +131,6 @@
                                 android:gravity="top"
                                 android:maxLines="1"
                                 android:paddingLeft="20dp"
-                                android:text="Dow Jones Industrial Average"
                                 android:textColor="@color/lightGray"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -149,7 +148,6 @@
                                 android:gravity="bottom|right"
                                 android:paddingBottom="5dp"
                                 android:paddingRight="20dp"
-                                android:text="240.09"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="25sp" />
 
@@ -162,7 +160,6 @@
                                 android:gravity="top|right"
                                 android:maxLines="1"
                                 android:paddingRight="20dp"
-                                android:text="3:38 PM"
                                 android:textColor="@color/lightGray"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -180,7 +177,6 @@
                                 android:gravity="bottom|right"
                                 android:paddingBottom="5dp"
                                 android:paddingRight="30dp"
-                                android:text="-3.55"
                                 android:textColor="@color/colorLoss"
                                 android:textSize="25sp" />
 
@@ -193,7 +189,6 @@
                                 android:gravity="top|right"
                                 android:maxLines="1"
                                 android:paddingRight="30dp"
-                                android:text="(-1.32%)"
                                 android:textColor="@color/colorLoss"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -237,7 +232,6 @@
                                 android:fontFamily="sans-serif"
                                 android:gravity="center_vertical|bottom"
                                 android:paddingLeft="20dp"
-                                android:text="IVV"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="35sp"
                                 android:textStyle="bold" />
@@ -251,7 +245,6 @@
                                 android:gravity="top"
                                 android:maxLines="1"
                                 android:paddingLeft="20dp"
-                                android:text="iShares Core S&amp;P 500"
                                 android:textColor="@color/lightGray"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -269,7 +262,6 @@
                                 android:gravity="bottom|right"
                                 android:paddingBottom="5dp"
                                 android:paddingRight="20dp"
-                                android:text="264.89"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="25sp" />
 
@@ -282,7 +274,6 @@
                                 android:gravity="top|right"
                                 android:maxLines="1"
                                 android:paddingRight="20dp"
-                                android:text="Market is closed. Close as of April 24, 2018."
                                 android:textColor="@color/lightGray"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -300,7 +291,6 @@
                                 android:gravity="bottom|right"
                                 android:paddingBottom="5dp"
                                 android:paddingRight="30dp"
-                                android:text="-3.55"
                                 android:textColor="@color/colorLoss"
                                 android:textSize="25sp" />
 
@@ -313,7 +303,6 @@
                                 android:gravity="top|right"
                                 android:maxLines="1"
                                 android:paddingRight="30dp"
-                                android:text="(-1.32%)"
                                 android:textColor="@color/colorLoss"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -356,7 +345,6 @@
                                 android:fontFamily="sans-serif"
                                 android:gravity="center_vertical|bottom"
                                 android:paddingLeft="20dp"
-                                android:text="GOOG"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="35sp"
                                 android:textStyle="bold" />
@@ -370,7 +358,6 @@
                                 android:gravity="top"
                                 android:maxLines="1"
                                 android:paddingLeft="20dp"
-                                android:text="Alphabet Inc."
                                 android:textColor="@color/lightGray"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -388,7 +375,6 @@
                                 android:gravity="bottom|right"
                                 android:paddingBottom="5dp"
                                 android:paddingRight="20dp"
-                                android:text="1,019.98"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="25sp" />
 
@@ -401,7 +387,6 @@
                                 android:gravity="top|right"
                                 android:maxLines="1"
                                 android:paddingRight="20dp"
-                                android:text="After hours. Close as of April 24, 2018."
                                 android:textColor="@color/lightGray"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -419,7 +404,6 @@
                                 android:gravity="bottom|right"
                                 android:paddingBottom="5dp"
                                 android:paddingRight="30dp"
-                                android:text="-47.47"
                                 android:textColor="@color/colorLoss"
                                 android:textSize="25sp" />
 
@@ -432,7 +416,6 @@
                                 android:gravity="top|right"
                                 android:maxLines="1"
                                 android:paddingRight="30dp"
-                                android:text="(-4.45%)"
                                 android:textColor="@color/colorLoss"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -1154,8 +1137,6 @@
             android:id="@+id/companies_list"
             android:layout_width="325dp"
             android:layout_height="match_parent"
-            android:drawablePadding="5dp"
-            android:drawableRight="@mipmap/ic_arrow_drop_down_black_24dp"
             android:dropDownHeight="250dp"
             android:hint="Search..."
             android:paddingLeft="10dp"

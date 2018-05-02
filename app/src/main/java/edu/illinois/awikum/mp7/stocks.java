@@ -77,12 +77,6 @@ public class stocks extends Fragment{
         autoCompleteTextViewCompany.setThreshold(1);
 
 
-        autoCompleteTextViewCompany.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                autoCompleteTextViewCompany.showDropDown();
-            }
-        });
 
         final TextView ticker = rootView.findViewById(R.id.textView40);
         ticker.setOnClickListener(new View.OnClickListener() {
